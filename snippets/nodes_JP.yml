@@ -1,87 +1,4 @@
 proxies:
-- cipher: aes-128-cfb
-  name: 53|🇯🇵 Vip2-4.扬州-日本A | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21090
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnyzm01.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 53|🇯🇵 日本 05 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30605
-  server: host-015.crazyspeed.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 53|日本A🇯🇵 - 探索者
-  network: ws
-  port: 34650
-  server: 603diya.donghui.tech
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
-  ws-opts:
-    headers:
-      Host: 603diya.donghui.tech
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_180
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 5.183.176.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_84
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 89.31.126.225
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_188
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 5.183.176.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_70
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 89.31.126.225
-  type: ss
-- name: 51|🇯🇵JP_112
-  network: tcp
-  password: a3fa58b581353bb375d2ddad0f327938
-  port: 443
-  server: 45.66.134.219
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_225
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 5.183.176.92
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_168
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 89.31.126.225
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '51|🇯🇵_油管：全网最强白嫖_4 #1'
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 5.183.176.84
-  type: ss
 - name: 51|🇯🇵 日本 v2rayfree.eu.org 4
   network: tcp
   password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
@@ -91,1276 +8,24 @@ proxies:
   sni: sale.alibaba.com
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 67|🇯🇵_JP_日本_13
-  password: amazonskr05
-  port: 443
-  server: 3.112.189.248
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|鲲「日本|传说」「解锁」
-  network: ws
-  port: 12929
-  server: z8.fragranceninja.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_14
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 5.183.176.94
-  type: ss
 - cipher: aes-128-gcm
-  name: 53|🇯🇵 Game 日本02-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 9062
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 43|🇯🇵 日本04-1C
-  password: 36b9d20a-a544-4240-b752-bce5c5781c63
-  port: 20008
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_24
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 5.183.176.91
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_141
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 5.183.176.84
-  type: ss
-- cipher: aes-256-cfb
-  name: 53|🇯🇵 【N】日本 普通 2 - Nerocloud - So...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 31000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: jp2.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_49
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 5.183.176.84
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_13
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 89.31.126.147
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_25
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 5.183.176.91
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_69
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 89.31.126.171
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-1.01MB/s_2
-  network: tcp
-  port: 21585
-  server: bitol-g05.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- cipher: aes-128-cfb
-  name: 53|🇯🇵 Vip2-4.扬州-日本B | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21049
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnyzm01.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_192
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 5.183.176.96
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_31
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 89.31.126.177
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 14
-  password: amazonskr05
-  port: 443
-  server: 52.199.172.25
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 23
-  password: amazonskr05
-  port: 443
-  server: 57.181.42.181
-  tfo: false
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-22.2MB/s_2
-  network: tcp
-  port: 444
-  server: 7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- cipher: aes-256-cfb
-  name: 53|🇯🇵 【N】日本 普通 5 - Nerocloud - So...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 34000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: jp5.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_136
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 89.31.126.171
-  type: ss
-- name: 51|日本+V2CROSS.COM_2
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20987
-  server: ent1.imyourdaddy.top
-  skip-cert-verify: true
-  sni: sale.alibaba.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 64|SS-TCP-NA 🇯🇵 JP-5.253.41.160:8...
-  password: 35e41a9d-c318-4f7d-8e1b-69b032428255
-  port: 8443
-  server: 5.253.41.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_41
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 89.31.126.225
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_193
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 5.183.176.96
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_127
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 89.31.126.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 53|🇯🇵 日本04 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10058
-  server: jp4.lvuy.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_171
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 5.183.176.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_36
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 5.183.176.80
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 16
-  password: amazonskr05
-  port: 443
-  server: 54.238.65.143
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 53|VIP｜日本004🇯🇵—5Gbps - 探索者
-  network: ws
-  port: 32339
-  server: 603diyb.donghui.tech
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
-  ws-opts:
-    headers:
-      Host: 603diyb.donghui.tech
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_203
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 5.183.176.81
-  type: ss
-- name: 51|日本-13.8MB/s_1
-  network: tcp
-  password: d90e5504-a42b-44c1-8289-3543471bf55a
-  port: 8443
-  server: n3.jp4589871.top
-  skip-cert-verify: true
-  sni: n3.jp4589871.top
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_85
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 89.31.126.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_164
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 5.183.176.94
-  type: ss
-- cipher: aes-128-cfb
-  name: 53|🇯🇵 Vip1-7.广州1-日本B | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 6064
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵 日本NO.1
-  network: ''
-  port: 45056
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 233f2a3c-5c7f-4bce-b6f8-b4dc00828de8
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_181
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 89.31.126.147
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 19
-  password: amazonskr05
-  port: 443
-  server: 54.250.163.86
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_124
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 89.31.126.225
-  type: ss
-- cipher: aes-128-cfb
-  name: 53|🇯🇵 Vip1-8.南阳-日本A | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 31110
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnnym01.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_53
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 5.183.176.92
-  type: ss
-- cipher: aes-128-gcm
-  name: 53|🇳🇬 Web 尼日利亚I-原生 - AyucLouD-Ser...
-  password: aa2x2sa2/1a
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 10021
-  server: 231103level1.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_243
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 5.183.176.94
-  type: ss
-- auth: 83a60225-aadf-4b23-8172-62865b5383ad
-  name: 43|🇯🇵 日本-1
-  password: 83a60225-aadf-4b23-8172-62865b5383ad
-  port: 30001
-  server: oracle-amd-tokyo1.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: tokyo.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|巨蟹「日本」「海外专用」
-  network: tcp
-  port: 12931
-  server: 41.lwdh.us
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- name: 51|日本+东京Amazon数据中心_2
-  network: tcp
-  password: '!!str 3669023833404481536'
-  port: 443
-  server: fleet-gopher.iguana938.mom
-  skip-cert-verify: true
-  sni: fleet-gopher.iguana938.mom
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵JP_408 | 1.25Mb
-  network: ws
-  port: 2052
-  server: 146.56.118.227
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
-  ws-opts:
-    path: /update
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 21
-  password: amazonskr05
-  port: 443
-  server: 57.180.42.246
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_12
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 89.31.126.147
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_209
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 5.183.176.83
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-60.6MB/s_2
-  network: tcp
-  port: 11777
-  server: or2ws-g05.jp02-9a99-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- cipher: chacha20-ietf-poly1305
-  name: 53|🇯🇵 日本03 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10039
-  server: jp3.lvuy.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|日本 东京Amazon数据中心
-  network: ws
-  port: 13389
-  server: 00000000000000000000000007.node-for-smallairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ab0ab89d-de80-44bd-b938-cafda772976d
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_38
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 5.183.176.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_67
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 5.183.176.91
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_190
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 5.183.176.84
-  type: ss
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Game 日本05-原生 - AyucLouD-Ser...
+  name: 53|🇯🇵 Web 日本I-标准 - AyucLouD-Servi...
   password: QHPy2u
   plugin: obfs
   plugin-opts:
     host: ef8be102475.download.windowsupdate.com
     mode: http
-  port: 914
-  server: 231103level3.unclemanco.com
+  port: 9051
+  server: 231103level1.unclemanco.com
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 51|日本_1
-  network: ws
-  port: 443
-  server: 52.194.223.43
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 45391db5-a9c2-4b15-b9ab-df852ec9c12f
-  ws-opts:
-    headers:
-      host: jps.buran.gfw.bili.cf
-    path: /a7658a8358d/
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_251
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 89.31.126.225
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-80.3MB/s_2
-  network: tcp
-  port: 11775
-  server: t45a7-g03.jp02-9a99-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b37b7415-1608-3fcd-aa25-d9cc4aae5ded
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 55|🇯🇵 JP 4
+  name: 55|🇯🇵 JP 2
   password: amazonskr05
   port: 443
-  server: 18.183.171.233
+  server: 13.115.255.151
   tfo: false
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-30.4MB/s_2
-  network: tcp
-  port: 28788
-  server: ig5oa-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e9537990-d286-3eaf-8596-d74249d3f347
-- name: 51|日本-625.3KB/s
-  network: tcp
-  password: '!!str 3669023833404481536'
-  port: 443
-  server: amazing-salmon.iguana938.mom
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '51|🇯🇵_油管：全网最强白嫖_3 #1'
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 5.183.176.91
-  type: ss
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Video 日本A-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 818
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_35
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 5.183.176.94
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_73
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 5.183.176.84
-  type: ss
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Game 日本08-标准 - AyucLouD-Ser...
-  password: ay2dsd1
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 811
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|VM-WS-NA 🇯🇵 JP-132.145.123.206...
-  network: ws
-  port: 58373
-  server: 132.145.123.206
-  tls: false
-  type: vmess
-  uuid: 0ec2298b-b8b3-437a-8053-05bff19be248
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
-- alterId: 1
-  cipher: auto
-  name: 51|日本-30.7MB/s_2
-  network: tcp
-  port: 46487
-  server: qpqg1-g06.jp05-6786-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e9537990-d286-3eaf-8596-d74249d3f347
-- alterId: 0
-  cipher: auto
-  name: 53|极速｜日本006🇯🇵—5Gbps - 探索者
-  network: ws
-  port: 32335
-  server: 603diyb.donghui.tech
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
-  ws-opts:
-    headers:
-      Host: 603diyb.donghui.tech
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 45|21,22|日本3|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 87.120.204.64
-  servername: jp-17.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 51,80|日本-2.95MB/s_2
-  network: tcp
-  port: 43720
-  server: 61.120.9.18
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_52
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 5.183.176.81
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_102
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 89.31.126.171
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_139
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 5.183.176.93
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 5
-  password: amazonskr05
-  port: 443
-  server: 3.112.128.236
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 51,55|日本-32.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.113.17.246
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-88.8MB/s_2
-  network: tcp
-  port: 21585
-  server: d6tbr-g05.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 45|19,21|🇯🇵 日本6|@ripaojiedian
-  network: ws
-  port: 2095
-  server: jpc.flha.ru
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: jpc.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 51|144_由快嘴科技提供：kkzui.com日本
-  network: ws
-  port: 443
-  server: 92.38.178.93
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      host: 92.38.178.93
-    path: linkvws
-- cipher: chacha20-ietf-poly1305
-  name: 65|日本【特殊地区直连】
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 30010
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_29
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 89.31.126.171
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_317
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 89.31.126.225
-  type: ss
-- name: 51|日本+V2CROSS.COM
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20980
-  server: 146.56.151.232
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_62
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 5.183.176.94
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55,57|🇯🇵 JP 22
-  password: amazonskr05
-  port: 443
-  server: 57.180.49.182
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 48|🇯🇵 日本_7
-  password: amazonskr05
-  port: '443'
-  server: 52.195.237.101
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_199
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 5.183.176.93
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 80|日本-优化3
-  network: ws
-  port: '16617'
-  server: ct.mj-cn.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1ddc351f-4ea2-4dbe-91d4-66454629455b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_110
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 5.183.176.91
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_138
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 89.31.126.147
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_44
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 5.183.176.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_148
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 5.183.176.84
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|Relay_🇯🇵JP-🇯🇵JP_194 | 9.62Mb
-  network: ws
-  port: 443
-  server: jp1.3320.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
-  ws-opts:
-    headers:
-      host: jp1.3320.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 51|瑶「日本|传说」「解锁」
-  network: ws
-  port: 12955
-  server: z2.fragranceninja.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 53|🇯🇵 日本 01 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30601
-  server: host-011.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 65|日本02 | 1x JP
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41113
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 65|日本06 | 家宽 | 1x JP
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41121
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Game 日本03-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 819
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- name: 51|🇯🇵 日本 v2rayfree.eu.org
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20991
-  server: 146.56.151.232
-  skip-cert-verify: true
-  sni: sale.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 51|日本-35.1MB/s_2
-  network: tcp
-  port: 21585
-  server: 9n1fh-g05.jp01-0986-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_64
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 5.183.176.91
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-160.0KB/s_2
-  network: tcp
-  port: 46482
-  server: sdsxh-g01.jp05-6786-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_87
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 89.31.126.225
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|日本_【YouTube-VV科技】_3
-  network: kcp
-  port: 53
-  server: 20.222.250.168
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7a0816b2-3af5-4739-9784-941b75150e98
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_57
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 89.31.126.177
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|👉www.85la.com👉日本JP_8
-  network: tcp
-  port: 8888
-  server: 146.56.112.110
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-- alterId: 0
-  cipher: auto
-  name: '64|VM-WS-NA 🇯🇵 JP-132.145.123.206... #1'
-  network: ws
-  port: 58372
-  server: 132.145.123.206
-  tls: false
-  type: vmess
-  uuid: 70073dee-ea32-4e51-9a4e-2742a25f6de7
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
-- name: 51|日本+V2CROSS.COM_4
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20982
-  server: ent1.imyourdaddy.top
-  skip-cert-verify: true
-  sni: sale.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 50|日本 001
-  network: tcp
-  port: 16798
-  server: 150.66.24.104
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bc6c7c93-9245-47be-bfd7-c34a39d0f155
-  ws-headers:
-    Host: 150.66.24.104
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵 日本NO.2
-  network: ''
-  port: 45057
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 233f2a3c-5c7f-4bce-b6f8-b4dc00828de8
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_88
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 5.183.176.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_43
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 5.183.176.80
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵 JP😈SSRSUB_-1534771290
-  network: ws
-  port: 22443
-  server: tls.04.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5
-  ws-opts:
-    headers:
-      host: tls.04.node-for-bigairport.win
-    path: /
-- name: 51|日本+V2CROSS.COM_3
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20983
-  server: ent1.imyourdaddy.top
-  skip-cert-verify: true
-  sni: sale.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵 JP_291 | 6.88Mb
-  network: tcp
-  port: 44634
-  server: 150.230.197.142
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2d05105-857a-4c94-be34-5534e7e8285f
-- cipher: aes-256-cfb
-  name: 48|🇯🇵 日本_4
-  password: amazonskr05
-  port: '443'
-  server: 13.230.99.62
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 51|🇯🇵JP_390 | 4.74Mb
-  network: tcp
-  port: 41954
-  server: 146.56.167.249
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0a1d4a77-7cd3-488a-cb62-ddda2d8dea3a
-- cipher: aes-128-cfb
-  name: 53|🇯🇵 Vip2-4.广州2-日本B | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 51062
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm02.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|Relay_🇯🇵JP-🇯🇵JP_409 | 2.12Mb
-  network: tcp
-  port: 37121
-  server: m4.40010010.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
-- name: 51|👉www.85la.com👉日本JP_4
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20992
-  server: ent1.imyourdaddy.top
-  skip-cert-verify: true
-  sni: ent1.imyourdaddy.top
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_17
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 5.183.176.94
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_30
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 5.183.176.83
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_264
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 5.183.176.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_140
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 5.183.176.93
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|女妭「日本|传说」「专线X」
-  network: ws
-  port: 12974
-  server: z6.fragranceninja.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_58
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 89.31.126.177
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-34.5MB/s_2
-  network: tcp
-  port: 46482
-  server: u0rdb-g01.jp05-6786-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_19
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 5.183.176.83
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 53|🇯🇵 日本 07 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30607
-  server: host-017.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 51,55|JP,Osaka
-  password: amazonskr05
-  port: 443
-  server: 43.201.254.211
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 8
-  password: amazonskr05
-  port: 443
-  server: 43.206.239.200
-  tfo: false
-  type: ss
-- cipher: aes-128-cfb
-  name: 53|🇯🇵 Vip2-4.江苏-日本B | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21102
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnczu01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 51|日本-25.9MB/s_2
-  network: tcp
-  port: 21585
-  server: wwkzh-g05.jp01-0986-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_6
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 89.31.126.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_79
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 194.156.231.251
-  type: ss
-- cipher: aes-256-cfb
-  name: 48|🇯🇵 日本_3
-  password: amazonskr05
-  port: '443'
-  server: 43.207.117.29
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_5
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 5.183.176.83
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_276
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 5.183.176.92
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_109
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 89.31.126.171
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_198
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 89.31.126.147
-  type: ss
-- name: 51|日本+V2CROSS.COM_1_1
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 21005
-  server: 146.56.151.232
-  skip-cert-verify: true
-  sni: alibabashop.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_27
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 5.183.176.94
-  type: ss
-- cipher: aes-256-cfb
-  name: 51,55|日本-48.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.215.69
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|⚡@DeamNet_Proxy 🔻🏁ZZ 🔺🇯🇵JP ☑MT...
-  network: ws
-  port: 41597
-  server: 183.181.36.194
-  type: vmess
-  udp: true
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
-  ws-opts:
-    headers:
-      Host: 183.181.36.194
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 51|🇯🇵_油管：全网最强白嫖_4
-  network: ws
-  port: 15698
-  server: jplin005.xmrth-node.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60517dbb-a465-32c6-87e7-2a457663de53
-  ws-opts:
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 65|日本04 | 1x JP
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41117
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 51|日本-63.7MB/s_2
-  network: tcp
-  port: 28788
-  server: 1npko-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e9537990-d286-3eaf-8596-d74249d3f347
-- alterId: 0
-  cipher: auto
-  name: 45|22|日本6|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: jpc.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_267
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 89.31.126.147
   type: ss
 - cipher: aes-128-gcm
   name: 53|🇯🇵 Game 日本01-标准 - AyucLouD-Ser...
@@ -1373,492 +38,18 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 53|🇯🇵 日本 08 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30608
-  server: host-018.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_42
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 5.183.176.94
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-18.0MB/s_2
-  network: tcp
-  port: 28787
-  server: b1op2-g05.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_98
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 89.31.126.171
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 53|🇯🇵 Oracle-JP3-20240117 - Kanga...
-  network: ws
-  port: 443
-  server: jp3.pay.edu.kg
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
-  ws-opts:
-    headers:
-      Host: jp3.pay.edu.kg
-    path: /
-- alterId: 16
-  cipher: auto
-  name: 51|日本_6
-  network: ws
-  port: 33600
-  server: gy.jjxcloud.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f15287b4-c711-3333-8afa-298f83d8b0e7
-  ws-opts:
-    headers:
-      host: gy.jjxcloud.xyz
-    path: /v2ray
-- cipher: aes-128-cfb
-  name: 53|🇯🇵 Vip1-7.广州1-日本A | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 6063
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm01.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_223
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 5.183.176.96
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵JP_196 |10.82Mb
-  network: tcp
-  port: 21008
-  server: 139.180.175.112
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-- cipher: chacha20-ietf-poly1305
-  name: 48|🇯🇵 日本_12
-  password: O31sdedvkN4TcLit
-  port: '10038'
-  server: bcc.xiyun.co
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|Relay_🇯🇵JP-🇯🇵JP_403
-  network: tcp
-  port: 12356
-  server: 00000000000000000000000000000000000000000000000000000000000033a.rui77.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d35280d3-731c-4f2b-b6df-323aaa07f1a5
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_206
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 5.183.176.96
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_104
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 5.183.176.96
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 65|日本03 | 1x JP
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41115
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_121
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 89.31.126.171
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_248
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 5.183.176.83
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 53|🇯🇵 日本 03 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30603
-  server: host-013.crazyspeed.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 53|🇯🇵 Oracle-JP5-20240117 - Kanga...
-  network: ws
-  port: 443
-  server: jp5.pay.edu.kg
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
-  ws-opts:
-    headers:
-      Host: jp5.pay.edu.kg
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_165
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 89.31.126.147
-  type: ss
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: flynwn
-  name: 53|🇯🇵 vip1 日本-01 测试 - FastFly
-  network: grpc
-  port: 57230
-  server: fly0001.flyflylflyflysbs.sbs
-  servername: jp01.ckcloud.info
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_34
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 5.183.176.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_186
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 5.183.176.96
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_116
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 89.31.126.171
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|🇯🇵 日本_1
-  network: ws
-  port: 36455
-  server: 140.179.98.88
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fb1680d4-01b9-4cdd-919f-4d49faf2c326
-  ws-opts:
-    headers:
-      host: 140.179.98.88
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_174
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 89.31.126.225
-  type: ss
-- alterId: 0
-  cipher: auto
-  delay: 1203
-  name: 57|日本 - 东京 - SAKURA Internet Inc....
-  network: ws
-  port: 33202
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
 - cipher: aes-256-cfb
   name: 51,55|日本-38.7MB/s_2
   password: amazonskr05
   port: 443
   server: 54.249.197.65
   type: ss
-- name: 51|🇯🇵JP_116
-  network: tcp
-  password: 686272d9-b2cb-4bb5-b5bd-8813b8c2b32a
-  port: 37892
-  server: jp2.ijsfq.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_10
+  name: 51|🇯🇵_油管：全网最强白嫖_169
   password: G!yBwPWH3Vao
   port: 803
-  server: 5.183.176.92
+  server: 5.183.176.81
   type: ss
-- cipher: aes-256-cfb
-  name: 53|🇯🇵 【N】日本 普通 3 - Nerocloud - So...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 32000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: jp3.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 53|🇯🇵 日本02 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10038
-  server: jp2.lvuy.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '51|🇯🇵_油管：全网最强白嫖_1 #1'
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 5.183.176.96
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵JP_359 | 2.73Mb
-  network: ws
-  port: 80
-  server: 167.179.102.146
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 648659f9-c89a-437f-8b8f-1869499f5c78
-  ws-opts:
-    headers:
-      host: /YouTube-aweikeji
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 65|日本05 | 1x JP
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41119
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 51|🇯🇵 日本_2
-  network: ws
-  port: 80
-  server: 172.104.98.216
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
-  ws-opts:
-    headers:
-      host: www.gov.hk
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_46
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 5.183.176.94
-  type: ss
-- name: 51|日本+东京Amazon数据中心_1
-  network: tcp
-  password: 2aa1581d-bfc9-4d3a-84f3-742674fb5d3a
-  port: 20230
-  server: jp007.421421.xyz
-  skip-cert-verify: true
-  sni: 421421.xyz
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Game 日本07-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 918
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 53|🇯🇵 日本 06 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30606
-  server: host-016.crazyspeed.xyz
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 51|🇯🇵_油管：全网最强白嫖_1
-  network: ws
-  port: 15665
-  server: jpaws002.xmrth-node.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60517dbb-a465-32c6-87e7-2a457663de53
-  ws-opts:
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_50
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 5.183.176.92
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵JP |10.77Mb
-  network: ws
-  port: 1558
-  server: 45.76.106.120
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc
-  ws-opts:
-    headers:
-      host: ajpn01.xiaohouzi.club
-    path: /v2ray
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_122
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 5.183.176.91
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 2
-  password: amazonskr05
-  port: 443
-  server: 13.115.255.151
-  tfo: false
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本_2
-  network: ws
-  port: 443
-  server: jp2.futi.online
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ab1f1860-eb87-4385-a543-9f408adb8b32
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵 JP😈SSRSUB_1163289939
-  network: ws
-  port: 443
-  server: 141.147.174.244
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3c5d5534-4b08-4f1a-f8da-f1f9134554f6
-  ws-opts:
-    path: /
-- cipher: aes-128-gcm
-  name: 48|🇳🇬 尼日利亚
-  password: aa2x2sa2/1a
-  plugin: obfs
-  plugin-opts:
-    host: a068b91227.download.windowsupdate.com
-    mode: http
-  port: '10021'
-  server: 231103level1.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|Relay_🇯🇵JP-🇯🇵JP_83 |40.18Mb
-  network: ws
-  port: 11521
-  server: 00000000000000000000000006.node-for-smallairport.win
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ab0ab89d-de80-44bd-b938-cafda772976d
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_28
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 89.31.126.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_293
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 5.183.176.96
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 11
-  password: amazonskr05
-  port: 443
-  server: 52.193.244.212
-  tfo: false
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-41.7MB/s_2_2
-  network: tcp
-  port: 21586
-  server: yb12i-g06.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e9537990-d286-3eaf-8596-d74249d3f347
-- alterId: 0
-  cipher: auto
-  name: 51|Relay_🇯🇵JP-🇯🇵JP_191 |10.98Mb
-  network: ws
-  port: 63632
-  server: jp06.xiaoqi99.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2c77239-02ad-4ae8-8b71-77b8ed447919
-  ws-opts:
-    headers:
-      host: jp06.xiaoqi99.cf
-    path: /
-- name: 51|日本+V2CROSS.COM_3_1
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20990
-  server: ent1.imyourdaddy.top
-  skip-cert-verify: true
-  sni: sale.alibaba.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 53|🇯🇵 日本 04 - V2Link VPN
   password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
@@ -1866,60 +57,6 @@ proxies:
   server: host-014.crazyspeed.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 48|🇯🇵 日本_8
-  password: O31sdedvkN4TcLit
-  port: '10039'
-  server: bcc.xiyun.co
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_132
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 5.183.176.84
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_65
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 5.183.176.80
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-40.9MB/s_2
-  network: tcp
-  port: 46486
-  server: qj2f7-g05.jp05-6786-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- name: 51,61|日本+东京Amazon数据中心
-  network: tcp
-  password: cf13832b-4ca0-4fee-8e85-2b2411104e75
-  port: 20230
-  server: jp008.421421.xyz
-  skip-cert-verify: true
-  sni: 421421.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵 日本 IEPL专线NO3
-  network: ''
-  port: 52117
-  server: i.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ee26bd64-ed28-4ad3-b67d-45a006909774
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_26
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 5.183.176.84
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1937,118 +74,148 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_162
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 5.183.176.83
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 48|🇯🇵 日本_40
-  password: ec7f5285-263b-41e9-bc92-89c404e9693d
-  port: '20356'
-  server: n00005.bzdqsmzngpyyng.sbs
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_37
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 89.31.126.147
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 48|🇯🇵 日本_13
-  password: O31sdedvkN4TcLit
-  port: '10037'
-  server: bcc.xiyun.co
-  type: ss
-  udp: true
-- name: 51|Relay_🇯🇵JP-🇯🇵JP_117 | 6.27Mb
-  network: tcp
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 12
+  password: amazonskr05
   port: 443
-  server: jgwdb3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_39
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 194.156.231.251
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_273
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 5.183.176.93
+  server: 52.196.65.55
+  tfo: false
   type: ss
 - alterId: 1
   cipher: auto
-  name: 51|日本-42.3MB/s_2_2
+  name: 51|日本-24.3MB/s_2_2
   network: tcp
   port: 11777
-  server: ho8od-g05.jp02-9a99-vm0.entry.fr0307a.art
+  server: ouuo6-g05.jp02-9a99-vm0.entry.fr0307a.art
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_80
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 89.31.126.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_236
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 5.183.176.93
-  type: ss
-- name: 51|Relay_🇯🇵JP-🇯🇵JP_111 |11.59Mb
+- alterId: 0
+  cipher: auto
+  name: 51|👉www.85la.com👉日本JP_8
   network: tcp
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: jgwdb4.gaox.ml
+  port: 8888
+  server: 146.56.112.110
   skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵JP_285 | 8.97Mb
+  network: tcp
+  port: 53702
+  server: 146.56.110.129
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵JP_407 | 7.63Mb
+  network: tcp
+  port: 6666
+  server: 146.56.167.119
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Game 日本09-专线 - AyucLouD-Ser...
+  password: fjlfjafl231303831
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 1313
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_65
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 5.183.176.80
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_24
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 5.183.176.91
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 45|19,21|🇯🇵 日本6|@ripaojiedian
+  network: ws
+  port: 2095
+  server: jpc.flha.ru
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: jpc.flha.ru
+    path: /
+- name: 51|@SSRSUB-trojan日本T01-付费推荐:dlj.t...
+  network: tcp
+  password: f736834f-1fc8-4738-9884-9afe0eb0d818
+  port: 443
+  server: jp1.trojan.tel
+  skip-cert-verify: true
+  sni: douyincdn.com
   type: trojan
   udp: true
+- name: 51|日本+东京Amazon数据中心_1
+  network: tcp
+  password: 2aa1581d-bfc9-4d3a-84f3-742674fb5d3a
+  port: 20230
+  server: jp007.421421.xyz
+  skip-cert-verify: true
+  sni: 421421.xyz
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵 JP😈SSRSUB_476951725
+  network: ws
+  port: 44443
+  server: tls.07.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5
+  ws-opts:
+    headers:
+      host: tls.07.node-for-bigairport.win
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_185
+  name: 51|🇯🇵_油管：全网最强白嫖_91
   password: G!yBwPWH3Vao
-  port: 807
-  server: 5.183.176.83
+  port: 805
+  server: 5.183.176.94
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '51|🇯🇵_油管：全网最强白嫖_7 #1'
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 5.183.176.83
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_134
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 89.31.126.147
-  type: ss
-- cipher: aes-256-cfb
-  name: 51,55,57|日本-53.2MB/s_2
-  password: amazonskr05
-  port: 443
-  server: 52.198.194.170
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 53|🇯🇵 日本 02 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30602
-  server: host-012.crazyspeed.xyz
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Game 日本10-标准 - AyucLouD-Ser...
+  password: ay21d1
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 901
+  server: 231103level3.unclemanco.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_63
+  name: 51|🇯🇵_油管：全网最强白嫖_5
   password: G!yBwPWH3Vao
-  port: 805
-  server: 5.183.176.93
+  port: 801
+  server: 5.183.176.83
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 51|🇯🇵_油管：全网最强白嫖_308
@@ -2056,51 +223,366 @@ proxies:
   port: 806
   server: 5.183.176.80
   type: ss
+- cipher: aes-128-cfb
+  name: 53|🇯🇵 Vip2-4.广州2-日本B | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51062
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_150
+  name: 51|🇯🇵_油管：全网最强白嫖_31
   password: G!yBwPWH3Vao
-  port: 809
-  server: 5.183.176.84
+  port: 812
+  server: 89.31.126.177
   type: ss
 - alterId: 0
   cipher: auto
-  name: 2,9,14,23,29,80|13|🇯🇵 日本|@ripaojiedian
-  network: tcp
-  port: 15836
-  server: 45.159.50.76
+  name: 51|日本_【YouTube-VV科技】_3
+  network: kcp
+  port: 53
+  server: 20.222.250.168
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e1218e34-80a3-4a65-8524-88ca51e79191
+  uuid: 7a0816b2-3af5-4739-9784-941b75150e98
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_77
+  name: 53|🇯🇵 日本 01 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30601
+  server: host-011.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_221
   password: G!yBwPWH3Vao
-  port: 801
+  port: 802
+  server: 5.183.176.91
+  type: ss
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Game 日本08-标准 - AyucLouD-Ser...
+  password: ay2dsd1
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 811
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_53
+  password: G!yBwPWH3Vao
+  port: 804
   server: 5.183.176.92
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_147
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 5.183.176.94
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: '64|VM-WS-NA 🇯🇵 JP-132.145.123.206... #1'
+  network: ws
+  port: 58372
+  server: 132.145.123.206
+  tls: false
+  type: vmess
+  uuid: 70073dee-ea32-4e51-9a4e-2742a25f6de7
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
+- alterId: 0
+  cipher: auto
+  delay: 1203
+  name: 57|日本 - 东京 - SAKURA Internet Inc....
+  network: ws
+  port: 33202
+  server: yd2.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
 - alterId: 1
   cipher: auto
-  name: 51|日本-58.4MB/s_2
+  name: 51|日本-63.7MB/s_2
+  network: tcp
+  port: 28788
+  server: 1npko-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e9537990-d286-3eaf-8596-d74249d3f347
+- name: 51|日本+V2CROSS.COM_4_1
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20987
+  server: 146.56.151.232
+  skip-cert-verify: true
+  sni: sale.alibaba.com
+  type: trojan
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 51|日本-10.9MB/s_2
+  network: tcp
+  port: 448
+  server: 8m08l-g05.jp04-3771-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- alterId: 1
+  cipher: auto
+  name: 51|日本-30.7MB/s_2
   network: tcp
   port: 46487
-  server: ybk5g-g06.jp05-6786-vm0.entry.fr0307a.art
+  server: qpqg1-g06.jp05-6786-vm0.entry.fr0307a.art
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: e9537990-d286-3eaf-8596-d74249d3f347
-- name: 51|🇯🇵JP_118
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 45|21,22|日本3|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 87.120.204.64
+  servername: jp-17.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: 51|日本+V2CROSS.COM_2
   network: tcp
-  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
-  port: 8443
-  server: jp.llbb.cf
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20987
+  server: ent1.imyourdaddy.top
+  skip-cert-verify: true
+  sni: sale.alibaba.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 53|🇯🇵 日本 08 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30608
+  server: host-018.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_57
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 89.31.126.177
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-88.8MB/s_2
+  network: tcp
+  port: 21585
+  server: d6tbr-g05.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_136
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 89.31.126.171
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_184
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 5.183.176.91
+  type: ss
+- cipher: aes-128-cfb
+  name: 53|🇯🇵 Vip2-4.扬州-日本D | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21052
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- name: 51|🇯🇵JP_114
+  network: tcp
+  password: 7x42LetRa0
+  port: 1443
+  server: 106.180.225.69
   skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 51|Relay_🇯🇵JP-🇯🇵JP_403
+  network: tcp
+  port: 12356
+  server: 00000000000000000000000000000000000000000000000000000000000033a.rui77.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d35280d3-731c-4f2b-b6df-323aaa07f1a5
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_41
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 89.31.126.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_42
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 5.183.176.94
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-1.46MB/s_2
+  network: tcp
+  port: 28788
+  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
+- alterId: 0
+  cipher: auto
+  name: 51|鲲「日本|传说」「解锁」
+  network: ws
+  port: 12929
+  server: z8.fragranceninja.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    path: ''
+- cipher: aes-256-cfb
+  name: 51,55|日本-32.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.113.17.246
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-160.0KB/s_2
+  network: tcp
+  port: 46482
+  server: sdsxh-g01.jp05-6786-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_40
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 5.183.176.91
+  type: ss
+- cipher: aes-256-cfb
+  name: 48|🇯🇵 日本_50
+  password: amazonskr05
+  port: '443'
+  server: 35.77.92.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_80
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 89.31.126.177
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 5
+  password: amazonskr05
+  port: 443
+  server: 3.112.128.236
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_130
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 5.183.176.93
+  type: ss
+- name: 51|🇯🇵JP_116
+  network: tcp
+  password: 686272d9-b2cb-4bb5-b5bd-8813b8c2b32a
+  port: 37892
+  server: jp2.ijsfq.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 51|青衣「日本|传说」「专线Z」
+  network: tcp
+  port: 12940
+  server: z6.fragranceninja.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_48
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 5.183.176.81
+  type: ss
+- name: 51|🇯🇵_油管：全网最强白嫖_326
+  network: tcp
+  password: 52a98419-efab-4c34-b4cc-4e2a7bc37029
+  port: 28000
+  server: 203.138.98.199
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_121
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 89.31.126.171
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 53|极速｜日本006🇯🇵—5Gbps - 探索者
+  network: ws
+  port: 32335
+  server: 603diyb.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diyb.donghui.tech
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 51|日本-35.1MB/s_2
+  network: tcp
+  port: 21585
+  server: 9n1fh-g05.jp01-0986-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -2118,65 +600,156 @@ proxies:
     headers:
       Host: www.25349182.xyz
     path: /path/311227222808
-- alterId: 1
-  cipher: auto
-  name: 51|日本-77.4MB/s_2_2
+- name: 51|日本+V2CROSS.COM_4
   network: tcp
-  port: 11777
-  server: d4aj6-g05.jp02-9a99-vm0.entry.fr0307a.art
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20982
+  server: ent1.imyourdaddy.top
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- name: 51|@SSRSUB-trojan日本T01-付费推荐:dlj.t...
-  network: tcp
-  password: f736834f-1fc8-4738-9884-9afe0eb0d818
-  port: 443
-  server: jp1.trojan.tel
-  skip-cert-verify: true
-  sni: douyincdn.com
+  sni: sale.alibaba.com
   type: trojan
   udp: true
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 51|日本_7
-  network: tcp
-  port: 10005
-  server: 112.33.32.148
-  skip-cert-verify: true
+  name: 64|VM-WS-NA 🇯🇵 JP-132.145.123.206...
+  network: ws
+  port: 58373
+  server: 132.145.123.206
   tls: false
   type: vmess
-  uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10
+  uuid: 0ec2298b-b8b3-437a-8053-05bff19be248
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12222
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_100
+  name: 43|🇯🇵 日本01-1A
+  password: 1f26b5a7-f78a-413b-805e-7a2404937b53
+  port: 20002
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_165
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 89.31.126.147
+  type: ss
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Video 日本B-解锁 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 813
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Video 日本C-原生 - AyucLouD-Ser...
+  password: ay232sffssd1
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 4321
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_110
   password: G!yBwPWH3Vao
   port: 808
-  server: 89.31.126.171
+  server: 5.183.176.91
+  type: ss
+- name: 51|🇯🇵JP_112
+  network: tcp
+  password: a3fa58b581353bb375d2ddad0f327938
+  port: 443
+  server: 45.66.134.219
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_23
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 5.183.176.84
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 53|🇯🇵 日本 03 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30603
+  server: host-013.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 11
+  password: amazonskr05
+  port: 443
+  server: 52.193.244.212
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 48|🇯🇵 日本_4
+  password: amazonskr05
+  port: '443'
+  server: 13.230.99.62
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_122
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 5.183.176.91
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_125
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 5.183.176.91
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_188
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 5.183.176.93
+  type: ss
+- name: 51|日本+V2CROSS.COM
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20980
+  server: 146.56.151.232
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 4
+  password: amazonskr05
+  port: 443
+  server: 18.183.171.233
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 51|姬「日本|传说」「专线X」
-  network: tcp
-  port: 12931
-  server: z2.fragranceninja.com
+  name: 51|女妭「日本|传说」「专线X」
+  network: ws
+  port: 12974
+  server: z6.fragranceninja.com
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵JP | 2.59Mb
-  network: ws
-  port: 1558
-  server: 141.164.41.115
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc
   ws-opts:
-    headers:
-      host: 141.164.41.115
-    path: /v2ray
+    path: ''
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_123
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 5.183.176.92
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 51|🇯🇵_油管：全网最强白嫖_15
   password: G!yBwPWH3Vao
@@ -2184,65 +757,717 @@ proxies:
   server: 89.31.126.171
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_66
+  name: 51|🇯🇵_油管：全网最强白嫖_84
   password: G!yBwPWH3Vao
-  port: 812
-  server: 5.183.176.83
+  port: 804
+  server: 89.31.126.225
   type: ss
-- alterId: 1
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_106
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 5.183.176.80
+  type: ss
+- alterId: 0
   cipher: auto
-  name: 51|日本-196.8KB/s_2
-  network: tcp
-  port: 21586
-  server: npm8a-g06.jp01-0986-vm0.entry.fr0307a.art
+  name: 51|61_由快嘴科技提供：kkzui.com日本
+  network: ws
+  port: 443
+  server: 92.38.178.69
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: e9537990-d286-3eaf-8596-d74249d3f347
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      host: 92.38.178.69
+    path: linkvws
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_158
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 5.183.176.92
-  type: ss
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Web 日本I-标准 - AyucLouD-Servi...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 9051
-  server: 231103level1.unclemanco.com
+  name: 48|🇯🇵 日本_40
+  password: ec7f5285-263b-41e9-bc92-89c404e9693d
+  port: '20356'
+  server: n00005.bzdqsmzngpyyng.sbs
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_189
+  name: 65|日本01 | 1x JP
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41111
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 51|日本 008
+  network: tcp
+  port: 14072
+  server: 45.159.50.65
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1a72c7ca-ff6c-4dd8-8efe-388d2bfdf92f
+- cipher: aes-256-cfb
+  name: 53|🇯🇵 【N】日本 普通 2 - Nerocloud - So...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 31000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: jp2.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_55
   password: G!yBwPWH3Vao
-  port: 806
+  port: 804
+  server: 5.183.176.94
+  type: ss
+- cipher: aes-256-cfb
+  name: 51,55|日本-85.0MB/s_2
+  password: amazonskr05
+  port: 443
+  server: 52.69.236.102
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-37.7MB/s_2_2
+  network: tcp
+  port: 11777
+  server: zl1sb-g05.jp02-9a99-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- cipher: aes-256-cfb
+  name: 48|🇯🇵 日本_7
+  password: amazonskr05
+  port: '443'
+  server: 52.195.237.101
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 53|🇯🇵 Vip2-4.江苏-日本A | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21096
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnczu01.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 51|巨蟹「日本」「海外专用」
+  network: tcp
+  port: 12931
+  server: 41.lwdh.us
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_81
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 89.31.126.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 53|🇯🇵 日本 07 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30607
+  server: host-017.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_67
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 5.183.176.91
+  type: ss
+- cipher: aes-256-cfb
+  name: 53|🇯🇵 【N】日本 普通 5 - Nerocloud - So...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 34000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: jp5.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 50|日本 001
+  network: tcp
+  port: 16798
+  server: 150.66.24.104
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bc6c7c93-9245-47be-bfd7-c34a39d0f155
+  ws-headers:
+    Host: 150.66.24.104
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_94
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 5.183.176.92
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51,80|日本-2.95MB/s_2
+  network: tcp
+  port: 43720
+  server: 61.120.9.18
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f248d0e9-19f7-ea7f-6659-17a610dfe8d6
+- alterId: 1
+  cipher: auto
+  name: 51|🇯🇵_油管：全网最强白嫖_7
+  network: ws
+  port: 446
+  server: jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c498879d-8a73-3baf-a4f4-a0f38b75949c
+  ws-opts:
+    path: ''
+- alterId: 1
+  cipher: auto
+  name: 51|日本-34.6MB/s_2_2
+  network: tcp
+  port: 21585
+  server: 5yetu-g05.jp01-0986-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_126
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 5.183.176.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_45
+  password: G!yBwPWH3Vao
+  port: 804
   server: 5.183.176.96
   type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-16.9MB/s_2
+  network: tcp
+  port: 28783
+  server: 2k0n1-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_59
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 89.31.126.177
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_37
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 89.31.126.147
+  type: ss
+- cipher: aes-128-cfb
+  name: 53|🇯🇵 Vip1-7.广州1-日本B | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6064
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 51|日本-196.3KB/s_2
+  network: tcp
+  port: 46482
+  server: 7y1vw-g01.jp05-6786-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_201
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 5.183.176.81
+  type: ss
+- name: 51|日本+东京都Amazon数据中心
+  network: tcp
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node1.t.nodelist-airport.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_76
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 5.183.176.92
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55,57|🇯🇵 JP 22
+  password: amazonskr05
+  port: 443
+  server: 57.180.49.182
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 51,55|JP,Osaka
+  password: amazonskr05
+  port: 443
+  server: 43.201.254.211
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_239
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 89.31.126.177
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_62
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 5.183.176.94
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_19
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 5.183.176.83
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 45|22|日本6|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: jpc.flha.ru
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 51|日本 003
+  network: ws
+  port: 30005
+  server: 104.233.170.150
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/351212081517
+- cipher: aes-256-cfb
+  name: 64|SS-TCP-NA 🇯🇵 JP-13.230.104.31:...
+  password: amazonskr05
+  port: 443
+  server: 13.230.104.31
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_25
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 5.183.176.91
+  type: ss
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: flynwn
+  name: 53|🇯🇵 vip1 日本-01 测试 - FastFly
+  network: grpc
+  port: 57230
+  server: fly0001.flyflylflyflysbs.sbs
+  servername: jp01.ckcloud.info
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_150
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 5.183.176.84
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵 日本 IEPL专线NO3
+  network: ''
+  port: 52117
+  server: i.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ee26bd64-ed28-4ad3-b67d-45a006909774
 - cipher: chacha20-ietf-poly1305
   name: 51|🇯🇵_油管：全网最强白嫖_217
   password: G!yBwPWH3Vao
   port: 802
   server: 5.183.176.81
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_190
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 5.183.176.84
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 48|🇯🇵 日本_12
+  password: O31sdedvkN4TcLit
+  port: '10038'
+  server: bcc.xiyun.co
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 14
+  password: amazonskr05
+  port: 443
+  server: 52.199.172.25
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵JP_408 | 1.25Mb
+  network: ws
+  port: 2052
+  server: 146.56.118.227
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
+  ws-opts:
+    path: /update
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_129
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 5.183.176.81
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 16
+  password: amazonskr05
+  port: 443
+  server: 54.238.65.143
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_161
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 5.183.176.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_266
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 5.183.176.96
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 51|🇯🇵_油管：全网最强白嫖_8
+  network: ws
+  port: 15863
+  server: jpaws006.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 60517dbb-a465-32c6-87e7-2a457663de53
+  ws-opts:
+    path: ''
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_52
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 5.183.176.81
+  type: ss
+- name: 51|Relay_🇯🇵JP-🇯🇵JP_117 | 6.27Mb
+  network: tcp
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  port: 443
+  server: jgwdb3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_148
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 5.183.176.84
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_68
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 5.183.176.94
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 43|🇯🇵 日本02-1C
+  password: 36b9d20a-a544-4240-b752-bce5c5781c63
+  port: 20004
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_132
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 5.183.176.84
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_134
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 89.31.126.147
+  type: ss
 - alterId: 1
   cipher: auto
-  name: 51|日本-260.5KB/s_2
+  name: 51|日本-25.9MB/s_2
   network: tcp
-  port: 21586
-  server: wy1fc-g06.jp03-7d22-vm0.entry.fr0307a.art
+  port: 21585
+  server: wwkzh-g05.jp01-0986-vm0.entry.fr0307a.art
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: e9537990-d286-3eaf-8596-d74249d3f347
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_95
+  name: 51|🇯🇵_油管：全网最强白嫖_101
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 5.183.176.83
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_75
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 5.183.176.81
+  type: ss
+- name: 51|Relay_🇯🇵JP-🇯🇵JP_110 | 3.46Mb
+  network: tcp
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  port: 443
+  server: jgw2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_276
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 5.183.176.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_168
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 89.31.126.225
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 23
+  password: amazonskr05
+  port: 443
+  server: 57.181.42.181
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_124
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 89.31.126.225
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|Relay_🇯🇵JP-🇯🇵JP_194 | 9.62Mb
+  network: ws
+  port: 443
+  server: jp1.3320.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
+  ws-opts:
+    headers:
+      host: jp1.3320.top
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 51|日本-40.9MB/s_2
+  network: tcp
+  port: 46486
+  server: qj2f7-g05.jp05-6786-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_162
   password: G!yBwPWH3Vao
   port: 805
-  server: 89.31.126.171
+  server: 5.183.176.83
+  type: ss
+- cipher: aes-128-gcm
+  name: 53|🇳🇬 Web 尼日利亚I-原生 - AyucLouD-Ser...
+  password: aa2x2sa2/1a
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 10021
+  server: 231103level1.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 51|🇯🇵_油管：全网最强白嫖_1
+  network: ws
+  port: 15665
+  server: jpaws002.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 60517dbb-a465-32c6-87e7-2a457663de53
+  ws-opts:
+    path: ''
+- alterId: 2
+  cipher: auto
+  name: 51|日本_1
+  network: ws
+  port: 443
+  server: 52.194.223.43
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 45391db5-a9c2-4b15-b9ab-df852ec9c12f
+  ws-opts:
+    headers:
+      host: jps.buran.gfw.bili.cf
+    path: /a7658a8358d/
+- cipher: aes-256-cfb
+  name: 67|🇯🇵_JP_日本_13
+  password: amazonskr05
+  port: 443
+  server: 3.112.189.248
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_127
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 89.31.126.177
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_26
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 5.183.176.84
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|Relay_🇯🇵JP-🇯🇵JP_404
+  network: ws
+  port: 15880
+  server: xmrk002.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e23a5542-8e62-3572-9afb-6640d61d91b1
+  ws-opts:
+    headers:
+      host: file-1250914411.cos.ap-tokyo.myqcloud.com
+    path: /index
+- alterId: 1
+  cipher: auto
+  name: 51|日本-20.6MB/s_2
+  network: tcp
+  port: 46487
+  server: 6akbv-g06.jp05-6786-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9537990-d286-3eaf-8596-d74249d3f347
+- alterId: 1
+  cipher: auto
+  name: 51|日本-32.1MB/s_2
+  network: tcp
+  port: 21583
+  server: 0i4ui-g03.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b37b7415-1608-3fcd-aa25-d9cc4aae5ded
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_214
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 5.183.176.93
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_206
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 5.183.176.96
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|日本 东京Amazon数据中心
+  network: ws
+  port: 13389
+  server: 00000000000000000000000007.node-for-smallairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ab0ab89d-de80-44bd-b938-cafda772976d
+  ws-opts:
+    path: /
+- alterId: 16
+  cipher: auto
+  name: 51|日本_6
+  network: ws
+  port: 33600
+  server: gy.jjxcloud.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f15287b4-c711-3333-8afa-298f83d8b0e7
+  ws-opts:
+    headers:
+      host: gy.jjxcloud.xyz
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_293
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 5.183.176.96
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_83
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 89.31.126.147
   type: ss
 - alterId: 1
   cipher: auto
@@ -2259,562 +1484,16 @@ proxies:
       host: jp1.futi.online
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_130
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 5.183.176.93
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|日本 东京Fastly节点
-  network: ws
-  port: 80
-  server: www.hkbu.edu.hk
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c0b05000-23dd-4de9-9041-ec130166ff1a
-  ws-opts:
-    headers:
-      host: nmsl.kp
-    path: /aries?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 43|🇯🇵 日本01-1A
-  password: 1f26b5a7-f78a-413b-805e-7a2404937b53
-  port: 20002
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|巫女「日本|传说」「解锁」
-  network: tcp
-  port: 12928
-  server: z6.fragranceninja.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- cipher: chacha20-ietf-poly1305
-  name: 48|🇯🇵 日本_10
-  password: O31sdedvkN4TcLit
-  port: '10058'
-  server: bcc.xiyun.co
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_48
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 5.183.176.81
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '51|🇯🇵_油管：全网最强白嫖_2 #1'
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 89.31.126.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_266
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 5.183.176.96
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_96
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 5.183.176.80
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-32.1MB/s_2
-  network: tcp
-  port: 21583
-  server: 0i4ui-g03.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b37b7415-1608-3fcd-aa25-d9cc4aae5ded
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 45|21|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.181.146.197
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_40
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 5.183.176.91
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-37.7MB/s_2_2
-  network: tcp
-  port: 11777
-  server: zl1sb-g05.jp02-9a99-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_94
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 5.183.176.92
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_76
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 5.183.176.92
-  type: ss
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Game 日本09-专线 - AyucLouD-Ser...
-  password: fjlfjafl231303831
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 1313
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 53|🇯🇵 【N】日本 普通 1 - Nerocloud - So...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 30000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: jp1.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_93
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 89.31.126.177
-  type: ss
-- auth: 83a60225-aadf-4b23-8172-62865b5383ad
-  name: 43|🇯🇵 日本-2
-  password: 83a60225-aadf-4b23-8172-62865b5383ad
-  port: 30001
-  server: oracle-amd-osaka1.lanmaoyun.icu
-  skip-cert-verify: true
-  sni: osaka.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵JP_285 | 8.97Mb
-  network: tcp
-  port: 53702
-  server: 146.56.110.129
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 52,62,64,66|15|🇯🇵 日本2|@ripaojiedian
-  password: 7DJY7GZN9AQ2AURN
-  port: 18001
-  server: 120.241.45.50
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 53|🇯🇵 【N】日本 普通 4 - Nerocloud - So...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 33000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: jp4.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 64|SS-TCP-NA 🇯🇵 JP-13.230.104.31:...
-  password: amazonskr05
-  port: 443
-  server: 13.230.104.31
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|61_由快嘴科技提供：kkzui.com日本
-  network: ws
-  port: 443
-  server: 92.38.178.69
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      host: 92.38.178.69
-    path: linkvws
-- name: 51|日本+V2CROSS.COM_4_1
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20987
-  server: 146.56.151.232
-  skip-cert-verify: true
-  sni: sale.alibaba.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 43|🇯🇵 日本03-1A
-  password: 1f26b5a7-f78a-413b-805e-7a2404937b53
-  port: 20006
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|青衣「日本|传说」「专线Z」
-  network: tcp
-  port: 12940
-  server: z6.fragranceninja.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- cipher: aes-128-cfb
-  name: 53|🇯🇵 Vip2-4.江苏-日本A | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21096
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnczu01.tangguo.pro
-  type: ssr
-  udp: true
-- name: 51|🇯🇵_油管：全网最强白嫖_325
-  network: tcp
-  password: 52a98419-efab-4c34-b4cc-4e2a7bc37029
-  port: 28000
-  server: 164.70.68.67
-  skip-cert-verify: true
-  sni: huayun.xyz
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Video 日本B-解锁 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 813
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_23
+  name: 51|🇯🇵_油管：全网最强白嫖_273
   password: G!yBwPWH3Vao
   port: 803
-  server: 5.183.176.84
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 53|🇯🇵 Oracle-JP4-20240117 - Kanga...
-  network: ws
-  port: 443
-  server: jp4.pay.edu.kg
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
-  ws-opts:
-    headers:
-      Host: jp4.pay.edu.kg
-    path: /
-- cipher: aes-256-gcm
-  name: 64|SS-TCP-NA 🇯🇵 JP-45.12.207.208:...
-  password: 3426362sED92Yty14d86a
-  port: 8448
-  server: 45.12.207.208
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 51|日本 003
-  network: ws
-  port: 30005
-  server: 104.233.170.150
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/351212081517
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_99
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 5.183.176.81
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-83.0MB/s_2
-  network: tcp
-  port: 28788
-  server: tpi1d-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e9537990-d286-3eaf-8596-d74249d3f347
-- name: 51|日本+东京都Amazon数据中心
-  network: tcp
-  password: 2155145a-b1b5-443a-8977-670f6bd10f02
-  port: 50001
-  server: bgroup.node1.t.nodelist-airport.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_239
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 89.31.126.177
-  type: ss
-- name: '51|日本 002 #1'
-  network: ws
-  password: auto
-  port: 443
-  server: 104.215.16.121
-  skip-cert-verify: true
-  sni: tg.cmliussss.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 3
-  password: amazonskr05
-  port: 443
-  server: 175.41.236.186
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_118
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 89.31.126.225
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|Relay_🇯🇵JP-🇯🇵JP_404
-  network: ws
-  port: 15880
-  server: xmrk002.xmrth-node.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e23a5542-8e62-3572-9afb-6640d61d91b1
-  ws-opts:
-    headers:
-      host: file-1250914411.cos.ap-tokyo.myqcloud.com
-    path: /index
-- name: 51|@SSRSUB-trojan日本T02-付费推荐:dlj.t...
-  network: tcp
-  password: f736834f-1fc8-4738-9884-9afe0eb0d818
-  port: 443
-  server: jp2.trojan.tel
-  skip-cert-verify: true
-  sni: douyincdn.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_81
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 89.31.126.147
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_91
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 5.183.176.94
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本_【YouTube-VV科技】_2
-  network: tcp
-  port: 21586
-  server: jp03-alt-vm0.entry.srthdw.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 272291d0-18b5-39eb-ac67-202de689dd44
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_214
-  password: G!yBwPWH3Vao
-  port: 801
   server: 5.183.176.93
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_78
+  name: 51|🇯🇵_油管：全网最强白嫖_44
   password: G!yBwPWH3Vao
-  port: 806
-  server: 89.31.126.171
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_55
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 5.183.176.94
-  type: ss
-- name: 51|🇯🇵JP_114
-  network: tcp
-  password: 7x42LetRa0
-  port: 1443
-  server: 106.180.225.69
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Game 日本10-标准 - AyucLouD-Ser...
-  password: ay21d1
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 901
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_106
-  password: G!yBwPWH3Vao
-  port: 811
+  port: 800
   server: 5.183.176.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_269
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 89.31.126.225
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|日本 008
-  network: tcp
-  port: 14072
-  server: 45.159.50.65
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1a72c7ca-ff6c-4dd8-8efe-388d2bfdf92f
-- alterId: 1
-  cipher: auto
-  name: 51|日本-24.3MB/s_2_2
-  network: tcp
-  port: 11777
-  server: ouuo6-g05.jp02-9a99-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_184
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 5.183.176.91
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-196.3KB/s_2
-  network: tcp
-  port: 46482
-  server: 7y1vw-g01.jp05-6786-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 10
-  password: amazonskr05
-  port: 443
-  server: 52.192.66.69
-  tfo: false
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-76.8MB/s_2
-  network: tcp
-  port: 448
-  server: q8d2y-g05.jp04-3771-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- cipher: aes-128-cfb
-  name: 53|🇯🇵 Vip2-4.扬州-日本C | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21051
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnyzm01.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_9
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 5.183.176.81
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-1.46MB/s_2
-  network: tcp
-  port: 28788
-  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
-- alterId: 0
-  cipher: auto
-  name: 51|Relay_🇯🇵JP-🇯🇵JP_192 | 2.67Mb
-  network: ws
-  port: 443
-  server: jp2.3320.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 39829295-82d2-47e3-adca-9c9953573323
-  ws-opts:
-    headers:
-      host: jp2.3320.top
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_129
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 5.183.176.81
-  type: ss
-- cipher: aes-256-cfb
-  name: 51,55|JP,Tokyo
-  password: amazonskr05
-  port: 443
-  server: 52.221.255.53
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 64|SS-TCP-NA 🇯🇵 JP-43.207.207.206...
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 43.207.207.206
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 51|🇯🇵_油管：全网最强白嫖_16
@@ -2823,147 +1502,39 @@ proxies:
   server: 5.183.176.92
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_226
+  name: 51|🇯🇵_油管：全网最强白嫖_49
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 5.183.176.84
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_13
   password: G!yBwPWH3Vao
   port: 800
-  server: 5.183.176.93
+  server: 89.31.126.147
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 55|🇯🇵 JP 9
+  name: 55|🇯🇵 JP 19
   password: amazonskr05
   port: 443
-  server: 43.207.113.77
+  server: 54.250.163.86
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 51,55|JP,Tokyo2
-  password: amazonskr05
-  port: 443
-  server: 54.169.216.179
-  type: ss
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Video 日本C-原生 - AyucLouD-Ser...
-  password: ay232sffssd1
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 4321
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 51|日本-40.7MB/s_2
-  network: tcp
-  port: 21586
-  server: bqokc-g06.jp01-0986-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e9537990-d286-3eaf-8596-d74249d3f347
-- alterId: 1
-  cipher: auto
-  name: 51|日本-31.7MB/s_2
-  network: tcp
-  port: 449
-  server: h3qa5-g06.jp04-3771-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_125
+  name: 51|🇯🇵_油管：全网最强白嫖_78
   password: G!yBwPWH3Vao
   port: 806
-  server: 5.183.176.91
+  server: 89.31.126.171
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_72
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 5.183.176.84
-  type: ss
-- cipher: aes-256-cfb
-  name: 67|🇯🇵_JP_日本_3
-  password: amazonskr05
-  port: 443
-  server: 18.182.6.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_160
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 89.31.126.177
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|Relay_🇯🇵JP-🇯🇵JP_405
-  network: ws
-  port: 15880
-  server: xmrk001.xmrth-node.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e23a5542-8e62-3572-9afb-6640d61d91b1
-  ws-opts:
-    headers:
-      host: file-1250914411.cos.ap-tokyo.myqcloud.com
-    path: /index
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_83
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 89.31.126.147
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|🇯🇵_油管：全网最强白嫖_7
-  network: ws
-  port: 446
-  server: jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c498879d-8a73-3baf-a4f4-a0f38b75949c
-  ws-opts:
-    path: ''
-- cipher: aes-128-cfb
-  name: 53|🇯🇵 Vip2-4.广州2-日本A | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 51061
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm02.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 43|🇯🇵 日本02-1C
-  password: 36b9d20a-a544-4240-b752-bce5c5781c63
-  port: 20004
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 65|日本01 | 1x JP
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41111
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 51|日本-31.9MB/s_2
+- name: 51|Relay_🇯🇵JP-🇯🇵JP_111 |11.59Mb
   network: tcp
-  port: 21581
-  server: bxnie-g01.jp03-7d22-vm0.entry.fr0307a.art
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  port: 443
+  server: jgwdb4.gaox.ml
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 53|日本B🇯🇵 - 探索者
@@ -2979,133 +1550,172 @@ proxies:
     headers:
       Host: 603diya.donghui.tech
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_157
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 89.31.126.147
+- alterId: 0
+  cipher: auto
+  name: 51|Relay_🇯🇵JP-🇯🇵JP_192 | 2.67Mb
+  network: ws
+  port: 443
+  server: jp2.3320.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 39829295-82d2-47e3-adca-9c9953573323
+  ws-opts:
+    headers:
+      host: jp2.3320.top
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 10
+  password: amazonskr05
+  port: 443
+  server: 52.192.66.69
+  tfo: false
   type: ss
 - alterId: 1
   cipher: auto
-  name: '51|🇯🇵 日本_4 #1'
-  network: ws
-  port: 20000
-  server: azhk1.sf66.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fb1680d4-01b9-4cdd-919f-4d49faf2c326
-  ws-opts:
-    headers:
-      host: azhk1.sf66.cf
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_59
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 89.31.126.177
-  type: ss
-- name: 51|🇯🇵_油管：全网最强白嫖_326
+  name: 51|日本-18.0MB/s_2
   network: tcp
-  password: 52a98419-efab-4c34-b4cc-4e2a7bc37029
-  port: 28000
-  server: 203.138.98.199
+  port: 28787
+  server: b1op2-g05.jp06-7c5a-vm0.entry.fr0307a.art
   skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- name: 51|日本+V2CROSS.COM_2_1
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 21005
+  server: ent1.imyourdaddy.top
+  skip-cert-verify: true
+  sni: alibabashop.com
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_47
+  name: 51|🇯🇵_油管：全网最强白嫖_63
   password: G!yBwPWH3Vao
-  port: 800
-  server: 5.183.176.84
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-16.9MB/s_2
-  network: tcp
-  port: 28783
-  server: 2k0n1-g01.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- cipher: aes-256-cfb
-  name: 51,55|日本-85.0MB/s_2
-  password: amazonskr05
-  port: 443
-  server: 52.69.236.102
+  port: 805
+  server: 5.183.176.93
   type: ss
 - alterId: 0
   cipher: auto
-  name: 51|🇯🇵 JP😈SSRSUB_476951725
+  name: 51|🇯🇵JP_359 | 2.73Mb
   network: ws
-  port: 44443
-  server: tls.07.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5
-  ws-opts:
-    headers:
-      host: tls.07.node-for-bigairport.win
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_68
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 5.183.176.94
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_212
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 89.31.126.225
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-20.6MB/s_2
-  network: tcp
-  port: 46487
-  server: 6akbv-g06.jp05-6786-vm0.entry.fr0307a.art
+  port: 80
+  server: 167.179.102.146
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e9537990-d286-3eaf-8596-d74249d3f347
+  uuid: 648659f9-c89a-437f-8b8f-1869499f5c78
+  ws-opts:
+    headers:
+      host: /YouTube-aweikeji
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_101
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 5.183.176.83
+  name: 48|🇯🇵 日本_8
+  password: O31sdedvkN4TcLit
+  port: '10039'
+  server: bcc.xiyun.co
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 12
-  password: amazonskr05
-  port: 443
-  server: 52.196.65.55
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_126
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 5.183.176.92
-  type: ss
-- alterId: 1
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 51|日本-14.8MB/s_2
-  network: tcp
-  port: 21581
-  server: 3x2vv-g01.jp01-0986-vm0.entry.fr0307a.art
+  name: 51|144_由快嘴科技提供：kkzui.com日本
+  network: ws
+  port: 443
+  server: 92.38.178.93
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      host: 92.38.178.93
+    path: linkvws
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_119
+  name: 51|🇯🇵_油管：全网最强白嫖_118
   password: G!yBwPWH3Vao
-  port: 812
-  server: 5.183.176.81
+  port: 807
+  server: 89.31.126.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_92
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 5.183.176.83
+  type: ss
+- cipher: aes-256-cfb
+  name: 67|🇯🇵_JP_日本_3
+  password: amazonskr05
+  port: 443
+  server: 18.182.6.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 48,53|🇯🇵 日本_52
+  password: 2d3700b8-bd9b-44d7-905b-060e8b8b86a4
+  port: '5205'
+  server: jp1.biubiufast.quest
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 53|🇯🇵 日本 02 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30602
+  server: host-012.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 53|🇯🇵 日本02 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10038
+  server: jp2.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 53|🇯🇵 Vip2-4.扬州-日本A | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21090
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-128-cfb
+  name: 53|🇯🇵 Vip2-4.扬州-日本C | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21051
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_192
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 5.183.176.96
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '51|🇯🇵_油管：全网最强白嫖_4 #1'
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 5.183.176.84
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_264
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 5.183.176.93
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_141
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 5.183.176.84
   type: ss
 - alterId: 64
   cipher: auto
@@ -3124,239 +1734,20 @@ proxies:
     headers:
       Host: www.17438016.xyz
     path: /path/311227222808
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_123
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 5.183.176.92
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 21
+  password: amazonskr05
+  port: 443
+  server: 57.180.42.246
+  tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 48,53|🇯🇵 日本_52
-  password: 2d3700b8-bd9b-44d7-905b-060e8b8b86a4
-  port: '5205'
-  server: jp1.biubiufast.quest
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_71
+  name: 51|🇯🇵_油管：全网最强白嫖_212
   password: G!yBwPWH3Vao
   port: 810
-  server: 5.183.176.80
+  server: 89.31.126.225
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_92
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 5.183.176.83
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_221
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 5.183.176.91
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵 日本 IEPL专线NO1
-  network: ''
-  port: 20017
-  server: i.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ee26bd64-ed28-4ad3-b67d-45a006909774
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_18
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 5.183.176.91
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-232.2KB/s_2
-  network: tcp
-  port: 28783
-  server: 99kfe-g01.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
-- cipher: chacha20-ietf-poly1305
-  name: 53|🇯🇵 日本01 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10037
-  server: jp1.lvuy.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_75
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 5.183.176.81
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-755.8KB/s_2
-  network: tcp
-  port: 21581
-  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_161
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 5.183.176.92
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-10.9MB/s_2
-  network: tcp
-  port: 448
-  server: 8m08l-g05.jp04-3771-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_169
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 5.183.176.81
-  type: ss
-- name: 51|🇯🇵 日本_Telegram@kxswa
-  network: tcp
-  password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab
-  port: 443
-  server: 54.238.135.78
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Game 日本04-原生 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 9021
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|🇯🇵JP_407 | 7.63Mb
-  network: tcp
-  port: 6666
-  server: 146.56.167.119
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 64779fce-63a5-4faa-b59b-e4af40f4e419
-- name: 51|日本+V2CROSS.COM_2_1
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 21005
-  server: ent1.imyourdaddy.top
-  skip-cert-verify: true
-  sni: alibabashop.com
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 53|🇯🇵 Game 日本06-标准 - AyucLouD-Ser...
-  password: ayu1245
-  plugin: obfs
-  plugin-opts:
-    host: ef8be102475.download.windowsupdate.com
-    mode: http
-  port: 909
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 48|🇯🇵 日本_50
-  password: amazonskr05
-  port: '443'
-  server: 35.77.92.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '51|🇯🇵_油管：全网最强白嫖_8 #1'
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 5.183.176.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_142
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 5.183.176.96
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_202
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 5.183.176.84
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 51|日本-26.7MB/s_2
-  network: tcp
-  port: 21585
-  server: 6bn7a-g05.jp01-0986-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
-- name: 51|Relay_🇯🇵JP-🇯🇵JP_110 | 3.46Mb
-  network: tcp
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: 443
-  server: jgw2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: '51|🇯🇵 日本_3 #1'
-  network: ws
-  port: 9999
-  server: 3.112.194.253
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
-  ws-opts:
-    headers:
-      host: 3.112.194.253
-    path: /
-- cipher: aes-128-cfb
-  name: 53|🇯🇵 Vip2-4.扬州-日本D | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21052
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnyzm01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|Relay_🇯🇵JP-🇯🇵JP_305
-  network: ws
-  port: 15880
-  server: xmrj002.xmrth-node.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e23a5542-8e62-3572-9afb-6640d61d91b1
-  ws-opts:
-    headers:
-      host: file-1250914411.cos.ap-tokyo.myqcloud.com
-    path: /index
 - alterId: 0
   cipher: auto
   grpc-opts:
@@ -3371,16 +1762,140 @@ proxies:
   type: vmess
   udp: true
   uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
-- alterId: 0
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Game 日本05-原生 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 914
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 1
   cipher: auto
-  name: 51|🇯🇵JP_360 | 8.85Mb
+  name: 51|日本-80.3MB/s_2
   network: tcp
-  port: 54696
-  server: 168.138.50.96
+  port: 11775
+  server: t45a7-g03.jp02-9a99-vm0.entry.fr0307a.art
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 7bd1a172-2f4d-40c9-9f24-1cfe89a27a9a
+  uuid: b37b7415-1608-3fcd-aa25-d9cc4aae5ded
+- cipher: aes-256-cfb
+  name: 53|🇯🇵 【N】日本 普通 1 - Nerocloud - So...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 30000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: jp1.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_142
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 5.183.176.96
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-76.8MB/s_2
+  network: tcp
+  port: 448
+  server: q8d2y-g05.jp04-3771-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- cipher: aes-128-cfb
+  name: 53|🇯🇵 Vip1-8.南阳-日本A | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 31110
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnnym01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 9
+  password: amazonskr05
+  port: 443
+  server: 43.207.113.77
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_87
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 89.31.126.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_38
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 5.183.176.80
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_164
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 5.183.176.94
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_93
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 89.31.126.177
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_251
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 89.31.126.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 48|🇯🇵 日本_10
+  password: O31sdedvkN4TcLit
+  port: '10058'
+  server: bcc.xiyun.co
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 53|🇯🇵 Vip2-4.扬州-日本B | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21049
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 45|21|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.181.146.197
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 53|🇯🇵 【N】日本 普通 3 - Nerocloud - So...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 32000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: jp3.boom.skin
+  type: ssr
+  udp: true
 - cipher: aes-128-cfb
   name: 53|🇯🇵 Vip1-8.南阳-日本B | 倍率x2 - 糖果
   obfs: tls1.2_ticket_auth
@@ -3392,42 +1907,748 @@ proxies:
   server: cnnym01.tangguo.pro
   type: ssr
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_269
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 89.31.126.225
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵JP | 2.59Mb
+  network: ws
+  port: 1558
+  server: 141.164.41.115
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc
+  ws-opts:
+    headers:
+      host: 141.164.41.115
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: 65|日本04 | 1x JP
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41117
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_95
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 89.31.126.171
+  type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 55|🇯🇵 JP 7
+  name: 48|🇯🇵 日本_3
   password: amazonskr05
-  port: 443
-  server: 3.112.246.107
-  tfo: false
+  port: '443'
+  server: 43.207.117.29
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_209
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 5.183.176.83
   type: ss
 - alterId: 1
   cipher: auto
-  name: 51|日本-34.6MB/s_2_2
+  name: '51|🇯🇵 日本_3 #1'
+  network: ws
+  port: 9999
+  server: 3.112.194.253
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
+  ws-opts:
+    headers:
+      host: 3.112.194.253
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_12
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 89.31.126.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_199
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 5.183.176.93
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-58.4MB/s_2
+  network: tcp
+  port: 46487
+  server: ybk5g-g06.jp05-6786-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9537990-d286-3eaf-8596-d74249d3f347
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_66
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 5.183.176.83
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 48|🇯🇵 日本_13
+  password: O31sdedvkN4TcLit
+  port: '10037'
+  server: bcc.xiyun.co
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 51|姬「日本|传说」「专线X」
+  network: tcp
+  port: 12931
+  server: z2.fragranceninja.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_198
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 89.31.126.147
+  type: ss
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Game 日本03-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 819
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵JP_196 |10.82Mb
+  network: tcp
+  port: 21008
+  server: 139.180.175.112
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_47
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 5.183.176.84
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_77
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 5.183.176.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_64
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 5.183.176.91
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-1.01MB/s_2
   network: tcp
   port: 21585
-  server: 5yetu-g05.jp01-0986-vm0.entry.fr0307a.art
+  server: bitol-g05.jp03-7d22-vm0.entry.fr0307a.art
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- alterId: 0
+  cipher: auto
+  name: 51|巫女「日本|传说」「解锁」
+  network: tcp
+  port: 12928
+  server: z6.fragranceninja.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵 JP_291 | 6.88Mb
+  network: tcp
+  port: 44634
+  server: 150.230.197.142
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2d05105-857a-4c94-be34-5534e7e8285f
+- alterId: 0
+  cipher: auto
+  name: 51|⚡@DeamNet_Proxy 🔻🏁ZZ 🔺🇯🇵JP ☑MT...
+  network: ws
+  port: 41597
+  server: 183.181.36.194
+  type: vmess
+  udp: true
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  ws-opts:
+    headers:
+      Host: 183.181.36.194
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵JP |10.77Mb
+  network: ws
+  port: 1558
+  server: 45.76.106.120
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc
+  ws-opts:
+    headers:
+      host: ajpn01.xiaohouzi.club
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 53|🇯🇵 Oracle-JP3-20240117 - Kanga...
+  network: ws
+  port: 443
+  server: jp3.pay.edu.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
+  ws-opts:
+    headers:
+      Host: jp3.pay.edu.kg
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 51|🇯🇵 日本_2
+  network: ws
+  port: 80
+  server: 172.104.98.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
+  ws-opts:
+    headers:
+      host: www.gov.hk
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_117
+  name: 51|🇯🇵_油管：全网最强白嫖_236
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 5.183.176.93
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-196.8KB/s_2
+  network: tcp
+  port: 21586
+  server: npm8a-g06.jp01-0986-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e9537990-d286-3eaf-8596-d74249d3f347
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_14
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 5.183.176.94
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵 日本 IEPL专线NO1
+  network: ''
+  port: 20017
+  server: i.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ee26bd64-ed28-4ad3-b67d-45a006909774
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Game 日本07-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 918
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 51|日本-42.3MB/s_2_2
+  network: tcp
+  port: 11777
+  server: ho8od-g05.jp02-9a99-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_99
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 5.183.176.81
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '51|🇯🇵_油管：全网最强白嫖_8 #1'
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 5.183.176.80
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_119
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 5.183.176.81
+  type: ss
+- name: 51|日本+V2CROSS.COM_3_1
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20990
+  server: ent1.imyourdaddy.top
+  skip-cert-verify: true
+  sni: sale.alibaba.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '51|🇯🇵_油管：全网最强白嫖_2 #1'
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 89.31.126.177
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_138
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 89.31.126.147
+  type: ss
+- name: '51|日本 002 #1'
+  network: ws
+  password: auto
+  port: 443
+  server: 104.215.16.121
+  skip-cert-verify: true
+  sni: tg.cmliussss.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 51|🇯🇵_油管：全网最强白嫖_325
+  network: tcp
+  password: 52a98419-efab-4c34-b4cc-4e2a7bc37029
+  port: 28000
+  server: 164.70.68.67
+  skip-cert-verify: true
+  sni: huayun.xyz
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '51|🇯🇵_油管：全网最强白嫖_7 #1'
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 5.183.176.83
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_225
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 5.183.176.92
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 53|VIP｜日本004🇯🇵—5Gbps - 探索者
+  network: ws
+  port: 32339
+  server: 603diyb.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diyb.donghui.tech
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 51|日本-60.6MB/s_2
+  network: tcp
+  port: 11777
+  server: or2ws-g05.jp02-9a99-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- name: 51|🇯🇵 日本_Telegram@kxswa
+  network: tcp
+  password: 64e0ee38-2874-3f3f-b7d2-34f5a03cbaab
+  port: 443
+  server: 54.238.135.78
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 64|SS-TCP-NA 🇯🇵 JP-5.253.41.160:8...
+  password: 35e41a9d-c318-4f7d-8e1b-69b032428255
+  port: 8443
+  server: 5.253.41.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_43
   password: G!yBwPWH3Vao
   port: 809
-  server: 5.183.176.96
+  server: 5.183.176.80
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_45
+  name: 51|🇯🇵_油管：全网最强白嫖_100
   password: G!yBwPWH3Vao
-  port: 804
-  server: 5.183.176.96
+  port: 808
+  server: 89.31.126.171
   type: ss
+- name: 51,61|日本+东京Amazon数据中心
+  network: tcp
+  password: cf13832b-4ca0-4fee-8e85-2b2411104e75
+  port: 20230
+  server: jp008.421421.xyz
+  skip-cert-verify: true
+  sni: 421421.xyz
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 65|日本03 | 1x JP
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41115
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_18
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 5.183.176.91
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: '51|🇯🇵 日本_4 #1'
+  network: ws
+  port: 20000
+  server: azhk1.sf66.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fb1680d4-01b9-4cdd-919f-4d49faf2c326
+  ws-opts:
+    headers:
+      host: azhk1.sf66.cf
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 51|日本-31.7MB/s_2
+  network: tcp
+  port: 449
+  server: h3qa5-g06.jp04-3771-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - cipher: chacha20-ietf-poly1305
   name: 51|🇯🇵_油管：全网最强白嫖_20
   password: G!yBwPWH3Vao
   port: 809
   server: 89.31.126.171
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_267
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 89.31.126.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 65|日本【特殊地区直连】
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 30010
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- name: 51|日本-13.8MB/s_1
+  network: tcp
+  password: d90e5504-a42b-44c1-8289-3543471bf55a
+  port: 8443
+  server: n3.jp4589871.top
+  skip-cert-verify: true
+  sni: n3.jp4589871.top
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 53|🇯🇵 日本01 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10037
+  server: jp1.lvuy.xyz
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 51|日本-755.8KB/s_2
+  network: tcp
+  port: 21581
+  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_9
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 5.183.176.81
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|日本 东京Fastly节点
+  network: ws
+  port: 80
+  server: www.hkbu.edu.hk
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c0b05000-23dd-4de9-9041-ec130166ff1a
+  ws-opts:
+    headers:
+      host: nmsl.kp
+    path: /aries?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 53|🇯🇵 日本04 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10058
+  server: jp4.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_79
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 194.156.231.251
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-14.8MB/s_2
+  network: tcp
+  port: 21581
+  server: 3x2vv-g01.jp01-0986-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_160
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 89.31.126.177
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 3
+  password: amazonskr05
+  port: 443
+  server: 175.41.236.186
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 65|日本05 | 1x JP
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41119
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_174
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 89.31.126.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_181
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 89.31.126.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_248
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 5.183.176.83
+  type: ss
+- cipher: aes-128-cfb
+  name: 53|🇯🇵 Vip2-4.广州2-日本A | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51061
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 51|日本_【YouTube-VV科技】_2
+  network: tcp
+  port: 21586
+  server: jp03-alt-vm0.entry.srthdw.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 272291d0-18b5-39eb-ac67-202de689dd44
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_34
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 5.183.176.80
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_35
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 5.183.176.94
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|瑶「日本|传说」「解锁」
+  network: ws
+  port: 12955
+  server: z2.fragranceninja.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  ws-opts:
+    path: ''
+- alterId: 1
+  cipher: auto
+  name: 51|日本-22.2MB/s_2
+  network: tcp
+  port: 444
+  server: 7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵JP_360 | 8.85Mb
+  network: tcp
+  port: 54696
+  server: 168.138.50.96
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7bd1a172-2f4d-40c9-9f24-1cfe89a27a9a
+- name: 51|🇯🇵 日本 v2rayfree.eu.org
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20991
+  server: 146.56.151.232
+  skip-cert-verify: true
+  sni: sale.alibaba.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 43|🇯🇵 日本04-1C
+  password: 36b9d20a-a544-4240-b752-bce5c5781c63
+  port: 20008
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_73
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 5.183.176.84
+  type: ss
+- name: 51|日本+东京Amazon数据中心_2
+  network: tcp
+  password: '!!str 3669023833404481536'
+  port: 443
+  server: fleet-gopher.iguana938.mom
+  skip-cert-verify: true
+  sni: fleet-gopher.iguana938.mom
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 64|SS-TCP-NA 🇯🇵 JP-43.207.207.206...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  port: 2377
+  server: 43.207.207.206
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-232.2KB/s_2
+  network: tcp
+  port: 28783
+  server: 99kfe-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
+- alterId: 1
+  cipher: auto
+  name: 51|日本-40.7MB/s_2
+  network: tcp
+  port: 21586
+  server: bqokc-g06.jp01-0986-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e9537990-d286-3eaf-8596-d74249d3f347
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_193
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 5.183.176.96
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 53|🇯🇵 日本 05 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30605
+  server: host-015.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_109
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 89.31.126.171
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵 日本NO.1
+  network: ''
+  port: 45056
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 233f2a3c-5c7f-4bce-b6f8-b4dc00828de8
+- name: 51|日本-625.3KB/s
+  network: tcp
+  password: '!!str 3669023833404481536'
+  port: 443
+  server: amazing-salmon.iguana938.mom
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 51|日本-503.8KB/s
@@ -3439,32 +2660,811 @@ proxies:
   type: vmess
   uuid: 9f563bc7-0481-41d2-f8fd-a4736ded9bc0
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_51
+  name: 51|🇯🇵_油管：全网最强白嫖_140
   password: G!yBwPWH3Vao
   port: 804
-  server: 5.183.176.83
+  server: 5.183.176.93
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|Relay_🇯🇵JP-🇯🇵JP_409 | 2.12Mb
+  network: tcp
+  port: 37121
+  server: m4.40010010.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+- cipher: aes-256-cfb
+  name: 53|🇯🇵 【N】日本 普通 4 - Nerocloud - So...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 33000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: jp4.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_186
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 5.183.176.96
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|Relay_🇯🇵JP-🇯🇵JP_305
+  network: ws
+  port: 15880
+  server: xmrj002.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e23a5542-8e62-3572-9afb-6640d61d91b1
+  ws-opts:
+    headers:
+      host: file-1250914411.cos.ap-tokyo.myqcloud.com
+    path: /index
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_102
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 89.31.126.171
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵 JP😈SSRSUB_-1534771290
+  network: ws
+  port: 22443
+  server: tls.04.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5
+  ws-opts:
+    headers:
+      host: tls.04.node-for-bigairport.win
+    path: /
+- name: 51|日本+V2CROSS.COM_1_1
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 21005
+  server: 146.56.151.232
+  skip-cert-verify: true
+  sni: alibabashop.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_223
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 5.183.176.96
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵 日本NO.2
+  network: ''
+  port: 45057
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 233f2a3c-5c7f-4bce-b6f8-b4dc00828de8
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_6
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 89.31.126.177
+  type: ss
+- auth: 83a60225-aadf-4b23-8172-62865b5383ad
+  name: 43|🇯🇵 日本-1
+  password: 83a60225-aadf-4b23-8172-62865b5383ad
+  port: 30001
+  server: oracle-amd-tokyo1.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: tokyo.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Game 日本06-标准 - AyucLouD-Ser...
+  password: ayu1245
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 909
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- auth: 83a60225-aadf-4b23-8172-62865b5383ad
+  name: 43|🇯🇵 日本-2
+  password: 83a60225-aadf-4b23-8172-62865b5383ad
+  port: 30001
+  server: oracle-amd-osaka1.lanmaoyun.icu
+  skip-cert-verify: true
+  sni: osaka.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  name: 51,55,57|日本-53.2MB/s_2
+  password: amazonskr05
+  port: 443
+  server: 52.198.194.170
+  type: ss
+- name: 51|🇯🇵JP_118
+  network: tcp
+  password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
+  port: 8443
+  server: jp.llbb.cf
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_171
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 5.183.176.93
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵 JP😈SSRSUB_1163289939
+  network: ws
+  port: 443
+  server: 141.147.174.244
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3c5d5534-4b08-4f1a-f8da-f1f9134554f6
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_117
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 5.183.176.96
+  type: ss
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Game 日本02-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 9062
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 51|日本-260.5KB/s_2
+  network: tcp
+  port: 21586
+  server: wy1fc-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e9537990-d286-3eaf-8596-d74249d3f347
 - alterId: 2
   cipher: auto
-  name: 51|🇯🇵_油管：全网最强白嫖_8
+  name: 51|🇯🇵_油管：全网最强白嫖_4
   network: ws
-  port: 15863
-  server: jpaws006.xmrth-node.xyz
+  port: 15698
+  server: jplin005.xmrth-node.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 60517dbb-a465-32c6-87e7-2a457663de53
   ws-opts:
     path: ''
+- cipher: aes-256-cfb
+  name: 51,55|JP,Tokyo2
+  password: amazonskr05
+  port: 443
+  server: 54.169.216.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_27
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 5.183.176.94
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_51
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 5.183.176.83
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_189
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 5.183.176.96
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 51|🇯🇵JP_390 | 4.74Mb
+  network: tcp
+  port: 41954
+  server: 146.56.167.249
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0a1d4a77-7cd3-488a-cb62-ddda2d8dea3a
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Game 日本04-原生 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 9021
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 7
+  password: amazonskr05
+  port: 443
+  server: 3.112.246.107
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_85
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 89.31.126.177
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_29
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 89.31.126.171
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '51|🇯🇵_油管：全网最强白嫖_3 #1'
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 5.183.176.91
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_28
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 89.31.126.177
+  type: ss
+- cipher: aes-128-cfb
+  name: 53|🇯🇵 Vip2-4.江苏-日本B | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21102
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnczu01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_69
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 89.31.126.171
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_203
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 5.183.176.81
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本_7
+  network: tcp
+  port: 10005
+  server: 112.33.32.148
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10
+- name: 51|@SSRSUB-trojan日本T02-付费推荐:dlj.t...
+  network: tcp
+  password: f736834f-1fc8-4738-9884-9afe0eb0d818
+  port: 443
+  server: jp2.trojan.tel
+  skip-cert-verify: true
+  sni: douyincdn.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_139
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 5.183.176.93
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_185
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 5.183.176.83
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_104
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 5.183.176.96
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 43|🇯🇵 日本03-1A
+  password: 1f26b5a7-f78a-413b-805e-7a2404937b53
+  port: 20006
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 53|🇯🇵 Vip1-7.广州1-日本A | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6063
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 53|🇯🇵 Oracle-JP4-20240117 - Kanga...
+  network: ws
+  port: 443
+  server: jp4.pay.edu.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
+  ws-opts:
+    headers:
+      Host: jp4.pay.edu.kg
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_39
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 194.156.231.251
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_46
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 5.183.176.94
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_226
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 5.183.176.93
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-31.9MB/s_2
+  network: tcp
+  port: 21581
+  server: bxnie-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
+- cipher: aes-128-gcm
+  name: 48|🇳🇬 尼日利亚
+  password: aa2x2sa2/1a
+  plugin: obfs
+  plugin-opts:
+    host: a068b91227.download.windowsupdate.com
+    mode: http
+  port: '10021'
+  server: 231103level1.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_158
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 5.183.176.92
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-41.7MB/s_2_2
+  network: tcp
+  port: 21586
+  server: yb12i-g06.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e9537990-d286-3eaf-8596-d74249d3f347
+- cipher: chacha20-ietf-poly1305
+  name: 65|日本02 | 1x JP
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41113
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_30
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 5.183.176.83
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_116
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 89.31.126.171
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 53|日本A🇯🇵 - 探索者
+  network: ws
+  port: 34650
+  server: 603diya.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diya.donghui.tech
+    path: /
+- name: 51|日本+V2CROSS.COM_3
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20983
+  server: ent1.imyourdaddy.top
+  skip-cert-verify: true
+  sni: sale.alibaba.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '51|🇯🇵_油管：全网最强白嫖_1 #1'
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 5.183.176.96
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-26.7MB/s_2
+  network: tcp
+  port: 21585
+  server: 6bn7a-g05.jp01-0986-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_72
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 5.183.176.84
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|🇯🇵 日本_1
+  network: ws
+  port: 36455
+  server: 140.179.98.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fb1680d4-01b9-4cdd-919f-4d49faf2c326
+  ws-opts:
+    headers:
+      host: 140.179.98.88
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_70
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 89.31.126.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_180
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 5.183.176.80
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|Relay_🇯🇵JP-🇯🇵JP_83 |40.18Mb
+  network: ws
+  port: 11521
+  server: 00000000000000000000000006.node-for-smallairport.win
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ab0ab89d-de80-44bd-b938-cafda772976d
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_10
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 5.183.176.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 65|日本06 | 家宽 | 1x JP
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41121
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_71
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 5.183.176.80
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本_2
+  network: ws
+  port: 443
+  server: jp2.futi.online
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ab1f1860-eb87-4385-a543-9f408adb8b32
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_50
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 5.183.176.92
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 2,9,14,23,29,80|13|🇯🇵 日本|@ripaojiedian
+  network: tcp
+  port: 15836
+  server: 45.159.50.76
+  tls: false
+  type: vmess
+  uuid: e1218e34-80a3-4a65-8524-88ca51e79191
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_17
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 5.183.176.94
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_98
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 89.31.126.171
+  type: ss
+- cipher: aes-256-cfb
+  name: 51,55|日本-48.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.215.69
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 53|🇯🇵 Oracle-JP5-20240117 - Kanga...
+  network: ws
+  port: 443
+  server: jp5.pay.edu.kg
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
+  ws-opts:
+    headers:
+      Host: jp5.pay.edu.kg
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_157
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 89.31.126.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_147
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 5.183.176.94
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|Relay_🇯🇵JP-🇯🇵JP_191 |10.98Mb
+  network: ws
+  port: 63632
+  server: jp06.xiaoqi99.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e2c77239-02ad-4ae8-8b71-77b8ed447919
+  ws-opts:
+    headers:
+      host: jp06.xiaoqi99.cf
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 53|🇯🇵 日本 06 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30606
+  server: host-016.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 64|SS-TCP-NA 🇯🇵 JP-45.12.207.208:...
+  password: 3426362sED92Yty14d86a
+  port: 8448
+  server: 45.12.207.208
+  type: ss
+- cipher: aes-256-cfb
+  name: 51,55|JP,Tokyo
+  password: amazonskr05
+  port: 443
+  server: 52.221.255.53
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51|Relay_🇯🇵JP-🇯🇵JP_405
+  network: ws
+  port: 15880
+  server: xmrk001.xmrth-node.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e23a5542-8e62-3572-9afb-6640d61d91b1
+  ws-opts:
+    headers:
+      host: file-1250914411.cos.ap-tokyo.myqcloud.com
+    path: /index
 - cipher: chacha20-ietf-poly1305
   name: 51|🇯🇵_油管：全网最强白嫖_149
   password: G!yBwPWH3Vao
   port: 803
   server: 5.183.176.83
   type: ss
+- name: 51|👉www.85la.com👉日本JP_4
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20992
+  server: ent1.imyourdaddy.top
+  skip-cert-verify: true
+  sni: ent1.imyourdaddy.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 55|🇯🇵 JP 8
+  password: amazonskr05
+  port: 443
+  server: 43.206.239.200
+  tfo: false
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-34.5MB/s_2
+  network: tcp
+  port: 46482
+  server: u0rdb-g01.jp05-6786-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 46d2d389-2469-30ad-9e7a-21f1daa63935
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 52,62,64,66|15|🇯🇵 日本2|@ripaojiedian
+  password: 7DJY7GZN9AQ2AURN
+  port: 18001
+  server: 120.241.45.50
+  tfo: false
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-77.4MB/s_2_2
+  network: tcp
+  port: 11777
+  server: d4aj6-g05.jp02-9a99-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac7ff9e6-8770-3f96-a818-9fc37daa6c4a
+- cipher: aes-128-gcm
+  name: 53|🇯🇵 Video 日本A-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: ef8be102475.download.windowsupdate.com
+    mode: http
+  port: 818
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 51|🇯🇵_油管：全网最强白嫖_201
+  name: 51|🇯🇵_油管：全网最强白嫖_58
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 89.31.126.177
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-83.0MB/s_2
+  network: tcp
+  port: 28788
+  server: tpi1d-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e9537990-d286-3eaf-8596-d74249d3f347
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_202
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 5.183.176.84
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_88
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 5.183.176.80
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_96
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 5.183.176.80
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_36
   password: G!yBwPWH3Vao
   port: 804
-  server: 5.183.176.81
+  server: 5.183.176.80
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_317
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 89.31.126.225
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 80|日本-优化3
+  network: ws
+  port: '16617'
+  server: ct.mj-cn.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1ddc351f-4ea2-4dbe-91d4-66454629455b
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- cipher: chacha20-ietf-poly1305
+  name: 53|🇯🇵 日本03 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10039
+  server: jp3.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 51|🇯🇵_油管：全网最强白嫖_243
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 5.183.176.94
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 51|日本-30.4MB/s_2
+  network: tcp
+  port: 28788
+  server: ig5oa-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e9537990-d286-3eaf-8596-d74249d3f347
