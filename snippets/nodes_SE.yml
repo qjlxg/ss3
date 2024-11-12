@@ -1,30 +1,35 @@
 proxies:
-- name: 64|TR-WS-TLS 🇸🇪 SE-185.146.173.11...
-  network: ws
-  password: 9a4bc15d-a7d4-4181-9485-405629c36894
-  port: 443
-  server: 185.146.173.115
-  sni: king-ae1.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: king-ae1.pages.dev
-    path: ''
 - alterId: 0
+  blackListed: false
   cipher: auto
-  name: 51|瑞典 V2CROSS.COM_2
+  country: SE
+  name: 156|[SE_VMESS_WS_70.34.212.226:844...
   network: ws
-  port: 80
-  server: 185.146.173.158
-  skip-cert-verify: true
+  ping: 540
+  port: 8443
+  real_ip: 70.34.212.226
+  server: 70.34.212.226
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 126|瑞典_121320008
+  network: ws
+  port: '80'
+  server: 94.131.98.104
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
   ws-opts:
     headers:
-      host: d396-flower-d396.megare7260.workers.dev
-    path: /obdii.cfd/linkws
-- name: 48|🇸🇪 瑞典_1
+      Host: 94.131.98.104
+    path: /vmess
+- name: 48,135|🇸🇪 瑞典_1
   network: ws
   password: 0b1371aa-649d-41dc-9126-338c87936500
   port: '443'
@@ -37,6 +42,20 @@ proxies:
     headers:
       Host: sourceforge.net
     path: /websocket
+- alterId: 0
+  cipher: auto
+  name: 152|🇸🇪SE-13.50.153.230-3658
+  network: ws
+  port: 25289
+  server: 13.50.153.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fe2bd77d-312e-4ac0-defe-afdb279528a0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - name: 64|TR-WS-TLS 🇸🇪 SE-185.146.173.15...
   network: ws
   password: auto
@@ -48,70 +67,20 @@ proxies:
     headers:
       Host: esetsecuritylicense.bwnsmv.workers.dev
     path: /Telegram-@V2ray_Alpha/?ed=2560
-- name: 51|瑞典-258.5KB/s
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.203.34
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 51|🇸🇪SE_683 | 5.96Mb
-  network: tcp
-  port: 43298
-  server: 138.3.208.203
-  skip-cert-verify: true
+  name: 87,89,90,102,104,105,152|🔒 VM-WS-TLS 🇸🇪 SE-185.146.173....
+  network: ws
+  port: 443
+  server: 185.146.173.158
+  servername: jahfkjha.cfd
   tls: true
   type: vmess
-  uuid: 42104b60-1988-4063-96ce-5c4b20b53130
-- name: 51|瑞典-94.8MB/s
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.11.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 51|瑞典 003
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.20.28.151
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 51|⚡@DeamNet_Proxy+🔻🇸🇪SE+🔺🇸🇪SE+☑M...
-  password: qgpdyzHj8rZW9fDxxkUHRI
-  port: 29312
-  server: 217.196.103.206
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51|瑞典 V2CROSS.COM_1
-  network: ws
-  port: 80
-  server: 185.146.173.59
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
   ws-opts:
     headers:
-      host: freevpn878.hamidimorteza680.workers.dev
-    path: /glweidf.cfd/linkws
-- cipher: aes-256-cfb
-  name: 51,59,64|SE-121.127.46.147-0748 | 15.26...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 121.127.46.147
-  type: ss
+      Host: jahfkjha.cfd
+    path: /linkws
 - cipher: chacha20-ietf-poly1305
   name: 53|🇸🇪 瑞典 - V2Link VPN
   password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
@@ -119,6 +88,20 @@ proxies:
   server: host-059.crazyspeed.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 126|瑞典_121320007
+  network: ws
+  port: '80'
+  server: se1-vmess.sshmax.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
+  ws-opts:
+    headers:
+      Host: se1-vmess.sshmax.xyz
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 80|🇸🇪_定制专线：@QS00008
@@ -132,13 +115,20 @@ proxies:
     headers:
       Host: freevpn878.hamidimorteza680.workers.dev
     path: /glweidf.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 51|🇸🇪 瑞典 IEPL专线NO1
-  network: ''
-  port: 31001
-  server: i.needss.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ee26bd64-ed28-4ad3-b67d-45a006909774
+- cipher: aes-256-cfb
+  name: 59,64|SE-121.127.46.147-1538 | 4.894...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 121.127.46.147
+  type: ss
+- name: 64|TR-WS-TLS 🇸🇪 SE-185.146.173.11...
+  network: ws
+  password: 9a4bc15d-a7d4-4181-9485-405629c36894
+  port: 443
+  server: 185.146.173.115
+  sni: king-ae1.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: king-ae1.pages.dev
+    path: ''
