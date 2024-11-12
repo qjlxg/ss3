@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 87,89,102,152|YEEY5712
-  network: tcp
-  port: '8881'
-  server: 170.187.163.89
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
   name: 80|🚀 Marz (SHEEP) [VMess - ws]
   network: ws
   port: '8080'
@@ -37,3 +27,13 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 87,89,102,152|YEEY5712
+  network: tcp
+  port: '8881'
+  server: 170.187.163.89
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
