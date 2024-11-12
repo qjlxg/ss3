@@ -1,55 +1,1582 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 56601
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- grpc-opts:
+    grpc-service-name: hkvip102
+  name: 16|香港 005
+  network: grpc
+  password: 15d80740-5e09-34e2-ba35-cd6abe990202
+  port: 42249
+  server: hkvip102.qlgq.fun
+  skip-cert-verify: true
+  sni: hkvip102.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 2902
-  server: 143.92.42.65
+  name: 11|19|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.2...
+  network: ws
+  port: '24101'
+  server: 47.76.35.246
+  servername: ''
   tls: false
   type: vmess
-  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 31|香港06 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41151
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港03 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 12345
+  server: hk3.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇭🇰 香港03-1E
+  password: 1f26b5a7-f78a-413b-805e-7a2404937b53
+  port: 20052
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 14|🇭🇰 香港_37
+  network: ws
+  port: '2095'
+  server: fcdn.flha.ru
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: fcdn.flha.ru
+    path: /
 - alterId: 0
   cipher: auto
-  name: 11,16|13|🇭🇰 香港4|@ripaojiedian
+  name: 18,28|11,16|香港4|@ripaojiedian
   network: tcp
-  port: 45840
+  port: '45840'
   server: 103.224.80.100
+  servername: ''
   tls: false
   type: vmess
   uuid: daf8d2e7-d4e2-42d9-871f-6e287da72dd6
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip1-1.广州1-香港B | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6016
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  delay: '1127'
+  name: 14|🇭🇰 香港_34
+  password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
+  port: '10061'
+  server: v3-js-hk.as9929.uk
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【B】香港 普通 2 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 11000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp02.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【A】香港 普通 E - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 24000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp19.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【B】香港 普通 7 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 16000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp07.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: flynwn
+  name: 19|🇭🇰 vip1 香港-01 测试 - FastFly
+  network: grpc
+  port: 27236
+  server: fly0001.flyflylflyflysbs.sbs
+  servername: hk02.ckcloud.info
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
+- cipher: aes-128-gcm
+  name: 19|🇭🇰 Game 香港06-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 831c8102435.download.windowsupdate.com
+    mode: http
+  port: 823
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 31|香港04 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41147
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip1-2.南阳-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 31058
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnnym01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【A】香港 普通 C - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 22000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp17.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港 02 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30502
+  server: host-002.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-2.江苏-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21073
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnczu01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【N】香港 普通 4 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 50000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nn11.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 30|SS-TCP-NA 🇭🇰 HK-38.150.12.188:...
+  password: 3a690709-5011-4a6c-ab62-da2fb5291233
+  port: 50203
+  server: 38.150.12.188
+  type: ss
+- cipher: aes-128-gcm
+  name: 19|🇭🇰 Game 香港02-标准 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 831c8102435.download.windowsupdate.com
+    mode: http
+  port: 9054
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港 08 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30508
+  server: host-008.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-2.江苏-香港B | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21108
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnczu01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇭🇰 香港01-1D
+  password: e2c24168-5bf0-4f04-b4b2-400afcb729b1
+  port: 34338
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港_35
+  password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
+  port: '22466'
+  server: v3-js-sg.as9929.uk
+  type: ss
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: flynwn
+  name: 19|🇭🇰 vip1 香港-16 测试 - FastFly
+  network: grpc
+  port: 62690
+  server: fly0001.flyflylflyflysbs.sbs
+  servername: hk05.ckcloud.info
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-1.佛山-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21077
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnfsm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【B】香港 普通 5 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 14000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp05.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip1-2.南阳-香港C | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 31071
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnnym01.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 11,26|22|香港|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: onea.flha.ru
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【A】香港 普通 D - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 23000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp18.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 30|SS-TCP-NA 🇭🇰 HK-91.199.84.195:...
+  password: 69037302-0050-43ae-abf3-f8e62740aff1
+  port: 25203
+  server: 91.199.84.195
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【O】香港 普通 4 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 14000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt4.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  name: 32|HK
+  network: tcp
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 35001
+  server: 103.100.177.32
+  skip-cert-verify: true
+  sni: updates.sub-nthu.com
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港02 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10032
+  server: hk2.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【O】香港 普通 2 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 12000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt2.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 19|🇭🇰 Video 香港B-标准 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 831c8102435.download.windowsupdate.com
+    mode: http
+  port: 8001
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 19|🇭🇰 Game 香港05-标准 - AyucLouD-Ser...
+  password: ayucles1
+  plugin: obfs
+  plugin-opts:
+    host: 831c8102435.download.windowsupdate.com
+    mode: http
+  port: 907
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-0.广州2-香港C | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51119
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 31|香港02 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41143
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港_39
+  password: ec7f5285-263b-41e9-bc92-89c404e9693d
+  port: '15976'
+  server: n00005.bzdqsmzngpyyng.sbs
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-2.江苏-香港C | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21075
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnczu01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【O】香港 普通 1 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 11000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt1.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【A】香港 普通 B - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 21000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp16.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港_13
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: /
+    skip-cert-verify: true
+    tls: false
+  port: '443'
+  server: 1.65.218.192
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港 06 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30506
+  server: host-006.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 31|香港01 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41141
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【IEPL】香港 普通 6 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 16000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk6.boom.skin
+  type: ssr
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 18,28,46|11,16|香港2|@ripaojiedian
+  network: tcp
+  port: '56601'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港 07 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30507
+  server: host-007.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-1.扬州-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21047
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【B】香港 普通 1 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 10000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp01.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 46|香港环电-隧道2
+  network: ws
+  port: '26622'
+  server: cm.mj-cn.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1ddc351f-4ea2-4dbe-91d4-66454629455b
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【IEPL】香港 普通 4 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 14000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk4.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港 04 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30504
+  server: host-004.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 30|SS-TCP-NA 🇭🇰 HK-141.98.234.195...
+  password: abjX0GMN0SwPP85JnQciCC
+  port: 36766
+  server: 141.98.234.195
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港 09 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30509
+  server: host-009.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港05 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10034
+  server: hk5.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip1-2.南阳-香港B | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 31065
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnnym01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 19|🇭🇰 Web 香港I-标准 - AyucLouD-Servi...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 831c8102435.download.windowsupdate.com
+    mode: http
+  port: 912
+  server: 231103level1.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|【IEPL-香港🇭🇰-02】流媒体解锁 - 探索者
+  network: ws
+  port: 32336
+  server: 603diyb.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diyb.donghui.tech
+    path: /
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【B】香港 普通 9 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 18000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp09.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港08 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10074
+  server: hk8.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-0.广州2-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51116
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【O】香港 普通 10 - Leaseweb - So...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 30000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt20.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip1-2.南阳-香港D | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 31093
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnnym01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【A】香港 普通 A - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 20000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp10.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|🇭🇰 【IEPL-香港-0B】流媒体解锁 - 探索者
+  network: ws
+  port: 34644
+  server: 603diya.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diya.donghui.tech
+    path: /
+- grpc-opts:
+    grpc-service-name: hkvip101
+  name: 16|香港 002
+  network: grpc
+  password: 15d80740-5e09-34e2-ba35-cd6abe990202
+  port: 22249
+  server: hkvip101.qlgq.fun
+  skip-cert-verify: true
+  sni: hkvip101.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 19|🇭🇰 Game 香港04-国际 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 831c8102435.download.windowsupdate.com
+    mode: http
+  port: 20012
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|21|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.33.152
+  tfo: false
+  type: ss
+- grpc-opts:
+    grpc-service-name: hkvip104
+  name: 16|香港 008
+  network: grpc
+  password: 15d80740-5e09-34e2-ba35-cd6abe990202
+  port: 46216
+  server: hkvip104.qlgq.fun
+  skip-cert-verify: true
+  sni: hkvip104.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港_42
+  password: Rad35baG
+  port: '10001'
+  server: 121.43.117.216
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-0.广州2-香港B | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51109
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港_21
+  password: ec7f5285-263b-41e9-bc92-89c404e9693d
+  port: '14490'
+  server: n00007.bzdqsmzngpyyng.sbs
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
+  name: 18,28|15|🇭🇰 香港3|@ripaojiedian
   password: U4W5JSFDBCGUTTWN
   port: 15002
   server: 120.241.45.50
   tfo: false
   type: ss
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-1.扬州-香港D | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21083
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【IEPL】香港 普通 7 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 17000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk7.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 19|🇭🇰 Web 香港II-标准 - AyucLouD-Serv...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 831c8102435.download.windowsupdate.com
+    mode: http
+  port: 840
+  server: 231103level1.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip1-1.广州1-香港C | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6022
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【B】香港 普通 6 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 15000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp06.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|🇭🇰 【IEPL-香港-0A】流媒体解锁 - 探索者
+  network: ws
+  port: 34643
+  server: 603diya.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diya.donghui.tech
+    path: /
+- cipher: aes-256-gcm
+  name: 14|🇭🇰 香港_12
+  password: 34a547cd-0bfe-4905-9076-0d7c9a61f325
+  port: '29126'
+  server: 101.91.164.138
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|🇭🇰 香港 直连1 - 爱猫论坛
+  network: ws
+  port: 2443
+  server: hk1.594888.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
+  ws-opts:
+    headers:
+      Host: hk1.594888.xyz
+    path: /maohk3
+- alterId: 0
+  cipher: auto
+  name: 18,28,46|11,16|香港5|@ripaojiedian
+  network: tcp
+  port: '2902'
+  server: 143.92.42.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alterId: 0
+  cipher: auto
+  name: 46|香港-优化
+  network: ws
+  port: '16633'
+  server: cu.mj-cn.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1ddc351f-4ea2-4dbe-91d4-66454629455b
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
+  name: 18,23,24,27,28|15|🇭🇰 香港|@ripaojiedian
   password: 94c4e6e0-85b4-4740-81c2-cc7d1afd3c02
   port: 11001
   server: 183.240.255.75
   tfo: false
   type: ss
-- alterId: 64
+- alterId: 2
   cipher: auto
-  name: 11,16|13|🇭🇰 香港2|@ripaojiedian
-  network: tcp
-  port: 56601
-  server: 183.236.51.23
+  name: 19|🇭🇰 [vip①]香港2 - MG Network
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
+  uuid: a9349195-8a90-3c9d-8222-e08b8b1bc339
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|🇭🇰 香港 直连2 - 爱猫论坛
+  network: ws
+  port: 443
+  server: hk2.594888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
+  ws-opts:
+    headers:
+      Host: hk2.594888.xyz
+    path: /hls/us8.m3u8
+- cipher: chacha20-ietf-poly1305
+  name: 31|香港03 | 家宽 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41145
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-1.扬州-香港C | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21082
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 30|VM-WS-TLS 🇭🇰 HK-210.0.158.219:...
+  network: ws
+  port: 12909
+  server: 210.0.158.219
+  servername: 19.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 19.lwdh.us
+    path: /
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【B】香港 普通 1 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 21000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: n06.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【O】香港 普通 3 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 13000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt3.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港 05 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30505
+  server: host-005.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【IEPL】香港 普通 5 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 15000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk5.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【IEPL】香港 普通 1 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 11000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk1.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港_41
+  password: ec7f5285-263b-41e9-bc92-89c404e9693d
+  port: '14490'
+  server: n00005.bzdqsmzngpyyng.sbs
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港01 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10031
+  server: hk1.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港|高速二SS（会员） - BIUBIU FAST ...
+  password: 904d24ff-31d7-4bcc-9b1f-5bb8fe1f3e6a
+  port: 22001
+  server: dl.biubiufast.quest
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|19,21|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 2095
+  server: onea.flha.ru
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- cipher: aes-128-gcm
+  name: 19|🇭🇰 Game 香港03-标准 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 831c8102435.download.windowsupdate.com
+    mode: http
+  port: 9063
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- grpc-opts:
+    grpc-service-name: hkvip103
+  name: 16|香港 014
+  network: grpc
+  password: 7b12813e-e79e-35dc-9c0c-e75b828fdf55
+  port: 11116
+  server: hkvip103.qlgq.fun
+  skip-cert-verify: true
+  sni: hkvip103.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 31|香港07 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41153
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|【IEPL-香港🇭🇰-05】流媒体解锁 - 探索者
+  network: ws
+  port: 32328
+  server: 603diyb.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diyb.donghui.tech
+    path: /
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【B】香港 普通 8 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 17000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp08.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港 01 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30501
+  server: host-001.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '30|SS-TCP-NA 🇭🇰 HK-91.199.84.195:... #1'
+  password: 69037302-0050-43ae-abf3-f8e62740aff1
+  port: 29204
+  server: 91.199.84.195
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|【IEPL-香港🇭🇰-04】流媒体解锁 - 探索者
+  network: ws
+  port: 32327
+  server: 603diyb.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diyb.donghui.tech
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港_15
+  password: 9c709e3d-f733-4b08-853d-2c81c4f393b5
+  port: '42107'
+  server: db.quanstring.top
+  type: ss
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-0.广州2-香港D | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51120
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港|高速香港SS2（会员） - BIUBIU FAS...
+  password: 904d24ff-31d7-4bcc-9b1f-5bb8fe1f3e6a
+  port: 11005
+  server: dl.biubiufast.quest
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 19|🇭🇰 Game 香港01-标准 - AyucLouD-Ser...
+  password: ayu1245
+  plugin: obfs
+  plugin-opts:
+    host: 831c8102435.download.windowsupdate.com
+    mode: http
+  port: 824
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港|SS直连二 - BIUBIU FAST 加速器
+  password: 904d24ff-31d7-4bcc-9b1f-5bb8fe1f3e6a
+  port: 5204
+  server: hk1.biubiufast.quest
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港06 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10035
+  server: hk6.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【A】香港 普通 F - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 25000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp20.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【O】香港 普通 5 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 15000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt5.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip1-1.广州1-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6018
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【B】香港  普通 3 - Nearoute - So...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 20000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: n62.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【B】香港 普通 4 -  Nearoute - So...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 13000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp04.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【O】香港 普通 9 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 29000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt19.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【IEPL】香港 普通 3 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 13000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk3.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|🇭🇰 香港02-1A
+  password: e5d983da-3599-4b66-881e-9677caa4b4ee
+  port: 20035
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【N】香港 普通 3 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 49000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nna.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: flynwn
+  name: 19|🇭🇰 vip1 香港-06 测试 - FastFly
+  network: grpc
+  port: 34090
+  server: fly0001.flyflylflyflysbs.sbs
+  servername: hk04.ckcloud.info
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港 03 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30503
+  server: host-003.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港_36
+  password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
+  port: '34936'
+  server: v3-js-hk.as9929.uk
+  type: ss
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip1-1.广州1-香港D | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6046
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 30,46|VM-WS-TLS 🇭🇰 HK-27.124.10.146:...
+  network: ws
+  port: 30000
+  server: 27.124.10.146
+  servername: www.60443882.xyz
+  tls: true
+  type: vmess
+  uuid: 2525f395-86fc-4090-b203-d9e6db481101
+  ws-opts:
+    headers:
+      Host: www.60443882.xyz
+    path: /path/011410073331
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港 10 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30510
+  server: host-010.crazyspeed.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|🇭🇰 香港 BGP直连测试 - 爱猫论坛
+  network: ws
+  port: 1443
+  server: hkbgp.henyo.us
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
+  ws-opts:
+    headers:
+      Host: hkbgp.henyo.us
+    path: /hls/us8.m3u8
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【O】香港 普通 7 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 27000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt17.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-1.佛山-香港B | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21078
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnfsm01.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 32|HK3
+  network: tcp
+  port: 19901
+  server: 163.53.18.154
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fa1b482c-ff16-4ba0-ad5f-a8e8d7bae396
+- grpc-opts:
+    grpc-service-name: hkvip105
+  name: 16|香港 018
+  network: grpc
+  password: 7b12813e-e79e-35dc-9c0c-e75b828fdf55
+  port: 51116
+  server: hkvip105.qlgq.fun
+  skip-cert-verify: true
+  sni: hkvip105.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 19|🇭🇰 Video 香港C-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 831c8102435.download.windowsupdate.com
+    mode: http
+  port: 9052
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|🇭🇰 【IEPL-香港-03】流媒体解锁 - 探索者
+  network: ws
+  port: 36712
+  server: 603diyb.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diyb.donghui.tech
+    path: /
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-1.扬州-香港B | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21048
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【N】香港 普通 2 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 48000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nn9.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 19|🇭🇰 Video 香港A-解锁 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 831c8102435.download.windowsupdate.com
+    mode: http
+  port: 9053
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 19|🇭🇰 Vip2-2.江苏-香港D | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21070
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnczu01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【A】香港 普通 1 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 19000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp15.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【IEPL】香港 普通 2 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 12000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk2.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【O】香港 普通 6 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 26000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt16.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港07 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10072
+  server: hk7.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|🇭🇰 香港04 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10033
+  server: hk4.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 31|香港05 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41149
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【O】香港 普通 8 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 28000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt18.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|21,22|香港2|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 185.14.47.145
+  servername: hk-12.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【B】香港 普通 3 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 12000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp03.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 30,32|SS-TCP-NA 🇭🇰 HK-213.130.141.11...
+  password: 6a85a72c-c77e-4034-9384-fbae0495013d
+  port: 47969
+  server: 213.130.141.113
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|🇭🇰 【N】香港 普通 1 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 47000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nn8.boom.skin
+  type: ssr
+  udp: true
