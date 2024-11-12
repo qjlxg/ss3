@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 152|🇪🇪EE-176.112.146.190-0944
-  network: ws
-  port: 80
-  server: 176.112.146.190
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 87,89,102,152|YEEY5712
   network: tcp
   port: '8881'
@@ -36,4 +22,18 @@ proxies:
   ws-opts:
     headers:
       Host: google.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 152|🇪🇪EE-176.112.146.190-0950
+  network: ws
+  port: 80
+  server: 176.112.146.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  ws-opts:
+    headers:
+      Host: ''
     path: /
