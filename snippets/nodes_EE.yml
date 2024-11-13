@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 71|🚀 Marz (SHEEP) [VMess - ws]
+  network: ws
+  port: '8080'
+  server: 62.60.135.13
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4dba618a-a752-40b5-a583-8b0ed0724009
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 78,80,93,143|YEEY5712
   network: tcp
   port: '8881'
@@ -22,18 +36,4 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 71|🚀 Marz (SHEEP) [VMess - ws]
-  network: ws
-  port: '8080'
-  server: 62.60.135.13
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4dba618a-a752-40b5-a583-8b0ed0724009
-  ws-opts:
-    headers:
-      Host: google.com
     path: /
