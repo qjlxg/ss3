@@ -1,80 +1,15 @@
 proxies:
-- alterId: 0
-  blackListed: false
-  cipher: auto
-  country: SE
-  name: 147|[SE_VMESS_WS_70.34.212.226:844...
+- name: 56|TR-WS-TLS 🇸🇪 SE-185.146.173.15...
   network: ws
-  ping: 540
-  port: 8443
-  real_ip: 70.34.212.226
-  server: 70.34.212.226
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 143|🇸🇪SE-13.50.153.230-3693
-  network: ws
-  port: 25289
-  server: 13.50.153.230
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fe2bd77d-312e-4ac0-defe-afdb279528a0
+  password: auto
+  port: 443
+  server: 185.146.173.158
+  sni: esetsecuritylicense.bwnsmv.workers.dev
+  type: trojan
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- cipher: aes-256-cfb
-  name: 51,56,149|SE-121.127.46.147-0817 | 4.06M...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 121.127.46.147
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 117|瑞典_121320008
-  network: ws
-  port: '80'
-  server: 94.131.98.104
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
-  ws-opts:
-    headers:
-      Host: 94.131.98.104
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 117|瑞典_121320007
-  network: ws
-  port: '80'
-  server: se1-vmess.sshmax.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
-  ws-opts:
-    headers:
-      Host: se1-vmess.sshmax.xyz
-    path: /vmess
-- cipher: chacha20-ietf-poly1305
-  name: 56|SS-TCP-NA 🇸🇪 SE-94.228.165.178...
-  password: afKAHp1VfRWZu91LIi9o0D
-  port: 58176
-  server: 94.228.165.178
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 56|SS-TCP-NA 🇸🇪 SE-13.49.51.250:8...
-  password: cZIH0ps7SRAZFgF3I5Y3Q3
-  port: 8243
-  server: 13.49.51.250
-  type: ss
+      Host: esetsecuritylicense.bwnsmv.workers.dev
+    path: /Telegram-@V2ray_Alpha/?ed=2560
 - name: 40,126|🇸🇪 瑞典_1
   network: ws
   password: 0b1371aa-649d-41dc-9126-338c87936500
@@ -100,18 +35,41 @@ proxies:
       Host: king-ae1.pages.dev
     path: /Telegram@Linkvws?ed=2560
 - alterId: 0
+  blackListed: false
   cipher: auto
-  name: 75|瑞典_Telegram+@djkkdcx
+  country: SE
+  name: 147|[SE_VMESS_WS_70.34.212.226:844...
   network: ws
-  port: '80'
-  server: 185.146.173.122
+  ping: 540
+  port: 8443
+  real_ip: 70.34.212.226
+  server: 70.34.212.226
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 35107a77-f684-4abc-946d-8542fb4c110e
+  uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 56|SS-TCP-NA 🇸🇪 SE-94.228.165.178...
+  password: afKAHp1VfRWZu91LIi9o0D
+  port: 58176
+  server: 94.228.165.178
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 117|瑞典_121320007
+  network: ws
+  port: '80'
+  server: se1-vmess.sshmax.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
   ws-opts:
     headers:
-      Host: xn--018o.orerblog.filtv.blog.boredhot.cloudcccc.joinbede.sbs.
-    path: /@TEHRANARGI
+      Host: se1-vmess.sshmax.xyz
+    path: /vmess
 - cipher: chacha20-ietf-poly1305
   name: 45|🇸🇪 瑞典 - V2Link VPN
   password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
@@ -134,14 +92,56 @@ proxies:
     headers:
       Host: d396-flower-d396.megare7260.workers.dev
     path: /obdii.cfd/linkws
-- name: 56|TR-WS-TLS 🇸🇪 SE-185.146.173.15...
+- alterId: 0
+  cipher: auto
+  name: 143|🇸🇪SE-13.50.153.230-3693
   network: ws
-  password: auto
-  port: 443
-  server: 185.146.173.158
-  sni: esetsecuritylicense.bwnsmv.workers.dev
-  type: trojan
+  port: 25289
+  server: 13.50.153.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fe2bd77d-312e-4ac0-defe-afdb279528a0
   ws-opts:
     headers:
-      Host: esetsecuritylicense.bwnsmv.workers.dev
-    path: /Telegram-@V2ray_Alpha/?ed=2560
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 75|瑞典_Telegram+@djkkdcx
+  network: ws
+  port: '80'
+  server: 185.146.173.122
+  tls: false
+  type: vmess
+  uuid: 35107a77-f684-4abc-946d-8542fb4c110e
+  ws-opts:
+    headers:
+      Host: xn--018o.orerblog.filtv.blog.boredhot.cloudcccc.joinbede.sbs.
+    path: /@TEHRANARGI
+- cipher: aes-256-cfb
+  name: 51,56,149|SE-121.127.46.147-0817 | 4.06M...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 121.127.46.147
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 117|瑞典_121320008
+  network: ws
+  port: '80'
+  server: 94.131.98.104
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
+  ws-opts:
+    headers:
+      Host: 94.131.98.104
+    path: /vmess
+- cipher: chacha20-ietf-poly1305
+  name: 56|SS-TCP-NA 🇸🇪 SE-13.49.51.250:8...
+  password: cZIH0ps7SRAZFgF3I5Y3Q3
+  port: 8243
+  server: 13.49.51.250
+  type: ss
