@@ -1,58 +1,84 @@
 proxies:
-- cipher: aes-256-gcm
-  name: '56|SS-TCP-NA 🇨🇳 CN-58.63.250.61:1... #2'
-  password: LQC0I83BPCS02ZTZ
-  port: 18003
-  server: 58.63.250.61
+- cipher: aes-256-cfb
+  name: 44|1|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
   type: ss
-- alterId: 1
-  cipher: auto
-  name: 120|Relay_🇨🇳CN-🏁ZZ_09
-  network: ws
-  port: '38102'
-  server: 120.240.48.20
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /hls/cctv5phd.m3u8
 - alterId: 2
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_12
+  name: 43|中国_【YouTube-VV科技】_7_2
   network: tcp
-  port: 29002
-  server: cnah3.lanyunshi.top
+  port: 19994
+  server: vip1.rovod.top
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- ip: 172.16.0.2
-  name: 40,126|🇨🇳 中国_5
-  port: '939'
-  private-key: kOeymlq+1gqKeUmpJrL0co8XPxORf4ijquknNjU2pV4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.28
-  type: wireguard
+- name: 43|中国_【YouTube-VV科技】_64
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18053
+  server: zbjp9.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
   udp: true
-- ip: 172.16.0.2
-  name: 40,126|🇨🇳 中国_1
-  port: '7156'
-  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.229
-  type: wireguard
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_11
+  network: tcp
+  port: 10004
+  server: iepl2.airtcp.vip
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 64
+  cipher: auto
+  name: 43|🇨🇳CN_25 |91.57Mb
+  network: tcp
+  port: 45017
+  server: 142.0.134.245
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_8_2
+  network: tcp
+  port: 19901
+  server: cnah2.lanyunshi.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- name: 43|中国_【YouTube-VV科技】_48
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18009
+  server: zbus1.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: 52,128|YouTube面具人哈乐_中国_10
-  password: NUeBvQHox0BmnHpu
-  port: 27918
-  server: twacq10.top
+- cipher: chacha20-ietf-poly1305
+  name: 52,128|YouTube面具人哈乐_中国_5
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20014
+  server: jp2.mhw7e2.online
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_13
+  network: tcp
+  port: 39001
+  server: cnah2.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
 - alterId: 0
   cipher: auto
   name: 143|🇨🇳CN-106.55.187.139-2617
@@ -67,36 +93,42 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_17
+  network: tcp
+  port: 10005
+  server: cnah.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
 - alterId: 64
   cipher: auto
-  name: 26,44,151|🇨🇳_CN_中国
+  name: '141|TG:@hkaa0|中国 #1'
   network: tcp
-  port: 54882
-  server: 183.240.235.162
+  port: 50002
+  server: 112.132.215.189
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_14
-  password: 72fb9321-4818-4050-9048-5fa89827adb2
-  port: 22268
-  server: 04.forlive.live
+  name: 59|🇨🇳_CN_中国_49
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12563
+  server: xinyun-us.07wi0kka34.download
   type: ss
-- name: 43|中国_【YouTube-VV科技】_33
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18012
-  server: zbus4.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 38,41,44,54,56,58,95|广东省深圳市 联通
-  password: 08d9dc3c-d2cc-4a08-961c-160c3cf00aed
-  port: 12002
-  server: 58.254.183.32
-  type: ss
+- alterId: 4
+  cipher: auto
+  name: 150|🇨🇳:中国-vmess-175.178.163.153:44...
+  network: ws
+  port: 443
+  server: 175.178.163.153
+  tls: false
+  type: vmess
+  udp: false
+  uuid: a0beed23-9e05-49c9-85f7-bdcf360a3a56
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 143|🇨🇳CN-113.31.124.147-0058
@@ -111,161 +143,33 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
     path: /ray
-- ip: 172.16.0.2
-  name: 40,126|🇨🇳 中国_2
-  port: '3581'
-  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.176
-  type: wireguard
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 146|CN_youtube@资源分享师_4
-  network: ws
-  port: '12920'
-  server: z6.fragranceninja.com
-  servername: z6.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z6.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 143|🇨🇳CN-183.240.67.31-2268
-  network: ws
-  port: 30015
-  server: v02.gutingting.com
-  servername: gz.fastcloud.club
-  tls: false
-  type: vmess
-  uuid: dc773e17-d94e-4f6e-a3cd-26c972a08b89
-  ws-opts:
-    headers:
-      Host: v02.gutingting.com
-    path: /aceamedv
-- alterId: 64
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_3_3
-  network: tcp
-  port: 40702
-  server: 120.226.50.93
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: 56|SS-TCP-NA 🇨🇳 CN-58.63.250.61:1...
-  password: ZV56BC6UCQD3NDXG
-  port: 18010
-  server: 58.63.250.61
-  type: ss
-- name: '43|中国_【YouTube-VV科技】_13 #1'
+- name: 43|中国_【YouTube-VV科技】_36
   network: tcp
   password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18065
-  server: zbsg6.fxzbjs.xyz
+  port: 18067
+  server: zbus12.fxzbjs.xyz
   skip-cert-verify: true
   sni: alibaba-nhost.com
   type: trojan
   udp: true
-- name: '43|中国_【YouTube-VV科技】_26 #1'
+- name: 43|中国_【YouTube-VV科技】_4
   network: tcp
   password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18059
-  server: zbus11.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_20
-  network: tcp
-  port: 30003
-  server: cnah2.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- cipher: aes-256-cfb
-  name: 44|1|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 55,129|Youtube顺丰资源  CN212
-  network: ws
-  port: 46082
-  server: mmhu82.micloud.buzz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    path: /zh-cn
-- name: 43|中国_【YouTube-VV科技】_58
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18068
-  server: zbsg7.fxzbjs.xyz
+  port: 18001
+  server: zbtwn1.fxzbjs.xyz
   skip-cert-verify: true
   sni: alibaba-nhost.com
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 143|🇨🇳CN-183.240.67.31-2267
-  network: ws
-  port: 30023
-  server: v01.gutingting.com
-  servername: gz.fastcloud.club
-  tls: false
-  type: vmess
-  uuid: dc773e17-d94e-4f6e-a3cd-26c972a08b89
-  ws-opts:
-    headers:
-      Host: v01.gutingting.com
-    path: /aceamedv
-- name: 43|中国_【YouTube-VV科技】_49
+  name: '141|TG:@hkaa0|中国 #3'
   network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18015
-  server: zbjp1.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 4
-  cipher: auto
-  name: 150|🇨🇳:中国-vmess-110.42.138.122:180...
-  network: ws
-  port: 18080
-  server: 110.42.138.122
+  port: 11023
+  server: 36.134.16.190
   tls: false
   type: vmess
-  udp: false
-  uuid: 6a9a236c-e99b-44d8-b414-bbcd6e7b1465
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】
-  network: ws
-  port: 42231
-  server: mf631fx.micloud.buzz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ef78e23d-598f-442e-a29b-35f25901a5a1
-  ws-opts:
-    path: /zh-cn
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
 - alterId: 0
   cipher: auto
   name: 43|👉www.85la.com👉中国CN_255
@@ -278,189 +182,34 @@ proxies:
   uuid: dcfd733d-17e7-47d2-9b43-1a8394b56e4c
   ws-opts:
     path: /dcfd733d
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_2_5
+  network: tcp
+  port: 20001
+  server: gzyd.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 0
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_2_1
+  network: ws
+  port: 42266
+  server: mf66fx.micloud.buzz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 83db123a-4294-49a0-b164-8addbf348b66
+  ws-opts:
+    path: /zh-cn
 - cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_41
+  name: 59|🇨🇳_CN_中国_37
   password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12568
+  port: 12565
   server: xinyun-tw.07wi0kka34.download
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 56|VM-WS-NA 🇨🇳 CN-125.124.254.5:1...
-  network: ws
-  port: 1080
-  server: 125.124.254.5
-  tls: false
-  type: vmess
-  uuid: 46cfcfe1-e450-459d-a3ab-9406011ab3eb
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_17
-  network: tcp
-  port: 10005
-  server: cnah.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- alterId: 0
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_3_2
-  network: tcp
-  port: 19278
-  server: zjxc.pmxu.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2363acdd-ddc8-3288-b919-6409602f00a4
-- alterId: 1
-  cipher: auto
-  name: 120|CN_二爷翻墙 https://1808.ga 节点_384
-  network: ws
-  port: '38106'
-  server: 120.240.48.20
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-opts:
-    headers:
-      Host: t.me/vpnhat
-    path: /hls/cctv5phd.m3u8
-- cipher: chacha20-ietf-poly1305
-  name: 50|TG:@hkaa0|中国_2
-  password: 64f01e9c-30ec-45fc-ae4b-6f556e1aa4b0
-  port: 11001
-  server: 183.232.229.165
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 43|👉www.85la.com👉中国CN_76
-  network: ws
-  port: 10000
-  server: 154.205.134.24
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0967961e-959a-11ef-875f-525401aeb492
-  ws-opts:
-    path: /vpnjantit
-- name: '43|中国_【YouTube-VV科技】_21 #1'
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18066
-  server: zbus12.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_9_2
-  network: tcp
-  port: 10006
-  server: cnah.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- name: 43|中国_【YouTube-VV科技】_2
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18019
-  server: zbsg1.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_4_2
-  network: tcp
-  port: 30839
-  server: zjxc.pmxu.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2363acdd-ddc8-3288-b919-6409602f00a4
-- alterId: 4
-  cipher: auto
-  name: 150|🇨🇳:中国-vmess-175.178.163.153:44...
-  network: ws
-  port: 443
-  server: 175.178.163.153
-  tls: false
-  type: vmess
-  udp: false
-  uuid: a0beed23-9e05-49c9-85f7-bdcf360a3a56
-  ws-path: /
-- name: 52,128|YouTube面具人哈乐_中国_3
-  network: tcp
-  password: NUeBvQHox0BmnHpu
-  port: 443
-  server: gnmktnwq58.xyz
-  skip-cert-verify: true
-  sni: gnmktnwq58.xyz
-  type: trojan
-  udp: true
-- name: 43|中国_【YouTube-VV科技】_4
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18001
-  server: zbtwn1.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- name: '43|中国_【YouTube-VV科技】_15 #1'
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18017
-  server: zbjp3.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_27
-  network: tcp
-  port: 11001
-  server: cnah2.lanyunshi.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- cipher: aes-256-gcm
-  name: 41,54,56|[SS] 🇨🇳 广东省广州市 电信 2
-  password: QMOLGIKYZW15TD56
-  port: 15010
-  server: 58.63.250.61
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: '141|TG:@hkaa0|中国 #1'
-  network: tcp
-  port: 50002
-  server: 112.132.215.189
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_19
-  network: tcp
-  port: 20003
-  server: cnah.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
 - alterId: 0
   cipher: auto
   name: 143|🇨🇳CN-123.249.101.15-6074
@@ -475,103 +224,46 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 43|中国_【YouTube-VV科技】_54
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18071
-  server: zbsg10.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 143|🇨🇳CN-120.226.29.91-2808
+  name: 43|👉www.85la.com👉中国CN_76
   network: ws
-  port: 33202
-  server: yd2.ainivp.com
-  servername: yd2.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 143|🇨🇳CN-120.232.217.109-2387
-  network: ws
-  port: 9111
-  server: st-1.dnspro.icu
-  servername: hkt02.dnspro.icu
+  port: 10000
+  server: 154.205.134.24
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  uuid: 0967961e-959a-11ef-875f-525401aeb492
   ws-opts:
-    headers:
-      Host: st-1.dnspro.icu
-    path: /iso
-- name: '43|中国_【YouTube-VV科技】_29 #1'
+    path: /vpnjantit
+- alterId: 64
+  cipher: auto
+  name: 141|TG:@hkaa0|中国
+  network: tcp
+  port: 50002
+  server: 47.104.237.32
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: '43|中国_【YouTube-VV科技】_25 #1'
   network: tcp
   password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18026
-  server: zbus7.fxzbjs.xyz
+  port: 18060
+  server: zbus12.fxzbjs.xyz
   skip-cert-verify: true
   sni: alibaba-nhost.com
   type: trojan
   udp: true
-- alterId: 2
+- alterId: 64
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_29
+  name: 43|🇨🇳CN_22 |70.75Mb
   network: tcp
-  port: 10003
-  server: cnah2.lanyunshi.cc
+  port: 45017
+  server: 142.0.134.243
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- name: 43|中国_【YouTube-VV科技】_9
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18052
-  server: zbjp8.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_47
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12561
-  server: xinyun-us.07wi0kka34.download
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_28
-  network: tcp
-  port: 19991
-  server: gzyd.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- alterId: 0
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_5_2
-  network: tcp
-  port: 50023
-  server: 23.kccic2pa.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_12
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12555
-  server: xinyun-hk.07wi0kka34.download
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: '43|中国_【YouTube-VV科技】_24 #1'
   network: tcp
   password: e698fbda-78cc-4daf-926c-3f2742974683
@@ -581,49 +273,33 @@ proxies:
   sni: alibaba-nhost.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 143|🇨🇳CN-183.94.30.238-8137
-  network: ws
-  port: 63003
-  server: in06.my1188.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9d5690c-08e9-302a-9654-f7cfee9215ba
-  ws-opts:
-    headers:
-      Host: au01-rich.tencent.best
-    path: /
-- name: 43|中国_【YouTube-VV科技】_42
+- name: 43|中国_【YouTube-VV科技】_49
   network: tcp
   password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18014
-  server: zbus6.fxzbjs.xyz
+  port: 18015
+  server: zbjp1.fxzbjs.xyz
   skip-cert-verify: true
-  sni: zbus6.fffferter.xyz
-  type: trojan
-  udp: true
-- name: '43|中国_【YouTube-VV科技】_1_1 #1'
-  network: tcp
-  password: 8EF817EE-3221-8C6C-8EDB-A9A5A1AE7202
-  port: 14406
-  server: 114.216.2.24
-  skip-cert-verify: true
-  sni: mpvideo.qpic.cn
+  sni: alibaba-nhost.com
   type: trojan
   udp: true
 - cipher: aes-128-gcm
-  name: 56|SS-TCP-NA 🇨🇳 CN-111.29.57.122:...
-  password: 26f959e3-1a5e-3b3d-b4cd-fe04c80902bd
-  port: 10024
-  server: 111.29.57.122
+  name: 59|🇨🇳_CN_中国_12
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12555
+  server: xinyun-hk.07wi0kka34.download
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 41,44,54|[SS] 🇨🇳 广东省深圳市 联通
+  password: 08d9dc3c-d2cc-4a08-961c-160c3cf00aed
+  port: 12002
+  server: 58.254.183.32
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 143|🇨🇳CN-223.111.202.139-2422
+  name: 143|🇨🇳CN-223.111.202.139-2399
   network: ws
-  port: 63086
+  port: 63088
   server: 223.111.202.139
   servername: ''
   tls: true
@@ -643,6 +319,272 @@ proxies:
   tls: false
   type: vmess
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+- name: 43|中国_【YouTube-VV科技】_43
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18028
+  server: zbjp6.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_1_6
+  network: tcp
+  port: 58418
+  server: 4.3.1.fuckppppp.today
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
+- alterId: 0
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_2_2
+  network: tcp
+  port: 25153
+  server: zjxc.pmxu.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2363acdd-ddc8-3288-b919-6409602f00a4
+- alterId: 64
+  cipher: auto
+  name: 52,128,146|YouTube面具人哈乐_中国_4
+  network: tcp
+  port: 35601
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 56,143|VM-WS-NA 🇨🇳 CN-120.232.240.56:...
+  network: ws
+  port: 16928
+  server: 120.232.240.56
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    path: /
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_14
+  password: 72fb9321-4818-4050-9048-5fa89827adb2
+  port: 22268
+  server: 04.forlive.live
+  type: ss
+- name: '43|中国_【YouTube-VV科技】_21 #1'
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18066
+  server: zbus12.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_18
+  password: cf448056-b7c2-439d-b708-aaf5ff321052
+  port: 22302
+  server: 04.forlive.live
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_26
+  network: tcp
+  port: 60003
+  server: cnah.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 0
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_6_1
+  network: tcp
+  port: 39037
+  server: zjxc.pmxu.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2363acdd-ddc8-3288-b919-6409602f00a4
+- ip: 172.16.0.2
+  name: 40,126|🇨🇳 中国_5
+  port: '939'
+  private-key: kOeymlq+1gqKeUmpJrL0co8XPxORf4ijquknNjU2pV4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.28
+  type: wireguard
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 43|👉www.85la.com👉中国CN_252
+  network: ws
+  port: 22638
+  server: jian.ddnsfree.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: dcfd733d-17e7-47d2-9b43-1a8394b56e4c
+  ws-opts:
+    headers:
+      host: jian.ddnsfree.com
+    path: /dcfd733d
+- alterId: 64
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_3_3
+  network: tcp
+  port: 40702
+  server: 120.226.50.93
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 143|🇨🇳CN-120.241.65.134-2392
+  network: ws
+  port: 20025
+  server: sh-cn-1.dnspro.icu
+  servername: sh-cn-1.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: sh-cn-1.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: 43|中国_由快嘴科技提供：kkzui.com49
+  network: http
+  port: 2902
+  server: 143.92.42.65
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- name: '43|中国_【YouTube-VV科技】_3_1 #1'
+  network: tcp
+  password: 343f9a0c-494e-4c23-8adc-afb3f75c1294
+  port: 35000
+  server: pqawszf.aiopen.cfd
+  skip-cert-verify: true
+  sni: 4-193-105-141.nhost.00cdn.com
+  type: trojan
+  udp: true
+- ip: 172.16.0.2
+  name: 40,126|🇨🇳 中国_7
+  port: '3581'
+  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.215
+  type: wireguard
+  udp: true
+- alterId: 4
+  cipher: auto
+  name: 150|🇨🇳:中国-vmess-47.93.231.218:5302...
+  network: ws
+  port: 53022
+  server: 47.93.231.218
+  tls: false
+  type: vmess
+  udp: false
+  uuid: 95fd7642-2160-4528-e909-3d526b533013
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_3_2
+  network: tcp
+  port: 19278
+  server: zjxc.pmxu.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2363acdd-ddc8-3288-b919-6409602f00a4
+- alterId: 0
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_8_1
+  network: tcp
+  port: 40270
+  server: zjxc.pmxu.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2363acdd-ddc8-3288-b919-6409602f00a4
+- alterId: 1
+  cipher: auto
+  name: 120|Relay_🇨🇳CN-🏁ZZ_09
+  network: ws
+  port: '38102'
+  server: 120.240.48.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /hls/cctv5phd.m3u8
+- alterId: 4
+  cipher: auto
+  name: 150|🇨🇳:中国-vmess-124.223.44.153:80-...
+  network: ws
+  port: 80
+  server: 124.223.44.153
+  tls: false
+  type: vmess
+  udp: false
+  uuid: 8017dfd8-f239-4ec6-e2dd-416189856438
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 143|🇨🇳CN-106.75.218.112-0044
+  network: ws
+  port: 443
+  server: 106.75.218.112
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-opts:
+    headers:
+      Host: lg30.cfcdn3.xyz
+    path: /ray
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_3_4
+  network: tcp
+  port: 10004
+  server: gzyd.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_15
+  network: tcp
+  port: 10069
+  server: cnah2.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_20
+  network: tcp
+  port: 30003
+  server: cnah2.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
 - alterId: 0
   cipher: auto
   name: 143|🇨🇳CN-120.232.217.109-2388
@@ -659,178 +601,64 @@ proxies:
     path: /iso
 - alterId: 2
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_1_5
+  name: 43|中国_【YouTube-VV科技】_14
   network: tcp
-  port: 10001
-  server: gzyd.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- alterId: 0
-  cipher: auto
-  name: 143|🇨🇳CN-106.75.218.112-0044
-  network: ws
-  port: 443
-  server: 106.75.218.112
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    headers:
-      Host: lg30.cfcdn3.xyz
-    path: /ray
-- name: '43|中国_【YouTube-VV科技】_22 #1'
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18011
-  server: zbus3.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- name: 43|中国_【YouTube-VV科技】_23
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18018
-  server: zbjp4.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- name: 43|广东省广州市+移动_1
-  network: tcp
-  password: b264982e-e333-4085-ac04-406afef23455
-  port: 13035
-  server: naiu-other.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 43|上海市青浦区+电信
-  password: a58a5239-3b34-4c35-8724-953ef363015c
-  port: 11001
-  server: 61.172.235.22
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 146|CN_youtube@资源分享师_1
-  network: ws
-  port: '12943'
-  server: z6.fragranceninja.com
-  servername: z6.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z6.fragranceninja.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 143|🇨🇳CN-223.111.202.139-2399
-  network: ws
-  port: 63088
-  server: 223.111.202.139
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: e159f409-af0e-38b6-b34e-404a98089471
-  ws-opts:
-    headers:
-      Host: ''
-    path: /mugua
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_10
-  network: tcp
-  port: 10007
+  port: 10008
   server: cnah2.lanyunshi.top
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
 - alterId: 0
-  blackListed: false
   cipher: auto
-  country: CN
-  name: 147|[CN_VMESS_WS_123.249.101.15:19...
+  name: 143|🇨🇳CN-183.240.67.31-2321
   network: ws
-  ping: 1163
-  port: 19709
-  real_ip: 123.249.101.15
-  server: 123.249.101.15
-  skip-cert-verify: false
+  port: 30041
+  server: v02.gutingting.com
+  servername: sh01.fastcloud.club
   tls: false
   type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  uuid: d3d90998-7bfd-4fc6-930e-35bf96083d8b
   ws-opts:
     headers:
-      Host: 123.249.101.15
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_2_2
-  network: tcp
-  port: 25153
-  server: zjxc.pmxu.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2363acdd-ddc8-3288-b919-6409602f00a4
-- name: '43|中国_【YouTube-VV科技】_11 #1'
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18022
-  server: zbjp7.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 52,128|YouTube面具人哈乐_中国_9
-  password: NUeBvQHox0BmnHpu
-  port: 30373
-  server: guangguang01.xyz
-  type: ss
-- name: 43|中国_【YouTube-VV科技】_36
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18067
-  server: zbus12.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 4
-  cipher: auto
-  name: 150|🇨🇳:中国-vmess-106.12.168.13:1315...
-  network: ws
-  port: 13156
-  server: 106.12.168.13
-  tls: false
-  type: vmess
-  udp: false
-  uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df
-  ws-path: /
+      Host: v02.gutingting.com
+    path: /aceamedv
 - cipher: aes-256-gcm
-  name: '56|SS-TCP-NA 🇨🇳 CN-58.63.250.61:1... #1'
-  password: 1S4F61F85M49UAJP
-  port: 15003
+  name: 56|SS-TCP-NA 🇨🇳 CN-58.63.250.61:1...
+  password: ZV56BC6UCQD3NDXG
+  port: 18010
   server: 58.63.250.61
   type: ss
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_24
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12554
+  server: xinyun-hk.07wi0kka34.download
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 43|广东省广州市 移动_2_1
+  network: tcp
+  port: 37614
+  server: 120.232.153.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 143|🇨🇳CN-124.221.131.176-2711
-  network: http
-  port: 50797
-  server: 124.221.131.176
+  name: 37,44,46,75|18|广东省移动 7
+  network: ws
+  port: '20401'
+  server: data-us-v1.shwjfkw.cn
   servername: ''
   tls: false
   type: vmess
-  uuid: fa4b6f8f-1264-45ec-9651-6160c12cabc5
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-us-v1.shwjfkw.cn
+    path: /debian
 - name: 43|中国_【YouTube-VV科技】_55
   network: tcp
   password: e698fbda-78cc-4daf-926c-3f2742974683
@@ -840,68 +668,90 @@ proxies:
   sni: zbus2.fffferter.xyz
   type: trojan
   udp: true
-- ip: 172.16.0.2
-  name: 40,126|🇨🇳 中国_6
-  port: '3581'
-  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.244
-  type: wireguard
-  udp: true
-- name: '43|中国_【YouTube-VV科技】_3_1 #1'
-  network: tcp
-  password: 343f9a0c-494e-4c23-8adc-afb3f75c1294
-  port: 35000
-  server: pqawszf.aiopen.cfd
-  skip-cert-verify: true
-  sni: 4-193-105-141.nhost.00cdn.com
-  type: trojan
-  udp: true
-- alterId: 4
+- alterId: 0
   cipher: auto
-  name: 143|🇨🇳CN-117.28.242.156-5238
-  network: ws
-  port: 2164
-  server: 117.28.242.156
-  servername: ''
-  tls: true
+  name: '141|TG:@hkaa0|中国 #6'
+  network: tcp
+  port: 11023
+  server: 36.134.16.171
+  tls: false
   type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+- alterId: 1
+  cipher: auto
+  name: 120|CN_二爷翻墙 https://1808.ga 节点_384
+  network: ws
+  port: '38106'
+  server: 120.240.48.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
   ws-opts:
     headers:
-      Host: sxqxj.cn
-    path: /ws
+      Host: t.me/vpnhat
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 143|🇨🇳CN-183.240.67.31-2267
+  network: ws
+  port: 30023
+  server: v01.gutingting.com
+  servername: gz.fastcloud.club
+  tls: false
+  type: vmess
+  uuid: dc773e17-d94e-4f6e-a3cd-26c972a08b89
+  ws-opts:
+    headers:
+      Host: v01.gutingting.com
+    path: /aceamedv
 - alterId: 2
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_24
+  name: 43|中国_【YouTube-VV科技】_27
   network: tcp
-  port: 10002
-  server: cnah.lanyunshi.cc
+  port: 11001
+  server: cnah2.lanyunshi.top
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- cipher: chacha20-ietf-poly1305
+  name: 50|TG:@hkaa0|中国_2
+  password: 64f01e9c-30ec-45fc-ae4b-6f556e1aa4b0
+  port: 11001
+  server: 183.232.229.165
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_8_1
-  network: tcp
-  port: 40270
-  server: zjxc.pmxu.link
-  skip-cert-verify: true
+  name: 143|🇨🇳CN-120.232.217.110-2362
+  network: ws
+  port: 5001
+  server: steam.dnspro.icu
+  servername: ''
   tls: false
   type: vmess
-  uuid: 2363acdd-ddc8-3288-b919-6409602f00a4
-- alterId: 64
+  uuid: d4c93465-70f0-30d5-ab5f-a8881f3f49e7
+  ws-opts:
+    headers:
+      Host: steam.dnspro.icu
+    path: /iso
+- cipher: aes-256-gcm
+  name: 41,54,56,58|[SS] 🇨🇳 广东省广州市 电信
+  password: AWWQESJRK4285LIN
+  port: 18007
+  server: 58.63.250.61
+  type: ss
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 43,71|广东省广州市 移动_6
+  name: 43|中国_【YouTube-VV科技】_4_5
   network: tcp
-  port: 48009
-  server: 183.236.51.23
+  port: 58417
+  server: word.18.fuckword.club
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
 - cipher: aes-128-gcm
   name: 59|🇨🇳_CN_中国_10
   password: ead72f06-8655-4a39-a8ce-b6e4702708f6
@@ -910,10 +760,10 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 43|广东省广州市 移动_1_1_1
+  name: 43|中国_【YouTube-VV科技】_1_7
   network: tcp
   port: 42055
-  server: 120.232.153.38
+  server: 120.226.50.93
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -928,47 +778,438 @@ proxies:
   tls: false
   type: vmess
   uuid: 2363acdd-ddc8-3288-b919-6409602f00a4
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_5_1
+  name: 120|CN_二爷翻墙 https://1808.ga 节点_385
+  network: ws
+  port: '38101'
+  server: 120.240.48.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: t.me/vpnhat
+    path: /hls/cctv5phd.m3u8
+- name: 43|中国_【YouTube-VV科技】_54
   network: tcp
-  port: 44207
-  server: zjxc.pmxu.link
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18071
+  server: zbsg10.fxzbjs.xyz
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0be35458-c447-3ddb-8f12-159b124accb8
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_24
+  name: 59|🇨🇳_CN_中国_41
   password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12554
-  server: xinyun-hk.07wi0kka34.download
+  port: 12568
+  server: xinyun-tw.07wi0kka34.download
   type: ss
-- cipher: aes-128-gcm
-  name: 52,128|YouTube面具人哈乐_中国_6
-  password: NUeBvQHox0BmnHpu
-  port: 50029
-  server: dudu02.ddnsguru.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '141|TG:@hkaa0|中国 #2'
+- name: 43|中国_【YouTube-VV科技】_42
   network: tcp
-  port: 11023
-  server: 36.134.16.96
-  tls: false
-  type: vmess
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18014
+  server: zbus6.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: zbus6.fffferter.xyz
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_48
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12564
+  server: xinyun-us.07wi0kka34.download
+  type: ss
 - alterId: 64
   cipher: auto
-  name: 52,128,146|YouTube面具人哈乐_中国_4
+  name: 43,101|🇨🇳CN_18 | 0.50Mb
   network: tcp
-  port: 35601
-  server: 120.232.153.40
+  port: 50002
+  server: 47.92.152.169
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 4
+  cipher: auto
+  name: 150|🇨🇳:中国-vmess-106.12.168.13:1315...
+  network: ws
+  port: 13156
+  server: 106.12.168.13
+  tls: false
+  type: vmess
+  udp: false
+  uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df
+  ws-path: /
+- alterId: 4
+  cipher: auto
+  name: 150|🇨🇳:中国-vmess-119.91.223.167:80-...
+  network: ws
+  port: 80
+  server: 119.91.223.167
+  tls: false
+  type: vmess
+  udp: false
+  uuid: 5087e6ea-b650-443e-923f-b754661b8c47
+  ws-path: /
+- name: 43|中国_【YouTube-VV科技】_59
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18002
+  server: zbtwn2.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 52,128|YouTube面具人哈乐_中国_10
+  password: NUeBvQHox0BmnHpu
+  port: 27918
+  server: twacq10.top
+  type: ss
+- ip: 172.16.0.2
+  name: 40,126|🇨🇳 中国_2
+  port: '3581'
+  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.176
+  type: wireguard
+  udp: true
+- alterId: 4
+  cipher: auto
+  name: 150|🇨🇳:中国-vmess-110.42.138.122:180...
+  network: ws
+  port: 18080
+  server: 110.42.138.122
+  tls: false
+  type: vmess
+  udp: false
+  uuid: 6a9a236c-e99b-44d8-b414-bbcd6e7b1465
+  ws-path: /
+- name: '43|中国_【YouTube-VV科技】_22 #1'
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18011
+  server: zbus3.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 43|中国_【YouTube-VV科技】_67
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18056
+  server: zbus10.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 41,44,54,56,58|[SS] 🇨🇳 广东省广州市 电信 3
+  password: Z4ZQB7LIKEVW7H3A
+  port: 15004
+  server: 58.63.250.61
+  type: ss
+  udp: true
+- ip: 172.16.0.2
+  name: 40,126|🇨🇳 中国_1
+  port: '7156'
+  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.229
+  type: wireguard
+  udp: true
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_36
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12567
+  server: xinyun-tw.07wi0kka34.download
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '141|TG:@hkaa0|中国 #4'
+  network: tcp
+  port: 11023
+  server: 36.133.171.209
+  tls: false
+  type: vmess
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_6_2
+  network: tcp
+  port: 19993
+  server: vip1.rovod.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- name: '43|中国_【YouTube-VV科技】_13 #1'
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18065
+  server: zbsg6.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_30
+  network: tcp
+  port: 30001
+  server: cnah2.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- name: 43|中国_【YouTube-VV科技】_32
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18021
+  server: zbsg3.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: '43|中国_【YouTube-VV科技】_1_1 #1'
+  network: tcp
+  password: 8EF817EE-3221-8C6C-8EDB-A9A5A1AE7202
+  port: 14406
+  server: 114.216.2.24
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 146|CN_ youtube@资源分享师_8
+  network: tcp
+  port: '12975'
+  server: z2.fragranceninja.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_24
+  network: tcp
+  port: 10002
+  server: cnah.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_4
+  password: 95e0f3e2-2b41-48d2-a0e6-500d36f310a1
+  port: 22233
+  server: 03.forlive.live
+  type: ss
+- name: 43|中国_【YouTube-VV科技】_52
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18016
+  server: zbjp2.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 43|中国_【YouTube-VV科技】_33
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18012
+  server: zbus4.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: '43|中国_【YouTube-VV科技】_20 #1'
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18006
+  server: zbhk4.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_40
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12566
+  server: xinyun-tw.07wi0kka34.download
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_22
+  network: tcp
+  port: 19902
+  server: cnah2.lanyunshi.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- cipher: aes-256-gcm
+  name: '95|[SS] 🇨🇳 广东省广州市 电信 #1'
+  password: 1S4F61F85M49UAJP
+  port: 15003
+  server: 58.63.250.61
+  type: ss
+  udp: true
+- name: '43|中国_【YouTube-VV科技】_10 #1'
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18027
+  server: zbjp5.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 38,56,58|广东省广州市 电信
+  password: LQC0I83BPCS02ZTZ
+  port: 18003
+  server: 58.63.250.61
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: '141|TG:@hkaa0|中国 #5'
+  network: tcp
+  port: 50002
+  server: 39.103.165.178
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 143|🇨🇳CN-153.101.64.221-2269
+  network: ws
+  port: 40013
+  server: 153.101.64.221
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5716c1b4-c2d3-4a9d-a9a8-5d9919d0ed8f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /qwe123321ewq
+- name: '43|中国_【YouTube-VV科技】_11 #1'
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18022
+  server: zbjp7.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 143|🇨🇳CN-183.240.67.31-2268
+  network: ws
+  port: 30015
+  server: v02.gutingting.com
+  servername: gz.fastcloud.club
+  tls: false
+  type: vmess
+  uuid: dc773e17-d94e-4f6e-a3cd-26c972a08b89
+  ws-opts:
+    headers:
+      Host: v02.gutingting.com
+    path: /aceamedv
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_46
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12562
+  server: xinyun-us.07wi0kka34.download
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 143|🇨🇳CN-120.232.217.109-2387
+  network: ws
+  port: 9111
+  server: st-1.dnspro.icu
+  servername: hkt02.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-1.dnspro.icu
+    path: /iso
+- alterId: 1
+  cipher: auto
+  name: 120|Relay_🇨🇳CN-🏁ZZ_12
+  network: ws
+  port: '38106'
+  server: 120.240.48.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /hls/cctv5phd.m3u8
+- name: 43|中国_【YouTube-VV科技】_2
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18019
+  server: zbsg1.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 43,101|🇨🇳CN_24 | 6.47Mb
+  network: tcp
+  port: 50002
+  server: 47.116.173.76
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_25
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12553
+  server: xinyun-hk.07wi0kka34.download
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 43|🇨🇳CN_17 |47.19Mb
+  network: ''
+  port: 45017
+  server: 142.0.134.241
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 43,58,78,84,93|🇨🇳CN_20 | 8.42Mb
+  network: tcp
+  port: 50002
+  server: 112.132.215.12
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 52,128|YouTube面具人哈乐_中国_3
+  network: tcp
+  password: NUeBvQHox0BmnHpu
+  port: 443
+  server: gnmktnwq58.xyz
+  skip-cert-verify: true
+  sni: gnmktnwq58.xyz
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: 43|中国_【YouTube-VV科技】_1_3
@@ -979,16 +1220,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_7_2
-  network: tcp
-  port: 19994
-  server: vip1.rovod.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
 - alterId: 0
   cipher: auto
   name: 43|中国_【YouTube-VV科技】_1_1
@@ -999,6 +1230,128 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
+- alterId: 64
+  cipher: auto
+  name: 106|CN🇨🇳 | 112.29.94.23-49006 | 42...
+  network: tcp
+  port: '49006'
+  server: 112.29.94.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_1_5
+  network: tcp
+  port: 10001
+  server: gzyd.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 0
+  cipher: auto
+  name: 54|🇨🇳CN-120.226.29.91-139
+  network: ws
+  port: 33202
+  server: yd2.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_5_2
+  network: tcp
+  port: 50023
+  server: 23.kccic2pa.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 834ed4d6-b0c5-4b4b-96a4-b3056a3dc441
+- alterId: 0
+  cipher: auto
+  name: 56|VM-WS-NA 🇨🇳 CN-125.124.254.5:1...
+  network: ws
+  port: 1080
+  server: 125.124.254.5
+  tls: false
+  type: vmess
+  uuid: 46cfcfe1-e450-459d-a3ab-9406011ab3eb
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 143|🇨🇳CN-183.94.30.238-8137
+  network: ws
+  port: 63003
+  server: in06.my1188.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9d5690c-08e9-302a-9654-f7cfee9215ba
+  ws-opts:
+    headers:
+      Host: au01-rich.tencent.best
+    path: /
+- ip: 172.16.0.2
+  name: 40,126|🇨🇳 中国_6
+  port: '3581'
+  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.244
+  type: wireguard
+  udp: true
+- name: 43|中国_【YouTube-VV科技】_23
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18018
+  server: zbjp4.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 52,128|YouTube面具人哈乐_中国_9
+  password: NUeBvQHox0BmnHpu
+  port: 30373
+  server: guangguang01.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_4_2
+  network: tcp
+  port: 30839
+  server: zjxc.pmxu.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2363acdd-ddc8-3288-b919-6409602f00a4
+- alterId: 64
+  cipher: auto
+  name: 26,44,151|🇨🇳_CN_中国
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: '43|中国_【YouTube-VV科技】_19 #1'
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18005
+  server: zbhk3.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 146|CN_youtube@资源分享师_8
@@ -1015,365 +1368,23 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 54|🇨🇳CN-120.226.29.91-139
+  name: 143|🇨🇳CN-120.226.29.91-2808
   network: ws
   port: 33202
   server: yd2.ainivp.com
-  skip-cert-verify: true
+  servername: yd2.ainivp.com
   tls: true
   type: vmess
   uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- name: '43|中国_【YouTube-VV科技】_1_2 #1'
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18064
-  server: zbsg5.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_3_5
-  network: ws
-  port: 8858
-  server: 120.233.27.138
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 666c4a01-fac8-46b8-8df1-f16abdbd4d4d
   ws-opts:
+    headers:
+      Host: yd2.ainivp.com
     path: /
-- name: 43|中国_【YouTube-VV科技】_32
+- name: 43|中国_【YouTube-VV科技】_53
   network: tcp
   password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18021
-  server: zbsg3.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 141|TG:@hkaa0|中国
-  network: tcp
-  port: 50002
-  server: 47.104.237.32
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '141|TG:@hkaa0|中国 #6'
-  network: tcp
-  port: 11023
-  server: 36.134.16.171
-  tls: false
-  type: vmess
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-- name: 43|中国_【YouTube-VV科技】_48
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18009
-  server: zbus1.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_5_3
-  network: tcp
-  port: 19996
-  server: vip1.rovod.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- name: 43|中国_【YouTube-VV科技】_59
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18002
-  server: zbtwn2.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_30
-  network: tcp
-  port: 30001
-  server: cnah2.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- cipher: chacha20-ietf-poly1305
-  name: 50|TG:@hkaa0|中国_3
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50101
-  server: iepl1.forlive.live
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_15
-  network: tcp
-  port: 10069
-  server: cnah2.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_48
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12564
-  server: xinyun-us.07wi0kka34.download
-  type: ss
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_16
-  password: ba9eac02-f784-4349-bd15-500186077160
-  port: 22233
-  server: 04.forlive.live
-  type: ss
-- name: 43|广东省广州市+移动_2
-  network: tcp
-  password: b264982e-e333-4085-ac04-406afef23455
-  port: 13018
-  server: naiu-jp.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_25
-  network: tcp
-  port: 10004
-  server: cnah2.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_4
-  password: 95e0f3e2-2b41-48d2-a0e6-500d36f310a1
-  port: 22233
-  server: 03.forlive.live
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 143|🇨🇳CN-120.232.217.110-2362
-  network: ws
-  port: 5001
-  server: steam.dnspro.icu
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4c93465-70f0-30d5-ab5f-a8881f3f49e7
-  ws-opts:
-    headers:
-      Host: steam.dnspro.icu
-    path: /iso
-- name: '43|中国_【YouTube-VV科技】_3_2 #1'
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18004
-  server: zbhk2.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 120|Relay_🇨🇳CN-🏁ZZ_12
-  network: ws
-  port: '38106'
-  server: 120.240.48.20
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_2_6
-  network: tcp
-  port: 20000
-  server: 2.8.1.fuckppppp.today
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_2_5
-  network: tcp
-  port: 20001
-  server: gzyd.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- cipher: aes-256-gcm
-  name: 41,44,54,56|[SS] 🇨🇳 广东省广州市 电信 3
-  password: Z4ZQB7LIKEVW7H3A
-  port: 15004
-  server: 58.63.250.61
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_40
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12566
-  server: xinyun-tw.07wi0kka34.download
-  type: ss
-- alterId: 4
-  cipher: auto
-  name: 150|🇨🇳:中国-vmess-119.91.223.167:80-...
-  network: ws
-  port: 80
-  server: 119.91.223.167
-  tls: false
-  type: vmess
-  udp: false
-  uuid: 5087e6ea-b650-443e-923f-b754661b8c47
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_6_2
-  network: tcp
-  port: 19993
-  server: vip1.rovod.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- alterId: 64
-  cipher: auto
-  name: 43|广东省广州市 移动_2_1_1
-  network: tcp
-  port: 37614
-  server: 120.232.153.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_13
-  network: tcp
-  port: 39001
-  server: cnah2.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_21
-  network: tcp
-  port: 50009
-  server: cnah2.lanyunshi.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_22
-  network: tcp
-  port: 19902
-  server: cnah2.lanyunshi.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- alterId: 4
-  cipher: auto
-  name: 150|🇨🇳:中国-vmess-47.93.231.218:5302...
-  network: ws
-  port: 53022
-  server: 47.93.231.218
-  tls: false
-  type: vmess
-  udp: false
-  uuid: 95fd7642-2160-4528-e909-3d526b533013
-  ws-path: /
-- name: '43|中国_【YouTube-VV科技】_10 #1'
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18027
-  server: zbjp5.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- name: 43|中国_【YouTube-VV科技】_43
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18028
-  server: zbjp6.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 43|👉www.85la.com👉中国CN_252
-  network: ws
-  port: 22638
-  server: jian.ddnsfree.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: dcfd733d-17e7-47d2-9b43-1a8394b56e4c
-  ws-opts:
-    headers:
-      host: jian.ddnsfree.com
-    path: /dcfd733d
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_25
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12553
-  server: xinyun-hk.07wi0kka34.download
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 37,44,46,75|18|广东省移动 7
-  network: ws
-  port: '20401'
-  server: data-us-v1.shwjfkw.cn
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_14
-  network: tcp
-  port: 10008
-  server: cnah2.lanyunshi.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- name: '43|中国_【YouTube-VV科技】_25 #1'
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18060
-  server: zbus12.fxzbjs.xyz
+  port: 18070
+  server: zbsg9.fxzbjs.xyz
   skip-cert-verify: true
   sni: alibaba-nhost.com
   type: trojan
@@ -1388,170 +1399,320 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_49
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12563
-  server: xinyun-us.07wi0kka34.download
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_11
-  network: tcp
-  port: 10004
-  server: iepl2.airtcp.vip
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_46
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12562
-  server: xinyun-us.07wi0kka34.download
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_3_4
-  network: tcp
-  port: 10004
-  server: gzyd.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- alterId: 4
-  cipher: auto
-  name: 150|🇨🇳:中国-vmess-124.223.44.153:80-...
-  network: ws
-  port: 80
-  server: 124.223.44.153
-  tls: false
-  type: vmess
-  udp: false
-  uuid: 8017dfd8-f239-4ec6-e2dd-416189856438
-  ws-path: /
-- name: 43|中国_【YouTube-VV科技】_67
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18056
-  server: zbus10.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_8_2
-  network: tcp
-  port: 19901
-  server: cnah2.lanyunshi.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_16
-  network: tcp
-  port: 30026
-  server: iepl2.airtcp.vip
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
 - alterId: 0
   cipher: auto
-  name: '141|TG:@hkaa0|中国 #3'
-  network: tcp
-  port: 11023
-  server: 36.134.16.190
-  tls: false
-  type: vmess
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-- alterId: 0
-  cipher: auto
-  name: 146|CN_youtube@资源分享师_7
+  name: 146|CN_youtube@资源分享师_1
   network: ws
-  port: '13007'
-  server: z8.fragranceninja.com
-  servername: z8.fragranceninja.com
+  port: '12943'
+  server: z6.fragranceninja.com
+  servername: z6.fragranceninja.com
   tls: true
   type: vmess
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
   ws-opts:
     headers:
-      Host: z8.fragranceninja.com
+      Host: z6.fragranceninja.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_4_5
+  name: 43|中国_【YouTube-VV科技】_2_6
   network: tcp
-  port: 58417
-  server: word.18.fuckword.club
+  port: 20000
+  server: 2.8.1.fuckppppp.today
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
-- ip: 172.16.0.2
-  name: 40,126|🇨🇳 中国_7
-  port: '3581'
-  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.215
-  type: wireguard
-  udp: true
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_2_1
-  network: ws
-  port: 42266
-  server: mf66fx.micloud.buzz
+  name: 43|中国_【YouTube-VV科技】_12
+  network: tcp
+  port: 29002
+  server: cnah3.lanyunshi.top
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 83db123a-4294-49a0-b164-8addbf348b66
-  ws-opts:
-    path: /zh-cn
-- alterId: 0
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 2
   cipher: auto
-  name: '141|TG:@hkaa0|中国 #4'
+  name: 43|中国_【YouTube-VV科技】_9_2
   network: tcp
-  port: 11023
-  server: 36.133.171.209
+  port: 10006
+  server: cnah.lanyunshi.cc
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-- name: '43|中国_【YouTube-VV科技】_20 #1'
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_29
+  network: tcp
+  port: 10003
+  server: cnah2.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 0
+  cipher: auto
+  name: 143|🇨🇳CN-124.222.189.225-2685
+  network: ws
+  port: 80
+  server: 124.222.189.225
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 43,78,84,93,101|🇨🇳CN_26 |17.18Mb
+  network: tcp
+  port: 59003
+  server: 183.236.51.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 143|🇨🇳CN-223.111.202.139-2422
+  network: ws
+  port: 63086
+  server: 223.111.202.139
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e159f409-af0e-38b6-b34e-404a98089471
+  ws-opts:
+    headers:
+      Host: ''
+    path: /mugua
+- name: 43|中国_【YouTube-VV科技】_47
   network: tcp
   password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18006
-  server: zbhk4.fxzbjs.xyz
+  port: 18055
+  server: zbus9.fxzbjs.xyz
   skip-cert-verify: true
   sni: alibaba-nhost.com
   type: trojan
   udp: true
-- alterId: 1
+- name: '43|中国_【YouTube-VV科技】_1_2 #1'
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18064
+  server: zbsg5.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 52,128|YouTube面具人哈乐_中国_12
+  network: tcp
+  password: NUeBvQHox0BmnHpu
+  port: 443
+  server: ggghhhk51.xyz
+  skip-cert-verify: true
+  sni: ggghhhk51.xyz
+  type: trojan
+  udp: true
+- ip: 172.16.0.2
+  name: 40,126|🇨🇳 中国_4
+  port: '1843'
+  private-key: kOeymlq+1gqKeUmpJrL0co8XPxORf4ijquknNjU2pV4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.36
+  type: wireguard
+  udp: true
+- name: '43|中国_【YouTube-VV科技】_26 #1'
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18059
+  server: zbus11.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 2
   cipher: auto
-  name: 120|CN_二爷翻墙 https://1808.ga 节点_385
-  network: ws
-  port: '38101'
-  server: 120.240.48.20
+  name: 43|中国_【YouTube-VV科技】_21
+  network: tcp
+  port: 50009
+  server: cnah2.lanyunshi.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- cipher: aes-256-gcm
+  name: 41,54,56,58|[SS] 🇨🇳 广东省广州市 电信 2
+  password: QMOLGIKYZW15TD56
+  port: 15010
+  server: 58.63.250.61
+  type: ss
+  udp: true
+- name: '43|中国_【YouTube-VV科技】_15 #1'
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18017
+  server: zbjp3.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_31
+  network: tcp
+  port: 60002
+  server: cnah.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_25
+  network: tcp
+  port: 10004
+  server: cnah2.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- name: '43|中国_【YouTube-VV科技】_29 #1'
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18026
+  server: zbus7.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_47
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12561
+  server: xinyun-us.07wi0kka34.download
+  type: ss
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_16
+  password: ba9eac02-f784-4349-bd15-500186077160
+  port: 22233
+  server: 04.forlive.live
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 78,84,93,101|🔒 VM-TCP-NA 🇨🇳 CN-112.132.212....
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
   servername: ''
   tls: false
   type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 143|🇨🇳CN-124.221.131.176-2711
+  network: http
+  port: 50797
+  server: 124.221.131.176
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fa4b6f8f-1264-45ec-9651-6160c12cabc5
+- cipher: aes-128-gcm
+  name: 56|SS-TCP-NA 🇨🇳 CN-111.29.57.122:...
+  password: 26f959e3-1a5e-3b3d-b4cd-fe04c80902bd
+  port: 10024
+  server: 111.29.57.122
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 146|CN_youtube@资源分享师_4
+  network: ws
+  port: '12920'
+  server: z6.fragranceninja.com
+  servername: z6.fragranceninja.com
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
   ws-opts:
     headers:
-      Host: t.me/vpnhat
-    path: /hls/cctv5phd.m3u8
+      Host: z6.fragranceninja.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_5_4
+  network: tcp
+  port: 47835
+  server: hk2.v3.zz.cn.fuckword.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
+- name: 43|中国_【YouTube-VV科技】_60
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18003
+  server: zbhk1.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_4_4
+  name: 43|中国_【YouTube-VV科技】_5_3
   network: tcp
-  port: 20002
-  server: cnah.lanyunshi.cc
+  port: 19996
+  server: vip1.rovod.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 64
+  cipher: auto
+  name: 43|广东省广州市 移动_1_1
+  network: tcp
+  port: 42055
+  server: 120.232.153.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 43|中国_【YouTube-VV科技】_9
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18052
+  server: zbjp8.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 59|🇨🇳_CN_中国_11
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12552
+  server: xinyun-hk.07wi0kka34.download
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 43,101|🇨🇳CN_23 | 3.91Mb
+  network: tcp
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_28
+  network: tcp
+  port: 19991
+  server: gzyd.lanyunshi.cc
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1570,57 +1731,34 @@ proxies:
     headers:
       Host: jp2802.cloudmatrix.xyz
     path: /hls/cctv5phd.m3u8
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_11
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12552
-  server: xinyun-hk.07wi0kka34.download
-  type: ss
-- cipher: aes-256-gcm
-  name: '56|SS-TCP-NA 🇨🇳 CN-58.63.250.61:1... #4'
-  password: PQN6UOVSN1RDYITF
-  port: 18016
-  server: 58.63.250.61
-  type: ss
 - alterId: 0
+  blackListed: false
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_6_1
+  country: CN
+  name: 147|[CN_VMESS_WS_123.249.101.15:19...
+  network: ws
+  ping: 1163
+  port: 19709
+  real_ip: 123.249.101.15
+  server: 123.249.101.15
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: 123.249.101.15
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_10
   network: tcp
-  port: 39037
-  server: zjxc.pmxu.link
+  port: 10007
+  server: cnah2.lanyunshi.top
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2363acdd-ddc8-3288-b919-6409602f00a4
-- alterId: 64
-  cipher: auto
-  name: '141|TG:@hkaa0|中国 #5'
-  network: tcp
-  port: 50002
-  server: 39.103.165.178
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 143|🇨🇳CN-124.222.189.225-2685
-  network: ws
-  port: 80
-  server: 124.222.189.225
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_18
-  password: cf448056-b7c2-439d-b708-aaf5ff321052
-  port: 22302
-  server: 04.forlive.live
-  type: ss
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
 - alterId: 2
   cipher: auto
   name: 43|中国_【YouTube-VV科技】_18
@@ -1631,123 +1769,118 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- name: 43|中国_【YouTube-VV科技】_53
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18070
-  server: zbsg9.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 50|TG:@hkaa0|中国_3
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50101
+  server: iepl1.forlive.live
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_1_6
+  name: '141|TG:@hkaa0|中国 #2'
   network: tcp
-  port: 58418
-  server: 4.3.1.fuckppppp.today
-  skip-cert-verify: true
+  port: 11023
+  server: 36.134.16.96
   tls: false
   type: vmess
-  uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
+  uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
 - alterId: 2
   cipher: auto
-  name: 43|中国_【YouTube-VV科技】_31
+  name: 43|中国_【YouTube-VV科技】_4_4
   network: tcp
-  port: 60002
+  port: 20002
   server: cnah.lanyunshi.cc
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- name: 43|中国_【YouTube-VV科技】_47
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18055
-  server: zbus9.fxzbjs.xyz
+- alterId: 0
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_3_5
+  network: ws
+  port: 8858
+  server: 120.233.27.138
   skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- name: 52,128|YouTube面具人哈乐_中国_12
+  tls: false
+  type: vmess
+  uuid: 666c4a01-fac8-46b8-8df1-f16abdbd4d4d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 55,129|Youtube顺丰资源  CN212
+  network: ws
+  port: 46082
+  server: mmhu82.micloud.buzz
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    path: /zh-cn
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_19
   network: tcp
-  password: NUeBvQHox0BmnHpu
+  port: 20003
+  server: cnah.lanyunshi.cc
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 0
+  cipher: auto
+  name: 43|中国_由快嘴科技提供：kkzui.com71
+  network: ws
   port: 443
-  server: ggghhhk51.xyz
+  server: 5.188.33.172
   skip-cert-verify: true
-  sni: ggghhhk51.xyz
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_1_7
-  network: tcp
-  port: 42055
-  server: 120.226.50.93
-  skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_26
-  network: tcp
-  port: 60003
-  server: cnah.lanyunshi.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_37
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12565
-  server: xinyun-tw.07wi0kka34.download
-  type: ss
-- name: '43|中国_【YouTube-VV科技】_19 #1'
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      host: 5.188.33.172
+    path: linkvws
+- name: 43|中国_【YouTube-VV科技】_58
   network: tcp
   password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18005
-  server: zbhk3.fxzbjs.xyz
+  port: 18068
+  server: zbsg7.fxzbjs.xyz
   skip-cert-verify: true
   sni: alibaba-nhost.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 43|中国_【YouTube-VV科技】_5_4
-  network: tcp
-  port: 47835
-  server: hk2.v3.zz.cn.fuckword.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
-- cipher: aes-128-gcm
-  name: 59|🇨🇳_CN_中国_36
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12567
-  server: xinyun-tw.07wi0kka34.download
-  type: ss
-- name: 43|中国_【YouTube-VV科技】_52
+- name: '43|中国_【YouTube-VV科技】_3_2 #1'
   network: tcp
   password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18016
-  server: zbjp2.fxzbjs.xyz
+  port: 18004
+  server: zbhk2.fxzbjs.xyz
   skip-cert-verify: true
   sni: alibaba-nhost.com
   type: trojan
   udp: true
-- alterId: 0
+- cipher: aes-128-gcm
+  name: 52,128|YouTube面具人哈乐_中国_6
+  password: NUeBvQHox0BmnHpu
+  port: 50029
+  server: dudu02.ddnsguru.com
+  type: ss
+- alterId: 4
   cipher: auto
-  name: 146|CN_ youtube@资源分享师_8
-  network: tcp
-  port: '12975'
-  server: z2.fragranceninja.com
+  name: 143|🇨🇳CN-117.28.242.156-5238
+  network: ws
+  port: 2164
+  server: 117.28.242.156
   servername: ''
   tls: true
   type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: sxqxj.cn
+    path: /ws
 - ip: 172.16.0.2
   name: 40,126|🇨🇳 中国_3
   port: '1701'
@@ -1759,74 +1892,38 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 143|🇨🇳CN-120.241.65.134-2392
+  name: 146|CN_youtube@资源分享师_7
   network: ws
-  port: 20025
-  server: sh-cn-1.dnspro.icu
-  servername: sh-cn-1.dnspro.icu
-  tls: false
+  port: '13007'
+  server: z8.fragranceninja.com
+  servername: z8.fragranceninja.com
+  tls: true
   type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
   ws-opts:
     headers:
-      Host: sh-cn-1.dnspro.icu
-    path: /iso
-- cipher: aes-256-gcm
-  name: 38,41,54,56,95|广东省广州市 电信
-  password: AWWQESJRK4285LIN
-  port: 18007
-  server: 58.63.250.61
-  type: ss
-- name: 43|中国_【YouTube-VV科技】_60
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18003
-  server: zbhk1.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- name: 43|中国_【YouTube-VV科技】_64
-  network: tcp
-  password: e698fbda-78cc-4daf-926c-3f2742974683
-  port: 18053
-  server: zbjp9.fxzbjs.xyz
-  skip-cert-verify: true
-  sni: alibaba-nhost.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: '56,58|SS-TCP-NA 🇨🇳 CN-58.63.250.61:1... #3'
-  password: 0MX167RBF00ZI9CR
-  port: 15014
-  server: 58.63.250.61
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 52,128|YouTube面具人哈乐_中国_5
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20014
-  server: jp2.mhw7e2.online
-  type: ss
+      Host: z8.fragranceninja.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 143|🇨🇳CN-183.240.67.31-2321
-  network: ws
-  port: 30041
-  server: v02.gutingting.com
-  servername: sh01.fastcloud.club
+  name: 43|中国_【YouTube-VV科技】_5_1
+  network: tcp
+  port: 44207
+  server: zjxc.pmxu.link
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d3d90998-7bfd-4fc6-930e-35bf96083d8b
-  ws-opts:
-    headers:
-      Host: v02.gutingting.com
-    path: /aceamedv
-- cipher: chacha20-ietf-poly1305
-  name: 43,53|广东省+移动
-  password: e182d6b4-403c-40d6-bd66-6d281a67d282
-  port: 11001
-  server: 183.240.255.75
-  type: ss
+  uuid: 0be35458-c447-3ddb-8f12-159b124accb8
+- alterId: 2
+  cipher: auto
+  name: 43|中国_【YouTube-VV科技】_16
+  network: tcp
+  port: 30026
+  server: iepl2.airtcp.vip
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
 - alterId: 64
   cipher: auto
   name: 43|中国_【YouTube-VV科技】_2_3
@@ -1839,45 +1936,13 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 56,143|VM-WS-NA 🇨🇳 CN-120.232.240.56:...
+  name: 43|中国_【YouTube-VV科技】
   network: ws
-  port: 16928
-  server: 120.232.240.56
+  port: 42231
+  server: mf631fx.micloud.buzz
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  uuid: ef78e23d-598f-442e-a29b-35f25901a5a1
   ws-opts:
-    path: /
-- ip: 172.16.0.2
-  name: 40,126|🇨🇳 中国_4
-  port: '1843'
-  private-key: kOeymlq+1gqKeUmpJrL0co8XPxORf4ijquknNjU2pV4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.36
-  type: wireguard
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 106|CN🇨🇳 | 112.29.94.23-49006 | 42...
-  network: tcp
-  port: '49006'
-  server: 112.29.94.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
-  name: 143|🇨🇳CN-153.101.64.221-2269
-  network: ws
-  port: 40013
-  server: 153.101.64.221
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5716c1b4-c2d3-4a9d-a9a8-5d9919d0ed8f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /qwe123321ewq
+    path: /zh-cn
