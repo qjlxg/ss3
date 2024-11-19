@@ -1,4 +1,94 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 42,78,86,93,94,143|瑞典 002
+  network: ws
+  port: 443
+  server: 185.146.173.59
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- cipher: chacha20-ietf-poly1305
+  name: 56,58|SS-TCP-NA 🇸🇪 SE-94.228.165.178...
+  password: afKAHp1VfRWZu91LIi9o0D
+  port: 58176
+  server: 94.228.165.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 45|🇸🇪 瑞典 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 19006
+  server: host-059.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 51,56,149|SE-121.127.46.147-0667 | 5.022...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 121.127.46.147
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 41,95,96|[VMess] 🇸🇪 瑞典 V2CROSS.COM
+  network: ws
+  port: 80
+  server: 185.146.173.158
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: d396-flower-d396.megare7260.workers.dev
+    path: /obdii.cfd/linkws
+- cipher: chacha20-ietf-poly1305
+  name: 56|SS-TCP-NA 🇸🇪 SE-46.246.98.155:...
+  password: UDcjYQ6Z6AIWxViZpqyOmO
+  port: 44013
+  server: 46.246.98.155
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 38,42,143|瑞典 V2CROSS.COM
+  network: ws
+  port: 80
+  server: Back.MsV2ray.online
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: d396-flower-d396.megare7260.workers.dev
+    path: /obdii.cfd/linkws
+- name: 56|TR-WS-TLS 🇸🇪 SE-185.146.173.15...
+  network: ws
+  password: auto
+  port: 443
+  server: 185.146.173.158
+  sni: esetsecuritylicense.bwnsmv.workers.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: esetsecuritylicense.bwnsmv.workers.dev
+    path: /Telegram-@V2ray_Alpha/?ed=2560
+- name: 56|TR-WS-TLS 🇸🇪 SE-185.146.173.11...
+  network: ws
+  password: 9a4bc15d-a7d4-4181-9485-405629c36894
+  port: 443
+  server: 185.146.173.115
+  sni: king-ae1.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: king-ae1.pages.dev
+    path: ''
 - name: 40,126|🇸🇪 瑞典_1
   network: ws
   password: 0b1371aa-649d-41dc-9126-338c87936500
@@ -12,37 +102,28 @@ proxies:
     headers:
       Host: sourceforge.net
     path: /websocket
-- name: 56|TR-WS-TLS 🇸🇪 SE-185.146.173.15...
-  network: ws
-  password: auto
-  port: 443
-  server: 185.146.173.158
-  sni: esetsecuritylicense.bwnsmv.workers.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: esetsecuritylicense.bwnsmv.workers.dev
-    path: /Telegram-@V2ray_Alpha/?ed=2560
 - alterId: 0
+  blackListed: false
   cipher: auto
-  name: 117|瑞典_121320008
+  country: SE
+  name: 147|[SE_VMESS_WS_70.34.212.226:844...
   network: ws
-  port: '80'
-  server: 94.131.98.104
-  servername: ''
+  ping: 540
+  port: 8443
+  real_ip: 70.34.212.226
+  server: 70.34.212.226
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
+  uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343
   ws-opts:
-    headers:
-      Host: 94.131.98.104
-    path: /vmess
+    path: /
 - alterId: 0
   cipher: auto
-  name: 42,143|瑞典 001
+  name: 42,143|瑞典 008
   network: ws
   port: 80
-  server: Back.MsV2ray.online
+  server: 185.146.173.158
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -51,48 +132,6 @@ proxies:
   ws-opts:
     headers:
       Host: d396-flower-d396.megare7260.workers.dev
-    path: /obdii.cfd/linkws
-- cipher: chacha20-ietf-poly1305
-  name: 56|SS-TCP-NA 🇸🇪 SE-94.228.165.178...
-  password: afKAHp1VfRWZu91LIi9o0D
-  port: 58176
-  server: 94.228.165.178
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 45|🇸🇪 瑞典 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 19006
-  server: host-059.crazyspeed.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 117|瑞典_121320007
-  network: ws
-  port: '80'
-  server: se1-vmess.sshmax.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
-  ws-opts:
-    headers:
-      Host: se1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 42,51,143|瑞典 004
-  network: ws
-  port: 443
-  server: 185.146.173.158
-  servername: jahfkjha.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
     path: /
 - alterId: 0
   cipher: auto
@@ -110,27 +149,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 42,78,85,93,94,143|瑞典 002
-  network: ws
-  port: 443
-  server: 185.146.173.59
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- cipher: chacha20-ietf-poly1305
-  name: 56|SS-TCP-NA 🇸🇪 SE-46.246.98.155:...
-  password: UDcjYQ6Z6AIWxViZpqyOmO
-  port: 44013
-  server: 46.246.98.155
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 75|瑞典_Telegram+@djkkdcx
   network: ws
   port: '80'
@@ -142,17 +160,35 @@ proxies:
     headers:
       Host: xn--018o.orerblog.filtv.blog.boredhot.cloudcccc.joinbede.sbs.
     path: /@TEHRANARGI
-- name: 56|TR-WS-TLS 🇸🇪 SE-185.146.173.11...
+- alterId: 0
+  cipher: auto
+  name: 42,51,143|瑞典 005
   network: ws
-  password: 9a4bc15d-a7d4-4181-9485-405629c36894
   port: 443
-  server: 185.146.173.115
-  sni: king-ae1.pages.dev
-  type: trojan
+  server: 185.146.173.129
+  servername: nt-haze-7dad.rogap16875.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
   ws-opts:
     headers:
-      Host: king-ae1.pages.dev
-    path: /Telegram@Linkvws?ed=2560
+      Host: nt-haze-7dad.rogap16875.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 117|瑞典_121320007
+  network: ws
+  port: '80'
+  server: se1-vmess.sshmax.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
+  ws-opts:
+    headers:
+      Host: se1-vmess.sshmax.xyz
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 42,76,143|瑞典 003
@@ -168,40 +204,32 @@ proxies:
     headers:
       Host: freevpn878.hamidimorteza680.workers.dev
     path: /glweidf.cfd/linkws
-- cipher: aes-256-cfb
-  name: 51,56,149|SE-121.127.46.147-0667 | 5.022...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 121.127.46.147
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 42,143|瑞典 008
+  name: 42,51,143|瑞典 004
   network: ws
-  port: 80
+  port: 443
   server: 185.146.173.158
-  skip-cert-verify: true
-  tls: false
+  servername: jahfkjha.cfd
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  udp: true
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
   ws-opts:
     headers:
-      Host: d396-flower-d396.megare7260.workers.dev
+      Host: jahfkjha.cfd
     path: /
 - alterId: 0
-  blackListed: false
   cipher: auto
-  country: SE
-  name: 147|[SE_VMESS_WS_70.34.212.226:844...
+  name: 117|瑞典_121320008
   network: ws
-  ping: 540
-  port: 8443
-  real_ip: 70.34.212.226
-  server: 70.34.212.226
-  skip-cert-verify: false
+  port: '80'
+  server: 94.131.98.104
+  servername: ''
   tls: false
   type: vmess
-  uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343
+  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
   ws-opts:
-    path: /
+    headers:
+      Host: 94.131.98.104
+    path: /vmess
