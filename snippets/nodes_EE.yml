@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 66|SS-TCP-NA 🇪🇪 EE-147.45.60.33:1...
-  password: LqlPI19oqnunGNSLMvdXyB
-  port: 16356
-  server: 147.45.60.33
-  type: ss
 - alterId: 0
   cipher: auto
   name: 88,96,103,153|YEEY5712
@@ -29,3 +23,9 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 66|SS-TCP-NA 🇪🇪 EE-147.45.60.33:1...
+  password: LqlPI19oqnunGNSLMvdXyB
+  port: 16356
+  server: 147.45.60.33
+  type: ss
