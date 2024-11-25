@@ -1,13 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 66|SS-TCP-NA 🇪🇪 EE-147.45.60.33:1...
-  password: LqlPI19oqnunGNSLMvdXyB
-  port: 16356
-  server: 147.45.60.33
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 153|🇪🇪EE-176.112.146.190-0970
+  name: 88,96,103,153|YEEY5712
+  network: tcp
+  port: '8881'
+  server: 170.187.163.89
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 0
+  cipher: auto
+  name: 153|🇪🇪EE-176.112.146.190-0665
   network: ws
   port: 80
   server: 176.112.146.190
@@ -19,13 +23,9 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 88,96,103,153|YEEY5712
-  network: tcp
-  port: '8881'
-  server: 170.187.163.89
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- cipher: chacha20-ietf-poly1305
+  name: 66|SS-TCP-NA 🇪🇪 EE-147.45.60.33:1...
+  password: LqlPI19oqnunGNSLMvdXyB
+  port: 16356
+  server: 147.45.60.33
+  type: ss
