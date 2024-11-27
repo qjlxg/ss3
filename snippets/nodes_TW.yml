@@ -1,53 +1,78 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 58|🇹🇼 GCP-TW3-20240215 - Kangaroo...
-  network: ws
-  port: 443
-  server: tw3.daishuvpn.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
-  ws-opts:
-    headers:
-      Host: tw3.daishuvpn.win
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 127|台湾_121320006
-  network: ws
-  port: '443'
-  server: 123.58.197.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 70|台湾04 | 1x TW
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41247
-  server: free.6vczxw.xyz
-  type: ss
+- cipher: aes-128-cfb
+  name: 57|🇹🇼 Vip1-5.广州1-台湾B | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6044
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
   udp: true
 - alterId: 32
   cipher: none
-  name: 56|TW-GLaDOS-GEO-01
+  name: 55|TW-GLaDOS-GEO-02
   network: ws
   port: 3203
-  server: aa1c23d.ga.gladns.com
+  server: aa1c23d.gb.gladns.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+- cipher: chacha20-ietf-poly1305
+  name: 69|台湾01 | 1x TW
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41241
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 57|🇹🇼 台湾 01 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 21001
+  server: host-021.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 57|🇹🇼 Vip2-6.专线.深台A1 | 倍率x5 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21006
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnipsz00.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 57|🇹🇼 Game 台湾08-原生 - AyucLouD-Ser...
+  password: a12cloud1
+  plugin: obfs
+  plugin-opts:
+    host: d716e103187.download.windowsupdate.com
+    mode: http
+  port: 904
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 153|🇹🇼TW-211.72.35.110-4838
+  name: 146|🇹🇼TW-211.72.35.110-4837
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  servername: woideneu7.jsworld.eu.org
+  tls: true
+  type: vmess
+  uuid: 2eb30779-2e8c-4b89-e6bd-a0ec760ca506
+  ws-opts:
+    headers:
+      Host: woideneu7.jsworld.eu.org
+    path: /nishikata
+- alterId: 0
+  cipher: auto
+  name: 146|🇹🇼TW-211.72.35.110-4838
   network: ws
   port: 443
   server: 211.72.35.110
@@ -61,7 +86,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: 58|🇹🇼 SVIP|台湾0C|2倍率 - 探索者
+  name: 57|🇹🇼 SVIP|台湾0C|2倍率 - 探索者
   network: ws
   port: 32330
   server: 603diyb.donghui.tech
@@ -74,67 +99,38 @@ proxies:
     headers:
       Host: 603diyb.donghui.tech
     path: /
-- alterId: 2
-  cipher: auto
-  name: 130|Relay_🇹🇼TW-🇹🇼TW_37
-  network: ws
-  port: '443'
-  server: tw01.nttkk.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-128-gcm
-  name: 58|🇹🇼 Game 台湾01-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d716e103187.download.windowsupdate.com
-    mode: http
-  port: 919
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 58|🇹🇼 Game 台湾08-原生 - AyucLouD-Ser...
-  password: a12cloud1
-  plugin: obfs
-  plugin-opts:
-    host: d716e103187.download.windowsupdate.com
-    mode: http
-  port: 904
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: 58|🇹🇼 Vip2-3.扬州-台湾A | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21084
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnyzm01.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: aes-128-cfb
-  name: 58|🇹🇼 Vip1-6.南阳-台湾A | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 31097
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnnym01.tangguo.pro
-  type: ssr
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 58|🇹🇼 SVIP|台湾0B|2倍率 - 探索者
+  grpc-opts:
+    grpc-service-name: flynwn
+  name: 57|🇹🇼 vip1 台湾-01 测试 - FastFly
+  network: grpc
+  port: 29935
+  server: fly0001.flyflylflyflysbs.sbs
+  servername: tw01.ckcloud.info
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
+- alterId: 0
+  cipher: auto
+  name: 57|🇹🇼 台湾 直连3 - 爱猫论坛
+  network: ws
+  port: 31235
+  server: hinet.henyo.us
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
+  ws-opts:
+    headers:
+      Host: hinet.henyo.us
+    path: /maohk3
+- alterId: 0
+  cipher: auto
+  name: 57|🇹🇼 SVIP|台湾0B|2倍率 - 探索者
   network: ws
   port: 32326
   server: 603diyb.donghui.tech
@@ -147,8 +143,76 @@ proxies:
     headers:
       Host: 603diyb.donghui.tech
     path: /
+- alterId: 0
+  cipher: auto
+  name: 124,125,127|💰💥🇹🇼 TW 154.40.60.172 ◈ ws:129...
+  network: ws
+  port: '12945'
+  server: 55.lwdh.us
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 120|台湾_121320007
+  network: tcp
+  port: '19588'
+  server: 152.32.167.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - cipher: aes-128-gcm
-  name: 58|🇹🇼 Video 台湾B-原生 - AyucLouD-Ser...
+  name: 57|🇹🇼 Game 台湾01-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: d716e103187.download.windowsupdate.com
+    mode: http
+  port: 919
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 57|🇹🇼 Web 台湾I-标准 - AyucLouD-Servi...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: d716e103187.download.windowsupdate.com
+    mode: http
+  port: 9047
+  server: 231103level1.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 57|🇹🇼 Game 台湾07-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: d716e103187.download.windowsupdate.com
+    mode: http
+  port: 905
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 57|🇹🇼 Vip2-6.专线.深台A2 | 倍率x5 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21007
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnipsz00.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 57|🇹🇼 Video 台湾B-原生 - AyucLouD-Ser...
   password: QHPy2u
   plugin: obfs
   plugin-opts:
@@ -160,35 +224,72 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 48,55,153|🇹🇼 台湾02-3x-流媒体-1A
+  name: 57|🇹🇼 SVIP|台湾0A|2倍率 - 探索者
   network: ws
-  port: 80
-  server: cf.hy2.one
+  port: 32322
+  server: 603diyb.donghui.tech
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 23955f03-3bc2-4577-9cb1-5514da1a2d01
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
   ws-opts:
     headers:
-      Host: tw02.hy2.one
-    path: /af323d
-- alterId: 1
+      Host: 603diyb.donghui.tech
+    path: /
+- alterId: 0
   cipher: auto
-  name: 153|🇹🇼TW-1.161.186.146-2072
+  name: 146|🇹🇼TW-211.72.35.110-4841
   network: ws
-  port: 64443
-  server: 1.161.186.146
-  servername: ''
+  port: 443
+  server: 211.72.35.110
+  servername: woidenca1.jsworld.eu.org
   tls: true
   type: vmess
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  uuid: e87f326f-55ac-487f-a3d1-57c592bb663a
   ws-opts:
     headers:
-      Host: ''
-    path: /clientarea
+      Host: woidenca1.jsworld.eu.org
+    path: /nishikata3
+- alterId: 0
+  cipher: auto
+  name: 146|🇹🇼TW-211.72.35.110-4840
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  servername: haxeu7.jsworld.eu.org
+  tls: true
+  type: vmess
+  uuid: dfd1d80f-caf0-4b11-e0bb-733a2710a07a
+  ws-opts:
+    headers:
+      Host: haxeu7.jsworld.eu.org
+    path: /nishikata3
+- alterId: 0
+  cipher: auto
+  name: 57|🇹🇼 GCP-TW2-20240215 - Kangaroo...
+  network: ws
+  port: 443
+  server: tw2.daishuvpn.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
+  ws-opts:
+    headers:
+      Host: tw2.daishuvpn.win
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 69|台湾05 | 1x TW
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41249
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
 - alterId: 32
   cipher: none
-  name: 56|TW-GLaDOS-GEO-04
+  name: 55|TW-GLaDOS-GEO-04
   network: ws
   port: 3203
   server: aa1c23d.gd.gladns.com
@@ -196,34 +297,283 @@ proxies:
   tls: false
   type: vmess
   uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+- alterId: 0
+  cipher: auto
+  name: 55|🇹🇼TW_125
+  network: tcp
+  port: 1521
+  server: 013.ap.pop.node-for-smallairport.win
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ab0ab89d-de80-44bd-b938-cafda772976d
+- alterId: 0
+  cipher: auto
+  name: 120|台湾_121320008
+  network: tcp
+  port: '10001'
+  server: 45.121.48.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- cipher: chacha20-ietf-poly1305
+  name: 55|🇹🇼 TW 03
+  password: 1f3013d9-e9f9-4d16-81c2-d436e6866928
+  port: 49963
+  server: node-tw.dlg365.com
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 123|TW_二爷翻墙 https://1808.ga 节点_130
+  network: ws
+  port: '443'
+  server: tw01.nttkk.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7
+  ws-opts:
+    headers:
+      Host: tw01.nttkk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 146|🇹🇼TW-165.154.246.71-1833
+  network: ws
+  port: 80
+  server: 165.154.246.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 13581ae8-65c9-4fbe-9c78-77fac9ca503a
+  ws-opts:
+    headers:
+      Host: 165.154.246.71
+    path: ?ed=2048
+- alterId: 32
+  cipher: none
+  name: 55|TW-GLaDOS-GEO-01
+  network: ws
+  port: 3203
+  server: aa1c23d.ga.gladns.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+- alterId: 32
+  cipher: none
+  name: 55|GLaDOS-TW-Netflix
+  network: ws
+  port: 3306
+  server: aa1c23d.t2.gladns.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
 - cipher: aes-128-gcm
-  name: 58|🇹🇼 Game 台湾03-专线 - AyucLouD-Ser...
+  name: 57|🇹🇼 Game 台湾04-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: d716e103187.download.windowsupdate.com
+    mode: http
+  port: 908
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 57|🇹🇼 台湾 03 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 21003
+  server: host-023.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 57|🇹🇼 Game 台湾02-标准 - AyucLouD-Ser...
   password: QHPy2u
   plugin: obfs
   plugin-opts:
     host: d716e103187.download.windowsupdate.com
     mode: http
-  port: 834
+  port: 825
   server: 231103level3.unclemanco.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 58|🇹🇼 台湾04 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10077
-  server: tw4.lvuy.xyz
+  name: 48|🇹🇼 台湾01-1F
+  password: 59228b81-2dd8-43c9-9516-e8168e35c7d2
+  port: 47564
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 57|🇹🇼 Video 台湾D-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: d716e103187.download.windowsupdate.com
+    mode: http
+  port: 926
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 138|2022.11.07_Relay_-TW_28
+  password: QazEdcTgb159@$*
+  port: 24009
+  server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 57|🇹🇼 Vip2-3.扬州-台湾B | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21089
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 57|🇹🇼 Video 台湾E-解锁 - AyucLouD-Ser...
+  password: ayds23sd1
+  plugin: obfs
+  plugin-opts:
+    host: d716e103187.download.windowsupdate.com
+    mode: http
+  port: 39004
+  server: 231103level2.unclemanco.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 56|🇹🇼 TW 04
+  name: 69|台湾06 | 家宽 | 1x  TW
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41251
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 120|台湾_121320002
+  network: ''
+  port: '10001'
+  server: 45.121.48.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- alterId: 0
+  cipher: auto
+  name: 56,66|11,16|台湾|@ripaojiedian
+  network: tcp
+  port: '40201'
+  server: r1.xinyo.me
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 41386ba6-b0fe-4070-be67-a6384cf6beb5
+- alterId: 0
+  cipher: auto
+  name: 125,127|💥🇹🇼 TW 154.40.60.172 ◈ ws:1294...
+  network: ws
+  port: 12945
+  server: 55.lwdh.us
+  servername: 154.40.60.172
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 154.40.60.172
+    path: /
+- cipher: aes-128-cfb
+  name: 57|🇹🇼 Vip2-3.广州2-台湾A | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51091
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 138|2022.11.07_Relay_-TW_05
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: e61b761245.microsoft.com
+    mode: http
+  port: 1173
+  server: 111.6.86.119
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 69|台湾02 | 1x TW
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41243
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 57|🇹🇼 台湾02 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10064
+  server: tw2.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 55|🇹🇼 TW 01
   password: 1f3013d9-e9f9-4d16-81c2-d436e6866928
-  port: 49964
+  port: 49961
   server: node-tw.dlg365.com
   type: ss
 - alterId: 0
   cipher: auto
+  name: 57|🇹🇼 台湾 直连4 - 爱猫论坛
+  network: ws
+  port: 443
+  server: twtw.henyo.us
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
+  ws-opts:
+    headers:
+      Host: twtw.henyo.us
+    path: /hls/us8.m3u8
+- alterId: 64
+  cipher: auto
+  name: 146|🇹🇼TW-103.177.33.19-7909
+  network: ws
+  port: 30013
+  server: 103.177.33.19
+  servername: www.35709620.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.35709620.xyz
+    path: /
+- cipher: aes-128-cfb
+  name: 57|🇹🇼 Vip2-3.广州2-台湾B | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51106
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 50,59|21,22|台湾|@ripaojiedian
+  name: 50,58|21,22|台湾|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -237,236 +587,90 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: 48,54,146|🇹🇼 台湾02-3x-流媒体-1A
+  network: ws
+  port: 80
+  server: cf.hy2.one
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 23955f03-3bc2-4577-9cb1-5514da1a2d01
+  ws-opts:
+    headers:
+      Host: tw02.hy2.one
+    path: /af323d
+- alterId: 0
+  cipher: auto
+  name: '126|💰💥🇹🇼 TW 154.40.60.172 ◈ ws:129... #1'
+  network: ws
+  port: '12945'
+  server: 154.40.60.172
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 55.lwdh.us
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 146|🇹🇼TW-211.72.35.110-4839
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  servername: woideneu4.jsworld.eu.org
+  tls: true
+  type: vmess
+  uuid: cb6448e3-08e1-413d-bc17-d3b0dba9aae9
+  ws-opts:
+    headers:
+      Host: woideneu4.jsworld.eu.org
+    path: /nishikata
 - cipher: aes-128-gcm
-  name: 58|🇹🇼 Game 台湾07-标准 - AyucLouD-Ser...
-  password: ayucloud1
+  name: 57|🇹🇼 Video 台湾C-原生 - AyucLouD-Ser...
+  password: fsfal2
   plugin: obfs
   plugin-opts:
     host: d716e103187.download.windowsupdate.com
     mode: http
-  port: 905
-  server: 231103level3.unclemanco.com
+  port: 916
+  server: 231103level2.unclemanco.com
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 58|🇹🇼 GCP-TW2-20240215 - Kangaroo...
+  name: '126,127|💥🇹🇼 TW 154.40.60.172 ◈ ws:1294... #1'
   network: ws
-  port: 443
-  server: tw2.daishuvpn.win
-  skip-cert-verify: true
+  port: 12945
+  server: 154.40.60.172
+  servername: ''
   tls: true
   type: vmess
-  udp: true
-  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
-  ws-opts:
-    headers:
-      Host: tw2.daishuvpn.win
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 130,153|🇹🇼TW_57
-  network: ws
-  port: '33792'
-  server: 61.222.202.140
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 153|🇹🇼TW-114.42.198.166-2148
+  name: 55|台湾省新竹市 中华电信
   network: ws
   port: 80
-  server: tw1g.jeidian.xyz
-  servername: tms.dingtalk.com
-  tls: false
-  type: vmess
-  uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d
-  ws-opts:
-    headers:
-      Host: tw1g.jeidian.xyz
-    path: /mugua
-- cipher: chacha20-ietf-poly1305
-  name: 48|🇹🇼 台湾 1-1C
-  password: 1a76be45-3721-4943-9a04-4bff3c49dfa0
-  port: 20032
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 153|🇹🇼TW-211.72.35.110-4840
-  network: ws
-  port: 443
-  server: 211.72.35.110
-  servername: haxeu7.jsworld.eu.org
-  tls: true
-  type: vmess
-  uuid: dfd1d80f-caf0-4b11-e0bb-733a2710a07a
-  ws-opts:
-    headers:
-      Host: haxeu7.jsworld.eu.org
-    path: /nishikata3
-- cipher: aes-128-gcm
-  name: 58|🇹🇼 Game 台湾06-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d716e103187.download.windowsupdate.com
-    mode: http
-  port: 835
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 58|🇹🇼 Web 台湾I-标准 - AyucLouD-Servi...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d716e103187.download.windowsupdate.com
-    mode: http
-  port: 9047
-  server: 231103level1.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 84|peasoft-9,13,15|🇹🇼_TW_台湾
-  network: tcp
-  port: '445'
-  server: tw99-hinet.mynodes001.one
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f04de84-6b7e-3564-82c2-d2a998002629
-- cipher: chacha20-ietf-poly1305
-  name: 56|🇹🇼 TW 03
-  password: 1f3013d9-e9f9-4d16-81c2-d436e6866928
-  port: 49963
-  server: node-tw.dlg365.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 58|🇹🇼 SVIP|台湾0A|2倍率 - 探索者
-  network: ws
-  port: 32322
-  server: 603diyb.donghui.tech
+  server: twriyfjhhhh1.hfhfb.homes
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
-  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  uuid: 2744bc46-8b19-40a5-9733-5bc819fa9553
   ws-opts:
     headers:
-      Host: 603diyb.donghui.tech
-    path: /
-- cipher: aes-128-cfb
-  name: 58|🇹🇼 Vip1-5.广州1-台湾A | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 6030
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm01.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 70|台湾05 | 1x TW
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41249
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 58|🇹🇼 Video 台湾E-解锁 - AyucLouD-Ser...
-  password: ayds23sd1
-  plugin: obfs
-  plugin-opts:
-    host: d716e103187.download.windowsupdate.com
-    mode: http
-  port: 39004
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
+      host: app.dingtalk.com
+    path: /?ed
 - alterId: 0
   cipher: auto
-  name: 57,67|11,16|台湾|@ripaojiedian
-  network: tcp
-  port: '40201'
-  server: r1.xinyo.me
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 41386ba6-b0fe-4070-be67-a6384cf6beb5
-- alterId: 32
-  cipher: none
-  name: 56|TW-GLaDOS-GEO-02
-  network: ws
-  port: 3203
-  server: aa1c23d.gb.gladns.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-- cipher: chacha20-ietf-poly1305
-  name: 70|台湾03 | 1x TW
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41245
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 58|🇹🇼 台湾 03 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 21003
-  server: host-023.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 58|🇹🇼 Game 台湾02-标准 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: d716e103187.download.windowsupdate.com
-    mode: http
-  port: 825
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: 58|🇹🇼 Vip2-6.专线.深台A2 | 倍率x5 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21007
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnipsz00.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: flynwn
-  name: 58|🇹🇼 vip1 台湾-06 测试 - FastFly
-  network: grpc
-  port: 38120
-  server: fly0001.flyflylflyflysbs.sbs
-  servername: tw02.ckcloud.info
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
-- alterId: 0
-  cipher: auto
-  name: 58|🇹🇼 台湾 直连1 - 爱猫论坛
+  name: 57|🇹🇼 台湾 直连1 - 爱猫论坛
   network: ws
   port: 31235
   server: newtw.henyo.us
@@ -481,535 +685,7 @@ proxies:
     path: /maohk3
 - alterId: 0
   cipher: auto
-  name: 153|🇹🇼TW-211.72.35.110-4839
-  network: ws
-  port: 443
-  server: 211.72.35.110
-  servername: woideneu4.jsworld.eu.org
-  tls: true
-  type: vmess
-  uuid: cb6448e3-08e1-413d-bc17-d3b0dba9aae9
-  ws-opts:
-    headers:
-      Host: woideneu4.jsworld.eu.org
-    path: /nishikata
-- alterId: 0
-  cipher: auto
-  name: 58|🇹🇼 台湾 直连3 - 爱猫论坛
-  network: ws
-  port: 31235
-  server: hinet.henyo.us
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
-  ws-opts:
-    headers:
-      Host: hinet.henyo.us
-    path: /maohk3
-- cipher: chacha20-ietf-poly1305
-  name: 58|🇹🇼 台湾01 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10036
-  server: tw1.lvuy.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 58|🇹🇼 Video 台湾D-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d716e103187.download.windowsupdate.com
-    mode: http
-  port: 926
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 58|🇹🇼 台湾03 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10073
-  server: tw3.lvuy.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 132,134|💥🇹🇼 TW 154.40.60.172 ◈ ws:1294...
-  network: ws
-  port: 12945
-  server: 55.lwdh.us
-  servername: 154.40.60.172
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 154.40.60.172
-    path: /
-- cipher: aes-128-cfb
-  name: 145|2022.11.07_Relay_-TW_28
-  password: QazEdcTgb159@$*
-  port: 24009
-  server: 14.29.124.168
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 153|🇹🇼TW-211.72.35.110-4841
-  network: ws
-  port: 443
-  server: 211.72.35.110
-  servername: woidenca1.jsworld.eu.org
-  tls: true
-  type: vmess
-  uuid: e87f326f-55ac-487f-a3d1-57c592bb663a
-  ws-opts:
-    headers:
-      Host: woidenca1.jsworld.eu.org
-    path: /nishikata3
-- cipher: chacha20-ietf-poly1305
-  name: 58|🇹🇼 台湾 02 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 21002
-  server: host-022.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: 58|🇹🇼 Vip2-3.广州2-台湾B | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 51106
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm02.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 145|2022.11.07_Relay_-TW_17
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: e61b761245.microsoft.com
-    mode: http
-  port: 1171
-  server: 111.6.86.119
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 56|🇹🇼 TW 02
-  password: 1f3013d9-e9f9-4d16-81c2-d436e6866928
-  port: 49962
-  server: node-tw.dlg365.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 56|🇹🇼 TW 01
-  password: 1f3013d9-e9f9-4d16-81c2-d436e6866928
-  port: 49961
-  server: node-tw.dlg365.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '133,134|💥🇹🇼 TW 154.40.60.172 ◈ ws:1294... #1'
-  network: ws
-  port: 12945
-  server: 154.40.60.172
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-128-cfb
-  name: 58|🇹🇼 Vip1-5.广州1-台湾B | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 6044
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm01.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: aes-128-cfb
-  name: 58|🇹🇼 Vip2-3.扬州-台湾B | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21089
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnyzm01.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: aes-128-gcm
-  name: 58|🇹🇼 Video 台湾C-原生 - AyucLouD-Ser...
-  password: fsfal2
-  plugin: obfs
-  plugin-opts:
-    host: d716e103187.download.windowsupdate.com
-    mode: http
-  port: 916
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 145|2022.11.07_Relay_-TW_07
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: e61b761245.microsoft.com
-    mode: http
-  port: 1172
-  server: 111.6.86.119
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 130|TW_二爷翻墙 https://1808.ga 节点_130
-  network: ws
-  port: '443'
-  server: tw01.nttkk.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7
-  ws-opts:
-    headers:
-      Host: tw01.nttkk.com
-    path: /
-- cipher: aes-128-cfb
-  name: 58|🇹🇼 Vip2-6.专线.深台A3 | 倍率x5 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21008
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnipsz00.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 127|台湾_121320002
-  network: ''
-  port: '10001'
-  server: 45.121.48.196
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- cipher: aes-128-cfb
-  name: 58|🇹🇼 Vip1-6.南阳-台湾B | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 31099
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnnym01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 32
-  cipher: none
-  name: 56|GLaDOS-TW-Netflix
-  network: ws
-  port: 3306
-  server: aa1c23d.t2.gladns.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-- cipher: chacha20-ietf-poly1305
-  name: 48|🇹🇼 台湾01-1F
-  password: 59228b81-2dd8-43c9-9516-e8168e35c7d2
-  port: 47564
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 127|台湾_121320011
-  network: ''
-  port: '19588'
-  server: 152.32.167.166
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
-- alterId: 0
-  cipher: auto
-  name: 127|台湾_121320008
-  network: tcp
-  port: '10001'
-  server: 45.121.48.196
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- cipher: chacha20-ietf-poly1305
-  name: 58|🇹🇼 台湾02 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10064
-  server: tw2.lvuy.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: 58|🇹🇼 Vip2-3.广州2-台湾A | 倍率x2 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 51091
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm02.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 153|🇹🇼TW-111.250.97.118-2278
-  network: ws
-  port: 45215
-  server: 012.AP.POP.node-for-smallairport.win
-  servername: 012.AP.POP.node-for-smallairport.win
-  tls: false
-  type: vmess
-  uuid: cd0e1cd4-9aac-41df-9746-4d76182c8009
-  ws-opts:
-    headers:
-      Host: 012.AP.POP.node-for-smallairport.win
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 153|🇹🇼TW-103.177.33.19-7909
-  network: ws
-  port: 30013
-  server: 103.177.33.19
-  servername: www.35709620.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.35709620.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 58|🇹🇼 台湾 01 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 21001
-  server: host-021.crazyspeed.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 56|🇹🇼TW_125
-  network: tcp
-  port: 1521
-  server: 013.ap.pop.node-for-smallairport.win
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ab0ab89d-de80-44bd-b938-cafda772976d
-- alterId: 32
-  cipher: none
-  name: 56|TW-GLaDOS-GEO-03
-  network: ws
-  port: 3203
-  server: aa1c23d.gc.gladns.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-- cipher: aes-128-gcm
-  name: 58|🇹🇼 Video 台湾A-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: d716e103187.download.windowsupdate.com
-    mode: http
-  port: 9048
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '133|💰💥🇹🇼 TW 154.40.60.172 ◈ ws:129... #1'
-  network: ws
-  port: '12945'
-  server: 154.40.60.172
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 55.lwdh.us
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 127|台湾_121320007
-  network: tcp
-  port: '19588'
-  server: 152.32.167.166
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
-- alterId: 0
-  cipher: auto
-  name: 58|🇹🇼 台湾 直连4 - 爱猫论坛
-  network: ws
-  port: 443
-  server: twtw.henyo.us
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
-  ws-opts:
-    headers:
-      Host: twtw.henyo.us
-    path: /hls/us8.m3u8
-- cipher: chacha20-ietf-poly1305
-  name: 56|🇹🇼 TW 05
-  password: 1f3013d9-e9f9-4d16-81c2-d436e6866928
-  port: 49965
-  server: node-tw.dlg365.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 153|🇹🇼TW-165.154.246.71-1833
-  network: ws
-  port: 80
-  server: 165.154.246.71
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 13581ae8-65c9-4fbe-9c78-77fac9ca503a
-  ws-opts:
-    headers:
-      Host: 165.154.246.71
-    path: ?ed=2048
-- cipher: aes-128-cfb
-  name: 58|🇹🇼 Vip2-6.专线.深台A1 | 倍率x5 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21006
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnipsz00.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 153|🇹🇼TW-211.72.35.110-4837
-  network: ws
-  port: 443
-  server: 211.72.35.110
-  servername: woideneu7.jsworld.eu.org
-  tls: true
-  type: vmess
-  uuid: 2eb30779-2e8c-4b89-e6bd-a0ec760ca506
-  ws-opts:
-    headers:
-      Host: woideneu7.jsworld.eu.org
-    path: /nishikata
-- alterId: 0
-  cipher: auto
-  name: 131,132,134|💰💥🇹🇼 TW 154.40.60.172 ◈ ws:129...
-  network: ws
-  port: '12945'
-  server: 55.lwdh.us
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 70|台湾06 | 家宽 | 1x  TW
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41251
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 56|台湾省新竹市 中华电信
-  network: ws
-  port: 80
-  server: twriyfjhhhh1.hfhfb.homes
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2744bc46-8b19-40a5-9733-5bc819fa9553
-  ws-opts:
-    headers:
-      host: app.dingtalk.com
-    path: /?ed
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: flynwn
-  name: 58|🇹🇼 vip1 台湾-01 测试 - FastFly
-  network: grpc
-  port: 29935
-  server: fly0001.flyflylflyflysbs.sbs
-  servername: tw01.ckcloud.info
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
-- cipher: aes-128-gcm
-  name: 58|🇹🇼 Game 台湾05-标准 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: d716e103187.download.windowsupdate.com
-    mode: http
-  port: 9040
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 58|🇹🇼 GCP-TW1-20240215 - Kangaroo...
-  network: ws
-  port: 443
-  server: tw1.daishuvpn.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
-  ws-opts:
-    headers:
-      Host: tw1.daishuvpn.win
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 70|台湾02 | 1x TW
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41243
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 70|台湾01 | 1x TW
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41241
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 58|🇹🇼 台湾 直连2 - 爱猫论坛
+  name: 57|🇹🇼 台湾 直连2 - 爱猫论坛
   network: ws
   port: 31235
   server: tw.henyo.us
@@ -1022,31 +698,255 @@ proxies:
     headers:
       Host: tw.henyo.us
     path: /maohk3
+- cipher: chacha20-ietf-poly1305
+  name: 57|🇹🇼 台湾 02 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 21002
+  server: host-022.crazyspeed.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 120|台湾_121320006
+  network: ws
+  port: '443'
+  server: 123.58.197.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 32
+  cipher: none
+  name: 55|TW-GLaDOS-GEO-03
+  network: ws
+  port: 3203
+  server: aa1c23d.gc.gladns.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
 - cipher: aes-128-gcm
-  name: 58|🇹🇼 Game 台湾04-标准 - AyucLouD-Ser...
-  password: ayucloud1
+  name: 57|🇹🇼 Game 台湾03-专线 - AyucLouD-Ser...
+  password: QHPy2u
   plugin: obfs
   plugin-opts:
     host: d716e103187.download.windowsupdate.com
     mode: http
-  port: 908
+  port: 834
   server: 231103level3.unclemanco.com
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 57|🇹🇼 GCP-TW3-20240215 - Kangaroo...
+  network: ws
+  port: 443
+  server: tw3.daishuvpn.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
+  ws-opts:
+    headers:
+      Host: tw3.daishuvpn.win
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 57|🇹🇼 台湾01 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10036
+  server: tw1.lvuy.xyz
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 123|Relay_🇹🇼TW-🇹🇼TW_37
+  network: ws
+  port: '443'
+  server: tw01.nttkk.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 120|台湾_121320011
+  network: ''
+  port: '19588'
+  server: 152.32.167.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
+- cipher: chacha20-ietf-poly1305
+  name: 55|🇹🇼 TW 05
+  password: 1f3013d9-e9f9-4d16-81c2-d436e6866928
+  port: 49965
+  server: node-tw.dlg365.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 146|🇹🇼TW-111.250.97.118-2278
+  network: ws
+  port: 45215
+  server: 012.AP.POP.node-for-smallairport.win
+  servername: 012.AP.POP.node-for-smallairport.win
+  tls: false
+  type: vmess
+  uuid: cd0e1cd4-9aac-41df-9746-4d76182c8009
+  ws-opts:
+    headers:
+      Host: 012.AP.POP.node-for-smallairport.win
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 57|🇹🇼 台湾04 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10077
+  server: tw4.lvuy.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 146|🇹🇼TW-114.42.198.166-2148
+  network: ws
+  port: 80
+  server: tw1g.jeidian.xyz
+  servername: tms.dingtalk.com
+  tls: false
+  type: vmess
+  uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d
+  ws-opts:
+    headers:
+      Host: tw1g.jeidian.xyz
+    path: /mugua
+- alterId: 0
+  cipher: auto
+  name: 79|peasoft-9,13,15|🇹🇼_TW_台湾
+  network: tcp
+  port: '445'
+  server: tw99-hinet.mynodes001.one
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f04de84-6b7e-3564-82c2-d2a998002629
+- cipher: chacha20-ietf-poly1305
+  name: 48|🇹🇼 台湾 1-1C
+  password: 1a76be45-3721-4943-9a04-4bff3c49dfa0
+  port: 20032
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 123,146|🇹🇼TW_57
+  network: ws
+  port: '33792'
+  server: 61.222.202.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: rc4-md5
-  name: 145|2022.11.07_Relay_-TW_05
+  name: 138|2022.11.07_Relay_-TW_17
   password: Paofu
   plugin: obfs
   plugin-opts:
     host: e61b761245.microsoft.com
     mode: http
-  port: 1173
+  port: 1171
   server: 111.6.86.119
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 57|🇹🇼 Vip1-5.广州1-台湾A | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6030
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 57|🇹🇼 Game 台湾05-标准 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: d716e103187.download.windowsupdate.com
+    mode: http
+  port: 9040
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 69|台湾03 | 1x TW
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41245
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 55|🇹🇼 TW 04
+  password: 1f3013d9-e9f9-4d16-81c2-d436e6866928
+  port: 49964
+  server: node-tw.dlg365.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 57|🇹🇼 GCP-TW1-20240215 - Kangaroo...
+  network: ws
+  port: 443
+  server: tw1.daishuvpn.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 84661f9d-9ed9-490f-8611-055603a194bf
+  ws-opts:
+    headers:
+      Host: tw1.daishuvpn.win
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 146|🇹🇼TW-1.161.186.146-2072
+  network: ws
+  port: 64443
+  server: 1.161.186.146
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-opts:
+    headers:
+      Host: ''
+    path: /clientarea
+- cipher: aes-128-gcm
+  name: 57|🇹🇼 Video 台湾A-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: d716e103187.download.windowsupdate.com
+    mode: http
+  port: 9048
+  server: 231103level2.unclemanco.com
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 85,127|台湾_Telegram+@djkkdcx
+  name: 80,120|台湾_Telegram+@djkkdcx
   network: ws
   port: '31945'
   server: 103.159.206.35
@@ -1057,3 +957,103 @@ proxies:
     headers:
       Host: 103.159.206.35
     path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: flynwn
+  name: 57|🇹🇼 vip1 台湾-06 测试 - FastFly
+  network: grpc
+  port: 38120
+  server: fly0001.flyflylflyflysbs.sbs
+  servername: tw02.ckcloud.info
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
+- cipher: chacha20-ietf-poly1305
+  name: 69|台湾04 | 1x TW
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41247
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 57|🇹🇼 Vip1-6.南阳-台湾B | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 31099
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnnym01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 138|2022.11.07_Relay_-TW_07
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: e61b761245.microsoft.com
+    mode: http
+  port: 1172
+  server: 111.6.86.119
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 57|🇹🇼 Vip1-6.南阳-台湾A | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 31097
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnnym01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 57|🇹🇼 Game 台湾06-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: d716e103187.download.windowsupdate.com
+    mode: http
+  port: 835
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 57|🇹🇼 Vip2-3.扬州-台湾A | 倍率x2 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21084
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 55|🇹🇼 TW 02
+  password: 1f3013d9-e9f9-4d16-81c2-d436e6866928
+  port: 49962
+  server: node-tw.dlg365.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 57|🇹🇼 台湾03 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10073
+  server: tw3.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 57|🇹🇼 Vip2-6.专线.深台A3 | 倍率x5 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21008
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnipsz00.tangguo.pro
+  type: ssr
+  udp: true
