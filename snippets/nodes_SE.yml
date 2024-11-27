@@ -1,27 +1,73 @@
 proxies:
+- name: 80|瑞典-713.6KB/s
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.53.152.136
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: SE
+  name: 51|SE_102
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.49.147.117
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 120|瑞典_121320007
+  name: 116|二爷翻墙网 https://1808.free.hr_SE_...
   network: ws
-  port: '80'
-  server: se1-vmess.sshmax.xyz
-  servername: ''
-  tls: false
+  port: 443
+  server: 141.147.147.180
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
   type: vmess
-  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: se1-vmess.sshmax.xyz
-    path: /vmess
-- cipher: chacha20-ietf-poly1305
-  name: 68|SS-TCP-NA 🇸🇪 SE-46.246.98.155:...
-  password: UDcjYQ6Z6AIWxViZpqyOmO
-  port: 44013
-  server: 46.246.98.155
-  type: ss
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- name: 80|瑞典-3.41MB/s_79_79
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.48.83.146
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 80|瑞典-258.5KB/s
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.50.203.34
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 55|瑞典_由快嘴科技提供：kkzui.com122
+  country: 🇪 SE
+  h2-opts: {}
+  http-opts: {}
+  name: 124|🇪 SE_575
+  network: ws
+  port: 80
+  server: 185.146.173.59
+  servername: freevpn878.hamidimorteza680.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-headers:
+    HOST: freevpn878.hamidimorteza680.workers.dev
+  ws-path: /glweidf.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 80|瑞典_由快嘴科技提供：kkzui.com122
   network: ws
   port: 443
   server: 185.146.173.59
@@ -33,52 +79,135 @@ proxies:
     headers:
       host: obdii.cfd
     path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 120|瑞典_121320008
+- name: 77,191|🇸🇪 瑞典_1
   network: ws
-  port: '80'
-  server: 94.131.98.104
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
+  password: 0b1371aa-649d-41dc-9126-338c87936500
+  port: '443'
+  server: 95.164.33.62
+  skip-cert-verify: true
+  sni: sourceforge.net
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: 94.131.98.104
-    path: /vmess
-- name: 55|瑞典-258.5KB/s
+      Host: sourceforge.net
+    path: /websocket
+- country: SE
+  name: '65|netflix_SE #1'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 13.50.203.34
+  server: 13.61.44.240
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 80|🇸🇪 www.85la.com 瑞典 02
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 16.16.237.47
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 70,71,121,173,174|瑞典 001
+  network: ws
+  port: 80
+  server: Back.MsV2ray.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: d396-flower-d396.megare7260.workers.dev
+    path: /obdii.cfd/linkws
+- name: 80|瑞典-51.6MB/s
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.246.112.81
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 80|瑞典-3.50MB/s_113_113
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 16.170.80.93
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 68|SS-TCP-NA 🇸🇪 SE-94.228.165.178...
-  password: afKAHp1VfRWZu91LIi9o0D
-  port: 58176
-  server: 94.228.165.178
+  country: SE
+  name: 45,46,47,48,93,118,124|SE_1533
+  password: UDcjYQ6Z6AIWxViZpqyOmO
+  port: 44013
+  server: 46.246.98.155
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 55|瑞典_由快嘴科技提供;kkzui.com170
+- name: 93|TR-WS-TLS 🇸🇪 SE-185.146.173.15...
   network: ws
-  port: 80
+  password: auto
+  port: 443
   server: 185.146.173.158
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  sni: esetsecuritylicense.bwnsmv.workers.dev
+  type: trojan
   ws-opts:
     headers:
-      host: d396-flower-d396.megare7260.workers.dev
-    path: /obdii.cfd/linkws
+      Host: esetsecuritylicense.bwnsmv.workers.dev
+    path: /Telegram-@V2ray_Alpha/?ed=2560
 - alterId: 0
   cipher: auto
-  name: 68,83,92,98|VM-WS-TLS 🇸🇪 SE-185.146.173.15...
+  name: 142|瑞典_Telegram+@djkkdcx
+  network: ws
+  port: '80'
+  server: 185.146.173.122
+  tls: false
+  type: vmess
+  uuid: 35107a77-f684-4abc-946d-8542fb4c110e
+  ws-opts:
+    headers:
+      Host: xn--018o.orerblog.filtv.blog.boredhot.cloudcccc.joinbede.sbs.
+    path: /@TEHRANARGI
+- alterId: 0
+  cipher: auto
+  name: 78,121|[VMess] 🇸🇪 瑞典 V2CROSS.COM
+  network: ws
+  port: 443
+  server: root.mid.al
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  ws-opts:
+    headers:
+      Host: kim.gov.kp
+    path: /aries?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 82|🇸🇪 瑞典 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 19006
+  server: host-059.crazyspeed.xyz
+  type: ss
+  udp: true
+- name: 80|瑞典-94.8MB/s
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.50.11.128
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 93,157|VM-WS-TLS 🇸🇪 SE-185.146.173.15...
   network: ws
   port: 443
   server: 185.146.173.152
@@ -90,72 +219,88 @@ proxies:
     headers:
       Host: quiet-moon-132a.xetag42714.workers.dev
     path: /jahfkjha.cfd/linkws#@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi
-- name: 55|瑞典-3.50MB/s_113_113
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 16.170.80.93
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  blackListed: false
-  cipher: auto
-  country: SE
-  name: 150|[SE_VMESS_WS_70.34.212.226:844...
-  network: ws
-  ping: 540
-  port: 8443
-  real_ip: 70.34.212.226
-  server: 70.34.212.226
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
-  name: 55|瑞典_由快嘴科技提供：kkzui.com194
+  country: 🇸🇪 SE
+  h2-opts: {}
+  http-opts: {}
+  name: 124|🇸🇪 SE_576
   network: ws
-  port: 443
+  port: 80
   server: 185.146.173.158
+  servername: d396-flower-d396.megare7260.workers.dev
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      host: jahfkjha.cfd
-    path: /linkws
-- name: 55|瑞典-3.41MB/s_79_79
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.48.83.146
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 55|瑞典-94.8MB/s
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-headers:
+    HOST: d396-flower-d396.megare7260.workers.dev
+  ws-path: /obdii.cfd/linkws
+- name: 80|瑞典-57.8MB/s
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 13.50.11.128
+  server: 13.50.229.219
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 63,68,152|SE-121.127.46.147-0411 | 9.882...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 121.127.46.147
-  type: ss
+- country: SE
+  name: 65,85,192|netflix_SE
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.50.180.64
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 146|🇸🇪SE-13.50.153.230-3269
+  country: 🇪 SE
+  h2-opts: {}
+  http-opts: {}
+  name: 124|🇪 SE_574
+  network: ws
+  port: 80
+  server: Back.MsV2ray.online
+  servername: d396-flower-d396.megare7260.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-headers:
+    HOST: d396-flower-d396.megare7260.workers.dev
+  ws-path: /obdii.cfd/linkws
+- name: 80|🇸🇪 www.85la.com 瑞典 01
+  network: tcp
+  password: wkmY1R4EcP
+  port: 443
+  server: 65.20.115.19
+  skip-cert-verify: true
+  sni: myket.ir
+  type: trojan
+  udp: true
+- name: 80|🇸🇪 www.85la.com 瑞典 01_1
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 51.21.126.70
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 93|TR-WS-TLS 🇸🇪 SE-185.146.173.11...
+  network: ws
+  password: 9a4bc15d-a7d4-4181-9485-405629c36894
+  port: 443
+  server: 185.146.173.115
+  sni: king-ae1.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: king-ae1.pages.dev
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 204|🇸🇪SE-13.50.153.230-3279
   network: ws
   port: 25289
   server: 13.50.153.230
@@ -169,89 +314,35 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 53,100|[VMess] 🇸🇪 瑞典 V2CROSS.COM
+  name: 80|瑞典_由快嘴科技提供：kkzui.com194
   network: ws
   port: 443
-  server: root.mid.al
+  server: 185.146.173.158
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
-  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
   ws-opts:
     headers:
-      Host: kim.gov.kp
-    path: /aries?ed=2048
-- name: 68|TR-WS-TLS 🇸🇪 SE-185.146.173.15...
+      host: jahfkjha.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 80|瑞典_由快嘴科技提供：kkzui.com212
   network: ws
-  password: auto
   port: 443
-  server: 185.146.173.158
-  sni: esetsecuritylicense.bwnsmv.workers.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: esetsecuritylicense.bwnsmv.workers.dev
-    path: /Telegram-@V2ray_Alpha/?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 57|🇸🇪 瑞典 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 19006
-  server: host-059.crazyspeed.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 80|瑞典_Telegram+@djkkdcx
-  network: ws
-  port: '80'
-  server: 185.146.173.122
-  tls: false
-  type: vmess
-  uuid: 35107a77-f684-4abc-946d-8542fb4c110e
-  ws-opts:
-    headers:
-      Host: xn--018o.orerblog.filtv.blog.boredhot.cloudcccc.joinbede.sbs.
-    path: /@TEHRANARGI
-- name: 55|瑞典-713.6KB/s
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.53.152.136
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 52,129|🇸🇪 瑞典_1
-  network: ws
-  password: 0b1371aa-649d-41dc-9126-338c87936500
-  port: '443'
-  server: 95.164.33.62
-  skip-cert-verify: true
-  sni: sourceforge.net
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: sourceforge.net
-    path: /websocket
-- alterId: 0
-  cipher: auto
-  name: 55|瑞典_由快嘴科技提供;kkzui.com171
-  network: ws
-  port: 80
   server: Back.MsV2ray.online
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
   ws-opts:
     headers:
-      host: d396-flower-d396.megare7260.workers.dev
-    path: /obdii.cfd/linkws
+      host: jahfkjha.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
-  name: '55|二爷免费翻墙网https://1808.free.hr/_S... #1'
+  name: '80|二爷免费翻墙网https://1808.free.hr/_S... #1'
   network: ws
   port: 443
   server: 141.147.147.180
@@ -265,99 +356,16 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 55|瑞典_由快嘴科技提供：kkzui.com54
-  network: ws
-  port: 80
-  server: 185.146.173.59
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      host: freevpn878.hamidimorteza680.workers.dev
-    path: /glweidf.cfd/linkws
-- name: 55|瑞典-51.6MB/s
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.246.112.81
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 55|🇸🇪 www.85la.com 瑞典 01_1
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 51.21.126.70
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 55|🇸🇪 www.85la.com 瑞典 01
-  network: tcp
-  password: wkmY1R4EcP
-  port: 443
-  server: 65.20.115.19
-  skip-cert-verify: true
-  sni: myket.ir
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 55|瑞典_由快嘴科技提供：kkzui.com212
+  name: 70|瑞典 002
   network: ws
   port: 443
-  server: Back.MsV2ray.online
-  skip-cert-verify: true
+  server: 185.146.173.158
+  servername: jahfkjha.cfd
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
   ws-opts:
     headers:
-      host: jahfkjha.cfd
-    path: /linkws
-- name: 55|🇸🇪 www.85la.com 瑞典 02
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 16.16.237.47
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 55|瑞典-57.8MB/s
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.229.219
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 68|TR-WS-TLS 🇸🇪 SE-185.146.173.11...
-  network: ws
-  password: 9a4bc15d-a7d4-4181-9485-405629c36894
-  port: 443
-  server: 185.146.173.115
-  sni: king-ae1.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: king-ae1.pages.dev
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 55|瑞典_由快嘴科技提供：kkzui.com94
-  network: ws
-  port: 443
-  server: 185.146.173.129
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      host: nt-haze-7dad.rogap16875.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
+      Host: jahfkjha.cfd
+    path: /
