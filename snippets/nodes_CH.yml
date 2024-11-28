@@ -1,46 +1,16 @@
 proxies:
-- cipher: aes-256-gcm
-  country: CH
-  name: 45,69|CH_4190
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-128-gcm
-  country: CH
-  name: 45,46,47,48,54,94,113|CH_4193
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.162
-  type: ss
-- cipher: aes-128-gcm
-  country: CH
-  name: 45,46,47,48,54,94,113|CH_4191
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.161
-  type: ss
-- name: 94|TR-WS-TLS 🇨🇭 CH-185.18.250.117...
-  network: ws
-  password: 1e9aadae-ca17-4f75-b0a0-7de5e3858cfb
-  port: 443
-  server: 185.18.250.117
-  sni: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- cipher: aes-256-gcm
-  country: CH
-  name: 45,48,69,113|CH_4186
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.166.88.5
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: '183|💠CH: @antimeli'
+  network: quic
+  port: 2053
+  server: 65.21.144.96
+  tls: false
+  type: vmess
+  uuid: 02cb5654-4380-4b47-9a05-2d7d84f92aec
 - alterId: 1
   cipher: auto
-  name: 199|🇨🇭CH-23.166.88.27-7851
+  name: 197|🇨🇭CH-23.166.88.27-7851
   network: ws
   port: 443
   server: 23.166.88.27
@@ -52,37 +22,9 @@ proxies:
     headers:
       Host: 23.166.88.27
     path: /
-- cipher: aes-128-gcm
-  country: CH
-  name: 45,46,47,48,54,63,69,89,94,104,113,201|CH_4188
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.164
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 199|🇨🇭CH-186.190.215.149-7902
-  network: ws
-  port: 443
-  server: 186.190.215.149
-  servername: 186.190.215.149
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 186.190.215.149
-    path: linkvws
-- cipher: aes-256-gcm
-  country: CH
-  name: 45,47,48|CH_4189
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 23.166.88.198
-  type: ss
 - alterId: 0
   cipher: auto
-  name: '111|二爷翻墙网 https://1808.free.hr_CH_... #2'
+  name: 197|🇨🇭CH-152.67.65.201-2537
   network: ws
   port: 443
   server: 152.67.65.201
@@ -93,116 +35,15 @@ proxies:
   ws-opts:
     headers:
       Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  name: '111|二爷翻墙网 https://1808.free.hr_CH_... #1'
-  network: ws
-  port: 443
-  server: 141.148.203.6
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  name: 199|🇨🇭CH-140.238.212.95-7725
-  network: ws
-  port: 443
-  server: 140.238.212.95
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '81|二爷免费翻墙网https://1808.free.hr/_C... #1'
-  network: ws
-  port: 443
-  server: 140.238.212.95
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
 - cipher: aes-256-gcm
   country: CH
-  name: 45,47,48,113|CH_4185
+  name: 45|CH_5090
   password: faBAoD54k87UJG7
   port: 2376
   server: 23.166.88.198
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 76|19|🔒 VM-TCP-NA 🇨🇭 CH-94.131.99...
-  network: tcp
-  port: '47182'
-  server: 94.131.99.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
-- alterId: 0
-  cipher: auto
-  name: '81|二爷免费翻墙网https://1808.free.hr/_C... #2'
-  network: ws
-  port: 443
-  server: 141.148.203.6
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
-- alterId: 1
-  cipher: auto
-  name: 199|🇨🇭CH-186.190.215.75-7710
-  network: ws
-  port: 443
-  server: 186.190.215.75
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 186.190.215.75
-    path: linkvws
-- cipher: aes-128-gcm
-  country: CH
-  name: 45,46,47,48,54,113|CH_4192
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.163
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 63,89,104,199|CH-186.190.215.32-7612 | 17.86...
-  network: ws
-  port: 443
-  server: 186.190.215.32
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 186.190.215.32
-    path: /
-- name: 81|bngan.com_🇨🇭_CH_瑞士_1-128
+- name: 79|bngan.com_🇨🇭_CH_瑞士_1-128
   network: tcp
   password: 36ebef7d1b1d6205fd0c55f28800e674
   port: 443
@@ -211,81 +52,9 @@ proxies:
   sni: ch-server-01.f7256f.cn
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 79,168|[SS] 🇨🇭 _CH_瑞士
-  password: asdKkaskJKfnsa
-  port: 80
-  server: 84.17.53.163
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: CH
-  name: 45|CH_4184
-  password: iO3NH8MXZl8Dg9mtTrqMWQ
-  port: 5555
-  server: 195.15.215.198
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 199|🇨🇭CH-152.67.65.201-2537
-  network: ws
-  port: 443
-  server: 152.67.65.201
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 94|SS-TCP-NA 🇨🇭 CH-195.15.243.125...
-  password: AdcivTASb8XWqRKubWaz2w
-  port: 5555
-  server: 195.15.243.125
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 181,182,183,184|🇨🇭 CH 23.166.88.183 ◈ tcp:2232...
-  network: tcp
-  port: '22324'
-  server: 23.166.88.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: aes-256-gcm
-  country: CH
-  name: 45,46,47,54,69,94,121|CH_4187
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 23.166.88.198
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 149,152,199|🇨🇭CH-186.190.215.32-7612
-  network: ws
-  port: 443
-  server: 186.190.215.32
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 186.190.215.32
-    path: linkvws
-- cipher: aes-256-gcm
-  country: CH
-  name: 45,47,94,113|CH_4183
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.166.88.198
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 111|二爷翻墙网 https://1808.free.hr_CH_...
+  name: 109|二爷翻墙网 https://1808.free.hr_CH_...
   network: ws
   port: 443
   server: 141.148.187.195
@@ -297,9 +66,236 @@ proxies:
     headers:
       Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
+- cipher: aes-256-gcm
+  country: CH
+  name: 45,48,92,111|CH_5091
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 45,48,67,111|CH_5093
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 23.166.88.198
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '79|二爷免费翻墙网https://1808.free.hr/_C... #2'
+  network: ws
+  port: 443
+  server: 141.148.203.6
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /obdii.cfd:443/linkws
+- alterId: 1
+  cipher: auto
+  name: 197|🇨🇭CH-186.190.215.149-7902
+  network: ws
+  port: 443
+  server: 186.190.215.149
+  servername: 186.190.215.149
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.149
+    path: linkvws
 - cipher: chacha20-ietf-poly1305
-  name: 94|SS-TCP-NA 🇨🇭 CH-91.103.253.151...
-  password: lBKSphQOzhFm9I5fsg5gK6
-  port: 19057
-  server: 91.103.253.151
+  name: 92|SS-TCP-NA 🇨🇭 CH-195.15.243.125...
+  password: AdcivTASb8XWqRKubWaz2w
+  port: 5555
+  server: 195.15.243.125
+  type: ss
+- cipher: aes-128-gcm
+  country: CH
+  name: 45,46,47,48,54,92,117|CH_5089
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.161
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 45,46,54,67,92,119|CH_5088
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 23.166.88.198
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '109|二爷翻墙网 https://1808.free.hr_CH_... #1'
+  network: ws
+  port: 443
+  server: 141.148.203.6
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- alterId: 1
+  cipher: auto
+  name: 197|🇨🇭CH-186.190.215.75-7710
+  network: ws
+  port: 443
+  server: 186.190.215.75
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.75
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 62,87,102,197|CH-186.190.215.32-7612 | 17.86...
+  network: ws
+  port: 443
+  server: 186.190.215.32
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.32
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 147,150,197|🇨🇭CH-186.190.215.32-7612
+  network: ws
+  port: 443
+  server: 186.190.215.32
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.32
+    path: linkvws
+- cipher: aes-128-gcm
+  country: CH
+  name: 45,46,47,48,54,111,117|CH_5092
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.163
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 197|🇨🇭CH-140.238.212.95-7725
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /
+- cipher: aes-256-gcm
+  country: CH
+  name: 45,67|CH_5087
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.166.88.5
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 179,180,181,182|🇨🇭 CH 23.166.88.183 ◈ tcp:2232...
+  network: tcp
+  port: '22324'
+  server: 23.166.88.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-cfb
+  name: 77,166|[SS] 🇨🇭 _CH_瑞士
+  password: asdKkaskJKfnsa
+  port: 80
+  server: 84.17.53.163
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: CH
+  name: 45,47,48|CH_5094
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 23.166.88.198
+  type: ss
+- name: 92|TR-WS-TLS 🇨🇭 CH-185.18.250.117...
+  network: ws
+  password: 1e9aadae-ca17-4f75-b0a0-7de5e3858cfb
+  port: 443
+  server: 185.18.250.117
+  sni: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
+    path: /Telegram@V2ray_Alpha/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '109|二爷翻墙网 https://1808.free.hr_CH_... #2'
+  network: ws
+  port: 443
+  server: 152.67.65.201
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  name: '79|二爷免费翻墙网https://1808.free.hr/_C... #1'
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /obdii.cfd:443/linkws
+- cipher: aes-128-gcm
+  country: CH
+  name: 45,46,47,48,54,92,111,117|CH_5086
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.162
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 74|19|🔒 VM-TCP-NA 🇨🇭 CH-94.131.99...
+  network: tcp
+  port: '47182'
+  server: 94.131.99.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
+- cipher: aes-128-gcm
+  country: CH
+  name: 45,46,54,62,67,87,92,102,111,117,199|CH_5085
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.164
   type: ss
