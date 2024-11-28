@@ -1,188 +1,37 @@
 proxies:
-- name: 52|广东省广州市+移动_1_1
-  network: tcp
-  password: ad6e2bae-d580-4117-aa37-a8c111100740
-  port: 13021
-  server: naiu-us.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_37
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12565
-  server: xinyun-tw.07wi0kka34.download
+- cipher: chacha20-ietf-poly1305
+  name: 52|TG:@hkaa0|中国_3
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50101
+  server: iepl1.forlive.live
   type: ss
-- name: 61|YouTube面具人哈乐_中国_3
-  network: tcp
+- cipher: aes-128-gcm
+  name: 54|YouTube面具人哈乐_中国_9
   password: NUeBvQHox0BmnHpu
-  port: 443
-  server: gnmktnwq58.xyz
-  skip-cert-verify: true
-  sni: gnmktnwq58.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '52|二爷免费翻墙网https://1808.free.hr/_C... #5'
-  network: ws
-  port: 443
-  server: 47.57.13.107
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
+  port: 30373
+  server: guangguang01.xyz
+  type: ss
 - cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #1'
+  name: '58|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #1'
   password: 0015b020-963b-450d-92f9-a8339de6332c
   port: 40403
   server: 139.224.111.72
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 63|🇨🇳CN-120.226.29.91-463
-  network: ws
-  port: 33202
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: 52|中国_由快嘴科技提供：kkzui.com33
-  network: http
-  port: 2902
-  server: 143.92.42.65
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- name: 61|YouTube面具人哈乐_中国_12
-  network: tcp
-  password: NUeBvQHox0BmnHpu
-  port: 443
-  server: ggghhhk51.xyz
-  skip-cert-verify: true
-  sni: ggghhhk51.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 63|🇨🇳CN-183.236.51.82-428
-  network: ws
-  port: 16622
-  server: m.cnmjin.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
-  ws-headers:
-    Host: 3fe454755ea98eaa00f870f7fa2990c7.mobgslb.tbcache.com
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 59|TG:@hkaa0|中国_1
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 203.23.128.33
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '52|二爷免费翻墙网https://1808.free.hr/_C... #3'
-  network: ws
-  port: 81
-  server: 210.61.97.241
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
 - cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #6'
+  name: '58|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #3'
   password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40501
+  port: 40503
   server: 139.224.111.72
   type: ss
 - cipher: aes-256-gcm
-  name: 65|SS-TCP-NA 🇨🇳 CN-8.138.184.224:...
+  name: '58|SS-TCP-NA 🇨🇳 CN-8.138.184.224:... #1'
   password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40304
+  port: 40303
   server: 8.138.184.224
   type: ss
-- cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #5'
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40401
-  server: 139.224.236.220
-  type: ss
-- ip: 172.16.0.2
-  name: 49|🇨🇳 中国_4
-  port: '1843'
-  private-key: kOeymlq+1gqKeUmpJrL0co8XPxORf4ijquknNjU2pV4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.36
-  type: wireguard
-  udp: true
-- cipher: aes-128-gcm
-  name: 61|YouTube面具人哈乐_中国_10
-  password: NUeBvQHox0BmnHpu
-  port: 27918
-  server: twacq10.top
-  type: ss
-- cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #2'
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40504
-  server: 139.224.111.72
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 52|👉www.85la.com👉中国CN_255
-  network: ws
-  port: 22638
-  server: 35.229.248.26
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: dcfd733d-17e7-47d2-9b43-1a8394b56e4c
-  ws-opts:
-    path: /dcfd733d
-- cipher: aes-128-gcm
-  name: 61|YouTube面具人哈乐_中国_6
-  password: NUeBvQHox0BmnHpu
-  port: 50029
-  server: dudu02.ddnsguru.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_46
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12562
-  server: xinyun-us.07wi0kka34.download
-  type: ss
-- ip: 172.16.0.2
-  name: 49|🇨🇳 中国_1
-  port: '7156'
-  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.229
-  type: wireguard
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|Youtube顺丰资源  CN212
+  name: 57|Youtube顺丰资源  CN212
   network: ws
   port: 46082
   server: mmhu82.micloud.buzz
@@ -193,15 +42,69 @@ proxies:
   uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
   ws-opts:
     path: /zh-cn
+- cipher: aes-256-gcm
+  name: '58,60|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #5'
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40404
+  server: 139.224.111.72
+  type: ss
 - cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_40
+  name: 61|🇨🇳_CN_中国_47
   password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12566
+  port: 12561
+  server: xinyun-us.07wi0kka34.download
+  type: ss
+- cipher: aes-256-gcm
+  name: 58|SS-TCP-NA 🇨🇳 CN-8.138.184.224:...
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40304
+  server: 8.138.184.224
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 58|SS-TCP-NA 🇨🇳 CN-183.233.187.15...
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20001
+  server: 183.233.187.157
+  type: ss
+- cipher: aes-256-gcm
+  name: '58|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #6'
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40501
+  server: 139.224.236.220
+  type: ss
+- cipher: aes-128-gcm
+  name: 61|🇨🇳_CN_中国_37
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12565
   server: xinyun-tw.07wi0kka34.download
   type: ss
+- cipher: aes-256-gcm
+  name: '58|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #6'
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40501
+  server: 139.224.111.72
+  type: ss
+- ip: 172.16.0.2
+  name: 42|🇨🇳 中国_1
+  port: '7156'
+  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.229
+  type: wireguard
+  udp: true
+- name: 45|广东省广州市+移动
+  network: tcp
+  password: 4e399fb9-5a4c-49cd-9849-2051512f4c6c
+  port: 27101
+  server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 47,53,55|18|广东省移动 7
+  name: 40,46,48|18|广东省移动 7
   network: ws
   port: '20401'
   server: data-us-v1.shwjfkw.cn
@@ -213,12 +116,162 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- cipher: aes-128-gcm
+  name: 54|YouTube面具人哈乐_中国_6
+  password: NUeBvQHox0BmnHpu
+  port: 50029
+  server: dudu02.ddnsguru.com
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 54|YouTube面具人哈乐_中国_4
+  network: tcp
+  port: 35601
+  server: 120.232.153.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  name: 61|🇨🇳_CN_中国_40
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12566
+  server: xinyun-tw.07wi0kka34.download
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '52|二爷免费翻墙网https://1808.free.hr/_C... #4'
+  name: '45|二爷免费翻墙网https://1808.free.hr/_C... #6'
+  network: ws
+  port: 8443
+  server: 8.213.197.132
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /obdii.cfd:443/linkws
+- name: 45|广东省广州市+移动_1_1
+  network: tcp
+  password: ad6e2bae-d580-4117-aa37-a8c111100740
+  port: 13021
+  server: naiu-us.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- ip: 172.16.0.2
+  name: 42|🇨🇳 中国_5
+  port: '939'
+  private-key: kOeymlq+1gqKeUmpJrL0co8XPxORf4ijquknNjU2pV4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.28
+  type: wireguard
+  udp: true
+- cipher: aes-256-gcm
+  name: '58|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #4'
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40404
+  server: 139.224.236.220
+  type: ss
+- cipher: aes-256-gcm
+  name: '58|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #2'
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40504
+  server: 139.224.111.72
+  type: ss
+- cipher: aes-128-gcm
+  name: 61|🇨🇳_CN_中国_41
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12568
+  server: xinyun-tw.07wi0kka34.download
+  type: ss
+- cipher: aes-256-gcm
+  name: '58|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #5'
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40401
+  server: 139.224.236.220
+  type: ss
+- cipher: aes-128-gcm
+  name: 58|SS-TCP-NA 🇨🇳 CN-111.29.57.122:...
+  password: 26f959e3-1a5e-3b3d-b4cd-fe04c80902bd
+  port: 10024
+  server: 111.29.57.122
+  type: ss
+- cipher: aes-128-gcm
+  name: 61|🇨🇳_CN_中国_18
+  password: cf448056-b7c2-439d-b708-aaf5ff321052
+  port: 22302
+  server: 04.forlive.live
+  type: ss
+- cipher: aes-128-gcm
+  name: 61|🇨🇳_CN_中国_4
+  password: 95e0f3e2-2b41-48d2-a0e6-500d36f310a1
+  port: 22233
+  server: 03.forlive.live
+  type: ss
+- name: 54|YouTube面具人哈乐_中国_3
+  network: tcp
+  password: NUeBvQHox0BmnHpu
+  port: 443
+  server: gnmktnwq58.xyz
+  skip-cert-verify: true
+  sni: gnmktnwq58.xyz
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 52|TG:@hkaa0|中国_1
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 203.23.128.33
+  type: ss
+- cipher: aes-256-gcm
+  name: 58|SS-TCP-NA 🇨🇳 CN-139.224.111.72...
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40402
+  server: 139.224.111.72
+  type: ss
+- ip: 172.16.0.2
+  name: 42|🇨🇳 中国_6
+  port: '3581'
+  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.244
+  type: wireguard
+  udp: true
+- cipher: aes-128-gcm
+  name: 61|🇨🇳_CN_中国_46
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12562
+  server: xinyun-us.07wi0kka34.download
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 45|👉www.85la.com👉中国CN_255
+  network: ws
+  port: 22638
+  server: 35.229.248.26
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: dcfd733d-17e7-47d2-9b43-1a8394b56e4c
+  ws-opts:
+    path: /dcfd733d
+- cipher: aes-128-gcm
+  name: 61|🇨🇳_CN_中国_48
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12564
+  server: xinyun-us.07wi0kka34.download
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 45|二爷免费翻墙网https://1808.free.hr/_C...
   network: ws
   port: 443
-  server: 47.243.236.86
+  server: 219.76.13.164
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -228,151 +281,76 @@ proxies:
       host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /obdii.cfd:443/linkws
 - cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_14
-  password: 72fb9321-4818-4050-9048-5fa89827adb2
-  port: 22268
-  server: 04.forlive.live
-  type: ss
-- cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_48
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12564
-  server: xinyun-us.07wi0kka34.download
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 52|🇨🇳CN_24 |69.65Mb
-  network: ''
-  port: 45017
-  server: 142.0.134.241
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- ip: 172.16.0.2
-  name: 49|🇨🇳 中国_5
-  port: '939'
-  private-key: kOeymlq+1gqKeUmpJrL0co8XPxORf4ijquknNjU2pV4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.28
-  type: wireguard
-  udp: true
-- cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #3'
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40503
-  server: 139.224.111.72
-  type: ss
-- cipher: aes-256-gcm
-  name: '65,67|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #5'
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40404
-  server: 139.224.111.72
-  type: ss
-- cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_25
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12553
-  server: xinyun-hk.07wi0kka34.download
-  type: ss
-- cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_36
+  name: 61|🇨🇳_CN_中国_36
   password: ead72f06-8655-4a39-a8ce-b6e4702708f6
   port: 12567
   server: xinyun-tw.07wi0kka34.download
   type: ss
-- cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_4
-  password: 95e0f3e2-2b41-48d2-a0e6-500d36f310a1
-  port: 22233
-  server: 03.forlive.live
-  type: ss
-- name: 52|广东省广州市+移动
-  network: tcp
-  password: 4e399fb9-5a4c-49cd-9849-2051512f4c6c
-  port: 27101
-  server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- ip: 172.16.0.2
-  name: 49|🇨🇳 中国_3
-  port: '1701'
-  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.193.7
-  type: wireguard
-  udp: true
-- cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_24
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12554
-  server: xinyun-hk.07wi0kka34.download
+- alterId: 0
+  cipher: auto
+  name: 58|VM-WS-NA 🇨🇳 CN-125.124.254.5:1...
+  network: ws
+  port: 1080
+  server: 125.124.254.5
+  tls: false
+  type: vmess
+  uuid: 46cfcfe1-e450-459d-a3ab-9406011ab3eb
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- cipher: aes-256-gcm
+  name: 58|SS-TCP-NA 🇨🇳 CN-8.138.184.143:...
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40304
+  server: 8.138.184.143
   type: ss
 - cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-8.138.184.224:... #1'
+  name: '58|SS-TCP-NA 🇨🇳 CN-8.138.184.143:... #1'
   password: 0015b020-963b-450d-92f9-a8339de6332c
   port: 40303
-  server: 8.138.184.224
+  server: 8.138.184.143
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 56|🇨🇳CN-183.236.51.82-428
+  network: ws
+  port: 16622
+  server: m.cnmjin.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
+  ws-headers:
+    Host: 3fe454755ea98eaa00f870f7fa2990c7.mobgslb.tbcache.com
+  ws-path: /
 - cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_12
+  name: 61|🇨🇳_CN_中国_12
   password: ead72f06-8655-4a39-a8ce-b6e4702708f6
   port: 12555
   server: xinyun-hk.07wi0kka34.download
   type: ss
-- cipher: aes-256-cfb
-  name: 23,53|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
-- cipher: aes-128-gcm
-  name: 61|YouTube面具人哈乐_中国_9
-  password: NUeBvQHox0BmnHpu
-  port: 30373
-  server: guangguang01.xyz
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 31,53|🇨🇳_CN_中国
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 61|YouTube面具人哈乐_中国_4
-  network: tcp
-  port: 35601
-  server: 120.232.153.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: '65,67|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #3'
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40503
-  server: 139.224.236.220
-  type: ss
 - ip: 172.16.0.2
-  name: 49|🇨🇳 中国_6
+  name: 42|🇨🇳 中国_2
   port: '3581'
   private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   remote-dns-resolve: true
-  server: 162.159.195.244
+  server: 162.159.195.176
   type: wireguard
+  udp: true
+- name: 54|YouTube面具人哈乐_中国_12
+  network: tcp
+  password: NUeBvQHox0BmnHpu
+  port: 443
+  server: ggghhhk51.xyz
+  skip-cert-verify: true
+  sni: ggghhhk51.xyz
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 57|中国_2
+  name: 50|中国_2
   network: ws
   port: 33416
   server: yd2.ainivp.com
@@ -385,65 +363,85 @@ proxies:
     headers:
       host: yd2.ainivp.com
     path: /ray
-- cipher: chacha20-ietf-poly1305
-  name: 65|SS-TCP-NA 🇨🇳 CN-183.233.187.15...
-  password: 99301d55-a41f-4919-986b-1435996533aa
-  port: 20001
-  server: 183.233.187.157
-  type: ss
-- cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-8.138.184.143:... #1'
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40303
-  server: 8.138.184.143
-  type: ss
-- cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_18
-  password: cf448056-b7c2-439d-b708-aaf5ff321052
-  port: 22302
-  server: 04.forlive.live
-  type: ss
-- cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #1'
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40403
-  server: 139.224.236.220
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 65|VM-WS-NA 🇨🇳 CN-125.124.254.5:1...
+  name: '45|二爷免费翻墙网https://1808.free.hr/_C... #3'
   network: ws
-  port: 1080
-  server: 125.124.254.5
-  tls: false
+  port: 81
+  server: 210.61.97.241
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 46cfcfe1-e450-459d-a3ab-9406011ab3eb
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /
-- name: 52|广东省广州市+移动_2_1
+      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /obdii.cfd:443/linkws
+- alterId: 64
+  cipher: auto
+  name: 45|🇨🇳CN_19 |26.80Mb
+  network: tcp
+  port: 45017
+  server: 142.0.134.245
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  name: 61|🇨🇳_CN_中国_25
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12553
+  server: xinyun-hk.07wi0kka34.download
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 25,46|🇨🇳_CN_中国
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 45|广东省广州市+移动_1_2
   network: tcp
   password: ad6e2bae-d580-4117-aa37-a8c111100740
-  port: 13036
-  server: naiu-other.05vr9nyqg5.download
+  port: 13028
+  server: naiu-sg.05vr9nyqg5.download
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
+- cipher: aes-256-gcm
+  name: 58|SS-TCP-NA 🇨🇳 CN-139.224.236.22...
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40504
+  server: 139.224.236.220
+  type: ss
+- ip: 172.16.0.2
+  name: 42|🇨🇳 中国_4
+  port: '1843'
+  private-key: kOeymlq+1gqKeUmpJrL0co8XPxORf4ijquknNjU2pV4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.36
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2
+  name: 42|🇨🇳 中国_3
+  port: '1701'
+  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.193.7
+  type: wireguard
+  udp: true
 - cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_10
+  name: 61|🇨🇳_CN_中国_11
   password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12551
+  port: 12552
   server: xinyun-hk.07wi0kka34.download
   type: ss
-- cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_49
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12563
-  server: xinyun-us.07wi0kka34.download
-  type: ss
-- name: 52|广东省广州市+移动_3
+- name: 45|广东省广州市+移动_3
   network: tcp
   password: ad6e2bae-d580-4117-aa37-a8c111100740
   port: 13008
@@ -452,15 +450,51 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '45|二爷免费翻墙网https://1808.free.hr/_C... #4'
+  network: ws
+  port: 443
+  server: 47.243.236.86
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /obdii.cfd:443/linkws
+- name: 45|广东省广州市+移动_2_1
+  network: tcp
+  password: ad6e2bae-d580-4117-aa37-a8c111100740
+  port: 13036
+  server: naiu-other.05vr9nyqg5.download
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 56|🇨🇳CN-120.226.29.91-463
+  network: ws
+  port: 33202
+  server: yd2.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
 - cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_41
+  name: 61|🇨🇳_CN_中国_24
   password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12568
-  server: xinyun-tw.07wi0kka34.download
+  port: 12554
+  server: xinyun-hk.07wi0kka34.download
   type: ss
 - alterId: 0
   cipher: auto
-  name: 63|🇨🇳CN-120.226.29.91-095
+  name: 56|🇨🇳CN-120.226.29.91-095
   network: ws
   port: 33416
   server: yd2.ainivp.com
@@ -473,58 +507,20 @@ proxies:
   ws-path: /ray
 - alterId: 0
   cipher: auto
-  name: '52|二爷免费翻墙网https://1808.free.hr/_C... #6'
-  network: ws
-  port: 8443
-  server: 8.213.197.132
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
-- cipher: aes-256-gcm
-  name: 65|SS-TCP-NA 🇨🇳 CN-139.224.111.72...
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40402
-  server: 139.224.111.72
-  type: ss
-- cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_11
-  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12552
-  server: xinyun-hk.07wi0kka34.download
-  type: ss
-- cipher: aes-256-gcm
-  name: 65|SS-TCP-NA 🇨🇳 CN-139.224.236.22...
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40504
-  server: 139.224.236.220
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 52|🇨🇳CN_19 |26.80Mb
-  network: tcp
-  port: 45017
-  server: 142.0.134.245
+  name: 45|中国_由快嘴科技提供：kkzui.com33
+  network: http
+  port: 2902
+  server: 143.92.42.65
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 59|TG:@hkaa0|中国_2
-  password: 64f01e9c-30ec-45fc-ae4b-6f556e1aa4b0
-  port: 11001
-  server: 183.232.229.165
-  type: ss
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - alterId: 0
   cipher: auto
-  name: 52|二爷免费翻墙网https://1808.free.hr/_C...
+  name: '45|二爷免费翻墙网https://1808.free.hr/_C... #5'
   network: ws
   port: 443
-  server: 219.76.13.164
+  server: 47.57.13.107
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -533,102 +529,15 @@ proxies:
     headers:
       host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /obdii.cfd:443/linkws
-- cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #4'
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40401
-  server: 139.224.111.72
-  type: ss
-- cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #6'
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40501
-  server: 139.224.236.220
-  type: ss
 - cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_16
-  password: ba9eac02-f784-4349-bd15-500186077160
-  port: 22233
-  server: 04.forlive.live
-  type: ss
-- ip: 172.16.0.2
-  name: 49|🇨🇳 中国_7
-  port: '3581'
-  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.215
-  type: wireguard
-  udp: true
-- cipher: aes-256-gcm
-  name: 65|SS-TCP-NA 🇨🇳 CN-8.138.184.143:...
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40304
-  server: 8.138.184.143
-  type: ss
-- ip: 172.16.0.2
-  name: 49|🇨🇳 中国_2
-  port: '3581'
-  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.176
-  type: wireguard
-  udp: true
-- cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #4'
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40404
-  server: 139.224.236.220
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 59|TG:@hkaa0|中国_3
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50101
-  server: iepl1.forlive.live
-  type: ss
-- cipher: aes-128-gcm
-  name: 68|🇨🇳_CN_中国_47
+  name: 61|🇨🇳_CN_中国_49
   password: ead72f06-8655-4a39-a8ce-b6e4702708f6
-  port: 12561
+  port: 12563
   server: xinyun-us.07wi0kka34.download
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 61|YouTube面具人哈乐_中国_5
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20014
-  server: jp2.mhw7e2.online
-  type: ss
-- cipher: aes-256-gcm
-  name: 65|SS-TCP-NA 🇨🇳 CN-36.141.40.92:1...
-  password: MAADD8JLM8XKVW56
-  port: 15016
-  server: 36.141.40.92
-  type: ss
-- cipher: aes-256-gcm
-  name: '65|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #2'
-  password: 0015b020-963b-450d-92f9-a8339de6332c
-  port: 40402
-  server: 139.224.236.220
-  type: ss
-- cipher: aes-128-gcm
-  name: 65|SS-TCP-NA 🇨🇳 CN-111.29.57.122:...
-  password: 26f959e3-1a5e-3b3d-b4cd-fe04c80902bd
-  port: 10024
-  server: 111.29.57.122
-  type: ss
-- name: 52|广东省广州市+移动_1_2
-  network: tcp
-  password: ad6e2bae-d580-4117-aa37-a8c111100740
-  port: 13028
-  server: naiu-sg.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 52|👉www.85la.com👉中国CN_252
+  name: 45|👉www.85la.com👉中国CN_252
   network: ws
   port: 22638
   server: jian.ddnsfree.com
@@ -640,3 +549,94 @@ proxies:
     headers:
       host: jian.ddnsfree.com
     path: /dcfd733d
+- cipher: aes-256-gcm
+  name: 58|SS-TCP-NA 🇨🇳 CN-36.141.40.92:1...
+  password: MAADD8JLM8XKVW56
+  port: 15016
+  server: 36.141.40.92
+  type: ss
+- cipher: aes-256-gcm
+  name: '58,60|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #3'
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40503
+  server: 139.224.236.220
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 52|TG:@hkaa0|中国_2
+  password: 64f01e9c-30ec-45fc-ae4b-6f556e1aa4b0
+  port: 11001
+  server: 183.232.229.165
+  type: ss
+- cipher: aes-256-gcm
+  name: '58|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #1'
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40403
+  server: 139.224.236.220
+  type: ss
+- cipher: aes-128-gcm
+  name: 61|🇨🇳_CN_中国_16
+  password: ba9eac02-f784-4349-bd15-500186077160
+  port: 22233
+  server: 04.forlive.live
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 45|🇨🇳CN_24 |69.65Mb
+  network: ''
+  port: 45017
+  server: 142.0.134.241
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  name: 61|🇨🇳_CN_中国_14
+  password: 72fb9321-4818-4050-9048-5fa89827adb2
+  port: 22268
+  server: 04.forlive.live
+  type: ss
+- cipher: aes-256-gcm
+  name: '58|SS-TCP-NA 🇨🇳 CN-139.224.111.72... #4'
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40401
+  server: 139.224.111.72
+  type: ss
+- cipher: aes-256-cfb
+  name: 18,46|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 54|YouTube面具人哈乐_中国_5
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20014
+  server: jp2.mhw7e2.online
+  type: ss
+- cipher: aes-128-gcm
+  name: 54|YouTube面具人哈乐_中国_10
+  password: NUeBvQHox0BmnHpu
+  port: 27918
+  server: twacq10.top
+  type: ss
+- cipher: aes-256-gcm
+  name: '58|SS-TCP-NA 🇨🇳 CN-139.224.236.22... #2'
+  password: 0015b020-963b-450d-92f9-a8339de6332c
+  port: 40402
+  server: 139.224.236.220
+  type: ss
+- cipher: aes-128-gcm
+  name: 61|🇨🇳_CN_中国_10
+  password: ead72f06-8655-4a39-a8ce-b6e4702708f6
+  port: 12551
+  server: xinyun-hk.07wi0kka34.download
+  type: ss
+- ip: 172.16.0.2
+  name: 42|🇨🇳 中国_7
+  port: '3581'
+  private-key: ONs6voo/UOpf4QRIlcwVcDYcPSgky+Ktb5Vtr0WHlm4=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  remote-dns-resolve: true
+  server: 162.159.195.215
+  type: wireguard
+  udp: true
