@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 70|[SS] 🇨🇭 _CH_瑞士
-  password: asdKkaskJKfnsa
-  port: 80
-  server: 84.17.53.163
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: '72|二爷免费翻墙网https://1808.free.hr/_C... #1'
@@ -20,13 +13,34 @@ proxies:
     headers:
       host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /obdii.cfd:443/linkws
-- cipher: aes-256-gcm
-  country: CH
-  name: 37|CH_4159
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.166.88.198
+- cipher: aes-256-cfb
+  name: 70|[SS] 🇨🇭 _CH_瑞士
+  password: asdKkaskJKfnsa
+  port: 80
+  server: 84.17.53.163
   type: ss
+  udp: true
+- name: 85|TR-WS-TLS 🇨🇭 CH-185.18.250.117...
+  network: ws
+  password: 1e9aadae-ca17-4f75-b0a0-7de5e3858cfb
+  port: 443
+  server: 185.18.250.117
+  sni: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
+    path: /Telegram@V2ray_Alpha/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 67|19|🔒 VM-TCP-NA 🇨🇭 CH-94.131.99...
+  network: tcp
+  port: '47182'
+  server: 94.131.99.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
 - alterId: 0
   cipher: auto
   name: '72|二爷免费翻墙网https://1808.free.hr/_C... #2'
@@ -41,19 +55,11 @@ proxies:
     headers:
       host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /obdii.cfd:443/linkws
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,45,61,85,97|CH_4156
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.162
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,92|CH_4158
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.166.88.198
+- cipher: chacha20-ietf-poly1305
+  name: 85|SS-TCP-NA 🇨🇭 CH-195.15.243.125...
+  password: AdcivTASb8XWqRKubWaz2w
+  port: 5555
+  server: 195.15.243.125
   type: ss
 - alterId: 1
   cipher: auto
@@ -69,19 +75,6 @@ proxies:
     headers:
       Host: 186.190.215.32
     path: /
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,45,61,85,97|CH_4154
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.161
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 85|SS-TCP-NA 🇨🇭 CH-195.15.243.125...
-  password: AdcivTASb8XWqRKubWaz2w
-  port: 5555
-  server: 195.15.243.125
-  type: ss
 - name: 72|bngan.com_🇨🇭_CH_瑞士_1-128
   network: tcp
   password: 36ebef7d1b1d6205fd0c55f28800e674
@@ -91,52 +84,3 @@ proxies:
   sni: ch-server-01.f7256f.cn
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 67|19|🔒 VM-TCP-NA 🇨🇭 CH-94.131.99...
-  network: tcp
-  port: '47182'
-  server: 94.131.99.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,61|CH_4155
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.166.88.5
-  type: ss
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,45,61,92,97|CH_4157
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.163
-  type: ss
-- name: 85|TR-WS-TLS 🇨🇭 CH-185.18.250.117...
-  network: ws
-  password: 1e9aadae-ca17-4f75-b0a0-7de5e3858cfb
-  port: 443
-  server: 185.18.250.117
-  sni: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 105|电报频道 https://1808.free.hr_CH_4...
-  network: ws
-  port: 443
-  server: 141.148.187.195
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
