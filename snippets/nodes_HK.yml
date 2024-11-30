@@ -13,16 +13,54 @@ proxies:
     headers:
       host: 3.zhuzhu12.com
     path: /zz
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-0.广州2-香港B | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 51109
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm02.tangguo.pro
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【B】香港 普通 7 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 16000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp07.boom.skin
   type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【A】香港 普通 A - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 20000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp10.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【B】香港 普通 1 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 21000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: n06.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 65|🇭🇰 香港02-1B
+  password: 49633ba1-ea4e-4529-8e05-e62dd2108c1e
+  port: 20035
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- name: 72|🇳🇱 荷兰_深港隧道/投稿 2
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12074
+  server: cn2.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
   udp: true
 - alterId: 2
   cipher: auto
@@ -38,553 +76,59 @@ proxies:
     headers:
       host: v12.88host.buzz
     path: /mojing
-- cipher: aes-128-gcm
-  name: 74|🇭🇰 Web 香港II-标准 - AyucLouD-Serv...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 840
-  server: 231103level1.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|>🇭🇰 HK|Ms|0706|TG@FProxies|
-  network: tcp
-  port: '26926'
-  server: 18.166.34.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c99bdca0-f87a-4a2e-ee55-b7eefd6a8d79
-- alterId: 2
-  cipher: auto
-  name: 72|HK_8
-  network: ws
-  port: 36104
-  server: 20.187.116.91
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  ws-opts:
-    headers:
-      host: t.me/vpnhat
-    path: ''
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 61,92|🇭🇰HK_415
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  type: ss
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【B】香港 普通 7 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 16000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp07.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-128-gcm
-  name: 74|🇭🇰 Video 香港C-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 9052
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【B】香港 普通 5 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 14000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp05.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【IEPL】香港 普通 6 - Nearoute - ...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 16000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nk6.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: ' HK'
-  name: 38,39,40,61,72,79,92,97| HK_404
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 203.23.128.33
-  type: ss
-- name: 72|香港_2
-  network: tcp
-  password: a88b0aa2-b6d3-487c-bada-5da80c3b928e
-  port: 8443
-  server: t5.ssrsub.one
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 72|🇭🇰 香港_Telegram@kxswa 2
-  network: tcp
-  password: ee84695e-978f-40cf-8590-5c36a19de984
-  port: 21876
-  server: 103twai.aixunx168.top
-  skip-cert-verify: true
-  sni: 103twai.aixunx168.top
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【B】香港 普通 3 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 12000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp03.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港01 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10031
-  server: hk1.lvuy.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|TG频道:@MTProto_666（香港）
-  network: ws
-  port: '43123'
-  server: gyb.kd69.vip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eb43a0da-08f0-4f79-a1ec-0dad839ce915
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '64|BESHKAN #6'
-  network: ws
-  port: '443'
-  server: cf-lt.sharecentre.online
-  servername: ca-nnc.ilovescp.com
-  tls: true
-  type: vmess
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  ws-opts:
-    headers:
-      Host: ca-nnc.ilovescp.com
-    path: /shirker
-- cipher: chacha20-ietf-poly1305
-  name: 65|🇭🇰 香港01-1A
-  password: 010dc500-67f4-4fcc-b375-b5d5141486c1
-  port: 34338
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港07 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10072
-  server: hk7.lvuy.xyz
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: 72|🇭🇰 香港_Telegram@kxswa 10
-  network: ''
-  port: 50002
-  server: 114.55.132.202
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '64|BESHKAN #2'
+  name: 72|香港-42.5MB/s_579_579
   network: ws
-  port: '80'
-  server: 172.104.171.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bb6b5c3-40dd-4a1f-9f43-802320cc5b56
-  ws-opts:
-    headers:
-      Host: ''
-    path: /project4gyuna.pw
-- alterId: 2
-  cipher: auto
-  name: '72|🇭🇰 香港_28 #1'
-  network: ws
-  port: 18007
-  server: v13.88host.buzz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-  ws-opts:
-    headers:
-      host: v13.88host.buzz
-    path: /mojing
-- alterId: 1
-  cipher: auto
-  name: 72|bngan.com_🇭🇰_HK_香港_4-286
-  network: ws
-  port: 80
-  server: freehk.miao.rest
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c3cd5c42-9527-4777-973d-a9d33b30bb9a
-- alterId: 2
-  cipher: auto
-  name: 72|🇭🇰 HK_599
-  network: ws
-  port: 80
-  server: 103.93.75.129
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6c23fcf0-18e7-3cd0-a123-821fa514fb42
-  ws-opts:
-    path: /v2ray
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港|SS直连二 - BIUBIU FAST 加速器
-  password: 904d24ff-31d7-4bcc-9b1f-5bb8fe1f3e6a
-  port: 5204
-  server: hk1.biubiufast.quest
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【O】香港 普通 10 - Leaseweb - So...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
   port: 30000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: opt20.boom.skin
-  type: ssr
-  udp: true
-- name: 72|🇭🇰 香港_深港隧道/投稿 5
-  network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12001
-  server: cn1.cdn.xfltd-cdn.top
+  server: 27.124.10.146
   skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 74|🇭🇰 香港 直连1 - 爱猫论坛
-  network: ws
-  port: 2443
-  server: hk1.594888.xyz
-  skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  udp: true
-  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
+  uuid: 2525f395-86fc-4090-b203-d9e6db481101
   ws-opts:
     headers:
-      Host: hk1.594888.xyz
-    path: /maohk3
+      host: www.60443882.xyz
+    path: /path/011410073331
 - alterId: 1
   cipher: auto
-  name: '72|🇭🇰 香港_4 #1'
+  name: '72|🇭🇰 香港_15 #1'
   network: ws
-  port: 32006
-  server: azhk3.sf66.cf
+  port: 45117
+  server: gy.c6.nkeo.top
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
   ws-opts:
     headers:
-      host: azhk3.sf66.cf
+      host: gy.c6.nkeo.top
     path: /
-- cipher: aes-128-gcm
-  name: 74|🇭🇰 Game 香港03-标准 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 9063
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【O】香港 普通 4 - Leaseweb - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 14000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: opt4.boom.skin
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|@v2ray24 ▷ Hong Kong 🇭🇰
-  network: tcp
-  port: '29715'
-  server: 8.210.40.15
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ffb7e598-22b4-4868-978a-bdf4533e66ae
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【IEPL】香港 普通 5 - Nearoute - ...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 15000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nk5.boom.skin
-  type: ssr
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港 06 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30506
-  server: host-006.crazyspeed.xyz
+  name: 74|🇭🇰 香港05 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10034
+  server: hk5.lvuy.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '64|@v2ray24 ▷ Hong Kong 🇭🇰 #1'
-  network: tcp
-  port: '52757'
-  server: 8.218.145.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 451d0d8d-6e0b-403c-9fab-937a92f211e2
-- cipher: aes-128-gcm
-  name: 69|🇭🇰 香港_36
-  password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
-  port: '34936'
-  server: v3-js-hk.as9929.uk
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: '72|🇭🇰 香港_2 #1'
-  network: ws
-  port: 28888
-  server: 20.205.124.103
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
-  ws-opts:
-    headers:
-      host: 20.205.124.103
-    path: /
-- cipher: aes-256-gcm
-  name: 69|🇭🇰 香港_12
-  password: 34a547cd-0bfe-4905-9076-0d7c9a61f325
-  port: '29126'
-  server: 101.91.164.138
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|香港=tg频道:@bpjzx2=1
-  network: ws
-  port: 46033
-  server: mf33fx.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: bc230344-14d9-4922-9fb7-2e6513c5593e
-  ws-opts:
-    headers:
-      Host: mf33fx.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: '64|BESHKAN #7'
-  network: ws
-  port: '443'
-  server: ca-nnc.ilovescp.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  ws-opts:
-    headers:
-      Host: ca-nnc.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 72|HK_3
-  network: ws
-  port: 44301
-  server: 2.zhuzhu12.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d4bae454-7a1a-3afd-978e-303a1b928a85
-  ws-opts:
-    headers:
-      host: 2.zhuzhu12.com
-    path: /zz
 - alterId: 2
   cipher: auto
-  name: 72|🇭🇰HK_2
+  name: 72|🇭🇰HK_1
   network: tcp
-  port: 65133
-  server: 33.ssrj.xyz
+  port: 65132
+  server: 32.ssrj.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-1.扬州-香港C | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21082
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnyzm01.tangguo.pro
-  type: ssr
-  udp: true
-- name: 72|🇦🇺 澳大利亚_深港隧道/投稿 2
+- name: 72|🇭🇰 香港_Telegram@kxswa 3
   network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12068
-  server: cn2.cdn.xfltd-cdn.top
+  password: 32e6cda8-b070-45b6-b7ae-4820c918bdfa
+  port: 30881
+  server: 107jpai.aixunx168.top
   skip-cert-verify: true
-  sni: cdn.alibaba.com
+  sni: 107jpai.aixunx168.top
   type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 74|🇭🇰 香港 直连2 - 爱猫论坛
-  network: ws
-  port: 443
-  server: hk2.594888.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
-  ws-opts:
-    headers:
-      Host: hk2.594888.xyz
-    path: /hls/us8.m3u8
-- name: 72|比利时_深港隧道/投稿
-  network: tcp
-  password: AmNeVpkOOMnb
-  port: 13382
-  server: 57.181.41.199
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: '72|🇭🇰 香港_9 #1'
-  network: ws
-  port: 20001
-  server: cm-jm.okvpn.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136
-  ws-opts:
-    headers:
-      host: cm-jm.okvpn.xyz
-    path: /
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【O】香港 普通 5 - Leaseweb - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 15000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: opt5.boom.skin
-  type: ssr
-  udp: true
-- name: 72|🇭🇰 Hong Kong | 02
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20002
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 65|🇭🇰 香港03-1A
-  password: 010dc500-67f4-4fcc-b375-b5d5141486c1
-  port: 20052
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港|高速二SS（会员） - BIUBIU FAST ...
-  password: 904d24ff-31d7-4bcc-9b1f-5bb8fe1f3e6a
-  port: 22001
-  server: dl.biubiufast.quest
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '64|BESHKAN #12'
-  network: ws
-  port: '2083'
-  server: 95.179.128.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cf2679f-8ec4-4b07-d758-132573825850
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: 72|🇭🇰 香港_Telegram@kxswa 5
-  network: tcp
-  password: GsKYmYOE
-  port: 40081
-  server: 183.232.139.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【B】香港 普通 1 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 10000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp01.boom.skin
-  type: ssr
   udp: true
 - alterId: 2
   cipher: auto
@@ -596,196 +140,183 @@ proxies:
   tls: false
   type: vmess
   uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae
-- alterId: 0
+- cipher: aes-128-gcm
+  name: 69|🇭🇰 香港_35
+  password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
+  port: '22466'
+  server: v3-js-sg.as9929.uk
+  type: ss
+- name: 72|🇭🇰 香港_深港隧道/投稿 8
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12004
+  server: cn1.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港06 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10035
+  server: hk6.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港 05 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30505
+  server: host-005.crazyspeed.xyz
+  type: ss
+  udp: true
+- name: 72|🇭🇰 香港_Telegram@kxswa
+  network: tcp
+  password: fuck
+  port: 443
+  server: 42.236.73.72
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 64
   cipher: auto
-  name: 72|V0-香港
+  name: 72|🇭🇰 香港AWS | AGA | @dingyue_Cent...
   network: ws
   port: 80
-  server: gost.cloudflare.182682.xyz
-  type: vmess
-  udp: true
-  uuid: e87e2257-e387-4254-9b12-ba499549c847
-  ws-opts:
-    headers: {}
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 86|香港04 | 1x HK
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41147
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 69|🇭🇰 香港_39
-  password: ec7f5285-263b-41e9-bc92-89c404e9693d
-  port: '15976'
-  server: n00005.bzdqsmzngpyyng.sbs
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-1.扬州-香港A | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21047
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnyzm01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|香港_1
-  network: tcp
-  port: 9444
-  server: 120.232.214.25
+  server: aga-hk.ide.wtf
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6bcc5d53-5012-4e71-93d1-4e485c50f510
-- alterId: 0
-  cipher: auto
-  name: '64|BESHKAN #8'
-  network: ws
-  port: '443'
-  server: cf-lt.sharecentre.online
-  servername: uk1.scproxy.top
-  tls: true
-  type: vmess
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  ws-opts:
-    headers:
-      Host: uk1.scproxy.top
-    path: /shirker
-- name: '102|HK_Hong Kong_Radishcloud Techn... #2'
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19204
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 67|19,21|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 2095
-  server: onea.flha.ru
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- name: 72|🇭🇰 香港_深港隧道/投稿 3
-  network: tcp
-  password: MfqALmAJ
-  port: 40081
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 73|15|🇭🇰 香港3|@ripaojiedian
-  obfs: plain
-  obfs-param: cd5ed74592.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40209
-  protocol: auth_aes128_md5
-  protocol-param: 74592:o4fbeopsgcf
-  server: 95b1cd85a0968ff2.cdn.jiashule.com
+  uuid: 6d3992a2-c297-456c-a834-201064a41ce4
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【O】香港 普通 3 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 13000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt3.boom.skin
   type: ssr
-- name: 72|🇮🇳 印度_深港隧道/投稿
-  network: tcp
-  password: 7a49ebc8-6235-36b1-b7b4-0864b95bd90a
-  port: 45900
-  server: ger.aaaa.gay
-  skip-cert-verify: true
-  sni: ger.aaaa.gay
-  type: trojan
   udp: true
-- name: 72|🇭🇰 Hong Kong | 05
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【B】香港 普通 8 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 17000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp08.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: HK
+  h2-opts: {}
+  http-opts: {}
+  name: 37,40,48,61,72,92,102|Pool_HK_2405
+  network: tcp
+  port: 30251
+  server: 34.92.66.193
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港 01 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30501
+  server: host-001.crazyspeed.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: flynwn
+  name: 74|🇭🇰 vip1 香港-01 测试 - FastFly
+  network: grpc
+  port: 27236
+  server: fly0001.flyflylflyflysbs.sbs
+  servername: hk02.ckcloud.info
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
+- alterId: 0
+  cipher: auto
+  name: 72|香港 香港有线电视有限公司_460
+  network: tcp
+  port: 15086
+  server: 125.59.146.198
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港08 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10074
+  server: hk8.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【O】香港 普通 7 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 27000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt17.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【B】香港  普通 3 - Nearoute - So...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 20000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: n62.boom.skin
+  type: ssr
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 72|🇭🇰 香港_Telegram@kxswa 15
+  network: ''
+  port: 59003
+  server: 183.236.51.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 72|t.me/bnganblog_🇭🇰_HK_香港_3-6
+  network: ws
+  port: 55412
+  server: az1.keaiyun.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
+- name: 72|🇭🇰 Hong Kong | 02
   network: tcp
   password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20005
+  port: 20002
   server: oss-cn-guangzhou.wdcloud.pro
   skip-cert-verify: true
   sni: mmbiz.qpic.cn
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: '72|🇭🇰 香港_22 #1'
-  network: ws
-  port: 28894
-  server: lazhaanh.sfjiedian.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6d005b92-ed20-3ba1-8c25-8a8f5ac30cdd
-  ws-opts:
-    headers:
-      host: lazhaanh.sfjiedian.xyz
-    path: /index
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港 04 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30504
-  server: host-004.crazyspeed.xyz
+- cipher: aes-128-gcm
+  delay: '1127'
+  name: 69|🇭🇰 香港_34
+  password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
+  port: '10061'
+  server: v3-js-hk.as9929.uk
   type: ss
-  udp: true
-- name: 72|🇭🇰 香港_Telegram@kxswa 11_1
-  network: tcp
-  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
-  port: 670
-  server: tw4.233235.xyz
-  skip-cert-verify: true
-  sni: tw4.233235.xyz
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: '72|🇭🇰 香港_21 #1'
-  network: ws
-  port: 28888
-  server: lazhaanh.sfjiedian.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6d005b92-ed20-3ba1-8c25-8a8f5ac30cdd
-  ws-opts:
-    headers:
-      host: lazhaanh.sfjiedian.xyz
-    path: /index
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【O】香港 普通 6 - Leaseweb - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 26000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: opt16.boom.skin
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64,69|香港-2.73MB/s
-  network: ws
-  port: '8080'
-  server: 185.244.208.61
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 74|【IEPL-香港🇭🇰-05】流媒体解锁 - 探索者
@@ -801,384 +332,6 @@ proxies:
     headers:
       Host: 603diyb.donghui.tech
     path: /
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-2.江苏-香港A | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21073
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnczu01.tangguo.pro
-  type: ssr
-  udp: true
-- name: 72|🇭🇰 香港_Telegram@kxswa 12_1
-  network: tcp
-  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
-  port: 703
-  server: sg1111.156786.xyz
-  skip-cert-verify: true
-  sni: sg1111.156786.xyz
-  type: trojan
-  udp: true
-- name: 72|bngan.com_🇭🇰_HK_香港_2-89
-  network: tcp
-  password: a3fa58b581353bb375d2ddad0f327938
-  port: 443
-  server: hk-server-02.selfupay.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 69|🇭🇰 香港_13
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: /
-    skip-cert-verify: true
-    tls: false
-  port: '443'
-  server: 1.65.218.192
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 74|【IEPL-香港🇭🇰-02】流媒体解锁 - 探索者
-  network: ws
-  port: 32336
-  server: 603diyb.donghui.tech
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
-  ws-opts:
-    headers:
-      Host: 603diyb.donghui.tech
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 72|🇭🇰 香港_Telegram@kxswa 12
-  network: ''
-  port: 50002
-  server: 112.132.215.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 72|🇭🇰 香港_Telegram@kxswa 11
-  network: ''
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 72|🇭🇰 香港AWS | AGA | @dingyue_Cent...
-  network: ws
-  port: 80
-  server: aga-hk.ide.wtf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6d3992a2-c297-456c-a834-201064a41ce4
-- alterId: 1
-  cipher: auto
-  name: '72|🇭🇰 香港_23 #1'
-  network: ws
-  port: 28888
-  server: st.ddnspro.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
-  ws-opts:
-    headers:
-      host: st.ddnspro.cn
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港 07 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30507
-  server: host-007.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【O】香港 普通 8 - Leaseweb - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 28000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: opt18.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【B】香港 普通 8 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 17000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp08.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【O】香港 普通 9 - Leaseweb - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 29000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: opt19.boom.skin
-  type: ssr
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 69|🇭🇰 香港_37
-  network: ws
-  port: '2095'
-  server: fcdn.flha.ru
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: fcdn.flha.ru
-    path: /
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【IEPL】香港 普通 3 - Nearoute - ...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 13000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nk3.boom.skin
-  type: ssr
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 72|HK_1
-  network: tcp
-  port: 10004
-  server: shcu01.iplc188.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-- alterId: 2
-  cipher: auto
-  name: 72|HK_9
-  network: ws
-  port: 15071
-  server: 13.75.126.219
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
-  ws-opts:
-    headers:
-      host: t.me/vpnhat
-    path: ''
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: flynwn
-  name: 74|🇭🇰 vip1 香港-01 测试 - FastFly
-  network: grpc
-  port: 27236
-  server: fly0001.flyflylflyflysbs.sbs
-  servername: hk02.ckcloud.info
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
-- name: 72|🇭🇰 香港_Telegram@kxswa 9
-  network: tcp
-  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
-  port: 6678
-  server: tw1.170203.xyz
-  skip-cert-verify: true
-  sni: tw1.170203.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 85,87|SS-TCP-NA 🇭🇰 HK-91.103.122.32:...
-  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
-  port: 39781
-  server: 91.103.122.32
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港06 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10035
-  server: hk6.lvuy.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 74|🇭🇰 Game 香港04-国际 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 20012
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【B】香港 普通 6 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 15000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp06.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-1.佛山-香港A | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21077
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnfsm01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|t.me/bnganblog_🇭🇰_HK_香港_7-46
-  network: ws
-  port: 55419
-  server: az1.accesscam.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港 05 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30505
-  server: host-005.crazyspeed.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|bngan.com_🇭🇰_HK_香港_3-201
-  network: ws
-  port: 80
-  server: 18.167.94.242
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cec85927-8a7a-4866-df8c-27ed589de0ce
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【B】香港  普通 3 - Nearoute - So...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: n62.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【O】香港 普通 1 - Leaseweb - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 11000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: opt1.boom.skin
-  type: ssr
-  udp: true
-- name: 72|香港-113.8KB/s_53_53
-  network: tcp
-  password: 4e399fb9-5a4c-49cd-9849-2051512f4c6c
-  port: 27101
-  server: 45.146.232.172
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- alterId: 32
-  cipher: none
-  name: 72|HK-GLaDOS-GEO-04
-  network: ws
-  port: 3204
-  server: aa1c23d.gd.gladns.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 61,92|🇭🇰HK_416
-  password: asd123456
-  port: 8388
-  server: 103.149.183.10
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 67|21|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.33.152
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇰HK
-  name: 61,92|HK_411
-  password: asd123456
-  port: 8388
-  server: 154.197.26.120
-  type: ss
-- cipher: aes-128-gcm
-  name: 74|🇭🇰 Video 香港A-解锁 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 9053
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|香港=tg频道:@bpjzx2=3
-  network: tcp
-  port: 64010
-  server: 183.249.20.153
-  tls: false
-  type: vmess
-  uuid: e433833f-77e3-32d6-9613-32320f530e5e
 - cipher: aes-256-cfb
   name: 74|🇭🇰 【A】香港 普通 F - Nearoute - Soc...
   obfs: http_simple
@@ -1190,179 +343,122 @@ proxies:
   server: ntemp20.boom.skin
   type: ssr
   udp: true
-- name: 72|🇭🇰 香港_Telegram@kxswa 14
-  network: tcp
-  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
-  port: 706
-  server: 5gzdx.233235.xyz
-  skip-cert-verify: true
-  sni: 5gzdx.233235.xyz
-  type: trojan
+- cipher: aes-128-gcm
+  name: 74|🇭🇰 Game 香港02-标准 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 9054
+  server: 231103level3.unclemanco.com
+  type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 74|🇭🇰 【B】香港 普通 4 -  Nearoute - So...
+  name: 74|🇭🇰 【A】香港 普通 E - Nearoute - Soc...
   obfs: http_simple
   obfs-param: download.windowsupdate.com
   password: Uk92CS
-  port: 13000
+  port: 24000
   protocol: auth_aes128_sha1
   protocol-param: 1024967:BpWyjN
-  server: ntemp04.boom.skin
+  server: ntemp19.boom.skin
   type: ssr
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 86|香港02 | 1x HK
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41143
-  server: free.6vczxw.xyz
+  name: 74|🇭🇰 香港 04 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30504
+  server: host-004.crazyspeed.xyz
+  type: ss
+  udp: true
+- name: 72|🇭🇰 香港_Telegram@kxswa 10_1
+  network: tcp
+  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
+  port: 706
+  server: 2gzdx21.156786.xyz
+  skip-cert-verify: true
+  sni: 2gzdx21.156786.xyz
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【IEPL】香港 普通 2 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 12000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk2.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: flynwn
+  name: 74|🇭🇰 vip1 香港-06 测试 - FastFly
+  network: grpc
+  port: 34090
+  server: fly0001.flyflylflyflysbs.sbs
+  servername: hk04.ckcloud.info
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
+- cipher: chacha20-ietf-poly1305
+  name: 65|🇭🇰 香港01-1A
+  password: 010dc500-67f4-4fcc-b375-b5d5141486c1
+  port: 34338
+  server: gy.666666222.shop
   type: ss
   udp: true
 - alterId: 2
   cipher: auto
-  name: 72|🇭🇰 HK_626
+  name: 72|🇭🇰 Relay_🇭🇰HK-🇭🇰HK_628
   network: ws
   port: 80
-  server: 103.93.75.88
+  server: 1229hk.fans8.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6c23fcf0-18e7-3cd0-a123-821fa514fb42
   ws-opts:
     path: /v2ray
+- cipher: rc4-md5
+  country: ' HK'
+  name: 40|Relay  HK_267
+  obfs: plain
+  obfs-param: vpnhat.t.me
+  password: ENZ52K
+  port: 40207
+  protocol: auth_aes128_md5
+  protocol-param: 86416:SlZFuy
+  server: 113.31.119.221
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: '64|BESHKAN #10'
+  name: 72|t.me/bnganblog_🇭🇰_HK_香港_5-32
   network: ws
-  port: '2052'
-  server: shop.coienx.de
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e526a74d-1e43-4e76-8904-749f946640cd
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip1-1.广州1-香港A | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 6018
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm01.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【N】香港 普通 1 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 47000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nn8.boom.skin
-  type: ssr
-  udp: true
-- name: 72|香港
-  password: DD123456
-  port: 443
-  server: 154.83.87.195
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 65|🇭🇰 香港02-1B
-  password: 49633ba1-ea4e-4529-8e05-e62dd2108c1e
-  port: 20035
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港 10 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30510
-  server: host-010.crazyspeed.xyz
-  type: ss
-  udp: true
-- name: 72|🇦🇺 澳大利亚_深港隧道/投稿
-  network: tcp
-  password: xfBUrGoWkrGB
-  port: 13366
-  server: 43.201.82.97
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-0.广州2-香港C | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 51119
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm02.tangguo.pro
-  type: ssr
-  udp: true
-- name: 72|🇭🇰 Hong Kong | 07
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20007
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 69|🇭🇰 香港_15
-  password: 9c709e3d-f733-4b08-853d-2c81c4f393b5
-  port: '42107'
-  server: db.quanstring.top
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 72|t.me/bnganblog_🇭🇰_HK_香港_8-75
-  network: ws
-  port: 55417
-  server: az1.accesscam.org
+  port: 55415
+  server: az1.keaiyun.top
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
-- name: 72|🇹🇷 土耳其_深港隧道/投稿 2
-  network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12064
-  server: cn2.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 64|香港-311.2KB/s
+  name: 72|🇭🇰 香港_10
   network: ws
-  port: '8080'
-  server: 185.244.208.216
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 72|🇭🇰 HK_香港
-  network: ws
-  port: 80
-  server: hk2.free80ml.tk
+  port: 10633
+  server: cxcu.jiyunshu.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 35fa01b6-aff0-3350-81d3-9185e6be42d1
+  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
   ws-opts:
+    headers:
+      host: cxcu.jiyunshu.com
     path: /
 - alterId: 0
   cipher: auto
@@ -1379,1300 +475,6 @@ proxies:
     headers:
       Host: 603diyb.donghui.tech
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港05 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10034
-  server: hk5.lvuy.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 86|香港06 | 1x HK
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41151
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- name: 72|🇮🇹 意大利_深港隧道/投稿
-  network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12062
-  server: cn2.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 72|香港-42.5MB/s_579_579
-  network: ws
-  port: 30000
-  server: 27.124.10.146
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2525f395-86fc-4090-b203-d9e6db481101
-  ws-opts:
-    headers:
-      host: www.60443882.xyz
-    path: /path/011410073331
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【IEPL】香港 普通 2 - Nearoute - ...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 12000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nk2.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 86|香港07 | 1x HK
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41153
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 72|香港-9.8MB/s_578_578
-  network: ws
-  port: 36000
-  server: 223.26.61.135
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.89070185.xyz
-    path: /path/011410073331
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 61,92|🇭🇰HK_414
-  password: asd123456
-  port: 8388
-  server: 154.197.98.64
-  type: ss
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【A】香港 普通 C - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 22000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp17.boom.skin
-  type: ssr
-  udp: true
-- name: 72|🇭🇰 Hong Kong | 03
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20003
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-1.扬州-香港B | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21048
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnyzm01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 72|🇭🇰 香港_Telegram@kxswa 15_1
-  network: ''
-  port: 54882
-  server: 183.240.235.162
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 72|🇭🇰 香港_Telegram@kxswa 17
-  network: ''
-  port: 50002
-  server: 47.116.173.76
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: '72|🇭🇰 香港_26 #1'
-  network: ws
-  port: 18008
-  server: v11.88host.buzz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-  ws-opts:
-    headers:
-      host: v11.88host.buzz
-    path: /mojing
-- cipher: chacha20-ietf-poly1305
-  name: 69|🇭🇰 香港_42
-  password: Rad35baG
-  port: '10001'
-  server: 121.43.117.216
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 41|HK |  LB-1N
-  network: ws
-  port: 443
-  server: hkcft01.xqc.best
-  servername: d1th2ch215a6xr.cloudfront.net
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 90d2f8d7-2f37-45af-983f-f35b81a564e9
-  ws-opts:
-    headers:
-      Host: d1th2ch215a6xr.cloudfront.net
-    path: /stream?ed=2048
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【B】香港 普通 2 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 11000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp02.boom.skin
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|t.me/bnganblog_🇭🇰_HK_香港_2-4
-  network: ws
-  port: 55413
-  server: az1.keaiyun.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
-- alterId: 2
-  cipher: auto
-  name: 72|🇭🇰HK_3
-  network: tcp
-  port: 61144
-  server: 44.ssrj.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【O】香港 普通 2 - Leaseweb - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 12000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: opt2.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 69|🇭🇰 香港_41
-  password: ec7f5285-263b-41e9-bc92-89c404e9693d
-  port: '14490'
-  server: n00005.bzdqsmzngpyyng.sbs
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 72|香港-1.16MB/s_10_10
-  network: ws
-  port: 443
-  server: 5.188.33.172
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      host: 5.188.33.172
-    path: linkvws
-- alterId: 32
-  cipher: none
-  name: 72|GLaDOS-HK-Netflix
-  network: ws
-  port: 3306
-  server: aa1c23d.t3.gladns.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【A】香港 普通 1 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 19000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp15.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  country: HK
-  name: 45,61|Pool_HK_91
-  obfs: tls1.2_ticket_auth
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  server: 150.107.46.21
-  type: ssr
-- name: '102|HK_Hong Kong_Radishcloud Techn... #1'
-  network: tcp
-  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
-  port: 19202
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- name: 72|🇭🇰 香港_深港隧道/投稿 9
-  network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12005
-  server: cn1.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '64|BESHKAN #9'
-  network: ws
-  port: '8880'
-  server: my.coienx.de
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3d589c52-2f10-4e7f-9243-2a9799238432
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 1
-  cipher: auto
-  name: '72|🇭🇰 香港_1 #1'
-  network: ws
-  port: 4646
-  server: 183.232.163.3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd
-  ws-opts:
-    headers:
-      host: t.me/vpnhat
-    path: /v2ray
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-1.佛山-香港B | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21078
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnfsm01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|🇭🇰 Hong Kong
-  network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 72|🇭🇰 香港_Telegram@kxswa 13
-  network: ''
-  port: 50002
-  server: 47.92.152.169
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 72|🇭🇰 Hong Kong | 08
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20008
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 86|香港01 | 1x HK
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41141
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- name: 72|🇭🇰 Hong Kong | 04
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20004
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 4,7,10,12,15,21,24,27,30,32,35,46,47,48|香港(yudou66.com 玉豆免费节点)
-  network: ws
-  port: '33416'
-  server: yd2.ainivp.com
-  servername: yd2.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 72|香港 香港有线电视有限公司_460
-  network: tcp
-  port: 15086
-  server: 125.59.146.198
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- name: 72|🇹🇭 泰国_深港隧道/投稿
-  network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12076
-  server: cn2.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '64|BESHKAN #4'
-  network: tcp
-  port: '32586'
-  server: 129.159.41.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 341a9182-c423-499c-c46e-d17838b29037
-- name: 102|HK_Hong Kong_Radishcloud Techn...
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19209
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf
-  country: HK
-  name: 45,82|HK_90
-  password: asd123456
-  port: 8388
-  server: 103.36.91.23
-  type: ss
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-0.广州2-香港A | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 51116
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm02.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|BESHKAN
-  network: ws
-  port: '55600'
-  server: 129.151.164.152
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e30f8588-2555-48b8-c354-c8e63f57232d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 86|香港03 | 家宽 | 1x HK
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41145
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 72|🇦🇹 奥地利_深港隧道/投稿
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.180.12.81
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 85,87|SS-TCP-NA 🇭🇰 HK-89.213.150.72:...
-  password: F585FCDB-6351-48D4-82C1-599B5447A589
-  port: 40000
-  server: 89.213.150.72
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 67|19|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.2...
-  network: ws
-  port: '24101'
-  server: 47.76.35.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港08 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10074
-  server: hk8.lvuy.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【N】香港 普通 3 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 49000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nna.boom.skin
-  type: ssr
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 72|🇭🇰 Relay_🇭🇰HK-🇭🇰HK_628
-  network: ws
-  port: 80
-  server: 1229hk.fans8.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6c23fcf0-18e7-3cd0-a123-821fa514fb42
-  ws-opts:
-    path: /v2ray
-- cipher: chacha20-ietf
-  name: 72|🇭🇰 香港_深港隧道/投稿
-  password: HuTaoCloud
-  plugin: obfs
-  plugin-opts:
-    host: 36a1a32505.microsoft.com
-    mode: http
-  port: 12556
-  server: cm1-tw.hutaonode3.top
-  type: ss
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【N】香港 普通 4 - Leaseweb - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 50000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nn11.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港|高速香港SS2（会员） - BIUBIU FAS...
-  password: 904d24ff-31d7-4bcc-9b1f-5bb8fe1f3e6a
-  port: 11005
-  server: dl.biubiufast.quest
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 72|🇭🇰 香港_Telegram@kxswa 16_1
-  network: ''
-  port: 32998
-  server: 183.240.235.164
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 32
-  cipher: none
-  name: 72|HK-GLaDOS-GEO-02
-  network: ws
-  port: 3204
-  server: aa1c23d.gb.gladns.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: flynwn
-  name: 74|🇭🇰 vip1 香港-06 测试 - FastFly
-  network: grpc
-  port: 34090
-  server: fly0001.flyflylflyflysbs.sbs
-  servername: hk04.ckcloud.info
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
-- alterId: 32
-  cipher: none
-  name: 72|HK-GLaDOS-GEO-03
-  network: ws
-  port: 3204
-  server: aa1c23d.gc.gladns.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-- name: 72|🇭🇰 香港_Telegram@kxswa 4
-  network: tcp
-  password: f3a57086-06b5-498b-ae88-937c4f958ff4
-  port: 31997
-  server: 108jpai.aixunx168.top
-  skip-cert-verify: true
-  sni: 108jpai.aixunx168.top
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 74|🇭🇰 Game 香港01-标准 - AyucLouD-Ser...
-  password: ayu1245
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 824
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港04 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10033
-  server: hk4.lvuy.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '64|BESHKAN #11'
-  network: tcp
-  port: '58502'
-  server: 167.172.108.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 17daf5c5-8930-4003-86ea-d621bbf15ceb
-- alterId: 0
-  cipher: auto
-  name: 64|GCP-谷歌-HK
-  network: ws
-  port: '8080'
-  server: 35.215.167.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /mkp56lok
-- alterId: 0
-  cipher: auto
-  name: 64|香港环电-隧道2
-  network: ws
-  port: '26622'
-  server: cm.mj-cn.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1ddc351f-4ea2-4dbe-91d4-66454629455b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- name: 72|🇭🇰 香港_Telegram@kxswa
-  network: tcp
-  password: fuck
-  port: 443
-  server: 42.236.73.72
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|香港=tg频道:@bpjzx2=2
-  network: ws
-  port: 46001
-  server: mf01fx.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: bc230344-14d9-4922-9fb7-2e6513c5593e
-  ws-opts:
-    headers:
-      Host: mf01fx.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: '64|BESHKAN #3'
-  network: ws
-  port: '443'
-  server: new6.hucloud-dns.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0a5dc877-0211-4352-f73a-8fbdae81d673
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-128-gcm
-  delay: '1127'
-  name: 69|🇭🇰 香港_34
-  password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
-  port: '10061'
-  server: v3-js-hk.as9929.uk
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 72|🇭🇰 香港 | AGA | @dingyue_Center
-  network: ws
-  port: 21050
-  server: aga.nayun.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f5ba93b4-eba8-449a-bf22-da465fd07e1c
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip1-2.南阳-香港A | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 31058
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnnym01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 51,54|🇭🇰HK_51
-  network: tcp
-  port: 39999
-  server: 42.3.19.58
-  tls: true
-  type: vmess
-  uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
-- alterId: 1
-  cipher: auto
-  name: 72|🇭🇰 香港_10
-  network: ws
-  port: 10633
-  server: cxcu.jiyunshu.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
-  ws-opts:
-    headers:
-      host: cxcu.jiyunshu.com
-    path: /
-- cipher: aes-256-cfb
-  name: 72|🇲🇽 墨西哥_深港隧道/投稿
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 190.103.179.23
-  type: ss
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: flynwn
-  name: 74|🇭🇰 vip1 香港-16 测试 - FastFly
-  network: grpc
-  port: 62690
-  server: fly0001.flyflylflyflysbs.sbs
-  servername: hk05.ckcloud.info
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-2.江苏-香港C | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21075
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnczu01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|t.me/bnganblog_🇭🇰_HK_香港_6-45
-  network: ws
-  port: 55418
-  server: az1.accesscam.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
-- alterId: 0
-  cipher: auto
-  name: '64|BESHKAN #5'
-  network: tcp
-  port: '28038'
-  server: vpn0free.devhrtz2.gq
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 16f6e585-8199-4c59-cb88-a1d52199c419
-- cipher: chacha20-ietf-poly1305
-  name: 102|HK_Hong Kong_Akile LTD_OpenAI
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61008
-  server: 120.240.88.37
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 51,54|🇭🇰HK_49
-  network: tcp
-  port: 39999
-  server: 203.218.84.13
-  tls: true
-  type: vmess
-  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-2.江苏-香港B | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21108
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnczu01.tangguo.pro
-  type: ssr
-  udp: true
-- name: 72|HK_5
-  network: tcp
-  password: 3b005336-26f8-4da6-9f7c-df1d7c359440
-  port: 1080
-  server: azhk.jietiyun.xyz
-  skip-cert-verify: true
-  sni: azhk.jietiyun.xyz
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【IEPL】香港 普通 1 - Nearoute - ...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 11000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nk1.boom.skin
-  type: ssr
-  udp: true
-- name: 72|🇭🇰 香港_深港隧道/投稿 6
-  network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12002
-  server: cn1.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 61,63,72|Relay_🇭🇰HK-🇭🇰HK_419
-  network: tcp
-  port: 30251
-  server: 1.65.205.116
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-- alterId: 0
-  cipher: auto
-  country: ' HK'
-  h2-opts: {}
-  http-opts: {}
-  name: 40,61,63,72,92| HK_268
-  network: tcp
-  port: 30251
-  server: hkt2.bika.hk
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-  ws-path: /
-- name: 72|🇭🇰 香港_Telegram@kxswa_1
-  network: tcp
-  password: RmdXQRXg
-  port: 4027
-  server: 183.232.139.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 74|🇭🇰 香港 BGP直连测试 - 爱猫论坛
-  network: ws
-  port: 1443
-  server: hkbgp.henyo.us
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
-  ws-opts:
-    headers:
-      Host: hkbgp.henyo.us
-    path: /hls/us8.m3u8
-- alterId: 0
-  cipher: auto
-  name: '64|@v2ray24 ▷ Hong Kong 🇭🇰 #2'
-  network: ws
-  port: '80'
-  server: hax.smely.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6dfb50f-75bb-48e0-b56a-1edeb62b5a49
-  ws-opts:
-    headers:
-      Host: ''
-    path: /hax02
-- alterId: 0
-  cipher: auto
-  name: 64,73,83|13|🇭🇰 香港4|@ripaojiedian
-  network: tcp
-  port: 18001
-  server: cc3.douyin.com.gbnodex.com
-  tls: false
-  type: vmess
-  uuid: 7362aef8-0201-44a6-8cf2-5e50a3b6873b
-- alterId: 0
-  cipher: auto
-  name: 72|🇭🇰 香港AWS | 直连 | @dingyue_Cente...
-  network: ''
-  port: 443
-  server: aws.spyun.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e00f2166-8473-4b89-a6b6-2935f486c64a
-- alterId: 0
-  cipher: auto
-  name: 72|t.me/bnganblog_🇭🇰_HK_香港_3-6
-  network: ws
-  port: 55412
-  server: az1.keaiyun.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【A】香港 普通 D - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 23000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp18.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-128-gcm
-  name: 74|🇭🇰 Web 香港I-标准 - AyucLouD-Servi...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 912
-  server: 231103level1.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港 08 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30508
-  server: host-008.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-2.江苏-香港D | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21070
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnczu01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '64|TG频道:@MTProto_666（香港） #1'
-  network: tcp
-  port: '27929'
-  server: 154.44.27.147
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8718fa8a-a318-42e7-8cb0-97a69ce36fc5
-- name: 72|🇭🇰 香港_Telegram@kxswa 10_1
-  network: tcp
-  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
-  port: 706
-  server: 2gzdx21.156786.xyz
-  skip-cert-verify: true
-  sni: 2gzdx21.156786.xyz
-  type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-1.扬州-香港D | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 21083
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnyzm01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 74|🇭🇰 【IEPL-香港-0B】流媒体解锁 - 探索者
-  network: ws
-  port: 34644
-  server: 603diya.donghui.tech
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
-  ws-opts:
-    headers:
-      Host: 603diya.donghui.tech
-    path: /
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【A】香港 普通 E - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 24000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp19.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-128-gcm
-  name: 74|🇭🇰 Game 香港06-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 823
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|🇧🇷 巴西_深港隧道/投稿
-  network: ws
-  port: 80
-  server: 188.114.98.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f491cbe4-7548-446c-8d3e-64008e3b1325
-  ws-opts:
-    path: /vmess
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【B】香港 普通 9 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 18000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp09.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港 02 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30502
-  server: host-002.crazyspeed.xyz
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: '72|🇭🇰 香港_15 #1'
-  network: ws
-  port: 45117
-  server: gy.c6.nkeo.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
-  ws-opts:
-    headers:
-      host: gy.c6.nkeo.top
-    path: /
-- name: 72|香港-5.00MB/s_485_485
-  network: tcp
-  password: f181b265-5fd4-456e-ad2d-c9b0446e0d51
-  port: 27001
-  server: 45.146.232.171
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|HKT HongKong _<
-  network: tcp
-  port: '11802'
-  server: 103.216.253.100
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
-- alterId: 0
-  cipher: auto
-  name: 72|t.me/bnganblog_🇭🇰_HK_香港_4-13
-  network: ws
-  port: 55416
-  server: az1.keaiyun.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
-- alterId: 1
-  cipher: auto
-  name: 72|🇭🇰 香港_16
-  network: ws
-  port: 45112
-  server: gy.c6.nkeo.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
-  ws-opts:
-    headers:
-      host: gy.c6.nkeo.top
-    path: /
-- name: 72|香港-91.0MB/s_52_52
-  network: tcp
-  password: 4e399fb9-5a4c-49cd-9849-2051512f4c6c
-  port: 27101
-  server: 45.146.232.173
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 72|🇭🇰 香港_Telegram@kxswa 8
-  network: tcp
-  password: RmdXQRXg
-  port: 23621
-  server: 223.113.54.154
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港 03 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30503
-  server: host-003.crazyspeed.xyz
-  type: ss
-  udp: true
-- name: 72|🇲🇾 马来西亚_深港隧道/投稿
-  network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12067
-  server: cn2.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|t.me/bnganblog_🇭🇰_HK_香港_1-1
-  network: ws
-  port: 55411
-  server: az1.keaiyun.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
-- alterId: 0
-  cipher: auto
-  name: 67,81|22|香港|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: onea.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【O】香港 普通 7 - Leaseweb - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 27000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: opt17.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip1-2.南阳-香港C | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 31071
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnnym01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 74|🇭🇰 【IEPL-香港-0A】流媒体解锁 - 探索者
-  network: ws
-  port: 34643
-  server: 603diya.donghui.tech
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
-  ws-opts:
-    headers:
-      Host: 603diya.donghui.tech
-    path: /
-- alterId: 1
-  cipher: auto
-  name: '72|🇭🇰 香港_11 #1'
-  network: ws
-  port: 59647
-  server: cxcu.jiyunshu.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fb1680d4-01b9-4cdd-919f-4d49faf2c326
-  ws-opts:
-    headers:
-      host: cxcu.jiyunshu.com
-    path: /
-- alterId: 1
-  cipher: auto
-  name: '72|🇭🇰 香港_3 #1'
-  network: ws
-  port: 32005
-  server: azhk3.sf66.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c
-  ws-opts:
-    headers:
-      host: azhk3.sf66.cf
-    path: /
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip1-1.广州1-香港B | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 6016
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 72|🇭🇰HK_1
-  network: tcp
-  port: 65132
-  server: 32.ssrj.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae
-- cipher: aes-128-gcm
-  name: 74|🇭🇰 Video 香港B-标准 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 8001
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【IEPL】香港 普通 7 - Nearoute - ...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 17000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nk7.boom.skin
-  type: ssr
-  udp: true
-- alterId: 32
-  cipher: none
-  name: 72|HK-GLaDOS-GEO-01
-  network: ws
-  port: 3204
-  server: aa1c23d.ga.gladns.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -2690,50 +492,55 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 72|🇭🇰 香港_深港隧道/投稿 10
+- alterId: 2
+  cipher: auto
+  name: '72|🇭🇰 香港_28 #1'
+  network: ws
+  port: 18007
+  server: v13.88host.buzz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+  ws-opts:
+    headers:
+      host: v13.88host.buzz
+    path: /mojing
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【O】香港 普通 8 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 28000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt18.boom.skin
+  type: ssr
+  udp: true
+- name: 72|🇭🇰 香港_深港隧道/投稿 5
   network: tcp
   password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12006
+  port: 12001
   server: cn1.cdn.xfltd-cdn.top
   skip-cert-verify: true
   sni: cdn.alibaba.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 69|🇭🇰 香港_21
-  password: ec7f5285-263b-41e9-bc92-89c404e9693d
-  port: '14490'
-  server: n00007.bzdqsmzngpyyng.sbs
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【N】香港 普通 2 - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 48000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nn9.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港02 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10032
-  server: hk2.lvuy.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|t.me/bnganblog_🇭🇰_HK_香港_5-32
-  network: ws
-  port: 55415
-  server: az1.keaiyun.top
+- name: 72|🇭🇰 香港_Telegram@kxswa 5
+  network: tcp
+  password: GsKYmYOE
+  port: 40081
+  server: 183.232.139.22
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 86|香港04 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41147
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
 - cipher: aes-128-cfb
   name: 74|🇭🇰 Vip1-2.南阳-香港B | 倍率x1 - 糖果
   obfs: tls1.2_ticket_auth
@@ -2747,206 +554,215 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '64|BESHKAN #1'
+  name: 72|HK_3
   network: ws
-  port: '443'
-  server: 141.101.114.22
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2
-  ws-opts:
-    headers:
-      Host: v2ray1.zhujicn2.org
-    path: /UMW36262
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【B】香港 普通 1 - Leaseweb - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: n06.boom.skin
-  type: ssr
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 72|🇭🇰 Relay_🇭🇰HK-🇭🇰HK_607
-  network: ws
-  port: 80
-  server: 1218hk.fans8.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6c23fcf0-18e7-3cd0-a123-821fa514fb42
-  ws-opts:
-    path: /v2ray
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港 01 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30501
-  server: host-001.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【O】香港 普通 3 - Leaseweb - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 13000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: opt3.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-128-gcm
-  name: 74|🇭🇰 Game 香港02-标准 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 9054
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip2-0.广州2-香港D | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 51120
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm02.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip1-1.广州1-香港D | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 6046
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm01.tangguo.pro
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港 09 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 30509
-  server: host-009.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【A】香港 普通 B - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp16.boom.skin
-  type: ssr
-  udp: true
-- name: 72|🇳🇱 荷兰_深港隧道/投稿 2
-  network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12074
-  server: cn2.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 86|香港05 | 1x HK
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41149
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|HK_2
-  network: ws
-  port: 443
-  server: 1.zhuzhu12.com
+  port: 44301
+  server: 2.zhuzhu12.com
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: d4bae454-7a1a-3afd-978e-303a1b928a85
   ws-opts:
     headers:
-      host: 1.zhuzhu12.com
+      host: 2.zhuzhu12.com
     path: /zz
-- alterId: 10
+- cipher: aes-128-gcm
+  name: 74|🇭🇰 Video 香港B-标准 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 8001
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【O】香港 普通 6 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 26000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt16.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 72|🇭🇰_HK_香港
+  name: 74|🇭🇰 【IEPL-香港-0A】流媒体解锁 - 探索者
   network: ws
-  port: 88
-  server: hkml.jjyun.ren
+  port: 34643
+  server: 603diya.donghui.tech
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c29ad9cc-d1c0-4ff7-a452-c323830849a2
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
   ws-opts:
-    path: /jjyun
+    headers:
+      Host: 603diya.donghui.tech
+    path: /
+- cipher: aes-128-gcm
+  name: 74|🇭🇰 Game 香港03-标准 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 9063
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 74|🇭🇰 Web 香港II-标准 - AyucLouD-Serv...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 840
+  server: 231103level1.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 72|HK_8
+  network: ws
+  port: 36104
+  server: 20.187.116.91
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
+  ws-opts:
+    headers:
+      host: t.me/vpnhat
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 72|bngan.com_🇭🇰_HK_香港_3-201
+  network: ws
+  port: 80
+  server: 18.167.94.242
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cec85927-8a7a-4866-df8c-27ed589de0ce
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港 07 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30507
+  server: host-007.crazyspeed.xyz
+  type: ss
+  udp: true
+- name: 72|🇭🇰 香港_深港隧道/投稿 3
+  network: tcp
+  password: MfqALmAJ
+  port: 40081
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 72|🇭🇰HK_3
+  network: tcp
+  port: 61144
+  server: 44.ssrj.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 67|19,21|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 2095
+  server: onea.flha.ru
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-2.江苏-香港D | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21070
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnczu01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【A】香港 普通 C - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 22000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp17.boom.skin
+  type: ssr
+  udp: true
+- name: 72|🇭🇰 香港_深港隧道/投稿 6
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12002
+  server: cn1.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- name: 72|🇹🇷 土耳其_深港隧道/投稿 2
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12064
+  server: cn2.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【B】香港 普通 3 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 12000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp03.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-1.扬州-香港B | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21048
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
 - alterId: 64
   cipher: auto
-  name: 72|🇭🇰 香港_Telegram@kxswa 15
+  name: 72|🇭🇰 香港_Telegram@kxswa 17
   network: ''
-  port: 59003
-  server: 183.236.51.36
+  port: 50002
+  server: 47.116.173.76
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇭🇰 香港03 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 12345
-  server: hk3.lvuy.xyz
-  type: ss
-  udp: true
-- name: 72|🇭🇰 Hong Kong | 06
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20006
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|@telmavpn🇭🇰
-  network: ws
-  port: '443'
-  server: d17d3pnxztlslv.cloudfront.net
-  servername: d17d3pnxztlslv.cloudfront.net
-  tls: true
-  type: vmess
-  uuid: e7e9770a-297d-4dd1-ae38-157f466bf289
-  ws-opts:
-    headers:
-      Host: d17d3pnxztlslv.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 64|@VPNsuPPortFAST🇭🇰
-  network: ws
-  port: '443'
-  server: 147.78.140.30
-  servername: d396-flower-d396.megare7260.workers.dev
-  tls: true
-  type: vmess
-  uuid: 7f14e42a-f453-4c39-a762-019ee493237d
-  ws-opts:
-    headers:
-      Host: d396-flower-d396.megare7260.workers.dev
-    path: /a4.bbbbbbbb.tk/argox-vm?ed=2048
 - name: 72|🇭🇰 香港_Telegram@kxswa 13_1
   network: tcp
   password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
@@ -2956,14 +772,239 @@ proxies:
   sni: tw5.170203.xyz
   type: trojan
   udp: true
-- name: 72|🇭🇰 香港_深港隧道/投稿 8
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-0.广州2-香港C | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51119
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
+- name: 72|🇭🇰 Hong Kong | 05
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20005
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-0.广州2-香港B | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51109
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 32
+  cipher: none
+  name: 72|GLaDOS-HK-Netflix
+  network: ws
+  port: 3306
+  server: aa1c23d.t3.gladns.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: flynwn
+  name: 74|🇭🇰 vip1 香港-16 测试 - FastFly
+  network: grpc
+  port: 62690
+  server: fly0001.flyflylflyflysbs.sbs
+  servername: hk05.ckcloud.info
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
+- alterId: 2
+  cipher: auto
+  name: '72|🇭🇰 香港_22 #1'
+  network: ws
+  port: 28894
+  server: lazhaanh.sfjiedian.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6d005b92-ed20-3ba1-8c25-8a8f5ac30cdd
+  ws-opts:
+    headers:
+      host: lazhaanh.sfjiedian.xyz
+    path: /index
+- alterId: 2
+  cipher: auto
+  name: 72|🇭🇰 HK_599
+  network: ws
+  port: 80
+  server: 103.93.75.129
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6c23fcf0-18e7-3cd0-a123-821fa514fb42
+  ws-opts:
+    path: /v2ray
+- name: 72|🇮🇹 意大利_深港隧道/投稿
   network: tcp
   password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12004
+  port: 12062
+  server: cn2.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 72|HK_1
+  network: tcp
+  port: 10004
+  server: shcu01.iplc188.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-1.佛山-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21077
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnfsm01.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 72|🇭🇰 HK_香港
+  network: ws
+  port: 80
+  server: hk2.free80ml.tk
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 35fa01b6-aff0-3350-81d3-9185e6be42d1
+  ws-opts:
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 72|香港-1.16MB/s_10_10
+  network: ws
+  port: 443
+  server: 5.188.33.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      host: 5.188.33.172
+    path: linkvws
+- alterId: 2
+  cipher: auto
+  name: 72|HK_6
+  network: ws
+  port: 15072
+  server: 13.75.126.219
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
+  ws-opts:
+    headers:
+      host: t.me/vpnhat
+    path: ''
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【B】香港 普通 2 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 11000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp02.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 67|19|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.2...
+  network: ws
+  port: '24101'
+  server: 47.76.35.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: 72|🇮🇳 印度_深港隧道/投稿 2
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12072
+  server: cn2.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【O】香港 普通 2 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 12000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt2.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【N】香港 普通 3 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 49000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nna.boom.skin
+  type: ssr
+  udp: true
+- name: 72|🇭🇰 香港_深港隧道/投稿 9
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12005
   server: cn1.cdn.xfltd-cdn.top
   skip-cert-verify: true
   sni: cdn.alibaba.com
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港|高速二SS（会员） - BIUBIU FAST ...
+  password: 904d24ff-31d7-4bcc-9b1f-5bb8fe1f3e6a
+  port: 22001
+  server: dl.biubiufast.quest
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-1.佛山-香港B | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21078
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnfsm01.tangguo.pro
+  type: ssr
   udp: true
 - alterId: 2
   cipher: auto
@@ -2979,123 +1020,15 @@ proxies:
     headers:
       host: t.me/vpnhat
     path: ''
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip1-1.广州1-香港C | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 6022
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cngzm01.tangguo.pro
-  type: ssr
-  udp: true
-- name: 72|🇮🇩 印尼_深港隧道/投稿
+- name: 72|🇭🇰 香港_Telegram@kxswa 12_1
   network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12061
-  server: cn2.cdn.xfltd-cdn.top
+  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
+  port: 703
+  server: sg1111.156786.xyz
   skip-cert-verify: true
-  sni: cdn.alibaba.com
+  sni: sg1111.156786.xyz
   type: trojan
   udp: true
-- name: 72|🇭🇰 香港_Telegram@kxswa 3
-  network: tcp
-  password: 32e6cda8-b070-45b6-b7ae-4820c918bdfa
-  port: 30881
-  server: 107jpai.aixunx168.top
-  skip-cert-verify: true
-  sni: 107jpai.aixunx168.top
-  type: trojan
-  udp: true
-- name: 72|香港-81.4MB/s_996_996
-  network: tcp
-  password: f181b265-5fd4-456e-ad2d-c9b0446e0d51
-  port: 27001
-  server: 45.146.232.173
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 72|🇮🇳 印度_深港隧道/投稿 2
-  network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12072
-  server: cn2.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 72|🇭🇰 香港_Telegram@kxswa 16
-  network: ''
-  port: 50004
-  server: 112.132.212.19
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 64|香港-优化
-  network: ws
-  port: '16633'
-  server: cu.mj-cn.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1ddc351f-4ea2-4dbe-91d4-66454629455b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 64|香港-437.1KB/s
-  network: ws
-  port: '8080'
-  server: 91.199.84.136
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: 72|🇭🇰 香港_深港隧道/投稿 7
-  network: tcp
-  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
-  port: 12003
-  server: cn1.cdn.xfltd-cdn.top
-  skip-cert-verify: true
-  sni: cdn.alibaba.com
-  type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: 74|🇭🇰 Vip1-2.南阳-香港D | 倍率x1 - 糖果
-  obfs: tls1.2_ticket_auth
-  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
-  password: Iz46Mk
-  port: 31093
-  protocol: auth_aes128_md5
-  protocol-param: 133218:c9YG0G
-  server: cnnym01.tangguo.pro
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 64|香港=tg频道:@bpjzx2=5
-  network: ws
-  port: 55455
-  server: hkt.123ddns.xyz
-  tls: true
-  type: vmess
-  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
-  ws-opts:
-    headers:
-      Host: hkt.123ddns.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 74|【IEPL-香港🇭🇰-04】流媒体解锁 - 探索者
@@ -3111,6 +1044,1393 @@ proxies:
     headers:
       Host: 603diyb.donghui.tech
     path: /
+- alterId: '0'
+  cipher: auto
+  name: 69|🇭🇰 香港_37
+  network: ws
+  port: '2095'
+  server: fcdn.flha.ru
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: fcdn.flha.ru
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港 09 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30509
+  server: host-009.crazyspeed.xyz
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 72|🇭🇰 香港_Telegram@kxswa 11
+  network: ''
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 10
+  cipher: auto
+  name: 72|🇭🇰_HK_香港
+  network: ws
+  port: 88
+  server: hkml.jjyun.ren
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c29ad9cc-d1c0-4ff7-a452-c323830849a2
+  ws-opts:
+    path: /jjyun
+- alterId: 1
+  cipher: auto
+  name: 72|🇭🇰 香港_16
+  network: ws
+  port: 45112
+  server: gy.c6.nkeo.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
+  ws-opts:
+    headers:
+      host: gy.c6.nkeo.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 72|t.me/bnganblog_🇭🇰_HK_香港_2-4
+  network: ws
+  port: 55413
+  server: az1.keaiyun.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
+- cipher: chacha20-ietf-poly1305
+  name: 86|香港01 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41141
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 72|t.me/bnganblog_🇭🇰_HK_香港_8-75
+  network: ws
+  port: 55417
+  server: az1.accesscam.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
+- name: 72|香港-91.0MB/s_52_52
+  network: tcp
+  password: 4e399fb9-5a4c-49cd-9849-2051512f4c6c
+  port: 27101
+  server: 45.146.232.173
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 86|香港06 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41151
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-1.扬州-香港D | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21083
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- name: 72|香港
+  password: DD123456
+  port: 443
+  server: 154.83.87.195
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip1-1.广州1-香港B | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6016
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 74|🇭🇰 Web 香港I-标准 - AyucLouD-Servi...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 912
+  server: 231103level1.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 72|🇭🇰 香港_Telegram@kxswa 13
+  network: ''
+  port: 50002
+  server: 47.92.152.169
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 32
+  cipher: none
+  name: 72|HK-GLaDOS-GEO-04
+  network: ws
+  port: 3204
+  server: aa1c23d.gd.gladns.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+- name: 102|HK_Hong Kong_Radishcloud Techn...
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19209
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- name: 72|🇭🇰 Hong Kong | 03
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20003
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- name: 72|比利时_深港隧道/投稿
+  network: tcp
+  password: AmNeVpkOOMnb
+  port: 13382
+  server: 57.181.41.199
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【O】香港 普通 10 - Leaseweb - So...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 30000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt20.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【A】香港 普通 B - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 21000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp16.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 74|🇭🇰 Video 香港A-解锁 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 9053
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- name: 72|香港-81.4MB/s_996_996
+  network: tcp
+  password: f181b265-5fd4-456e-ad2d-c9b0446e0d51
+  port: 27001
+  server: 45.146.232.173
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 4,7,10,12,15,21,24,27,30,32,35,46,47,48|香港(yudou66.com 玉豆免费节点)
+  network: ws
+  port: '33416'
+  server: yd2.ainivp.com
+  servername: yd2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【N】香港 普通 2 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 48000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nn9.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip1-1.广州1-香港D | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6046
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 74|🇭🇰 香港 直连2 - 爱猫论坛
+  network: ws
+  port: 443
+  server: hk2.594888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
+  ws-opts:
+    headers:
+      Host: hk2.594888.xyz
+    path: /hls/us8.m3u8
+- name: 72|🇭🇰 Hong Kong | 04
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20004
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【B】香港 普通 1 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 10000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp01.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 85,87|SS-TCP-NA 🇭🇰 HK-89.213.150.72:...
+  password: F585FCDB-6351-48D4-82C1-599B5447A589
+  port: 40000
+  server: 89.213.150.72
+  type: ss
+- cipher: aes-128-gcm
+  name: 69|🇭🇰 香港_13
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: /
+    skip-cert-verify: true
+    tls: false
+  port: '443'
+  server: 1.65.218.192
+  type: ss
+- cipher: aes-256-gcm
+  name: 69|🇭🇰 香港_12
+  password: 34a547cd-0bfe-4905-9076-0d7c9a61f325
+  port: '29126'
+  server: 101.91.164.138
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 72|香港_1
+  network: tcp
+  port: 9444
+  server: 120.232.214.25
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6bcc5d53-5012-4e71-93d1-4e485c50f510
+- alterId: 2
+  cipher: auto
+  name: 72|🇭🇰 HK_626
+  network: ws
+  port: 80
+  server: 103.93.75.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6c23fcf0-18e7-3cd0-a123-821fa514fb42
+  ws-opts:
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 41|HK |  LB-1N
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  servername: d1th2ch215a6xr.cloudfront.net
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 90d2f8d7-2f37-45af-983f-f35b81a564e9
+  ws-opts:
+    headers:
+      Host: d1th2ch215a6xr.cloudfront.net
+    path: /stream?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 74|🇭🇰 香港 直连1 - 爱猫论坛
+  network: ws
+  port: 2443
+  server: hk1.594888.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
+  ws-opts:
+    headers:
+      Host: hk1.594888.xyz
+    path: /maohk3
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【IEPL】香港 普通 6 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 16000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk6.boom.skin
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 73|15|🇭🇰 香港3|@ripaojiedian
+  obfs: plain
+  obfs-param: cd5ed74592.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40209
+  protocol: auth_aes128_md5
+  protocol-param: 74592:o4fbeopsgcf
+  server: 95b1cd85a0968ff2.cdn.jiashule.com
+  type: ssr
+- name: 72|🇭🇰 Hong Kong | 08
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20008
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- name: 72|🇭🇰 香港_Telegram@kxswa 2
+  network: tcp
+  password: ee84695e-978f-40cf-8590-5c36a19de984
+  port: 21876
+  server: 103twai.aixunx168.top
+  skip-cert-verify: true
+  sni: 103twai.aixunx168.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【IEPL】香港 普通 5 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 15000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk5.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-0.广州2-香港D | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51120
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
+- name: 72|HK_5
+  network: tcp
+  password: 3b005336-26f8-4da6-9f7c-df1d7c359440
+  port: 1080
+  server: azhk.jietiyun.xyz
+  skip-cert-verify: true
+  sni: azhk.jietiyun.xyz
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: HK
+  name: 37,45,61|Pool_HK_2404
+  obfs: tls1.2_ticket_auth
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  server: 150.107.46.21
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 72|HK_2
+  network: ws
+  port: 443
+  server: 1.zhuzhu12.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d4bae454-7a1a-3afd-978e-303a1b928a85
+  ws-opts:
+    headers:
+      host: 1.zhuzhu12.com
+    path: /zz
+- alterId: 64
+  cipher: auto
+  name: 72|🇭🇰 香港_Telegram@kxswa 16
+  network: ''
+  port: 50004
+  server: 112.132.212.19
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港|SS直连二 - BIUBIU FAST 加速器
+  password: 904d24ff-31d7-4bcc-9b1f-5bb8fe1f3e6a
+  port: 5204
+  server: hk1.biubiufast.quest
+  type: ss
+  udp: true
+- name: '102|HK_Hong Kong_Radishcloud Techn... #1'
+  network: tcp
+  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
+  port: 19202
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 72|t.me/bnganblog_🇭🇰_HK_香港_4-13
+  network: ws
+  port: 55416
+  server: az1.keaiyun.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-2.江苏-香港C | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21075
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnczu01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 69|🇭🇰 香港_36
+  password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
+  port: '34936'
+  server: v3-js-hk.as9929.uk
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 69|🇭🇰 香港_42
+  password: Rad35baG
+  port: '10001'
+  server: 121.43.117.216
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: '72|🇭🇰 香港_11 #1'
+  network: ws
+  port: 59647
+  server: cxcu.jiyunshu.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fb1680d4-01b9-4cdd-919f-4d49faf2c326
+  ws-opts:
+    headers:
+      host: cxcu.jiyunshu.com
+    path: /
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【A】香港 普通 D - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 23000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp18.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 72|t.me/bnganblog_🇭🇰_HK_香港_1-1
+  network: ws
+  port: 55411
+  server: az1.keaiyun.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
+- cipher: chacha20-ietf-poly1305
+  name: 86|香港07 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41153
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 102|HK_Hong Kong_Akile LTD_OpenAI
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 61008
+  server: 120.240.88.37
+  type: ss
+- name: 72|🇭🇰 香港_Telegram@kxswa 4
+  network: tcp
+  password: f3a57086-06b5-498b-ae88-937c4f958ff4
+  port: 31997
+  server: 108jpai.aixunx168.top
+  skip-cert-verify: true
+  sni: 108jpai.aixunx168.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【O】香港 普通 9 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 29000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt19.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 72|🇲🇽 墨西哥_深港隧道/投稿
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 190.103.179.23
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 51,54|🇭🇰HK_51
+  network: tcp
+  port: 39999
+  server: 42.3.19.58
+  tls: true
+  type: vmess
+  uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
+- alterId: 2
+  cipher: auto
+  name: '72|🇭🇰 香港_26 #1'
+  network: ws
+  port: 18008
+  server: v11.88host.buzz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+  ws-opts:
+    headers:
+      host: v11.88host.buzz
+    path: /mojing
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【IEPL】香港 普通 3 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 13000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk3.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港 10 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30510
+  server: host-010.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【B】香港 普通 6 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 15000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp06.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 65|🇭🇰 香港03-1A
+  password: 010dc500-67f4-4fcc-b375-b5d5141486c1
+  port: 20052
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 69|🇭🇰 香港_21
+  password: ec7f5285-263b-41e9-bc92-89c404e9693d
+  port: '14490'
+  server: n00007.bzdqsmzngpyyng.sbs
+  type: ss
+  udp: true
+- name: 72|🇭🇰 香港_Telegram@kxswa 8
+  network: tcp
+  password: RmdXQRXg
+  port: 23621
+  server: 223.113.54.154
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港 03 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30503
+  server: host-003.crazyspeed.xyz
+  type: ss
+  udp: true
+- name: 72|🇹🇭 泰国_深港隧道/投稿
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12076
+  server: cn2.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- alterId: 32
+  cipher: none
+  name: 72|HK-GLaDOS-GEO-03
+  network: ws
+  port: 3204
+  server: aa1c23d.gc.gladns.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+- name: 72|🇭🇰 香港_Telegram@kxswa 9
+  network: tcp
+  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
+  port: 6678
+  server: tw1.170203.xyz
+  skip-cert-verify: true
+  sni: tw1.170203.xyz
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  country: HK
+  name: 37,61,92|HK_2401
+  password: asd123456
+  port: 8388
+  server: 103.149.183.10
+  type: ss
+- name: 72|🇦🇺 澳大利亚_深港隧道/投稿 2
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12068
+  server: cn2.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip1-1.广州1-香港C | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6022
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
+  udp: true
+- name: 72|🇭🇰 香港_Telegram@kxswa 11_1
+  network: tcp
+  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
+  port: 670
+  server: tw4.233235.xyz
+  skip-cert-verify: true
+  sni: tw4.233235.xyz
+  type: trojan
+  udp: true
+- name: 72|🇲🇾 马来西亚_深港隧道/投稿
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12067
+  server: cn2.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【O】香港 普通 1 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 11000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt1.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【O】香港 普通 4 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 14000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt4.boom.skin
+  type: ssr
+  udp: true
+- name: 72|🇭🇰 香港_深港隧道/投稿 7
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12003
+  server: cn1.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-1.扬州-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21047
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
+  type: ssr
+  udp: true
+- name: 72|香港_2
+  network: tcp
+  password: a88b0aa2-b6d3-487c-bada-5da80c3b928e
+  port: 8443
+  server: t5.ssrsub.one
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 69|🇭🇰 香港_39
+  password: ec7f5285-263b-41e9-bc92-89c404e9693d
+  port: '15976'
+  server: n00005.bzdqsmzngpyyng.sbs
+  type: ss
+  udp: true
+- name: 72|🇭🇰 香港_Telegram@kxswa_1
+  network: tcp
+  password: RmdXQRXg
+  port: 4027
+  server: 183.232.139.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 72|🇭🇰 Relay_🇭🇰HK-🇭🇰HK_607
+  network: ws
+  port: 80
+  server: 1218hk.fans8.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6c23fcf0-18e7-3cd0-a123-821fa514fb42
+  ws-opts:
+    path: /v2ray
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【A】香港 普通 1 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 19000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp15.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港 02 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30502
+  server: host-002.crazyspeed.xyz
+  type: ss
+  udp: true
+- name: '102|HK_Hong Kong_Radishcloud Techn... #2'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19204
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 67|21|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.33.152
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 72|V0-香港
+  network: ws
+  port: 80
+  server: gost.cloudflare.182682.xyz
+  type: vmess
+  udp: true
+  uuid: e87e2257-e387-4254-9b12-ba499549c847
+  ws-opts:
+    headers: {}
+    path: /
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【N】香港 普通 4 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 50000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nn11.boom.skin
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 72|🇭🇰 香港AWS | 直连 | @dingyue_Cente...
+  network: ''
+  port: 443
+  server: aws.spyun.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e00f2166-8473-4b89-a6b6-2935f486c64a
+- cipher: chacha20-ietf-poly1305
+  name: 69|🇭🇰 香港_15
+  password: 9c709e3d-f733-4b08-853d-2c81c4f393b5
+  port: '42107'
+  server: db.quanstring.top
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 72|HK_9
+  network: ws
+  port: 15071
+  server: 13.75.126.219
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
+  ws-opts:
+    headers:
+      host: t.me/vpnhat
+    path: ''
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港01 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10031
+  server: hk1.lvuy.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 72|t.me/bnganblog_🇭🇰_HK_香港_7-46
+  network: ws
+  port: 55419
+  server: az1.accesscam.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip1-2.南阳-香港D | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 31093
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnnym01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: HK
+  name: 37,85|HK_2403
+  password: 82fb692e-1c8b-3a65-ad83-23ad9deee111
+  port: 61005
+  server: 218.250.204.209
+  type: ss
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip1-2.南阳-香港C | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 31071
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnnym01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港03 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 12345
+  server: hk3.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【B】香港 普通 4 -  Nearoute - So...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 13000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp04.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 85,87|SS-TCP-NA 🇭🇰 HK-91.103.122.32:...
+  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+  port: 39781
+  server: 91.103.122.32
+  type: ss
+- name: 72|🇮🇩 印尼_深港隧道/投稿
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12061
+  server: cn2.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 72|香港-9.8MB/s_578_578
+  network: ws
+  port: 36000
+  server: 223.26.61.135
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.89070185.xyz
+    path: /path/011410073331
+- alterId: 64
+  cipher: auto
+  name: 72|🇭🇰 香港_Telegram@kxswa 16_1
+  network: ''
+  port: 32998
+  server: 183.240.235.164
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港|高速香港SS2（会员） - BIUBIU FAS...
+  password: 904d24ff-31d7-4bcc-9b1f-5bb8fe1f3e6a
+  port: 11005
+  server: dl.biubiufast.quest
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 72|🇧🇷 巴西_深港隧道/投稿
+  network: ws
+  port: 80
+  server: 188.114.98.40
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f491cbe4-7548-446c-8d3e-64008e3b1325
+  ws-opts:
+    path: /vmess
+- cipher: aes-128-gcm
+  name: 74|🇭🇰 Video 香港C-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 9052
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 72|🇭🇰 香港_Telegram@kxswa 15_1
+  network: ''
+  port: 54882
+  server: 183.240.235.162
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 51,54|🇭🇰HK_49
+  network: tcp
+  port: 39999
+  server: 203.218.84.13
+  tls: true
+  type: vmess
+  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【IEPL】香港 普通 7 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 17000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk7.boom.skin
+  type: ssr
+  udp: true
+- alterId: 32
+  cipher: none
+  name: 72|HK-GLaDOS-GEO-02
+  network: ws
+  port: 3204
+  server: aa1c23d.gb.gladns.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+- alterId: 64
+  cipher: auto
+  name: 72|🇭🇰 香港_Telegram@kxswa 12
+  network: ''
+  port: 50002
+  server: 112.132.215.12
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 1
+  cipher: auto
+  name: '72|🇭🇰 香港_9 #1'
+  network: ws
+  port: 20001
+  server: cm-jm.okvpn.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2f24d048-d764-40eb-85b6-1e87f7b28136
+  ws-opts:
+    headers:
+      host: cm-jm.okvpn.xyz
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 72|🇭🇰HK_2
+  network: tcp
+  port: 65133
+  server: 33.ssrj.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 24ea3f63-d495-3a0a-a7de-f92a4e6fb9ae
+- alterId: 1
+  cipher: auto
+  name: '72|🇭🇰 香港_4 #1'
+  network: ws
+  port: 32006
+  server: azhk3.sf66.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
+  ws-opts:
+    headers:
+      host: azhk3.sf66.cf
+    path: /
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-0.广州2-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 51116
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm02.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港02 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10032
+  server: hk2.lvuy.xyz
+  type: ss
+  udp: true
+- name: 72|🇭🇰 香港_Telegram@kxswa 14
+  network: tcp
+  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
+  port: 706
+  server: 5gzdx.233235.xyz
+  skip-cert-verify: true
+  sni: 5gzdx.233235.xyz
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 69|🇭🇰 香港_41
+  password: ec7f5285-263b-41e9-bc92-89c404e9693d
+  port: '14490'
+  server: n00005.bzdqsmzngpyyng.sbs
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-2.江苏-香港B | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21108
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnczu01.tangguo.pro
+  type: ssr
+  udp: true
+- name: 72|🇭🇰 Hong Kong | 06
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20006
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 86|香港03 | 家宽 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41145
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 86|香港05 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41149
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 74|🇭🇰 Game 香港06-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 823
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip1-2.南阳-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 31058
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnnym01.tangguo.pro
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 74|【IEPL-香港🇭🇰-02】流媒体解锁 - 探索者
+  network: ws
+  port: 32336
+  server: 603diyb.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diyb.donghui.tech
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港 06 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30506
+  server: host-006.crazyspeed.xyz
+  type: ss
+  udp: true
+- name: 72|🇦🇺 澳大利亚_深港隧道/投稿
+  network: tcp
+  password: xfBUrGoWkrGB
+  port: 13366
+  server: 43.201.82.97
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【N】香港 普通 1 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 47000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nn8.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip1-1.广州1-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 6018
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cngzm01.tangguo.pro
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 74|🇭🇰 Game 香港04-国际 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 20012
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 74|🇭🇰 香港 BGP直连测试 - 爱猫论坛
+  network: ws
+  port: 1443
+  server: hkbgp.henyo.us
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
+  ws-opts:
+    headers:
+      Host: hkbgp.henyo.us
+    path: /hls/us8.m3u8
+- alterId: 1
+  cipher: auto
+  name: 72|bngan.com_🇭🇰_HK_香港_4-286
+  network: ws
+  port: 80
+  server: freehk.miao.rest
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c3cd5c42-9527-4777-973d-a9d33b30bb9a
+- name: 72|🇭🇰 Hong Kong | 07
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20007
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  name: 72|🇭🇰 香港_深港隧道/投稿
+  password: HuTaoCloud
+  plugin: obfs
+  plugin-opts:
+    host: 36a1a32505.microsoft.com
+    mode: http
+  port: 12556
+  server: cm1-tw.hutaonode3.top
+  type: ss
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【O】香港 普通 5 - Leaseweb - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 15000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: opt5.boom.skin
+  type: ssr
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: '72|🇭🇰 香港_1 #1'
+  network: ws
+  port: 4646
+  server: 183.232.163.3
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd
+  ws-opts:
+    headers:
+      host: t.me/vpnhat
+    path: /v2ray
+- name: 72|香港-113.8KB/s_53_53
+  network: tcp
+  password: 4e399fb9-5a4c-49cd-9849-2051512f4c6c
+  port: 27101
+  server: 45.146.232.172
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港04 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10033
+  server: hk4.lvuy.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 74|🇭🇰 【IEPL】香港 普通 4 - Nearoute - ...
   obfs: http_simple
@@ -3122,20 +2442,203 @@ proxies:
   server: nk4.boom.skin
   type: ssr
   udp: true
-- alterId: 2
+- alterId: 1
   cipher: auto
-  name: 72|HK_6
+  name: '72|🇭🇰 香港_3 #1'
   network: ws
-  port: 15072
-  server: 13.75.126.219
+  port: 32005
+  server: azhk3.sf66.cf
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
+  uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c
   ws-opts:
     headers:
-      host: t.me/vpnhat
-    path: ''
+      host: azhk3.sf66.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 72|🇭🇰 香港 | AGA | @dingyue_Center
+  network: ws
+  port: 21050
+  server: aga.nayun.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f5ba93b4-eba8-449a-bf22-da465fd07e1c
+- cipher: aes-128-gcm
+  name: 74|🇭🇰 Game 香港01-标准 - AyucLouD-Ser...
+  password: ayu1245
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 824
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港07 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10072
+  server: hk7.lvuy.xyz
+  type: ss
+  udp: true
+- alterId: 32
+  cipher: none
+  name: 72|HK-GLaDOS-GEO-01
+  network: ws
+  port: 3204
+  server: aa1c23d.ga.gladns.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+- alterId: 1
+  cipher: auto
+  name: '72|🇭🇰 香港_2 #1'
+  network: ws
+  port: 28888
+  server: 20.205.124.103
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
+  ws-opts:
+    headers:
+      host: 20.205.124.103
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 86|香港02 | 1x HK
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41143
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 67,81|22|香港|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: onea.flha.ru
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【IEPL】香港 普通 1 - Nearoute - ...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 11000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk1.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【B】香港 普通 9 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 18000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp09.boom.skin
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  country: HK
+  name: 37,42,61|HK_2402
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
+- name: 72|🇭🇰 香港_深港隧道/投稿 10
+  network: tcp
+  password: 7d439d13-e8bd-48dc-86b1-352b62a4b62e
+  port: 12006
+  server: cn1.cdn.xfltd-cdn.top
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 74|🇭🇰 【B】香港 普通 5 - Nearoute - Soc...
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 14000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: ntemp05.boom.skin
+  type: ssr
+  udp: true
+- name: 72|🇮🇳 印度_深港隧道/投稿
+  network: tcp
+  password: 7a49ebc8-6235-36b1-b7b4-0864b95bd90a
+  port: 45900
+  server: ger.aaaa.gay
+  skip-cert-verify: true
+  sni: ger.aaaa.gay
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 73,83|11,16|香港4|@ripaojiedian
+  network: tcp
+  port: '18001'
+  server: cc3.douyin.com.gbnodex.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7362aef8-0201-44a6-8cf2-5e50a3b6873b
+- alterId: 64
+  cipher: auto
+  name: 72|🇭🇰 香港_Telegram@kxswa 10
+  network: ''
+  port: 50002
+  server: 114.55.132.202
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 1
+  cipher: auto
+  name: '72|🇭🇰 香港_23 #1'
+  network: ws
+  port: 28888
+  server: st.ddnspro.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
+  ws-opts:
+    headers:
+      host: st.ddnspro.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 72|t.me/bnganblog_🇭🇰_HK_香港_6-45
+  network: ws
+  port: 55418
+  server: az1.accesscam.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 646e1a6b-005b-3d70-a2da-3bd84184892f
+- name: 72|bngan.com_🇭🇰_HK_香港_2-89
+  network: tcp
+  password: a3fa58b581353bb375d2ddad0f327938
+  port: 443
+  server: hk-server-02.selfupay.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
   name: 74|🇭🇰 Game 香港05-标准 - AyucLouD-Ser...
   password: ayucles1
@@ -3147,26 +2650,77 @@ proxies:
   server: 231103level3.unclemanco.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 85|SS-TCP-NA 🇭🇰 HK-218.250.204.20...
-  password: 82fb692e-1c8b-3a65-ad83-23ad9deee111
-  port: 61005
-  server: 218.250.204.209
+- alterId: 2
+  cipher: auto
+  name: '72|🇭🇰 香港_21 #1'
+  network: ws
+  port: 28888
+  server: lazhaanh.sfjiedian.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6d005b92-ed20-3ba1-8c25-8a8f5ac30cdd
+  ws-opts:
+    headers:
+      host: lazhaanh.sfjiedian.xyz
+    path: /index
+- name: 72|香港-5.00MB/s_485_485
+  network: tcp
+  password: f181b265-5fd4-456e-ad2d-c9b0446e0d51
+  port: 27001
+  server: 45.146.232.171
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 74|🇭🇰 【IEPL-香港-0B】流媒体解锁 - 探索者
+  network: ws
+  port: 34644
+  server: 603diya.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diya.donghui.tech
+    path: /
+- cipher: chacha20-ietf
+  country: HK
+  name: 37,61,92|HK_2400
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
   type: ss
-- cipher: aes-256-cfb
-  name: 74|🇭🇰 【A】香港 普通 A - Nearoute - Soc...
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: ntemp10.boom.skin
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-1.扬州-香港C | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21082
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnyzm01.tangguo.pro
   type: ssr
   udp: true
-- cipher: aes-128-gcm
-  name: 69|🇭🇰 香港_35
-  password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
-  port: '22466'
-  server: v3-js-sg.as9929.uk
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇭🇰 香港 08 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 30508
+  server: host-008.crazyspeed.xyz
   type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 74|🇭🇰 Vip2-2.江苏-香港A | 倍率x1 - 糖果
+  obfs: tls1.2_ticket_auth
+  obfs-param: cec5b133218.itunes.apple.com,ajax.microsoft.com,www.bing.com
+  password: Iz46Mk
+  port: 21073
+  protocol: auth_aes128_md5
+  protocol-param: 133218:c9YG0G
+  server: cnczu01.tangguo.pro
+  type: ssr
+  udp: true
