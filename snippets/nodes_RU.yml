@@ -1,39 +1,119 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 72|俄罗斯联邦-668.2KB/s_799_799
+  name: 85|VM-WS-NA 🇷🇺 RU-195.58.49.12:25...
   network: ws
-  port: 8080
-  server: m003.mmzhk.website
-  skip-cert-verify: true
-  tls: true
+  port: 2579
+  server: 195.58.49.12
+  tls: false
   type: vmess
-  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
+  uuid: 1ffe7aa4-a407-468d-98e3-a5b041c3f697
   ws-opts:
-    headers:
-      host: daohang.mmzhk.website
-    path: /xyz
+    path: /
+- cipher: aes-128-gcm
+  name: 74|🇷🇺 Game 俄罗斯01-标准 - AyucLouD-Se...
+  password: dajkdkjda&dja*/?
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 37863
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   country: RU
-  name: 37,38,39,40,85,92,97|RU_3248
-  password: 2fwufOmJ9ELfN4umzcHBfV
-  port: 12224
-  server: 194.87.82.28
+  name: 38,40,61,85,97|RU_475
+  password: afKAHp1VfRWZu91LIi9o0D
+  port: 58176
+  server: 94.228.165.178
   type: ss
 - alterId: 0
   cipher: auto
-  name: 72|俄罗斯_由快嘴科技提供;kkzui.com2
+  name: 72|俄罗斯_由快嘴科技提供：kkzui.com62
   network: ws
-  port: 80
-  server: 80.92.204.207
+  port: 8080
+  server: 195.58.49.192
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
+  uuid: dd087f6a-c9e8-41ba-95e5-35232a3a43ed
   ws-opts:
     headers:
-      host: 80.92.204.207
-    path: /vmess
+      host: 195.58.49.192
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 43|RU_90
+  password: P2zxXPewlV3BlfqqYiSthvtLc
+  port: 12949
+  server: 212.113.106.243
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 70|[VMess] 🇷🇺 俄罗斯 V2CROSS.COM
+  network: ws
+  port: 443
+  server: 185.221.160.163
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: worker-mute-bar-1719.nifotok993.workers.dev
+    path: /glweidf.cfd/linkws
+- name: 85|TR-WS-TLS 🇷🇺 RU-185.176.24.2:4...
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 185.176.24.2
+  sni: 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 4,10,15,24,30,35,46,47|俄罗斯(yudou66.com 玉豆免费节点)
+  network: ws
+  port: '33026'
+  server: 89.169.55.152
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
+  ws-opts:
+    headers:
+      Host: socks5tobefree.ydns.eu
+    path: /dangerzone
+- alterId: 0
+  cipher: auto
+  name: 72|俄罗斯 V2CROSS.COM_3
+  network: ws
+  port: 443
+  server: 185.221.160.163
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      host: worker-mute-bar-1719.nifotok993.workers.dev
+    path: /glweidf.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 85|VM-WS-NA 🇷🇺 RU-176.32.33.158:6...
+  network: ws
+  port: 6191
+  server: 176.32.33.158
+  tls: false
+  type: vmess
+  uuid: 28f6d888-cbc5-4210-8cd2-b40cf566d9a8
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 72|二爷翻墙网 https://1808.free.hr_RU_...
@@ -48,210 +128,13 @@ proxies:
     headers:
       host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  name: 72|bngan.com_🇷🇺_RU_俄罗斯联邦_1-91
-  network: tcp
-  port: 22222
-  server: 2.56.241.149
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 19dc3928-8b9e-4080-9332-395afdca2702
-- name: 72|俄罗斯+V2CROSS.COM_4_248
-  network: tcp
-  password: c5691b8f-d833-41e4-9295-769f3edb4cd2
-  port: 443
-  server: customer-185-231-206-12.stark-industries.solutions
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 103|RU_speednode_0106
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 46.254.92.112
-  skip-cert-verify: true
-  sni: za.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: za.ylks.xyz
-    path: /%2F
 - cipher: chacha20-ietf-poly1305
-  name: 37,92|Relay_-RU_366
-  password: ZjZlYThm
-  port: 8388
-  server: is1.ssproxy.xyz
+  country: ' RU'
+  name: 38,39,40,61,92,97| RU_459
+  password: gmYDzSG6K35s8b19oY4fGz
+  port: 18622
+  server: 92.118.112.111
   type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '64|🆔: @SurenVpnBot | Moscow 🇷🇺'
-  network: ws
-  port: '8880'
-  server: 103.113.68.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
-  ws-opts:
-    headers:
-      Host: 103.113.68.233
-    path: /vmess
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 43|RU_89
-  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
-  port: 13022
-  server: 212.113.106.243
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 64|俄罗斯联邦-3.06MB/s
-  network: ws
-  port: '80'
-  server: 45.144.2.113
-  tls: false
-  type: vmess
-  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
-  ws-opts:
-    headers:
-      Host: 45.144.2.113
-    path: /
-- name: 85|TR-WS-TLS 🇷🇺 RU-185.176.24.2:4...
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 185.176.24.2
-  sni: 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 51,54|🇷🇺RU_107
-  network: ws
-  port: 43688
-  server: 195.133.53.192
-  tls: false
-  type: vmess
-  uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41
-  ws-opts:
-    headers:
-      Host: YouTube-aweikeji
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,61,85|RU_3250
-  password: oYQ8JwEldYn4KT2gfZ6eNl
-  port: 51584
-  server: 89.23.103.21
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 37|Relay_-RU_364
-  password: NWQzMWYx
-  port: 1443
-  server: fr1.ssproxy.xyz
-  type: ss
-  udp: true
-- name: 72|🇷🇺 Relay_🇷🇺RU-🇷🇺RU_855 |21.24M...
-  network: tcp
-  password: 7644049b-79e1-4c3b-b621-0a464ab47db4
-  port: 8443
-  server: t7.ssrsub.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|俄罗斯联邦-1.79MB/s_802_802
-  network: ws
-  port: 8080
-  server: n002.kovmk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
-  ws-opts:
-    headers:
-      host: daohang.kovmk.website
-    path: /xyz
-- cipher: chacha20-ietf-poly1305
-  name: 68,72,83|俄罗斯 V2CROSS.COM
-  password: 36ZCHeabUSfKjfQEvJ4HDV
-  port: 54170
-  server: 185.242.86.156
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 86|俄罗斯01 | 1x RU
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41511
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- name: 72|🇷🇺 俄罗斯_Telegram@kxswa
-  network: tcp
-  password: 85bce006-4885-11ee-8792-f23c9164ca5d
-  port: 1007
-  server: 176.32.35.167
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 85|SS-TCP-NA 🇷🇺 RU-45.142.246.232...
-  password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
-  port: 19994
-  server: 45.142.246.232
-  type: ss
-- cipher: aes-128-gcm
-  name: 74|🇷🇺 Web 俄罗斯I-标准 - AyucLouD-Serv...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 281af103322.download.windowsupdate.com
-    mode: http
-  port: 9020
-  server: 231103levelx.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37|RU_3247
-  password: xrWzQHeoGLpBYJDE4NnKye
-  port: 36766
-  server: 141.98.234.195
-  type: ss
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000
-  fast-open: true
-  name: 57|Russia_Moscow_hy_0
-  port: 64907
-  ports: 30000-40000
-  protocol: udp
-  server: 46.17.43.223
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 1000
-- alterId: 0
-  cipher: auto
-  name: 4,10,15,24,30,35,46,47,70,85,95|俄罗斯(yudou66.com 玉豆免费节点)
-  network: ws
-  port: '33026'
-  server: 89.169.55.152
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
-  ws-opts:
-    headers:
-      Host: socks5tobefree.ydns.eu
-    path: /dangerzone
 - alterId: 0
   cipher: auto
   name: 64|@ProxyFn / @nimPRO 🇷🇺
@@ -266,18 +149,193 @@ proxies:
     headers:
       Host: ''
     path: /?ed=2048
+- cipher: aes-256-cfb
+  country: RU
+  name: 38,39,40,97|RU_476
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  server: 45.89.52.66
+  type: ss
+- name: 85|TR-WS-TLS 🇷🇺 RU-194.53.53.140:...
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 194.53.53.140
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 38,39,40,85,87,92,97|RU_467
+  password: a16mEzcthkdQAqLds9MssJ
+  port: 33320
+  server: 77.83.246.74
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 61|🇷🇺RU_524
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 68,72,83,85,87|俄罗斯 V2CROSS.COM 2
+  password: 36ZCHeabUSfKjfQEvJ4HDV
+  port: 54170
+  server: 185.242.86.156
+  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇷🇺RU
-  h2-opts: {}
-  http-opts: {}
-  name: 61,72|🇺RU_601
-  network: tcp
-  port: 47555
-  server: 46.29.166.237
-  skip-cert-verify: true
+  name: 51,54|🇷🇺RU_107
+  network: ws
+  port: 43688
+  server: 195.133.53.192
+  tls: false
   type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+  uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41
+  ws-opts:
+    headers:
+      Host: YouTube-aweikeji
+    path: /
+- cipher: aes-256-gcm
+  name: 85|SS-TCP-NA 🇷🇺 RU-45.142.246.232...
+  password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
+  port: 19994
+  server: 45.142.246.232
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19,73|🇷🇺_RU_俄罗斯联邦
+  network: tcp
+  port: 35972
+  server: 45.147.200.170
+  tls: false
+  type: vmess
+  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 61|🇷🇺RU_532
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 61,92|🇷🇺RU_535
+  password: VcFuyXvND2yQWSFY
+  port: 9054
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,39,40,61,63,72,85,87,92,97| RU_461
+  password: 2fwufOmJ9ELfN4umzcHBfV
+  port: 12224
+  server: 194.87.82.28
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '72|二爷翻墙网 https://1808.free.hr_RU_... #1'
+  network: ws
+  port: 443
+  server: 194.76.18.197
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- cipher: aes-128-gcm
+  name: 74|🇷🇺 Web 俄罗斯I-标准 - AyucLouD-Serv...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 9020
+  server: 231103levelx.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 85|VM-WS-NA 🇷🇺 RU-195.58.48.220:6...
+  network: ws
+  port: 6191
+  server: 195.58.48.220
+  tls: false
+  type: vmess
+  uuid: 28f6d888-cbc5-4210-8cd2-b40cf566d9a8
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 61|🇷🇺RU_527
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 45.89.52.66
+  type: ss
+- name: 89|RU_speednode_0105
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 5.182.85.93
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,40,61,63,97| RU_464
+  password: CLphyEMQT8nbG8EImX0A2D
+  port: 45635
+  server: 5.35.47.122
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 72|俄罗斯联邦-197.7KB/s_798_798
+  network: ws
+  port: 8080
+  server: n001.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 92f1932f-ee19-464f-900c-93df90df830d
+  ws-opts:
+    headers:
+      host: daohang.kovmk.website
+    path: /xyz
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 61|🇷🇺RU_517
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 86|俄罗斯01 | 1x RU
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41511
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 72,92|🇷🇺RU_116 |44.50Mb
+  network: http
+  port: 2098
+  server: 147.45.51.16
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
 - alterId: 0
   cipher: auto
   name: 64,67,69|🇷🇺 Russia
@@ -292,6 +350,47 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-gcm
+  name: '85|SS-TCP-NA 🇷🇺 RU-45.142.246.232... #1'
+  password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
+  port: 19796
+  server: 45.142.246.232
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 43|RU_89
+  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
+  port: 13022
+  server: 212.113.106.243
+  type: ss
+- name: 72|俄罗斯+V2CROSS.COM_4_248
+  network: tcp
+  password: c5691b8f-d833-41e4-9295-769f3edb4cd2
+  port: 443
+  server: customer-185-231-206-12.stark-industries.solutions
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 61|🇷🇺RU_528
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 45.89.52.66
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 64|俄罗斯联邦-3.06MB/s
+  network: ws
+  port: '80'
+  server: 45.144.2.113
+  tls: false
+  type: vmess
+  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+  ws-opts:
+    headers:
+      Host: 45.144.2.113
+    path: /
 - fast-open: true
   name: 57|Russia_Moscow_hy2_0
   password: dongtaiwang.com
@@ -300,29 +399,330 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- cipher: aes-256-gcm
+  name: 72|俄罗斯+鞑靼斯坦喀山justhost
+  password: dongtaiwang.com
+  port: 12345
+  server: 46.17.40.57
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 43|RU_91
+  password: GXGhsxweEyBgvyUc5Xaoae
+  port: 15708
+  server: 77.91.103.108
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 92|Relay_RU-IS_2249
+  password: ZjZlYThm
+  port: 8388
+  server: is1.ssproxy.xyz
+  type: ss
+- cipher: aes-256-cfb
+  country: RU
+  name: 38,39,40,61,92,97|RU_479
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 42,61,68,72,83,85,92,97| RU_278
+  password: 3MgIhqwp4pjM8SKwixNkYZ
+  port: 33068
+  server: 193.124.22.253
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 72,92|🇷🇺RU_116 |44.50Mb
-  network: http
-  port: 2098
-  server: 147.45.51.16
+  name: 72|俄罗斯联邦-1.79MB/s_802_802
+  network: ws
+  port: 8080
+  server: n002.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
+  ws-opts:
+    headers:
+      host: daohang.kovmk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  country: 🇺RU
+  h2-opts: {}
+  http-opts: {}
+  name: 61,72|🇷🇺RU_537
+  network: tcp
+  port: 47555
+  server: 46.29.166.237
+  skip-cert-verify: true
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- alterId: 0
+  cipher: auto
+  name: '72|二爷翻墙网 https://1808.free.hr_RU_... #2'
+  network: ws
+  port: 443
+  server: 194.76.18.22
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- name: 89|RU_speednode_0106
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 46.254.92.112
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- alterId: 0
+  cipher: auto
+  name: 72|俄罗斯联邦-250.0KB/s_374_374
+  network: ws
+  port: 33026
+  server: socks5tobefree.ydns.eu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
+  ws-opts:
+    headers:
+      host: socks5tobefree.ydns.eu
+    path: /dangerzone
+- alterId: 0
+  cipher: auto
+  name: 72|🇷🇺 俄罗斯
+  network: ''
+  port: 45174
+  server: 193.233.85.3
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+  uuid: 14823120-5dc2-11ec-b398-3a571dcc9720
 - cipher: chacha20-ietf-poly1305
   country: RU
-  name: 37,38,40,61,85,87,97|RU_3251
-  password: afKAHp1VfRWZu91LIi9o0D
-  port: 58176
-  server: 94.228.165.178
+  name: 38,40,61,97|RU_466
+  password: MymbjrM95itscMGOX1x6SC
+  port: 52873
+  server: 81.19.141.45
   type: ss
-- cipher: aes-256-gcm
-  name: '85|SS-TCP-NA 🇷🇺 RU-45.142.246.232... #1'
-  password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
-  port: 19796
-  server: 45.142.246.232
+- alterId: 0
+  cipher: auto
+  name: 72|🇷🇺 俄罗斯_Telegram@kxswa 3
+  network: ws
+  port: 80
+  server: eedp257bubu2wefy3.lovebaipiao.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c8f92a11-9760-4574-96f4-d0c5165fef96
+  ws-opts:
+    path: /iphone
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,39,40,61,63,85,92| RU_460
+  password: 0zyDRZ1XmNXaaCAN7KEA8a
+  port: 28825
+  server: 45.151.62.54
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,40,42,72,83,85,89| RU_455
+  password: 6OAGLD+DOA6UcFp5Udf0r/UzyjwHV+yheNkoFDk6uL8=
+  port: 38753
+  server: 213.108.22.109
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 61|🇺RU_534
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  server: 45.89.52.66
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 72|bngan.com_🇷🇺_RU_俄罗斯联邦_1-91
+  network: tcp
+  port: 22222
+  server: 2.56.241.149
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 19dc3928-8b9e-4080-9332-395afdca2702
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,39,40,45,61,63,85,92,97| RU_456
+  password: A5ro8FafxmuBNXGKJrLQ6x
+  port: 12575
+  server: 89.185.84.185
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 85|VM-WS-TLS 🇷🇺 RU-45.67.32.147:4...
+  network: ws
+  port: 40413
+  server: 45.67.32.147
+  servername: jh57.dumbppl.lovestoblog.com
+  tls: true
+  type: vmess
+  uuid: 93ef2025-b198-4a30-8be4-b90c1bce3f02
+  ws-opts:
+    headers:
+      Host: jh57.dumbppl.lovestoblog.com
+    path: /makeacall
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000
+  fast-open: true
+  name: 57|Russia_Moscow_hy_0
+  port: 64907
+  ports: 30000-40000
+  protocol: udp
+  server: 46.17.43.223
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 1000
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  name: 61,72,83,85,87|🇷🇺RU_518
+  password: '%-MVa11&zp'
+  port: 19999
+  server: 176.124.199.255
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,40,61,85,97| RU_457
+  password: uQS5ntVqC00sSKkeNzUiD3
+  port: 42090
+  server: 89.23.103.125
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '64|🆔: @SurenVpnBot | Moscow 🇷🇺'
+  network: ws
+  port: '8880'
+  server: 103.113.68.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
+  ws-opts:
+    headers:
+      Host: 103.113.68.233
+    path: /vmess
+- cipher: aes-128-gcm
+  name: 74|🇷🇺 Video 俄罗斯A-标准 - AyucLouD-Se...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: c085f103355.download.windowsupdate.com
+    mode: http
+  port: 1549
+  server: 231103levelx.unclemanco.com
+  type: ss
+  udp: true
+- name: 85|TR-WS-TLS 🇷🇺 RU-5.182.85.93:44...
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 5.182.85.93
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /
+- name: 89|RU_speednode_0108
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 194.53.53.140
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
+- alterId: 0
+  cipher: auto
+  name: 72|俄罗斯联邦-668.2KB/s_799_799
+  network: ws
+  port: 8080
+  server: m003.mmzhk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
+  ws-opts:
+    headers:
+      host: daohang.mmzhk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 72,93|俄罗斯联邦-250.3KB/s_1_358_358
+  network: ws
+  port: 33026
+  server: 89.169.55.152
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
+  ws-opts:
+    headers:
+      host: socks5tobefree.ydns.eu
+    path: /dangerzone
+- cipher: aes-256-cfb
+  country: RU
+  name: 38,39,40,61,92,97|RU_481
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 61|🇷🇺RU_521
+  password: TPqX8edgbAURcAMb
+  port: 9079
+  server: 45.89.52.66
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '64|电报频道 https://1808.free.hr_RU_1... #1'
+  network: ws
+  port: 443
+  server: 194.76.18.197
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- name: 85|TR-WS-TLS 🇷🇺 RU-46.254.92.112:...
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 46.254.92.112
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /
 - alpn:
   - h3
   auth_str: dongtaiwang.com
@@ -339,100 +739,23 @@ proxies:
   up: 1000
 - alterId: 0
   cipher: auto
-  name: 85|VM-WS-TLS 🇷🇺 RU-45.67.32.147:4...
+  name: 72,85|🇷🇺RU_117
   network: ws
-  port: 40413
-  server: 45.67.32.147
-  servername: jh57.dumbppl.lovestoblog.com
-  tls: true
-  type: vmess
-  uuid: 93ef2025-b198-4a30-8be4-b90c1bce3f02
-  ws-opts:
-    headers:
-      Host: jh57.dumbppl.lovestoblog.com
-    path: /makeacall
-- alterId: 0
-  cipher: auto
-  name: 19,73|🇷🇺_RU_俄罗斯联邦
-  network: tcp
-  port: 35972
-  server: 45.147.200.170
+  port: 3168
+  server: 45.8.158.32
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
-- alterId: 0
-  cipher: auto
-  name: 85|VM-WS-NA 🇷🇺 RU-195.58.48.220:6...
-  network: ws
-  port: 6191
-  server: 195.58.48.220
-  tls: false
-  type: vmess
-  uuid: 28f6d888-cbc5-4210-8cd2-b40cf566d9a8
+  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 43|RU_90
-  password: P2zxXPewlV3BlfqqYiSthvtLc
-  port: 12949
-  server: 212.113.106.243
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 61|🇷🇺RU_531
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 45.89.52.66
   type: ss
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37,42,61,72,92|Relay_RU-GI_3256
-  network: ws
-  port: 33026
-  server: socks5tobefree.ydns.eu
-  servername: socks5tobefree.ydns.eu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
-  ws-opts:
-    headers:
-      HOST: socks5tobefree.ydns.eu
-    path: /dangerzone
-- alterId: 0
-  cipher: auto
-  name: 72|🇷🇺 俄罗斯_Telegram@kxswa 3
-  network: ws
-  port: 80
-  server: eedp257bubu2wefy3.lovebaipiao.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c8f92a11-9760-4574-96f4-d0c5165fef96
-  ws-opts:
-    path: /iphone
-- alterId: 0
-  cipher: auto
-  name: '72|二爷翻墙网 https://1808.free.hr_RU_... #1'
-  network: ws
-  port: 443
-  server: 194.76.18.197
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- cipher: aes-128-gcm
-  name: 74|🇷🇺 Video 俄罗斯A-标准 - AyucLouD-Se...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 281af103322.download.windowsupdate.com
-    mode: http
-  port: 1549
-  server: 231103levelx.unclemanco.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 64|电报频道 https://1808.free.hr_RU_1...
@@ -449,201 +772,6 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 72|俄罗斯_由快嘴科技提供：kkzui.com62
-  network: ws
-  port: 8080
-  server: 195.58.49.192
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: dd087f6a-c9e8-41ba-95e5-35232a3a43ed
-  ws-opts:
-    headers:
-      host: 195.58.49.192
-    path: /
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37,42,72,92,93|Relay_RU-BG_3255
-  network: ws
-  port: 33026
-  server: 89.169.55.152
-  servername: socks5tobefree.ydns.eu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
-  ws-opts:
-    headers:
-      HOST: socks5tobefree.ydns.eu
-    path: /dangerzone
-- cipher: aes-128-gcm
-  name: 74|🇷🇺 Game 俄罗斯01-标准 - AyucLouD-Se...
-  password: dajkdkjda&dja*/?
-  plugin: obfs
-  plugin-opts:
-    host: 281af103322.download.windowsupdate.com
-    mode: http
-  port: 37863
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 85|VM-WS-NA 🇷🇺 RU-176.32.33.158:6...
-  network: ws
-  port: 6191
-  server: 176.32.33.158
-  tls: false
-  type: vmess
-  uuid: 28f6d888-cbc5-4210-8cd2-b40cf566d9a8
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 72|🇷🇺 俄罗斯
-  network: ''
-  port: 45174
-  server: 193.233.85.3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 14823120-5dc2-11ec-b398-3a571dcc9720
-- alterId: 0
-  cipher: auto
-  name: 64|🇷🇺|RU|俄罗斯|@wxgqlfx|585
-  network: ws
-  port: '1200'
-  server: 195.58.49.12
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 44ca18f1-d708-45ca-a670-1c9a1746b06a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_RU-GI_3252
-  network: ws
-  port: 20664
-  server: 45.67.32.147
-  servername: somethings.iseasy.tw
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a5483118-8d40-48da-bde1-b20445d8c380
-  ws-opts:
-    headers:
-      HOST: somethings.iseasy.tw
-    path: /socks5tobefree
-- alterId: 0
-  cipher: auto
-  name: 72,85|🇷🇺RU_117
-  network: ws
-  port: 3168
-  server: 45.8.158.32
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 37|Relay_-RU_360
-  password: NWQzMWYx
-  port: 8388
-  server: fr1.ssproxy.xyz
-  type: ss
-  udp: true
-- name: 103|RU_speednode_0108
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 194.53.53.140
-  skip-cert-verify: true
-  sni: za.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: za.ylks.xyz
-    path: /%2F
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 37,40,72,92|RU_3254
-  network: http
-  port: 2098
-  server: 185.247.184.115
-  skip-cert-verify: true
-  type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- cipher: aes-256-gcm
-  name: 72|俄罗斯+鞑靼斯坦喀山justhost
-  password: dongtaiwang.com
-  port: 12345
-  server: 46.17.40.57
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '64|电报频道 https://1808.free.hr_RU_1... #1'
-  network: ws
-  port: 443
-  server: 194.76.18.197
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37|RU_3245
-  password: 4KQNsGh01Evba6AjEt1wX8
-  port: 16942
-  server: 178.208.91.118
-  type: ss
-- name: 103|RU_speednode_0105
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 5.182.85.93
-  skip-cert-verify: true
-  sni: za.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: za.ylks.xyz
-    path: /%2F
-- alterId: 0
-  cipher: auto
-  name: 72|俄罗斯联邦-197.7KB/s_798_798
-  network: ws
-  port: 8080
-  server: n001.kovmk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 92f1932f-ee19-464f-900c-93df90df830d
-  ws-opts:
-    headers:
-      host: daohang.kovmk.website
-    path: /xyz
-- alterId: 0
-  cipher: auto
   name: '19,73|🇷🇺_RU_俄罗斯联邦 #1'
   network: ws
   port: 12910
@@ -653,45 +781,32 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     path: /
-- cipher: aes-256-cfb
-  country: 🇺RU
-  name: 61|🇺RU_547
-  password: aLpQtfEZe445QyHk
-  port: 9098
-  server: 45.89.52.66
-  type: ss
+- name: 72|🇷🇺 Relay_🇷🇺RU-🇷🇺RU_855 |21.24M...
+  network: tcp
+  password: 7644049b-79e1-4c3b-b621-0a464ab47db4
+  port: 8443
+  server: t7.ssrsub.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 64|🇷🇺|RU|俄罗斯|@wxgqlfx|566
+  name: 72|俄罗斯_由快嘴科技提供;kkzui.com2
   network: ws
-  port: '3071'
-  server: 176.32.33.158
-  servername: ''
+  port: 80
+  server: 80.92.204.207
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b18a6864-ac76-4c33-9e6d-9201cdf44917
+  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '72|二爷翻墙网 https://1808.free.hr_RU_... #2'
-  network: ws
-  port: 443
-  server: 194.76.18.22
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 43|RU_91
-  password: GXGhsxweEyBgvyUc5Xaoae
-  port: 15708
-  server: 77.91.103.108
+      host: 80.92.204.207
+    path: /vmess
+- cipher: aes-256-cfb
+  country: 🇺RU
+  name: 61|🇺RU_506
+  password: FG5ddLsMPbV5CutE
+  port: 9050
+  server: 45.89.52.66
   type: ss
