@@ -1,629 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 86|新加坡06 | 家宽 | 1x  SG
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41181
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- name: 72|🇸🇬 新加坡_Telegram@kxswa 8
-  network: tcp
-  password: ofWZaXmfiPzS
-  port: 13389
-  server: 52.77.231.3
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: 74|🇸🇬 【K】新加坡 普通 2 - DO - SockBoom
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 19000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nk9.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 37
+  name: 88|🇸🇬_SG_新加坡_8
   password: amazonskr05
   port: 443
-  server: 54.255.237.249
-  tfo: false
+  server: 54.151.216.148
   type: ss
-- cipher: aes-256-cfb
-  name: 88|🇸🇬_SG_新加坡_50
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
-  server: 103.172.116.94
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_957
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 217.197.161.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 102|SG_Singapore_Akile LTD_OpenAI_...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61020
-  server: 120.240.88.34
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 74|🇸🇬 新加坡 直连2 - 爱猫论坛
-  network: ws
-  port: 443
-  server: sg2.594888.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
-  ws-opts:
-    headers:
-      Host: sg2.594888.xyz
-    path: /hls/us8.m3u8
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇸🇬 新加坡 03 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 10353
-  server: host-033.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_949
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 217.197.161.164
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_965
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 81.90.189.152
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇸🇬 新加坡 01 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 10351
-  server: host-031.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 86|新加坡02 | 1x SG
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41173
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 24
-  password: amazonskr05
-  port: 443
-  server: 47.129.221.160
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_199
-  password: BwcAUZk8hUFAkDGN
-  port: '9031'
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  name: 88|🇸🇬_SG_新加坡_7
-  password: amazonskr05
-  port: 443
-  server: 54.179.9.170
-  type: ss
-- name: 72|www.85la.com 🇸🇬 新加坡_5
-  network: tcp
-  password: '!!str 3690911436885991424'
-  port: 443
-  server: master-boxer.pig299.lat
-  skip-cert-verify: true
-  sni: master-boxer.pig299.lat
-  type: trojan
-  udp: true
-- name: 72|🇸🇬 www.85la.com 新加坡 32
-  network: tcp
-  password: d971ee7a-32d9-402a-8a4f-d2135d48a47b
-  port: 20230
-  server: sg008.421421.xyz
-  skip-cert-verify: true
-  sni: 421421.xyz
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_160
-  password: M3t2ZEQcMGRWBjRa
-  port: '9011'
-  server: 103.172.116.103
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_919
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 217.197.161.138
-  type: ss
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_2
-  password: amazonskr05
-  port: '443'
-  server: 3.0.50.219
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 74|🇸🇬 【K】新加坡 普通 1 - DO - SockBoom
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 18000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nk8.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 16
-  password: amazonskr05
-  port: 443
-  server: 13.229.212.209
-  tfo: false
-  type: ss
-- name: '102|SG_Singapore_Datacamp Limited_... #1'
-  network: tcp
-  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
-  port: 19222
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 41|SG |  LB-1G
-  network: ws
-  port: 443
-  server: sgcft01.xqc.best
-  servername: d16henb377mok4.cloudfront.net
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c99ab783-772b-42a1-b418-6f9b0f045094
-  ws-opts:
-    headers:
-      Host: d16henb377mok4.cloudfront.net
-    path: /stream
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_150
-  password: Sn5B7jTqr76aCJT8
-  port: '9097'
-  server: 103.172.116.103
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 67|19|新加坡 002
-  network: ws
-  port: 52175
-  server: 206.189.81.51
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f1294e25-0242-47df-9a5a-2e011c4747c7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_212
-  password: UkXRsXvR6buDMG2Y
-  port: '9001'
-  server: 103.172.116.103
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: 69|🇸🇬 新加坡_98
-  network: ws
-  port: '2082'
-  server: ying.appleid.bf
-  tls: false
-  type: vmess
-  uuid: 9972e893-335f-49d5-a7a1-d520826e58ac
-  ws-opts:
-    headers:
-      Host: ying.appleid.bf
-    path: /ws?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: '102|SG_Singapore_Akari Networks_Op... #1'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50106
-  server: 120.232.217.70
-  type: ss
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_173
-  password: ZpNDDKRu9MagNvaf
-  port: '9015'
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 26
-  password: amazonskr05
-  port: 443
-  server: 47.129.50.131
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 88|🇸🇬_SG_新加坡_15
-  password: amazonskr05
-  port: 443
-  server: 18.143.93.163
-  type: ss
-- alterId: 4
-  cipher: auto
-  name: 50,72|🇸🇬 Relay_🇸🇬SG-🇸🇬SG_977
-  network: ws
-  port: 443
-  server: zecjk.com
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-headers:
-    Host: zecjk.com
-  ws-path: /ws
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 9
-  password: amazonskr05
-  port: 443
-  server: 13.212.229.251
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_955
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 217.197.161.138
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: '72|🇸🇬 新加坡_3 #1'
-  network: ws
-  port: 9999
-  server: 18.141.180.10
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c
-  ws-opts:
-    headers:
-      host: 18.141.180.10
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 74|VIP|新加坡🇸🇬04-5Gbps - 探索者
-  network: ws
-  port: 32324
-  server: 603diyb.donghui.tech
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
-  ws-opts:
-    headers:
-      Host: 603diyb.donghui.tech
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 74|VIP|新加坡🇸🇬06-5Gbps - 探索者
-  network: ws
-  port: 32334
-  server: 603diyb.donghui.tech
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
-  ws-opts:
-    headers:
-      Host: 603diyb.donghui.tech
-    path: /
-- alterId: 4
-  cipher: auto
-  name: 50,72|🇸🇬 Relay_🇸🇬SG-🇸🇬SG_982
-  network: ws
-  port: 443
-  server: eeh7iewe.com
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-headers:
-    Host: eeh7iewe.com
-  ws-path: /ws
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_168
-  password: wjTugX3ZtHMB9c3Z
-  port: '9057'
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  name: 88|🇸🇬_SG_新加坡_27
-  password: amazonskr05
-  port: 443
-  server: 13.214.211.185
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '102|SG_Singapore_Akile LTD_OpenAI_... #1'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61020
-  server: 120.240.88.37
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 65|🇸🇬 新加坡02-V4-流媒体-1A
-  network: ws
-  port: 2052
-  server: cf.hy2.one
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e26425-ecfb-4776-83d7-4de73709ff36
-  ws-opts:
-    headers:
-      Host: sg0002.hy-2.top
-    path: /0
-- alterId: 0
-  cipher: auto
-  name: 72|SG_2
-  network: ws
-  port: 62013
-  server: eu.licom.ga
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f81e990e-1283-48f9-9eff-acacad6fb661
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '102|SG_Singapore_Akari Networks_Op... #5'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50005
-  server: 120.232.217.71
-  type: ss
-- cipher: aes-256-cfb
-  name: 74|🇸🇬 【K】新加坡 普通 3 - DO - SockBoom
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 20000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nka.boom.skin
-  type: ssr
-  udp: true
-- name: 72|🇸🇬 Singapore | 08
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20028
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇸🇬 新加坡04 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10068
-  server: sg4.lvuy.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_937
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 217.197.161.138
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_920
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 217.197.161.166
-  type: ss
-- name: 72|🇸🇬 Singapore | 01
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20021
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_946
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 81.90.189.18
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-SG_1170
-  network: ws
-  port: 42359
-  server: 0000000000000000000000000078.cgroup-node-for-bigairport.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: 0000000000000000000000000078.cgroup-node-for-bigairport.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 67|19|🔒 VM-WS-NA 🇸🇬 SG-206.238.23...
-  network: ws
-  port: '80'
-  server: 206.238.236.36
-  servername: mysan2.jaquay22.workers.dev
-  tls: false
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /gwdef.sbs/linkws
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_204
-  password: BejrQvtu9sqUeNuZ
-  port: '9024'
-  server: 103.172.116.103
-  type: ss
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: flynwn
-  name: 74|🇸🇬 vip1 新加坡-06 测试 - FastFly
-  network: grpc
-  port: 43445
-  server: fly0001.flyflylflyflysbs.sbs
-  servername: sg01.ckcloud.info
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_956
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 217.197.161.166
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 85|VM-WS-NA 🇸🇬 SG-206.238.236.36:...
-  network: ws
-  port: 2052
-  server: 206.238.236.36
-  servername: mysan2.jaquay22.workers.dev
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /
-- name: 102|SG_Singapore_RN2_OpenAI
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19210
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_940
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 217.197.161.136
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 50|🇸🇬 SG_975
-  network: ws
-  port: 80
-  server: 8.214.33.158
-  tls: false
-  type: vmess
-  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
-  ws-headers:
-    Host: 8.214.33.158
-  ws-path: /
-- alterId: 4
-  cipher: auto
-  name: 50|🇸🇬 Pool_🇸🇬SG_972
-  network: ws
-  port: 443
-  server: 103.253.26.134
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-headers:
-    Host: eeh7iewe.com
-  ws-path: /ws
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_932
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 217.197.161.136
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇸🇬 新加坡01 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10044
-  server: sg1.lvuy.xyz
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: '72|🇸🇬 新加坡_2 #1'
-  network: ws
-  port: 8888
-  server: 128.199.75.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
-  ws-opts:
-    headers:
-      host: 128.199.75.23
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 22
-  password: amazonskr05
-  port: 443
-  server: 47.129.170.82
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 43|SG_93
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
-  server: 139.162.5.19
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇸🇬 新加坡 05 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 10355
-  server: host-035.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 11
-  password: amazonskr05
-  port: 443
-  server: 13.212.78.66
-  tfo: false
-  type: ss
-- name: 85|TR-WS-TLS 🇸🇬 SG-206.238.237.1:...
-  network: ws
-  password: dns68
-  port: 2087
-  server: 206.238.237.1
-  sni: trojan.putata.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: trojan.putata.us.kg
-    path: /?ed
 - cipher: aes-256-cfb
   country: SG
   name: 43|SG_94
@@ -631,29 +12,25 @@ proxies:
   port: 8099
   server: 139.162.41.174
   type: ss
-- name: 72|🇸🇬 新加坡_Telegram@kxswa 9
-  network: tcp
-  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
-  port: 709
-  server: 2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz
-  skip-cert-verify: true
-  sni: 2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_105
-  password: TN2YqghxeFDKZfLU
-  port: '9037'
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 25
-  password: amazonskr05
+- alterId: 4
+  cipher: auto
+  name: 72|🇸🇬 Pool_🇸🇬SG_1032
+  network: ws
   port: 443
-  server: 47.129.244.12
-  tfo: false
-  type: ss
+  server: 202.61.141.130
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    path: /ws
+- name: '102|SG_Singapore_Oracle Corporatio... #2'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19229
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
 - alterId: 4
   cipher: auto
   name: 50|🇸🇬 Relay_🇸🇬SG-🇸🇬SG_981
@@ -667,63 +44,16 @@ proxies:
     Host: ycgyg.com
   ws-path: /ws
 - cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_967
+  name: 50|🇸🇬 Pool_🇸🇬SG_925
   password: G!yBwPWH3Vao
-  port: 800
-  server: 81.90.189.152
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 86|新加坡04 | 1x SG
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41177
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_933
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 81.90.189.152
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 36
-  password: amazonskr05
-  port: 443
-  server: 54.254.7.5
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_927
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 81.90.189.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_958
-  password: G!yBwPWH3Vao
-  port: 808
+  port: 812
   server: 217.197.161.136
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_962
+  name: 50|🇸🇬 SG_943
   password: G!yBwPWH3Vao
-  port: 806
-  server: 217.197.161.164
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_959
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 217.197.161.166
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 30
-  password: amazonskr05
-  port: 443
-  server: 52.77.209.61
-  tfo: false
+  port: 807
+  server: 81.90.189.18
   type: ss
 - cipher: aes-256-cfb
   name: 88|🇸🇬_SG_新加坡_53
@@ -731,132 +61,31 @@ proxies:
   port: 443
   server: 13.214.214.197
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_934
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 217.197.161.138
-  type: ss
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: flynwn
-  name: 74|🇸🇬 vip1 新加坡-01 测试 - FastFly
-  network: grpc
-  port: 33957
-  server: fly0001.flyflylflyflysbs.sbs
-  servername: sg02.ckcloud.info
+- name: 72|新加坡+亚马逊(Amazon)公司数据中心_255
+  network: tcp
+  password: ac590e89-ba43-49a1-a8b2-38ec70dc7907
+  port: 20230
+  server: sg005.421421.xyz
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: 421421.xyz
+  type: trojan
   udp: true
-  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_968
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 81.90.189.18
-  type: ss
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_55
-  password: y9VURyNzJWNRYEGQ
-  port: '9008'
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-128-gcm
-  name: 74|🇸🇬 Video 新加坡A-解锁 - AyucLouD-Se...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 281af103322.download.windowsupdate.com
-    mode: http
-  port: 9038
-  server: 231103level2.unclemanco.com
-  type: ss
+- name: 72|🇸🇬 Singapore | 06
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20026
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_162
-  password: amazonskr05
-  port: '443'
-  server: 13.250.61.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 88|🇸🇬_SG_新加坡_5
-  password: amazonskr05
-  port: 443
-  server: 13.212.91.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_928
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 217.197.161.138
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 76|🇸🇬 SG 21
+  name: 76|🇸🇬 SG 26
   password: amazonskr05
   port: 443
-  server: 47.128.215.67
+  server: 47.129.50.131
   tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 49|新加坡 Linode数据中心
-  network: ws
-  port: 80
-  server: 139.162.6.248
-  tls: false
-  type: vmess
-  uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /5gsieutocdo.club
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_961
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 217.197.161.164
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_938
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 217.197.161.136
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 50|🇸🇬 SG_974
-  network: ws
-  port: 46452
-  server: 180.215.130.123
-  tls: false
-  type: vmess
-  uuid: c5414fe0-018b-473a-aa3b-f210f2ba42f5
-  ws-headers:
-    Host: 180.215.130.123
-  ws-path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 10
-  password: amazonskr05
-  port: 443
-  server: 13.212.77.91
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 88|🇸🇬_SG_新加坡_51
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_214
-  password: XPtzA9sCug3SPR4c
-  port: '9025'
-  server: 103.172.116.103
   type: ss
 - alterId: 1
   cipher: auto
@@ -872,578 +101,31 @@ proxies:
     headers:
       host: azhk3.sf66.cf
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_942
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 217.197.161.138
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_944
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 81.90.189.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_945
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 217.197.161.166
-  type: ss
-- name: 72|新加坡-335.0KB/s_1_615_615
-  network: tcp
-  password: '!!str 3690911436885991424'
-  port: 443
-  server: easy-mako.opossum872.cfd
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 72|🇸🇬 Singapore | 06
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20026
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 72|🇸🇬 新加坡_4
-  network: ws
-  port: 61531
-  server: ah.jiyunshu.com
+  grpc-opts:
+    grpc-service-name: flynwn
+  name: 74|🇸🇬 vip1 新加坡-06 测试 - FastFly
+  network: grpc
+  port: 43445
+  server: fly0001.flyflylflyflysbs.sbs
+  servername: sg01.ckcloud.info
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
-  ws-opts:
-    headers:
-      host: ah.jiyunshu.com
-    path: /
+  udp: true
+  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
 - cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_930
+  name: '102|SG_Singapore_Akari Networks_Op... #4'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50105
+  server: 120.232.217.71
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_926
   password: G!yBwPWH3Vao
   port: 809
-  server: 81.90.189.184
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 72|🇸🇬 新加坡_Telegram@kxswa 10
-  network: ''
-  port: 57614
-  server: 5.34.176.111
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇸🇬 新加坡03 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10046
-  server: sg3.lvuy.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_929
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 217.197.161.138
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 67|19|🔒 VM-WS-NA 🇸🇬 SG-128.199.19...
-  network: ws
-  port: '52419'
-  server: 128.199.193.14
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 250014f0-1f89-43a5-bbe0-127ab48b66a0
-  ws-opts:
-    headers:
-      Host: whatsapp.net
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_960
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 217.197.161.136
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_921
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 217.197.161.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_952
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 217.197.161.166
-  type: ss
-- name: 72|🇸🇬 Singapore | 07
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20027
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_964
-  password: G!yBwPWH3Vao
-  port: 812
   server: 81.90.189.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_936
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 81.90.189.152
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_923
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 217.197.161.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇸🇬 新加坡02 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10045
-  server: sg2.lvuy.xyz
-  type: ss
-  udp: true
-- alterId: 4
-  cipher: auto
-  name: 50|🇸🇬 Pool_🇸🇬SG_979
-  network: ws
-  port: 443
-  server: 103.253.26.20
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-headers:
-    Host: zecjk.com
-  ws-path: /ws
-- name: 72|新加坡-4.10MB/s_84_84
-  network: tcp
-  password: eb0c0b71-20d5-43b3-8c44-3e63e3fdd1a6
-  port: 3333
-  server: 8.219.178.68
-  skip-cert-verify: true
-  sni: alisg.yuwenle.vip
-  type: trojan
-  udp: true
-- name: 72|新加坡+亚马逊(Amazon)公司数据中心_255
-  network: tcp
-  password: ac590e89-ba43-49a1-a8b2-38ec70dc7907
-  port: 20230
-  server: sg005.421421.xyz
-  skip-cert-verify: true
-  sni: 421421.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|新加坡_由快嘴科技提供：kkzui.com123
-  network: ws
-  port: 443
-  server: 139.162.40.74
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      host: 139.162.40.74
-    path: linkvws
-- name: 72|🇸🇬 Singapore | 04
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20024
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 74|VIP|新加坡🇸🇬05-5Gbps - 探索者
-  network: ws
-  port: 34659
-  server: 603diya.donghui.tech
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
-  ws-opts:
-    headers:
-      Host: 603diya.donghui.tech
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '102|SG_Singapore_Akari Networks_Op... #3'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50006
-  server: 120.232.217.70
-  type: ss
-- cipher: aes-128-gcm
-  name: 74|🇸🇬 Video 新加坡B-标准 - AyucLouD-Se...
-  password: dajkdkjda&dja*/?
-  plugin: obfs
-  plugin-opts:
-    host: 281af103322.download.windowsupdate.com
-    mode: http
-  port: 19999
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_971
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 217.197.161.138
-  type: ss
-- cipher: aes-128-gcm
-  name: 74|🇸🇬 Game 新加坡03-标准 - AyucLouD-Se...
-  password: ayuc211
-  plugin: obfs
-  plugin-opts:
-    host: 281af103322.download.windowsupdate.com
-    mode: http
-  port: 902
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇨🇳CN
-  delay: 383
-  name: 78|新加坡 - 新加坡 - Akamai Technologie...
-  password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
-  port: 27047
-  server: esbnsn6y.wmdkwwurw.top
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 8
-  password: amazonskr05
-  port: 443
-  server: 13.212.149.182
-  tfo: false
-  type: ss
-- alterId: 4
-  cipher: auto
-  name: 50|🇸🇬 Pool_🇸🇬SG_978
-  network: ws
-  port: 443
-  server: 202.61.141.130
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-headers:
-    Host: 202.61.141.130
-  ws-path: /ws
-- cipher: aes-256-cfb
-  name: 88|🇸🇬_SG_新加坡_55
-  password: wfLC2y7rzZyCmuyt
-  port: 9093
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_174
-  password: a3GFYt36Sm82Vys9
-  port: '9000'
-  server: 103.172.116.103
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_922
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 81.90.189.18
-  type: ss
-- cipher: aes-256-cfb
-  name: 74|🇸🇬 【K】新加坡 普通 4 - DO - SockBoom
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 21000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nkb.boom.skin
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_935
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 217.197.161.136
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇸🇬 新加坡 02 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 10352
-  server: host-032.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_164
-  password: cp8pRSUAyLhTfVWH
-  port: '9064'
-  server: 103.172.116.79
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇬SG
-  name: 61,76|🇬SG_609
-  password: amazonskr05
-  port: 443
-  server: 13.229.238.238
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 86|新加坡01 | 1x SG
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41171
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- alterId: 4
-  cipher: auto
-  name: 72|🇸🇬 Relay_🇸🇬SG-🇸🇬SG_817
-  network: ws
-  port: 443
-  server: ycgyg.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    path: /ws
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_925
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 217.197.161.136
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 35
-  password: amazonskr05
-  port: 443
-  server: 54.254.186.175
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 20
-  password: amazonskr05
-  port: 443
-  server: 18.136.197.165
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_953
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 81.90.189.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_969
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 81.90.189.18
-  type: ss
-- name: 72|bngan.com_🇸🇬_SG_新加坡_1-102
-  network: tcp
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  port: 443
-  server: sg-server-01.selfupay.com
-  skip-cert-verify: true
-  sni: sg-server-01.selfupay.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_924
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 217.197.161.138
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 74|🇸🇬 新加坡 直连1 - 爱猫论坛
-  network: ws
-  port: 443
-  server: sg1.594888.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
-  ws-opts:
-    headers:
-      Host: sg1.594888.xyz
-    path: /hls/us8.m3u8
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 14
-  password: amazonskr05
-  port: 443
-  server: 13.215.205.186
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 19
-  password: amazonskr05
-  port: 443
-  server: 13.250.3.43
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_943
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 81.90.189.18
-  type: ss
-- name: '102|SG_Singapore_Datacamp Limited_... #3'
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19224
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 72|SG_1
-  network: ws
-  port: 30030
-  server: sg1.pikap.one
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d7c62140-026f-404c-81f6-7cc087d1771f
-  ws-opts:
-    path: ''
-- alterId: 2
-  cipher: auto
-  name: 74|🇸🇬 [vip①]②新加坡 - MG Network
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9a112be7-59ee-330b-a244-26b298704f29
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- cipher: aes-256-cfb
-  name: 74|🇸🇬 【K】新加坡 普通 5 - DO - SockBoom
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 22000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nkc.boom.skin
-  type: ssr
-  udp: true
-- name: 72|🇸🇬 Singapore | 03
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20023
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 72|🇸🇬 新加坡 | AGA | 解锁NF | ✈TG@shar...
-  network: ws
-  port: 11051
-  server: aga-sg.ide.wtf
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b792eb69-f120-4956-bf79-571696ff48fb
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_939
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 217.197.161.166
-  type: ss
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_82
-  password: c3NtHJ5ujV2tGDfj
-  port: '9084'
-  server: 103.172.116.103
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: SG
-  h2-opts: {}
-  http-opts: {}
-  name: 37,61,72,92|Relay_SG-SG_3311
-  network: ws
-  port: 443
-  server: sg25.jnstore.biz.id
-  servername: sg25.jnstore.biz.id
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
-  ws-opts:
-    headers:
-      HOST: sg25.jnstore.biz.id
-    path: /vmess
-- alterId: 1
-  cipher: auto
-  name: '72|🇸🇬 新加坡_9 #1'
-  network: ws
-  port: 20005
-  server: azhk1.sf66.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
-  ws-opts:
-    headers:
-      host: azhk1.sf66.cf
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_966
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 217.197.161.164
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 34
-  password: amazonskr05
-  port: 443
-  server: 54.169.216.179
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 23
-  password: amazonskr05
-  port: 443
-  server: 47.129.175.47
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 28
-  password: amazonskr05
-  port: 443
-  server: 52.221.236.136
-  tfo: false
   type: ss
 - alterId: 64
   cipher: auto
@@ -1460,68 +142,111 @@ proxies:
       host: www.48907900.xyz
     path: /path/011410073331
 - cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_181
-  password: Sn5B7jTqr76aCJT8
-  port: '9097'
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 29
-  password: amazonskr05
-  port: 443
-  server: 52.221.255.53
-  tfo: false
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: '72|🇸🇬 新加坡_5 #1'
-  network: ws
-  port: 27120
-  server: ah.jiyunshu.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
-  ws-opts:
-    headers:
-      host: ah.jiyunshu.com
-    path: /
-- name: '102|SG_Singapore_Datacamp Limited_... #2'
+  name: 74|🇸🇬 【K】新加坡 普通 6 - DO - SockBoom
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 23000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nkd.boom.skin
+  type: ssr
+  udp: true
+- name: 72|🇸🇬 Singapore | 05
   network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19223
-  server: 122.188.71.132
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20025
+  server: oss-cn-guangzhou.wdcloud.pro
   skip-cert-verify: true
+  sni: mmbiz.qpic.cn
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 74|VIP|新加坡🇸🇬02-5Gbps - 探索者
+  name: 50|🇸🇬 SG_975
   network: ws
-  port: 34639
-  server: 603diya.donghui.tech
-  skip-cert-verify: true
+  port: 80
+  server: 8.214.33.158
   tls: false
   type: vmess
-  udp: true
-  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
+  ws-headers:
+    Host: 8.214.33.158
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 61,72|Relay_🏁ZZ-SG_3903
+  network: ws
+  port: 443
+  server: 104.21.1.32
+  servername: 3.clarity168.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 48f837fa-12d0-498d-b5f6-94f9979736a4
   ws-opts:
     headers:
-      Host: 603diya.donghui.tech
-    path: /
+      HOST: 3.clarity168.com
+    path: /tk
+- cipher: aes-128-gcm
+  name: 74|🇸🇬 Game 新加坡02-标准 - AyucLouD-Se...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 281af103322.download.windowsupdate.com
+    mode: http
+  port: 9037
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 76|🇸🇬 SG 15
+  name: 76|🇸🇬 SG 20
   password: amazonskr05
   port: 443
-  server: 13.228.183.100
+  server: 18.136.197.165
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 19
+  password: amazonskr05
+  port: 443
+  server: 13.250.3.43
+  tfo: false
+  type: ss
+- name: 72|🇸🇬 Singapore | 08
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20028
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_173
+  password: ZpNDDKRu9MagNvaf
+  port: '9015'
+  server: 103.172.116.103
+  type: ss
+- name: 72|🇸🇬 Singapore | 02
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20022
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_941
+  name: 50|🇸🇬 Pool_🇸🇬SG_954
   password: G!yBwPWH3Vao
-  port: 805
-  server: 217.197.161.136
+  port: 804
+  server: 217.197.161.166
   type: ss
 - alterId: 0
   cipher: auto
@@ -1536,13 +261,914 @@ proxies:
     Host: 180.215.130.123
   ws-path: /
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 33
+  name: 88|🇸🇬_SG_新加坡_9
   password: amazonskr05
   port: 443
-  server: 54.169.139.18
+  server: 47.128.72.90
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 74|VIP|新加坡🇸🇬03-5Gbps - 探索者
+  network: ws
+  port: 32323
+  server: 603diyb.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diyb.donghui.tech
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_969
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 81.90.189.18
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_168
+  password: wjTugX3ZtHMB9c3Z
+  port: '9057'
+  server: 103.172.116.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_924
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 217.197.161.138
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 13
+  password: amazonskr05
+  port: 443
+  server: 13.214.193.121
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: '88|🇸🇬_SG_新加坡_7 #1'
+  password: amazonskr05
+  port: 443
+  server: 54.179.9.170
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 69|🇸🇬 新加坡_98
+  network: ws
+  port: '2082'
+  server: ying.appleid.bf
+  tls: false
+  type: vmess
+  uuid: 9972e893-335f-49d5-a7a1-d520826e58ac
+  ws-opts:
+    headers:
+      Host: ying.appleid.bf
+    path: /ws?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_944
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 81.90.189.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '102|SG_Singapore_Akari Networks_Op... #5'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50005
+  server: 120.232.217.71
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_968
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 81.90.189.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_953
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 81.90.189.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_919
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 217.197.161.138
+  type: ss
+- name: 72|🇸🇬 新加坡_Telegram@kxswa
+  network: tcp
+  password: I4bO2YDEgs
+  port: 443
+  server: 188.166.252.91
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇸🇬 新加坡 05 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 10355
+  server: host-035.crazyspeed.xyz
+  type: ss
+  udp: true
+- name: 102|SG_Singapore_RN2_OpenAI
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19210
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 12
+  password: amazonskr05
+  port: 443
+  server: 13.213.30.242
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_964
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 81.90.189.18
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 36
+  password: amazonskr05
+  port: 443
+  server: 54.254.7.5
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '64|TG频道:@MTProto_666（新加坡） #1'
+  network: tcp
+  port: '31517'
+  server: 103.248.228.222
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 18e48025-2611-477a-f15a-a3f81ca8775a
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_928
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 217.197.161.138
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_922
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 81.90.189.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_935
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 217.197.161.136
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 64,105|Singapore CTG
+  network: tcp
+  port: '2902'
+  server: 143.92.42.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alterId: 0
+  cipher: auto
+  name: 67|19|新加坡 002
+  network: ws
+  port: 52175
+  server: 206.189.81.51
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1294e25-0242-47df-9a5a-2e011c4747c7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 64|@v2ray24 ▷ Singapore 🇸🇬
+  network: ws
+  port: '80'
+  server: 51.79.173.222
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a72bd7a7-732d-46c1-8274-bf16bca30e78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_958
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 217.197.161.136
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 72|🇸🇬 新加坡_4
+  network: ws
+  port: 61531
+  server: ah.jiyunshu.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
+  ws-opts:
+    headers:
+      host: ah.jiyunshu.com
+    path: /
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_82
+  password: c3NtHJ5ujV2tGDfj
+  port: '9084'
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  name: 88|🇸🇬_SG_新加坡_50
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  server: 103.172.116.94
+  type: ss
+- alterId: 4
+  cipher: auto
+  name: 50,72|🇸🇬 Relay_🇸🇬SG-🇸🇬SG_982
+  network: ws
+  port: 443
+  server: eeh7iewe.com
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-headers:
+    Host: eeh7iewe.com
+  ws-path: /ws
+- cipher: chacha20-ietf-poly1305
+  name: '102|SG_Singapore_Akari Networks_Op... #2'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50105
+  server: 120.232.217.70
+  type: ss
+- name: 72|🇸🇬 Singapore | 04
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20024
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 29
+  password: amazonskr05
+  port: 443
+  server: 52.221.255.53
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_209
+  password: VP8ZPxQpJtZRCjfZ
+  port: '9080'
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_150
+  password: Sn5B7jTqr76aCJT8
+  port: '9097'
+  server: 103.172.116.103
+  type: ss
+- alterId: 4
+  cipher: auto
+  name: 50,72|🇸🇬 Relay_🇸🇬SG-🇸🇬SG_977
+  network: ws
+  port: 443
+  server: zecjk.com
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-headers:
+    Host: zecjk.com
+  ws-path: /ws
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_941
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 217.197.161.136
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 74|VIP|新加坡🇸🇬04-5Gbps - 探索者
+  network: ws
+  port: 32324
+  server: 603diyb.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diyb.donghui.tech
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_939
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 217.197.161.166
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_212
+  password: UkXRsXvR6buDMG2Y
+  port: '9001'
+  server: 103.172.116.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇸🇬 新加坡02 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10045
+  server: sg2.lvuy.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 67|19|🔒 VM-WS-NA 🇸🇬 SG-206.238.23...
+  network: ws
+  port: '80'
+  server: 206.238.236.36
+  servername: mysan2.jaquay22.workers.dev
+  tls: false
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /gwdef.sbs/linkws
+- alterId: 4
+  cipher: auto
+  name: 50|🇸🇬 Pool_🇸🇬SG_972
+  network: ws
+  port: 443
+  server: 103.253.26.134
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-headers:
+    Host: eeh7iewe.com
+  ws-path: /ws
+- name: '102|SG_Singapore_Datacamp Limited_... #3'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19224
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- name: 72|新加坡-4.10MB/s_84_84
+  network: tcp
+  password: eb0c0b71-20d5-43b3-8c44-3e63e3fdd1a6
+  port: 3333
+  server: 8.219.178.68
+  skip-cert-verify: true
+  sni: alisg.yuwenle.vip
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 88|🇸🇬_SG_新加坡_2
+  password: rNBfNuuANFCAk7KB
+  port: 9056
+  server: 103.172.116.94
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 86|新加坡05 | 1x SG
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41179
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 74|🇸🇬 Game 新加坡03-标准 - AyucLouD-Se...
+  password: ayuc211
+  plugin: obfs
+  plugin-opts:
+    host: 281af103322.download.windowsupdate.com
+    mode: http
+  port: 902
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 86|新加坡02 | 1x SG
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41173
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_938
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 217.197.161.136
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 23
+  password: amazonskr05
+  port: 443
+  server: 47.129.175.47
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_933
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 81.90.189.152
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_920
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 217.197.161.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_950
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 217.197.161.166
+  type: ss
+- cipher: aes-128-gcm
+  name: 74|🇸🇬 Video 新加坡A-解锁 - AyucLouD-Se...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 281af103322.download.windowsupdate.com
+    mode: http
+  port: 9038
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_181
+  password: Sn5B7jTqr76aCJT8
+  port: '9097'
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 11
+  password: amazonskr05
+  port: 443
+  server: 13.212.78.66
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_162
+  password: amazonskr05
+  port: '443'
+  server: 13.250.61.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 67|21|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.151.229.149
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '102|SG_Singapore_Akile LTD_OpenAI_... #1'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 61020
+  server: 120.240.88.37
+  type: ss
+- cipher: aes-128-gcm
+  name: 74|🇸🇬 Game 新加坡01-标准 - AyucLouD-Se...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 281af103322.download.windowsupdate.com
+    mode: http
+  port: 9060
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 34
+  password: amazonskr05
+  port: 443
+  server: 54.169.216.179
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_951
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 81.90.189.18
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 72|SG_2
+  network: ws
+  port: 62013
+  server: eu.licom.ga
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f81e990e-1283-48f9-9eff-acacad6fb661
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_948
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 217.197.161.166
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_199
+  password: BwcAUZk8hUFAkDGN
+  port: '9031'
+  server: 103.172.116.79
+  type: ss
+- name: 85|TR-WS-TLS 🇸🇬 SG-206.238.237.1:...
+  network: ws
+  password: dns68
+  port: 2087
+  server: 206.238.237.1
+  sni: trojan.putata.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.putata.us.kg
+    path: /?ed
+- alterId: 2
+  cipher: auto
+  name: 74|🇸🇬 [vip①]①新加坡 - MG Network
+  network: ws
+  port: 23612
+  server: 12.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9a112be7-59ee-330b-a244-26b298704f29
+  ws-opts:
+    headers:
+      Host: 12.mamamajd.site
+    path: /
+- cipher: aes-128-gcm
+  name: 74|🇸🇬 Video 新加坡B-标准 - AyucLouD-Se...
+  password: dajkdkjda&dja*/?
+  plugin: obfs
+  plugin-opts:
+    host: 281af103322.download.windowsupdate.com
+    mode: http
+  port: 19999
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  country: HK
+  name: 42,61,92|netflix_SG
+  password: asd123456
+  port: 8388
+  server: 103.36.90.195
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 24
+  password: amazonskr05
+  port: 443
+  server: 47.129.221.160
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 74|🇸🇬 【K】新加坡 普通 4 - DO - SockBoom
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 21000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nkb.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  country: SG
+  name: 37,42,61,76,92|SG_3261
+  password: amazonskr05
+  port: 443
+  server: 13.229.238.238
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 25
+  password: amazonskr05
+  port: 443
+  server: 47.129.244.12
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_957
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 217.197.161.166
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 74|🇸🇬 新加坡 直连1 - 爱猫论坛
+  network: ws
+  port: 443
+  server: sg1.594888.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
+  ws-opts:
+    headers:
+      Host: sg1.594888.xyz
+    path: /hls/us8.m3u8
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_942
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 217.197.161.138
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 72|🇸🇬 新加坡_Telegram@kxswa 10
+  network: ''
+  port: 57614
+  server: 5.34.176.111
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_955
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 217.197.161.138
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_932
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 217.197.161.136
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 67|21|🇸🇬 新加坡2|@ripaojiedian
+  password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
+  port: 50001
+  server: ddns.olucloud.subapi.cc
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '64|@v2ray24 ▷ Singapore 🇸🇬 #1'
+  network: ws
+  port: '443'
+  server: ie.getfree5.workers.dev
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0ac631b3-55c4-4f2f-9468-ec6c72aaa33e
+  ws-opts:
+    headers:
+      Host: ie.getfree5.workers.dev
+    path: /ie1.v2rayserv.com/vmess
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_962
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 217.197.161.164
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 30
+  password: amazonskr05
+  port: 443
+  server: 52.77.209.61
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_160
+  password: M3t2ZEQcMGRWBjRa
+  port: '9011'
+  server: 103.172.116.103
+  type: ss
+- alterId: 4
+  cipher: auto
+  name: 72|🇸🇬 Relay_🇸🇬SG-🇸🇬SG_817
+  network: ws
+  port: 443
+  server: ycgyg.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    path: /ws
+- cipher: aes-256-cfb
+  name: 74|🇸🇬 【K】新加坡 普通 7 - DO - SockBoom
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 24000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nke.boom.skin
+  type: ssr
+  udp: true
+- name: 72|🇸🇬 新加坡_Telegram@kxswa 7
+  network: tcp
+  password: LXFwAwDPDTzb
+  port: 13366
+  server: 3.0.180.253
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 88|🇸🇬_SG_新加坡_60
+  password: amazonskr05
+  port: 443
+  server: 18.139.225.183
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_183
+  password: TN2YqghxeFDKZfLU
+  port: '9037'
+  server: 103.172.116.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_930
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 81.90.189.184
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 64|🇸🇬🌏 @proxiiraniii کانفیگ های ب...
+  network: tcp
+  port: '49227'
+  server: gz-sg.19991314.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b1ddb97-51ce-44cc-84f2-0a6ae6eba50d
+- alterId: 64
+  cipher: auto
+  name: 72|🇸🇬 新加坡 | AGA | 解锁NF | ✈TG@shar...
+  network: ws
+  port: 11051
+  server: aga-sg.ide.wtf
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b792eb69-f120-4956-bf79-571696ff48fb
+- cipher: aes-256-cfb
+  name: 88|🇸🇬_SG_新加坡_15
+  password: amazonskr05
+  port: 443
+  server: 18.143.93.163
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 14
+  password: amazonskr05
+  port: 443
+  server: 13.215.205.186
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 18
+  password: amazonskr05
+  port: 443
+  server: 13.229.98.87
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_971
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 217.197.161.138
+  type: ss
+- cipher: aes-256-cfb
+  name: 88|🇸🇬_SG_新加坡_55
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  server: 103.172.116.94
+  type: ss
+- alterId: 4
+  cipher: auto
+  name: 50|🇸🇬 Pool_🇸🇬SG_978
+  network: ws
+  port: 443
+  server: 202.61.141.130
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-headers:
+    Host: 202.61.141.130
+  ws-path: /ws
+- cipher: aes-256-cfb
+  country: SG
+  name: 43|SG_93
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  port: 8099
+  server: 139.162.5.19
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_2
+  password: amazonskr05
+  port: '443'
+  server: 3.0.50.219
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇸🇬 新加坡 04 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 10354
+  server: host-034.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 38
+  password: amazonskr05
+  port: 443
+  server: 54.255.245.62
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_204
+  password: BejrQvtu9sqUeNuZ
+  port: '9024'
+  server: 103.172.116.103
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '64|Singapore #1'
+  network: ws
+  port: 80
+  server: cdn.anycast.eu.org
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: warp.chigua.tk
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_947
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 217.197.161.138
+  type: ss
+- name: 102|SG_Singapore_Datacamp Limited_...
+  network: tcp
+  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
+  port: 19225
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_952
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 217.197.161.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_966
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 217.197.161.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_936
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 81.90.189.152
+  type: ss
+- name: 72|bngan.com_🇸🇬_SG_新加坡_1-102
+  network: tcp
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  port: 443
+  server: sg-server-01.selfupay.com
+  skip-cert-verify: true
+  sni: sg-server-01.selfupay.com
+  type: trojan
+  udp: true
 - alterId: 1
   cipher: auto
   name: '72|🇸🇬 新加坡_19 #1'
@@ -1558,11 +1184,607 @@ proxies:
       host: cxcu.jiyunshu.com
     path: /
 - cipher: aes-256-cfb
-  name: 88|🇸🇬_SG_新加坡_60
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 33
   password: amazonskr05
   port: 443
-  server: 18.139.225.183
+  server: 54.169.139.18
+  tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: 74|🇸🇬 【K】新加坡 普通 1 - DO - SockBoom
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 18000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk8.boom.skin
+  type: ssr
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: '72|🇸🇬 新加坡_5 #1'
+  network: ws
+  port: 27120
+  server: ah.jiyunshu.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
+  ws-opts:
+    headers:
+      host: ah.jiyunshu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 72|SG_1
+  network: ws
+  port: 30030
+  server: sg1.pikap.one
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d7c62140-026f-404c-81f6-7cc087d1771f
+  ws-opts:
+    path: ''
+- alterId: 1
+  cipher: auto
+  name: '72|🇸🇬 新加坡_3 #1'
+  network: ws
+  port: 9999
+  server: 18.141.180.10
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c
+  ws-opts:
+    headers:
+      host: 18.141.180.10
+    path: /
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_164
+  password: cp8pRSUAyLhTfVWH
+  port: '9064'
+  server: 103.172.116.79
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 37
+  password: amazonskr05
+  port: 443
+  server: 54.255.237.249
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 50|🇸🇬 SG_974
+  network: ws
+  port: 46452
+  server: 180.215.130.123
+  tls: false
+  type: vmess
+  uuid: c5414fe0-018b-473a-aa3b-f210f2ba42f5
+  ws-headers:
+    Host: 180.215.130.123
+  ws-path: /
+- cipher: aes-256-gcm
+  country: 🇨🇳CN
+  delay: 383
+  name: 78|新加坡 - 新加坡 - Akamai Technologie...
+  password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
+  port: 27047
+  server: esbnsn6y.wmdkwwurw.top
+  type: ss
+- name: 72|🇸🇬 新加坡_Telegram@kxswa 9
+  network: tcp
+  password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d
+  port: 709
+  server: 2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz
+  skip-cert-verify: true
+  sni: 2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_214
+  password: XPtzA9sCug3SPR4c
+  port: '9025'
+  server: 103.172.116.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 102|SG_Singapore_Akari Networks_Op...
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50006
+  server: 120.232.217.71
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇸🇬 新加坡03 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10046
+  server: sg3.lvuy.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 10
+  password: amazonskr05
+  port: 443
+  server: 13.212.77.91
+  tfo: false
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: '72|🇸🇬 新加坡_2 #1'
+  network: ws
+  port: 8888
+  server: 128.199.75.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
+  ws-opts:
+    headers:
+      host: 128.199.75.23
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 37|Relay_-SG_2929
+  network: ws
+  port: 42359
+  server: 0000000000000000000000000078.cgroup-node-for-bigairport.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: 0000000000000000000000000078.cgroup-node-for-bigairport.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 72|SG_3
+  network: ws
+  port: 62012
+  server: eu.licom.ga
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f81e990e-1283-48f9-9eff-acacad6fb661
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: ' SG'
+  h2-opts: {}
+  http-opts: {}
+  name: 38,40,64| SG_496
+  network: tcp
+  port: 57614
+  server: 5.34.176.111
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
+- alterId: 1
+  cipher: auto
+  name: '72|🇸🇬 新加坡_1 #1'
+  network: ws
+  port: 21888
+  server: 103.83.156.89
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fb1680d4-01b9-4cdd-919f-4d49faf2c326
+  ws-opts:
+    headers:
+      host: 103.83.156.89
+    path: /
+- cipher: aes-256-cfb
+  name: 74|🇸🇬 【K】新加坡 普通 2 - DO - SockBoom
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 19000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nk9.boom.skin
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_1
+  password: amazonskr05
+  port: '443'
+  server: 47.128.64.71
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: flynwn
+  name: 74|🇸🇬 vip1 新加坡-01 测试 - FastFly
+  network: grpc
+  port: 33957
+  server: fly0001.flyflylflyflysbs.sbs
+  servername: sg02.ckcloud.info
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bfc75171-c6e0-40f1-95d7-f05aed7c84b2
+- alterId: 0
+  cipher: auto
+  name: 64|Nearoute Singapore _<
+  network: tcp
+  port: '12015'
+  server: 120.232.239.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 05d8e65f-0775-36a6-9336-1106d9ed041c
+- alterId: 0
+  cipher: auto
+  name: 41|SG |  LB-1G
+  network: ws
+  port: 443
+  server: sgcft01.xqc.best
+  servername: d16henb377mok4.cloudfront.net
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c99ab783-772b-42a1-b418-6f9b0f045094
+  ws-opts:
+    headers:
+      Host: d16henb377mok4.cloudfront.net
+    path: /stream
+- name: 72|🇸🇬 Singapore | 01
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20021
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 64|>🇸🇬 SG|Hs|0706|TG@FProxies|
+  network: ws
+  port: '30006'
+  server: entrance1-87.jjsagcajvv.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbfb021c-8816-3e57-b6f5-b531b062ce1a
+  ws-opts:
+    headers:
+      Host: entrance1-87.jjsagcajvv.xyz
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: '102|SG_Singapore_Akari Networks_Op... #3'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50006
+  server: 120.232.217.70
+  type: ss
+- name: 72|🇸🇬 Singapore | 03
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20023
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_949
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 217.197.161.164
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 85|VM-WS-NA 🇸🇬 SG-206.238.236.36:...
+  network: ws
+  port: 2052
+  server: 206.238.236.36
+  servername: mysan2.jaquay22.workers.dev
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_200
+  password: amazonskr05
+  port: '443'
+  server: 52.221.231.138
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 88|🇸🇬_SG_新加坡_27
+  password: amazonskr05
+  port: 443
+  server: 13.214.211.185
+  type: ss
+- name: 72|www.85la.com 🇸🇬 新加坡_6
+  network: tcp
+  password: '!!str 3690911436885991424'
+  port: 443
+  server: 52.221.9.240
+  skip-cert-verify: true
+  sni: master-boxer.pig299.lat
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 37,61,72,92|Relay_SG-SG_3262
+  network: ws
+  port: 443
+  server: sg25.jnstore.biz.id
+  servername: sg25.jnstore.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+  ws-opts:
+    headers:
+      HOST: sg25.jnstore.biz.id
+    path: /vmess
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 27
+  password: amazonskr05
+  port: 443
+  server: 47.130.3.54
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_946
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 81.90.189.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_927
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 81.90.189.18
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 67|19|🔒 VM-WS-NA 🇸🇬 SG-128.199.19...
+  network: ws
+  port: '52419'
+  server: 128.199.193.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 250014f0-1f89-43a5-bbe0-127ab48b66a0
+  ws-opts:
+    headers:
+      Host: whatsapp.net
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 28
+  password: amazonskr05
+  port: 443
+  server: 52.221.236.136
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_197
+  password: SBM7R883jBmnqe6C
+  port: '9053'
+  server: 103.172.116.79
+  type: ss
+- alterId: 4
+  cipher: auto
+  name: 50|🇸🇬 Pool_🇸🇬SG_979
+  network: ws
+  port: 443
+  server: 103.253.26.20
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-headers:
+    Host: zecjk.com
+  ws-path: /ws
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_174
+  password: a3GFYt36Sm82Vys9
+  port: '9000'
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_158
+  password: KnJGad3FqTvjqbaX
+  port: '9014'
+  server: 103.172.116.79
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_923
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 217.197.161.166
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 74|VIP|新加坡🇸🇬02-5Gbps - 探索者
+  network: ws
+  port: 34639
+  server: 603diya.donghui.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
+  ws-opts:
+    headers:
+      Host: 603diya.donghui.tech
+    path: /
+- cipher: aes-128-gcm
+  name: 74|🇸🇬 Web 新加坡I-标准 - AyucLouD-Serv...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 281af103322.download.windowsupdate.com
+    mode: http
+  port: 6879
+  server: 231103level1.unclemanco.com
+  type: ss
+  udp: true
+- name: 72|新加坡-335.0KB/s_1_615_615
+  network: tcp
+  password: '!!str 3690911436885991424'
+  port: 443
+  server: easy-mako.opossum872.cfd
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇸🇬 新加坡04 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10068
+  server: sg4.lvuy.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 72|新加坡_由快嘴科技提供：kkzui.com123
+  network: ws
+  port: 443
+  server: 139.162.40.74
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      host: 139.162.40.74
+    path: linkvws
+- cipher: chacha20-ietf-poly1305
+  name: 86|新加坡01 | 1x SG
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41171
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 8
+  password: amazonskr05
+  port: 443
+  server: 13.212.149.182
+  tfo: false
+  type: ss
+- name: '102|SG_Singapore_Datacamp Limited_... #1'
+  network: tcp
+  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
+  port: 19222
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_934
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 217.197.161.138
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_967
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 81.90.189.152
+  type: ss
+- cipher: aes-256-cfb
+  name: 74|🇸🇬 【K】新加坡 普通 3 - DO - SockBoom
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 20000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nka.boom.skin
+  type: ssr
+  udp: true
+- name: 72|🇸🇬 Singapore | 07
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20027
+  server: oss-cn-guangzhou.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 102|SG_Singapore_Akile LTD_OpenAI_...
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 61020
+  server: 120.240.88.34
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 SG_961
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 217.197.161.164
+  type: ss
+- name: '102|SG_Singapore_Oracle Corporatio... #1'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19228
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇸🇬 新加坡 02 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 10352
+  server: host-032.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 31
+  password: amazonskr05
+  port: 443
+  server: 52.77.236.51
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_963
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 217.197.161.136
+  type: ss
+- name: '102|SG_Singapore_Datacamp Limited_... #2'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19223
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 64|TG频道:@MTProto_666（新加坡）
+  network: ws
+  port: '23321'
+  server: gzdxb.kd69.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb43a0da-08f0-4f79-a1ec-0dad839ce915
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - cipher: chacha20-ietf-poly1305
   name: 86|新加坡【特殊地区直连】
   password: 04767f30-d9ef-4da3-9795-811d1d7483d3
@@ -1570,20 +1792,51 @@ proxies:
   server: free.6vczxw.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 88|🇸🇬_SG_新加坡_8
-  password: amazonskr05
-  port: 443
-  server: 54.151.216.148
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 65|🇸🇬 新加坡02-V4-流媒体-1A
+  network: ws
+  port: 2052
+  server: cf.hy2.one
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 05e26425-ecfb-4776-83d7-4de73709ff36
+  ws-opts:
+    headers:
+      Host: sg0002.hy-2.top
+    path: /0
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 67|21|🇸🇬 新加坡2|@ripaojiedian
-  password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
-  port: 50001
-  server: ddns.olucloud.subapi.cc
-  tfo: false
+  name: 50|🇸🇬 Pool_🇸🇬SG_956
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 217.197.161.166
   type: ss
+- alterId: 1
+  cipher: auto
+  name: '72|🇸🇬 新加坡_9 #1'
+  network: ws
+  port: 20005
+  server: azhk1.sf66.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
+  ws-opts:
+    headers:
+      host: azhk1.sf66.cf
+    path: /
+- cipher: aes-256-cfb
+  name: 74|🇸🇬 【K】新加坡 普通 5 - DO - SockBoom
+  obfs: http_simple
+  obfs-param: download.windowsupdate.com
+  password: Uk92CS
+  port: 22000
+  protocol: auth_aes128_sha1
+  protocol-param: 1024967:BpWyjN
+  server: nkc.boom.skin
+  type: ssr
+  udp: true
 - alterId: 2
   cipher: auto
   name: '72|🇸🇬 新加坡_22 #1'
@@ -1600,14 +1853,6 @@ proxies:
     path: /mojing
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 76|🇸🇬 SG 12
-  password: amazonskr05
-  port: 443
-  server: 13.213.30.242
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 76|🇸🇬 SG 32
   password: amazonskr05
   port: 443
@@ -1615,196 +1860,18 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_197
-  password: SBM7R883jBmnqe6C
-  port: '9053'
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  name: 88|🇸🇬_SG_新加坡_9
-  password: amazonskr05
-  port: 443
-  server: 47.128.72.90
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_951
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 81.90.189.18
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 61,72,92|Relay_🏁ZZ-SG_3903
-  network: ws
-  port: 443
-  server: 104.21.1.32
-  servername: 3.clarity168.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 48f837fa-12d0-498d-b5f6-94f9979736a4
-  ws-opts:
-    headers:
-      HOST: 3.clarity168.com
-    path: /tk
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_209
-  password: VP8ZPxQpJtZRCjfZ
-  port: '9080'
-  server: 103.172.116.103
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: SG
-  h2-opts: {}
-  http-opts: {}
-  name: 37,97|SG_3312
-  network: tcp
-  port: 57614
-  server: 5.34.176.111
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
-- cipher: chacha20-ietf-poly1305
-  name: 102|SG_Singapore_Akari Networks_Op...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50006
-  server: 120.232.217.71
-  type: ss
-- cipher: aes-256-cfb
-  name: 88|🇸🇬_SG_新加坡_2
-  password: rNBfNuuANFCAk7KB
-  port: 9056
+  name: 88|🇸🇬_SG_新加坡_51
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
   server: 103.172.116.94
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 SG_926
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 81.90.189.18
-  type: ss
-- name: '102|SG_Singapore_Oracle Corporatio... #2'
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19229
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_948
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 217.197.161.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_947
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 217.197.161.138
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 76|🇸🇬 SG 27
+  name: 76|🇸🇬 SG 22
   password: amazonskr05
   port: 443
-  server: 47.130.3.54
+  server: 47.129.170.82
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_963
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 217.197.161.136
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 31
-  password: amazonskr05
-  port: 443
-  server: 52.77.236.51
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_200
-  password: amazonskr05
-  port: '443'
-  server: 52.221.231.138
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|SG_3
-  network: ws
-  port: 62012
-  server: eu.licom.ga
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f81e990e-1283-48f9-9eff-acacad6fb661
-  ws-opts:
-    path: /
-- name: 72|🇸🇬 新加坡_Telegram@kxswa
-  network: tcp
-  password: I4bO2YDEgs
-  port: 443
-  server: 188.166.252.91
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 102|SG_Singapore_Oracle Corporatio...
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19227
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_1
-  password: amazonskr05
-  port: '443'
-  server: 47.128.64.71
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_208
-  password: gYCYXfkUQEs2TaJQ
-  port: '9038'
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-128-gcm
-  name: 74|🇸🇬 Web 新加坡I-标准 - AyucLouD-Serv...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 281af103322.download.windowsupdate.com
-    mode: http
-  port: 6879
-  server: 231103level1.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 13
-  password: amazonskr05
-  port: 443
-  server: 13.214.193.121
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 86|新加坡05 | 1x SG
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41179
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_950
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 217.197.161.166
   type: ss
 - cipher: aes-256-cfb
   name: 69|🇸🇬 新加坡_176
@@ -1813,139 +1880,103 @@ proxies:
   server: 103.172.116.79
   type: ss
 - cipher: aes-256-cfb
-  name: 18,73|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
-- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 67|21|🇸🇬 狮城特殊|@ripaojiedian
+  name: 76|🇸🇬 SG 9
   password: amazonskr05
   port: 443
-  server: 54.151.229.149
+  server: 13.212.229.251
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_183
-  password: TN2YqghxeFDKZfLU
-  port: '9037'
-  server: 103.172.116.103
+- cipher: chacha20-ietf-poly1305
+  name: 86|新加坡03 | 1x SG
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41175
+  server: free.6vczxw.xyz
   type: ss
-- cipher: aes-256-cfb
-  name: 74|🇸🇬 【K】新加坡 普通 6 - DO - SockBoom
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 23000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nkd.boom.skin
-  type: ssr
   udp: true
-- name: 102|SG_Singapore_Datacamp Limited_...
-  network: tcp
-  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
-  port: 19225
-  server: 122.188.71.132
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_937
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 217.197.161.138
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇸🇬 新加坡01 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10044
+  server: sg1.lvuy.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 74|🇸🇬 新加坡 直连2 - 爱猫论坛
+  network: ws
+  port: 443
+  server: sg2.594888.xyz
   skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '102|SG_Singapore_Akari Networks_Op... #4'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50105
-  server: 120.232.217.71
-  type: ss
-- cipher: aes-128-gcm
-  name: 74|🇸🇬 Game 新加坡01-标准 - AyucLouD-Se...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 281af103322.download.windowsupdate.com
-    mode: http
-  port: 9060
-  server: 231103level3.unclemanco.com
-  type: ss
+  tls: true
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '102|SG_Singapore_Akari Networks_Op... #2'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50105
-  server: 120.232.217.70
-  type: ss
+  uuid: 858641c3-40e7-3bd1-8a9e-e6840cd7decb
+  ws-opts:
+    headers:
+      Host: sg2.594888.xyz
+    path: /hls/us8.m3u8
 - cipher: chacha20-ietf-poly1305
   name: 50|🇸🇬 Pool_🇸🇬SG_970
   password: G!yBwPWH3Vao
   port: 810
   server: 217.197.161.136
   type: ss
-- cipher: aes-128-gcm
-  name: 74|🇸🇬 Game 新加坡02-标准 - AyucLouD-Se...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 281af103322.download.windowsupdate.com
-    mode: http
-  port: 9037
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 74|🇸🇬 [vip①]①新加坡 - MG Network
-  network: ws
-  port: 23612
-  server: 12.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9a112be7-59ee-330b-a244-26b298704f29
-  ws-opts:
-    headers:
-      Host: 12.mamamajd.site
-    path: /
-- alterId: 4
-  cipher: auto
-  name: 72|🇸🇬 Pool_🇸🇬SG_1032
-  network: ws
-  port: 443
-  server: 202.61.141.130
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    path: /ws
-- name: 72|🇸🇬 Singapore | 02
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20022
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- name: 72|🇸🇬 新加坡_Telegram@kxswa 7
-  network: tcp
-  password: LXFwAwDPDTzb
-  port: 13366
-  server: 3.0.180.253
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 74|🇸🇬 新加坡 04 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 10354
-  server: host-034.crazyspeed.xyz
+  name: 50|🇸🇬 Pool_🇸🇬SG_931
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 217.197.161.166
   type: ss
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_959
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 217.197.161.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_929
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 217.197.161.138
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 16
+  password: amazonskr05
+  port: 443
+  server: 13.229.212.209
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_940
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 217.197.161.136
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_960
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 217.197.161.136
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 92|Relay_-SG_385
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20001
+  server: 183.233.187.157
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 74|VIP|新加坡🇸🇬03-5Gbps - 探索者
+  name: 74|VIP|新加坡🇸🇬06-5Gbps - 探索者
   network: ws
-  port: 32323
+  port: 32334
   server: 603diyb.donghui.tech
   skip-cert-verify: true
   tls: false
@@ -1956,94 +1987,201 @@ proxies:
     headers:
       Host: 603diyb.donghui.tech
     path: /
-- name: 72|🇸🇬 Singapore | 05
-  network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20025
-  server: oss-cn-guangzhou.wdcloud.pro
-  skip-cert-verify: true
-  sni: mmbiz.qpic.cn
-  type: trojan
-  udp: true
-- alterId: 1
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇸🇬 SG 15
+  password: amazonskr05
+  port: 443
+  server: 13.228.183.100
+  tfo: false
+  type: ss
+- alterId: 0
   cipher: auto
-  name: '72|🇸🇬 新加坡_1 #1'
+  name: 49|新加坡 Linode数据中心
   network: ws
-  port: 21888
-  server: 103.83.156.89
+  port: 80
+  server: 139.162.6.248
+  tls: false
+  type: vmess
+  uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /5gsieutocdo.club
+- cipher: chacha20-ietf-poly1305
+  name: 86|新加坡06 | 家宽 | 1x  SG
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41181
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_945
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 217.197.161.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇸🇬 新加坡 01 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 10351
+  server: host-031.crazyspeed.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 74|VIP|新加坡🇸🇬05-5Gbps - 探索者
+  network: ws
+  port: 34659
+  server: 603diya.donghui.tech
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: fb1680d4-01b9-4cdd-919f-4d49faf2c326
+  udp: true
+  uuid: c432b60e-3827-47e6-9bf3-35b0b4855a11
   ws-opts:
     headers:
-      host: 103.83.156.89
+      Host: 603diya.donghui.tech
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_954
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 217.197.161.166
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 50|🇸🇬 Pool_🇸🇬SG_931
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 217.197.161.166
-  type: ss
-- name: 72|www.85la.com 🇸🇬 新加坡_6
-  network: tcp
-  password: '!!str 3690911436885991424'
-  port: 443
-  server: 52.221.9.240
+- alterId: 2
+  cipher: auto
+  name: 74|🇸🇬 [vip①]②新加坡 - MG Network
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
   skip-cert-verify: true
-  sni: master-boxer.pig299.lat
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9a112be7-59ee-330b-a244-26b298704f29
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- cipher: aes-256-cfb
+  name: 18,73|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
+- name: 72|🇸🇬 www.85la.com 新加坡 32
+  network: tcp
+  password: d971ee7a-32d9-402a-8a4f-d2135d48a47b
+  port: 20230
+  server: sg008.421421.xyz
+  skip-cert-verify: true
+  sni: 421421.xyz
   type: trojan
   udp: true
-- name: '102|SG_Singapore_Oracle Corporatio... #1'
+- name: 72|🇸🇬 新加坡_Telegram@kxswa 8
   network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19228
-  server: 122.188.71.132
+  password: ofWZaXmfiPzS
+  port: 13389
+  server: 52.77.231.3
   skip-cert-verify: true
   type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 86|新加坡03 | 1x SG
+  name: 50|🇸🇬 SG_965
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 81.90.189.152
+  type: ss
+- cipher: aes-256-cfb
+  name: 88|🇸🇬_SG_新加坡_5
+  password: amazonskr05
+  port: 443
+  server: 13.212.91.18
+  type: ss
+- cipher: aes-256-cfb
+  name: 69|🇸🇬 新加坡_208
+  password: gYCYXfkUQEs2TaJQ
+  port: '9038'
+  server: 103.172.116.103
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '102|SG_Singapore_Akari Networks_Op... #1'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50106
+  server: 120.232.217.70
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 86|新加坡04 | 1x SG
   password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41175
+  port: 41177
   server: free.6vczxw.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 74|🇸🇬 【K】新加坡 普通 7 - DO - SockBoom
-  obfs: http_simple
-  obfs-param: download.windowsupdate.com
-  password: Uk92CS
-  port: 24000
-  protocol: auth_aes128_sha1
-  protocol-param: 1024967:BpWyjN
-  server: nke.boom.skin
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 69|🇸🇬 新加坡_158
-  password: KnJGad3FqTvjqbaX
-  port: '9014'
+  name: 69|🇸🇬 新加坡_55
+  password: y9VURyNzJWNRYEGQ
+  port: '9008'
   server: 103.172.116.79
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 76|🇸🇬 SG 38
+  name: 76|🇸🇬 SG 35
   password: amazonskr05
   port: 443
-  server: 54.255.245.62
+  server: 54.254.186.175
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 50|🇸🇬 Pool_🇸🇬SG_921
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 217.197.161.166
+  type: ss
+- name: 72|www.85la.com 🇸🇬 新加坡_5
+  network: tcp
+  password: '!!str 3690911436885991424'
+  port: 443
+  server: master-boxer.pig299.lat
+  skip-cert-verify: true
+  sni: master-boxer.pig299.lat
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇸🇬 SG 18
-  password: amazonskr05
-  port: 443
-  server: 13.229.98.87
-  tfo: false
+  name: 69|🇸🇬 新加坡_105
+  password: TN2YqghxeFDKZfLU
+  port: '9037'
+  server: 103.172.116.79
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇸🇬 新加坡 03 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 10353
+  server: host-033.crazyspeed.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 64|Singapore
+  network: ws
+  port: 42358
+  server: 146.190.94.141
+  tls: false
+  type: vmess
+  uuid: 6e4edbd8-7854-4ef5-c9c6-49e95822e4fc
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /@ONHIT_EHI
+- alterId: 0
+  cipher: auto
+  name: 64|🇸🇬_SG_新加坡_7
+  network: ws
+  port: '8080'
+  server: 128.199.243.157
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    path: /
+- name: 102|SG_Singapore_Oracle Corporatio...
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19227
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan

@@ -1,7 +1,33 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 64|🚀 Marz (SHEEP) [VMess - ws]
+  network: ws
+  port: '8080'
+  server: 62.60.135.13
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4dba618a-a752-40b5-a583-8b0ed0724009
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 85|SS-TCP-NA 🇪🇪 EE-95.164.8.130:4...
   password: SHymXVfIY9crzvg9GQ-q2A
   port: 443
   server: 95.164.8.130
   type: ss
+- name: 103|EE_speednode_0031
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 45.80.108.245
+  skip-cert-verify: true
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /%2F
