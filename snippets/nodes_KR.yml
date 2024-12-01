@@ -1,5 +1,31 @@
 proxies:
-- name: 92|Relay_-KR_1844
+- name: 92|Relay_-KR_2170
+  network: ws
+  password: blue2024
+  port: 443
+  server: craig.ns.cloudflare.com
+  skip-cert-verify: true
+  sni: tb.promote.icu
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tb.promote.icu
+    path: /?ed=2560
+- name: 92|Relay_-KR_2174
+  network: ws
+  password: blue2024
+  port: 443
+  server: 162.159.133.85
+  skip-cert-verify: true
+  sni: tb.promote.icu
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tb.promote.icu
+    path: /?ed=2560
+- name: 92|Relay_-KR_2196
   network: ws
   password: blue2024
   port: 443
@@ -12,18 +38,11 @@ proxies:
     headers:
       Host: hb.lii2010.us.kg
     path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 69|🇰🇷 韩国_8
-  password: amazonskr05
-  port: '443'
-  server: 43.203.192.6
-  type: ss
-  udp: true
-- name: 92|Relay_-KR_1784
+- name: 92|Relay_-KR_2290
   network: ws
   password: blue2024
   port: 443
-  server: 104.18.117.191
+  server: 104.19.95.126
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -31,7 +50,30 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1820
+- name: 92|Relay_-KR_2301
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.146.105
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2266
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.18.86.204
+  sni: 102.djR999998.Eu.orG
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 102.djR999998.Eu.orG
+    path: '%2FtrUvcCc2G5XwIs6jaw%3Fed%3D2560'
+- name: 92|Relay_-KR_2169
   network: ws
   password: auto
   port: 443
@@ -42,90 +84,11 @@ proxies:
     headers:
       Host: vip.123789.pp.ua
     path: /
-- name: 92|Relay_-KR_1843
+- name: 92|Relay_-KR_2258
   network: ws
   password: blue2024
   port: 443
-  server: 172.67.70.84
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1871
-  network: ws
-  password: blue2024
-  port: 443
-  server: 198.41.192.0
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1863
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.25.53.167
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- alterId: 1
-  cipher: auto
-  name: '72|🇰🇷 韩国_4 #1'
-  network: ws
-  port: 20006
-  server: cm-jm.okvpn.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 71759943-32fe-4dc2-bc20-fb67502c5dc2
-  ws-opts:
-    headers:
-      host: youtube-aweikeji
-    path: /
-- name: 92|Relay_-KR_1877
-  network: ws
-  password: blue2024
-  port: 2096
-  server: 104.17.128.1
-  skip-cert-verify: true
-  sni: tb.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tb.promote.icu
-    path: /?ed=2560
-- name: 92|Relay_-KR_1825
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.20.116.94
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1798
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.18.147.140
+  server: 104.22.67.211
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -133,34 +96,98 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 72|韩国-1.35MB/s_638_638
-  network: tcp
-  password: '!!str 3690911436885991424'
+- name: 92|Relay_-KR_2180
+  network: ws
+  password: blue2024
   port: 443
-  server: enabling-filly.opossum872.cfd
+  server: 104.19.90.210
   skip-cert-verify: true
+  sni: hb.lii2010.us.kg
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 20
-  password: amazonskr05
-  port: 443
-  server: 3.38.209.2
-  tfo: false
-  type: ss
+  ws-opts:
+    headers:
+      Host: hb.lii2010.us.kg
+    path: /?ed=2560
 - cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国08-通用 - AyucLouD-Ser...
+  name: 74|🇰🇷 Game 韩国06-标准 - AyucLouD-Ser...
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: c085f103355.download.windowsupdate.com
+    host: c03c2103380.download.windowsupdate.com
     mode: http
-  port: 917
+  port: 920
   server: 231103level3.unclemanco.com
   type: ss
   udp: true
-- name: 92|Relay_-KR_1783
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇰🇷 韩国 01 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 21006
+  server: host-026.crazyspeed.xyz
+  type: ss
+  udp: true
+- name: 92|Relay_-KR_2200
+  network: ws
+  password: blue2024
+  port: 443
+  server: 188.114.96.208
+  skip-cert-verify: true
+  sni: hb.lii2010.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hb.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2283
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.170.217
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 72|韩国 阿里云
+  network: ws
+  port: 443
+  server: 149.129.8.215
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /obdii.cfd:443/linkws
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 18
+  password: amazonskr05
+  port: 443
+  server: 3.36.115.124
+  tfo: false
+  type: ss
+- name: 92|Relay_-KR_2199
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.20.31.147
+  skip-cert-verify: true
+  sni: hb.lii2010.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hb.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2232
   network: ws
   password: blue2024
   port: 443
@@ -172,78 +199,11 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76,82|🇰🇷 KR 21
-  password: amazonskr05
-  port: 443
-  server: 3.38.253.126
-  tfo: false
-  type: ss
-- name: 92|Relay_-KR_1883
+- name: 92|Relay_-KR_2282
   network: ws
   password: blue2024
   port: 443
-  server: www.csgo.com
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1818
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.142.12
-  skip-cert-verify: true
-  sni: tb.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tb.promote.icu
-    path: /?ed=2560
-- name: 92|Relay_-KR_1879
-  network: ws
-  password: blue2024
-  port: 443
-  server: 198.62.62.156
-  skip-cert-verify: true
-  sni: tb.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tb.promote.icu
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇰🇷 韩国 04 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 21009
-  server: host-029.crazyspeed.xyz
-  type: ss
-  udp: true
-- name: 92|Relay_-KR_1857
-  network: ws
-  password: blue2024
-  port: 443
-  server: 198.41.195.177
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1776
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.16.60.199
+  server: 104.18.147.140
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -251,35 +211,11 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1841
-  network: ws
-  password: blue2024
-  port: 2053
-  server: 162.159.129.11
-  skip-cert-verify: true
-  sni: tb.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tb.promote.icu
-    path: /?ed=2560
-- cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国10-原生 - AyucLouD-Ser...
-  password: ayucew2
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 9001
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- name: 92|Relay_-KR_1811
+- name: 92|Relay_-KR_2298
   network: ws
   password: blue2024
   port: 443
-  server: 172.67.237.28
+  server: 104.17.6.78
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -287,78 +223,33 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1862
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 37,63,72,92|Relay_ZZ-KR_5472
   network: ws
-  password: blue2024
-  port: 443
-  server: 162.159.22.138
+  port: 80
+  server: 104.17.221.248
+  servername: chunchuan.kejixiaoqi666.store
   skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 72|韩国-1.34MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.35.167.90
-  type: ss
-- name: 92|Relay_-KR_1817
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 190.93.246.80
-  skip-cert-verify: true
-  sni: zeming13.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: zeming13.us.kg
-    path: /tr?ed=2560
-- alterId: 32
-  cipher: none
-  name: 72|KR-GLaDOS-GEO-04
-  network: ws
-  port: 3205
-  server: aa1c23d.gd.gladns.com
-  skip-cert-verify: true
-  tls: false
   type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-- name: 92|Relay_-KR_1809
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.16.116.100
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
   ws-opts:
     headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 67,69|21|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.230.190.100
-  tfo: false
-  type: ss
-- name: 72|🇰🇷 Korea | 01
+      HOST: chunchuan.kejixiaoqi666.store
+    path: /
+- name: 72|韩国-2.09MB/s_81_81
   network: tcp
-  password: 73B99F1D-9829-0646-597D-8590416CB39D
-  port: 20065
-  server: oss-cn-shanghai.wdcloud.pro
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20983
+  server: ent1.imyourdaddy.top
   skip-cert-verify: true
-  sni: mmbiz.qpic.cn
+  sni: sale.alibaba.com
   type: trojan
   udp: true
-- name: 92|Relay_-KR_1772
+- name: 92|Relay_-KR_2270
   network: ws
   password: blue2024
   port: 443
@@ -370,45 +261,11 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1853
+- name: 92|Relay_-KR_2304
   network: ws
   password: blue2024
   port: 443
-  server: 190.93.244.208
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 31
-  password: amazonskr05
-  port: 443
-  server: 52.79.157.153
-  tfo: false
-  type: ss
-- name: 92|Relay_-KR_1821
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.27.65.15
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1794
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.255.92
+  server: 104.17.169.219
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -416,19 +273,11 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 69|🇰🇷 韩国_21
-  password: qwerREWQ@@
-  port: '10218'
-  server: p229.panda004.net
-  tfo: false
-  type: ss
-- name: 92|Relay_-KR_1796
+- name: 92|Relay_-KR_2262
   network: ws
   password: blue2024
   port: 443
-  server: 104.18.158.83
+  server: 104.16.84.42
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -436,166 +285,29 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 15
-  password: amazonskr05
-  port: 443
-  server: 13.209.16.115
-  tfo: false
-  type: ss
-- name: 92|Relay_-KR_1778
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.236.240
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1819
-  network: ws
-  password: blue2024
-  port: 443
-  server: 173.245.58.80
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1867
-  network: ws
-  password: blue2024
-  port: 443
-  server: 162.159.138.112
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇰🇷 韩国 01 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 21006
-  server: host-026.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 28
-  password: amazonskr05
-  port: 443
-  server: 43.203.173.72
-  tfo: false
-  type: ss
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 72|韩国 V2CROSS.COM_2_800
+  name: '72|🇰🇷 韩国_9 #1'
   network: ws
-  port: 50000
-  server: 39.123.114.106
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
-- name: 92|Relay_-KR_1831
-  network: ws
-  password: blue2024
-  port: 443
-  server: 190.93.247.65
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: '72|二爷翻墙网 https://1808.free.hr_KR_... #3'
-  network: ws
-  port: 50035
-  server: 175.203.204.222
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  name: 72|韩国 001
-  network: ws
-  port: 17443
-  server: 211.248.216.119
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    path: /
-- name: 92|Relay_-KR_1856
-  network: ws
-  password: blue2024
-  port: 443
-  server: 173.245.49.161
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 72|韩国-913.3KB/s_186_186
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20987
-  server: ent1.imyourdaddy.top
-  skip-cert-verify: true
-  sni: sale.alibaba.com
-  type: trojan
-  udp: true
-- alterId: 32
-  cipher: none
-  name: 72|KR-GLaDOS-GEO-02
-  network: ws
-  port: 3205
-  server: aa1c23d.gb.gladns.com
+  port: 18000
+  server: mf-aws-kr-06.xncloud.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-- name: 92|Relay_-KR_1858
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.25.171.193
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
+  uuid: ea77f328-a7b4-377d-831f-9bada63b7936
   ws-opts:
     headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1810
+      host: mf-aws-kr-06.xncloud.xyz
+    path: /niaoyun
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 14
+  password: amazonskr05
+  port: 443
+  server: 13.125.51.118
+  tfo: false
+  type: ss
+- name: 92|Relay_-KR_2205
   network: ws
   password: blue2024
   port: 443
@@ -607,54 +319,25 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1768
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.27.55.88
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇰🇷 韩国 05 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 21010
-  server: host-030.crazyspeed.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 37,59,72,92|Relay_ZZ-KR_5630
+  name: 85|VM-WS-TLS 🇰🇷 KR-27.113.95.223:...
   network: ws
-  port: 80
-  server: usnew.lbxjc.site
-  servername: chunchuan.kejixiaoqi666.store
-  skip-cert-verify: true
+  port: 30012
+  server: 27.113.95.223
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
   type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      HOST: chunchuan.kejixiaoqi666.store
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /
-- cipher: aes-256-cfb
-  name: 72|韩国-198.1KB/s
-  password: qwerREWQ@@
-  port: 54345
-  server: 221.139.79.57
-  type: ss
-- name: 92|Relay_-KR_1816
+- name: 92|Relay_-KR_2263
   network: ws
   password: blue2024
   port: 443
-  server: 104.19.234.198
+  server: 104.16.233.153
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -662,87 +345,15 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1850
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.16.170
+- name: 72|韩国-1.48MB/s_803_803
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20980
+  server: ent1.imyourdaddy.top
   skip-cert-verify: true
-  sni: hb.lii2010.us.kg
+  sni: sale.alibaba.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- country: ZZ
-  name: 92|Relay_ZZ-KR_3231
-  network: ws
-  password: auto
-  port: 443
-  server: 104.18.1.89
-  sni: join-midas-x-x-----join-midas-x-x-----join-midas-x-x.join-midas-x-x-a14.workers.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: join-midas-x-x-----join-midas-x-x-----join-midas-x-x.join-midas-x-x-a14.workers.dev
-    path: /?ed=2560
-- cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国07-标准 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 9035
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 17
-  password: amazonskr05
-  port: 443
-  server: 3.35.54.153
-  tfo: false
-  type: ss
-- name: 92|Relay_-KR_1806
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.18.84.67
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1799
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.16.57.207
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1777
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.114.140
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 72|二爷免费翻墙网https://1808.free.hr/_K...
@@ -757,179 +368,22 @@ proxies:
     headers:
       host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /obdii.cfd:443/linkws
-- name: 72|韩国-2.53MB/s_185_185
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20982
-  server: ent1.imyourdaddy.top
-  skip-cert-verify: true
-  sni: sale.alibaba.com
-  type: trojan
-  udp: true
-- name: 92|Relay_-KR_1813
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.22.67.211
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
 - cipher: aes-128-gcm
-  name: 69|🇰🇷 韩国_17
-  password: QHPy2u
+  name: 74|🇰🇷 Game 韩国04-标准 - AyucLouD-Ser...
+  password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: a068b91227.download.windowsupdate.com
+    host: c03c2103380.download.windowsupdate.com
     mode: http
-  port: '806'
+  port: 817
   server: 231103level3.unclemanco.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇰🇷 韩国01 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10047
-  server: kr1.lvuy.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国02-标准 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 806
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- name: 92|Relay_-KR_1859
+- name: 92|Relay_-KR_2226
   network: ws
   password: blue2024
   port: 443
-  server: 104.20.31.147
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 72,76|韩国-235.7KB/s
-  password: amazonskr05
-  port: 443
-  server: 3.35.137.32
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 85|VM-WS-TLS 🇰🇷 KR-119.205.51.190...
-  network: ws
-  port: 50000
-  server: 119.205.51.190
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /
-- name: 92|Relay_-KR_1875
-  network: ws
-  password: blue2024
-  port: 443
-  server: 198.41.215.83
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1812
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.143.199
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
-- cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国13-标准 - AyucLouD-Ser...
-  password: ayucl243113
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 921
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇰🇷 韩国 03 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 21008
-  server: host-028.crazyspeed.xyz
-  type: ss
-  udp: true
-- name: 92|Relay_-KR_1838
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.27.125.51
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 37,42,59,72,92|Relay_ZZ-KR_5638
-  network: ws
-  port: 80
-  server: 104.17.213.241
-  servername: chunchuan.kejixiaoqi666.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      HOST: chunchuan.kejixiaoqi666.store
-    path: /
-- name: 92|Relay_-KR_1801
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.18.163.43
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1773
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.18.88.163
+  server: 104.16.145.98
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -945,11 +399,282 @@ proxies:
   server: 43.201.254.211
   tfo: false
   type: ss
-- name: 92|Relay_-KR_1823
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇰🇷 韩国 04 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 21009
+  server: host-029.crazyspeed.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 74|🇰🇷 Game 韩国08-通用 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: c03c2103380.download.windowsupdate.com
+    mode: http
+  port: 917
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- name: 92|Relay_-KR_2245
   network: ws
   password: blue2024
   port: 443
-  server: 162.159.197.109
+  server: 172.67.133.143
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  country: KR
+  name: 37,76,92|KR_3545
+  password: amazonskr05
+  port: 443
+  server: 13.124.203.141
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 37,72,92|Relay_-KR_927
+  network: ws
+  port: 80
+  server: 198.41.209.70
+  skip-cert-verify: true
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      host: chunchuan.kejixiaoqi666.store
+    path: /
+- name: 92|Relay_-KR_2269
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.27.192.77
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- cipher: aes-128-gcm
+  name: 74|🇰🇷 Video 韩国A-标准 - AyucLouD-Ser...
+  password: wedsa
+  plugin: obfs
+  plugin-opts:
+    host: c03c2103380.download.windowsupdate.com
+    mode: http
+  port: 804
+  server: 231103level2.unclemanco.com
+  type: ss
+  udp: true
+- name: 92|Relay_-KR_2268
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.118.254
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '72|二爷翻墙网 https://1808.free.hr_KR_... #3'
+  network: ws
+  port: 50035
+  server: 175.203.204.222
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇰🇷 韩国 02 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 21007
+  server: host-027.crazyspeed.xyz
+  type: ss
+  udp: true
+- name: 92|disney_KR
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.199.255
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2202
+  network: ws
+  password: blue2024
+  port: 443
+  server: lewis.ns.cloudflare.com
+  skip-cert-verify: true
+  sni: hb.lii2010.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hb.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2240
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.235.35
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2179
+  network: ws
+  password: blue2024
+  port: 443
+  server: 190.93.247.138
+  skip-cert-verify: true
+  sni: hb.lii2010.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hb.lii2010.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 72|🇰🇷 www.85la.com 韩国 11
+  network: ws
+  port: 46271
+  server: 158.180.68.13
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f99bfe05-e351-47df-e752-ac0aaea976dc
+  ws-opts:
+    path: /
+- name: 92|Relay_-KR_2272
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.90.26
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2293
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.16.17
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2215
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.50.31
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 72|韩国-1.17MB/s_1019_1019
+  network: ws
+  port: 46271
+  server: kr.huafei888.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f99bfe05-e351-47df-e752-ac0aaea976dc
+  ws-opts:
+    headers:
+      host: kr.huafei888.site
+    path: /
+- cipher: aes-256-cfb
+  name: 72,76|韩国-1.24MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.39.240.246
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 67|21|🇰🇷 韩国2|@ripaojiedian
+  password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
+  port: 26667
+  server: ddns.olucloud.subapi.cc
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 25
+  password: amazonskr05
+  port: 443
+  server: 43.201.29.47
+  tfo: false
+  type: ss
+- name: 72|韩国-1.35MB/s_638_638
+  network: tcp
+  password: '!!str 3690911436885991424'
+  port: 443
+  server: enabling-filly.opossum872.cfd
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 92|Relay_-KR_2204
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.20.2.145
+  skip-cert-verify: true
+  sni: hb.lii2010.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hb.lii2010.us.kg
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 12
+  password: amazonskr05
+  port: 443
+  server: 13.125.158.71
+  tfo: false
+  type: ss
+- name: 92|Relay_-KR_2173
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.19.251.164
   skip-cert-verify: true
   sni: hb.lii2010.us.kg
   type: trojan
@@ -959,44 +684,127 @@ proxies:
       Host: hb.lii2010.us.kg
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
+  name: 86|韩国01 | 1x KR
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41311
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 28
+  password: amazonskr05
+  port: 443
+  server: 43.203.173.72
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: 74|🇰🇷 Game 韩国07-标准 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: c03c2103380.download.windowsupdate.com
+    mode: http
+  port: 9035
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- name: 92|Relay_-KR_2279
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.114.140
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2295
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.49.15
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
   name: 74|🇰🇷 韩国02 - Cyanmori
   password: hJRTbknS8oyylv6x
   port: 10048
   server: kr2.lvuy.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 24
-  password: amazonskr05
-  port: 443
-  server: 43.201.254.74
-  tfo: false
-  type: ss
-- name: 92|Relay_-KR_1824
+- name: 92|Relay_-KR_2218
   network: ws
   password: blue2024
   port: 443
-  server: 104.25.94.47
+  server: 104.18.230.100
   skip-cert-verify: true
-  sni: hb.lii2010.us.kg
+  sni: ha.lii2010.us.kg
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: hb.lii2010.us.kg
+      Host: ha.lii2010.us.kg
     path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 88|🇰🇷_KR_韩国_1
-  password: amazonskr05
-  port: 443
-  server: 43.201.47.36
-  type: ss
-- name: 92|Relay_-KR_1779
+- name: 92|Relay_-KR_2285
   network: ws
   password: blue2024
   port: 443
-  server: 104.17.89.16
+  server: 104.18.219.76
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2292
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.146.191
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2274
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.130.249
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2254
+  network: ws
+  password: blue2024
+  port: 443
+  server: 198.41.208.189
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2244
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.254.194
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -1014,11 +822,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-- name: 92|Relay_-KR_1880
+- name: 72|韩国-96.3MB/s_926_926
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20992
+  server: ent1.imyourdaddy.top
+  skip-cert-verify: true
+  sni: sale.alibaba.com
+  type: trojan
+  udp: true
+- name: 92|Relay_-KR_2189
   network: ws
   password: blue2024
   port: 443
-  server: 188.114.97.70
+  server: 104.20.116.94
   skip-cert-verify: true
   sni: hb.lii2010.us.kg
   type: trojan
@@ -1027,127 +844,154 @@ proxies:
     headers:
       Host: hb.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1884
+- name: 92|Relay_-KR_2216
   network: ws
   password: blue2024
   port: 443
-  server: 172.67.41.12
+  server: 104.17.236.240
   skip-cert-verify: true
-  sni: hb.lii2010.us.kg
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2208
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 190.93.246.95
+  skip-cert-verify: true
+  sni: zeming13.us.kg
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: hb.lii2010.us.kg
+      Host: zeming13.us.kg
+    path: /tr?ed=2560
+- name: 92|Relay_-KR_2306
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.246.107
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 67|21|🇰🇷 韩国2|@ripaojiedian
-  password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
-  port: 26667
-  server: ddns.olucloud.subapi.cc
-  tfo: false
+  name: 74|🇰🇷 韩国 03 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 21008
+  server: host-028.crazyspeed.xyz
   type: ss
-- alterId: 0
-  cipher: auto
-  country: KR
-  h2-opts: {}
-  http-opts: {}
-  name: 37,39,40,72,92|KR_3784
-  network: tcp
-  port: 8888
-  server: 146.56.112.110
-  skip-cert-verify: true
-  type: vmess
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-- alterId: 2
-  cipher: auto
-  name: 74|🇰🇷 [vip①]韩国1 - MG Network
-  network: ws
-  port: 23611
-  server: 11.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
   udp: true
-  uuid: 9a112be7-59ee-330b-a244-26b298704f29
-  ws-opts:
-    headers:
-      Host: 11.mamamajd.site
-    path: /
-- cipher: aes-256-cfb
-  country: KR
-  name: 37,42,59,76,92|KR_3783
-  password: amazonskr05
-  port: 443
-  server: 13.124.203.141
-  type: ss
-- name: 92|Relay_-KR_1860
+- name: 92|Relay_-KR_2224
   network: ws
   password: blue2024
   port: 443
-  server: 188.114.96.208
+  server: 104.18.171.44
   skip-cert-verify: true
-  sni: hb.lii2010.us.kg
+  sni: ha.lii2010.us.kg
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: hb.lii2010.us.kg
+      Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1864
+- name: 92|Relay_-KR_2164
   network: ws
   password: blue2024
   port: 443
-  server: 104.24.179.56
+  server: 104.18.191.251
   skip-cert-verify: true
-  sni: hb.lii2010.us.kg
+  sni: ha.lii2010.us.kg
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: hb.lii2010.us.kg
+      Host: ha.lii2010.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: '72|🇰🇷 韩国_3 #1'
-  network: ws
-  port: 80
-  server: 34.64.219.99
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8dd34202-7790-43e3-f56e-897968e8f1a9
-  ws-opts:
-    headers:
-      host: gg.gg/lqmoe
-    path: /
-- name: 92|Relay_-KR_1854
+- name: 92|Relay_-KR_2231
   network: ws
   password: blue2024
   port: 443
-  server: 104.19.90.210
+  server: 104.18.216.135
   skip-cert-verify: true
-  sni: hb.lii2010.us.kg
+  sni: ha.lii2010.us.kg
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: hb.lii2010.us.kg
+      Host: ha.lii2010.us.kg
     path: /?ed=2560
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 33
+  name: 72,76|韩国-235.7KB/s
   password: amazonskr05
   port: 443
-  server: 52.79.56.225
-  tfo: false
+  server: 3.35.137.32
   type: ss
-- name: 92|Relay_-KR_1805
+- cipher: aes-256-cfb
+  name: 69|🇰🇷 韩国_8
+  password: amazonskr05
+  port: '443'
+  server: 43.203.192.6
+  type: ss
+  udp: true
+- name: 92|Relay_-KR_2203
   network: ws
   password: blue2024
   port: 443
-  server: 104.16.70.220
+  server: 172.67.122.48
+  skip-cert-verify: true
+  sni: hb.lii2010.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hb.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2194
+  network: ws
+  password: blue2024
+  port: 443
+  server: 103.21.244.189
+  skip-cert-verify: true
+  sni: hb.lii2010.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hb.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2185
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.254.101
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2271
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.68.189
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2302
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.44.207
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -1165,18 +1009,83 @@ proxies:
   tls: false
   type: vmess
   uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+- name: 92|Relay_-KR_2192
+  network: ws
+  password: blue2024
+  port: 443
+  server: 198.41.215.238
+  skip-cert-verify: true
+  sni: hb.lii2010.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hb.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2287
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.147.167
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
 - cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国04-标准 - AyucLouD-Ser...
-  password: ayucloud1
+  name: 74|🇰🇷 Game 韩国11-国际 - AyucLouD-Ser...
+  password: ayuclsaa
   plugin: obfs
   plugin-opts:
-    host: c085f103355.download.windowsupdate.com
+    host: c03c2103380.download.windowsupdate.com
     mode: http
-  port: 817
+  port: 807
   server: 231103level3.unclemanco.com
   type: ss
   udp: true
-- name: 92|Relay_-KR_1833
+- cipher: aes-128-gcm
+  name: 74|🇰🇷 Game 韩国09-标准 - AyucLouD-Ser...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: c03c2103380.download.windowsupdate.com
+    mode: http
+  port: 9019
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- name: 92|Relay_-KR_2207
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 190.93.247.232
+  skip-cert-verify: true
+  sni: zeming13.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: zeming13.us.kg
+    path: /tr?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 34
+  password: amazonskr05
+  port: 443
+  server: 54.180.157.150
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 13
+  password: amazonskr05
+  port: 443
+  server: 13.125.37.249
+  tfo: false
+  type: ss
+- name: 92|Relay_-KR_2181
   network: ws
   password: blue2024
   port: 443
@@ -1189,35 +1098,10 @@ proxies:
     headers:
       Host: hb.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1802
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.18.216.135
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1851
-  network: ws
-  password: blue2024
-  port: 443
-  server: 103.21.244.189
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 72|韩国-96.3MB/s
+- name: 72|韩国-913.3KB/s_186_186
   network: tcp
   password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20992
+  port: 20987
   server: ent1.imyourdaddy.top
   skip-cert-verify: true
   sni: sale.alibaba.com
@@ -1237,215 +1121,21 @@ proxies:
     headers:
       host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /obdii.cfd:443/linkws
-- name: 92|Relay_-KR_1848
+- alterId: 32
+  cipher: none
+  name: 72|KR-GLaDOS-GEO-02
   network: ws
-  password: blue2024
-  port: 443
-  server: 104.20.215.150
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: '72|二爷翻墙网 https://1808.free.hr_KR_... #2'
-  network: ws
-  port: 50000
-  server: 119.205.51.190
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 18
-  password: amazonskr05
-  port: 443
-  server: 3.36.115.124
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 72|二爷翻墙网 https://1808.free.hr_KR_...
-  network: ws
-  port: 30012
-  server: 27.113.95.223
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- name: 92|Relay_-KR_1788
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.19.172.119
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1869
-  network: ws
-  password: blue2024
-  port: 443
-  server: toy-people.com
-  skip-cert-verify: true
-  sni: tb.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tb.promote.icu
-    path: /?ed=2560
-- name: 92|Relay_-KR_1881
-  network: ws
-  password: blue2024
-  port: 443
-  server: 172.67.109.241
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1815
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.16.233.153
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 72|韩国 V2CROSS.COM_302
-  network: ws
-  port: 30017
-  server: 61.84.74.108
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
-- cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国09-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 9019
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- name: 92|Relay_-KR_1885
-  network: ws
-  password: blue2024
-  port: 443
-  server: 103.21.244.109
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 34
-  password: amazonskr05
-  port: 443
-  server: 54.180.157.150
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 72|韩国-235.4KB/s
-  network: ws
-  port: 46271
-  server: kr.huafei888.site
+  port: 3205
+  server: aa1c23d.gb.gladns.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: f99bfe05-e351-47df-e752-ac0aaea976dc
-  ws-opts:
-    headers:
-      host: kr.huafei888.site
-    path: /
-- name: 92|Relay_-KR_1878
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+- name: 92|Relay_-KR_2278
   network: ws
   password: blue2024
   port: 443
-  server: 173.245.49.251
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国06-标准 - AyucLouD-Ser...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 920
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- name: 92|Relay_-KR_1826
-  network: ws
-  password: blue2024
-  port: 443
-  server: 103.21.244.134
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 12
-  password: amazonskr05
-  port: 443
-  server: 13.125.158.71
-  tfo: false
-  type: ss
-- name: 92|Relay_-KR_1775
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.19.218.79
+  server: 104.16.243.204
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -1453,97 +1143,11 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 32
-  password: amazonskr05
-  port: 443
-  server: 52.79.188.238
-  tfo: false
-  type: ss
-- name: 92|Relay_-KR_1832
+- name: 92|Relay_-KR_2264
   network: ws
   password: blue2024
   port: 443
-  server: 190.93.246.228
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 25
-  password: amazonskr05
-  port: 443
-  server: 43.201.29.47
-  tfo: false
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: '72|🇰🇷 韩国_1 #1'
-  network: ws
-  port: 21888
-  server: 146.56.110.33
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
-  ws-opts:
-    headers:
-      host: 146.56.110.33
-    path: /
-- cipher: aes-256-cfb
-  name: 72,76|韩国-1.24MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.39.240.246
-  type: ss
-- cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国12-原生 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 810
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- name: 92|Relay_-KR_1769
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 190.93.247.232
-  skip-cert-verify: true
-  sni: zeming13.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: zeming13.us.kg
-    path: /tr?ed=2560
-- name: 92|Relay_-KR_1866
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.16.80.177
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1771
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.27.192.77
+  server: 104.19.238.246
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -1551,11 +1155,11 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1874
+- name: 92|Relay_-KR_2197
   network: ws
   password: blue2024
   port: 443
-  server: 103.21.244.13
+  server: 190.93.246.36
   skip-cert-verify: true
   sni: hb.lii2010.us.kg
   type: trojan
@@ -1564,59 +1168,35 @@ proxies:
     headers:
       Host: hb.lii2010.us.kg
     path: /?ed=2560
-- alterId: 1
-  cipher: auto
-  name: '72|🇰🇷 韩国_2 #1'
-  network: ws
-  port: 21888
-  server: 152.69.228.146
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c
-  ws-opts:
-    headers:
-      host: 152.69.228.146
-    path: /
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37,59,72,92|Relay_-KR_1210
-  network: ws
-  port: 80
-  server: 198.41.209.70
-  skip-cert-verify: true
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      host: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国01-标准 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 803
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 26
-  password: amazonskr05
-  port: 443
-  server: 43.201.72.28
-  tfo: false
-  type: ss
-- name: 92|Relay_-KR_1830
+- name: 92|Relay_-KR_2288
   network: ws
   password: blue2024
   port: 443
-  server: 198.41.207.96
+  server: 104.17.196.26
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2222
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.246.20
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2201
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.228.161
   skip-cert-verify: true
   sni: hb.lii2010.us.kg
   type: trojan
@@ -1625,37 +1205,36 @@ proxies:
     headers:
       Host: hb.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1870
+- name: 92|Relay_-KR_2241
   network: ws
   password: blue2024
   port: 443
-  server: 108.162.196.53
+  server: 104.16.217.6
   skip-cert-verify: true
-  sni: hb.lii2010.us.kg
+  sni: ha.lii2010.us.kg
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: hb.lii2010.us.kg
+      Host: ha.lii2010.us.kg
     path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 69|🇰🇷 韩国_5
-  password: amazonskr05
-  port: '443'
-  server: 43.203.220.68
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇰🇷 韩国 05 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 21010
+  server: host-030.crazyspeed.xyz
   type: ss
-- name: 92|Relay_-KR_1852
+  udp: true
+- name: 92|Relay_-KR_2251
   network: ws
   password: blue2024
   port: 443
-  server: 162.159.133.85
+  server: 104.19.173.13
   skip-cert-verify: true
-  sni: tb.promote.icu
+  sni: ha.lii2010.us.kg
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: tb.promote.icu
+      Host: ha.lii2010.us.kg
     path: /?ed=2560
 - alterId: 0
   cipher: auto
@@ -1671,17 +1250,53 @@ proxies:
     headers:
       Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /
-- cipher: aes-256-cfb
-  name: 69|🇰🇷 韩国_1
-  password: amazonskr05
-  port: '443'
-  server: 43.201.69.200
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇰🇷 韩国01 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10047
+  server: kr1.lvuy.xyz
   type: ss
-- name: 92|Relay_-KR_1873
+  udp: true
+- cipher: aes-128-gcm
+  name: 74|🇰🇷 Game 韩国05-标准 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: c03c2103380.download.windowsupdate.com
+    mode: http
+  port: 9030
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- name: 92|Relay_-KR_2303
   network: ws
   password: blue2024
-  port: 2087
-  server: 104.25.254.4
+  port: 443
+  server: 104.16.208.241
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  country: KR
+  h2-opts: {}
+  http-opts: {}
+  name: 37,39,40,63,72,87|KR_3546
+  network: tcp
+  port: 8888
+  server: 146.56.112.110
+  skip-cert-verify: true
+  type: vmess
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+- name: 92|Relay_-KR_2187
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.25.94.47
   skip-cert-verify: true
   sni: hb.lii2010.us.kg
   type: trojan
@@ -1690,20 +1305,19 @@ proxies:
     headers:
       Host: hb.lii2010.us.kg
     path: /?ed=2560
-- name: 72|韩国-2.09MB/s_81_81
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20983
-  server: ent1.imyourdaddy.top
-  skip-cert-verify: true
-  sni: sale.alibaba.com
-  type: trojan
-  udp: true
-- name: 92|Relay_-KR_1855
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 32
+  password: amazonskr05
+  port: 443
+  server: 52.79.188.238
+  tfo: false
+  type: ss
+- name: 92|Relay_-KR_2178
   network: ws
   password: blue2024
   port: 443
-  server: 141.101.121.90
+  server: 172.67.41.12
   skip-cert-verify: true
   sni: hb.lii2010.us.kg
   type: trojan
@@ -1712,20 +1326,313 @@ proxies:
     headers:
       Host: hb.lii2010.us.kg
     path: /?ed=2560
-- name: 72|韩国-267.9KB/s_207_207
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20990
-  server: 146.56.151.232
-  skip-cert-verify: true
-  sni: sale.alibaba.com
-  type: trojan
-  udp: true
-- name: 92|Relay_-KR_1872
+- name: 92|Relay_-KR_2172
   network: ws
   password: blue2024
   port: 443
-  server: 172.66.166.255
+  server: 104.19.240.154
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2255
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.127.23
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- cipher: aes-128-gcm
+  name: 74|🇰🇷 Game 韩国13-标准 - AyucLouD-Ser...
+  password: ayucl243113
+  plugin: obfs
+  plugin-opts:
+    host: c03c2103380.download.windowsupdate.com
+    mode: http
+  port: 921
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- name: 92|Relay_-KR_2182
+  network: ws
+  password: blue2024
+  port: 2053
+  server: 162.159.129.11
+  skip-cert-verify: true
+  sni: tb.promote.icu
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tb.promote.icu
+    path: /?ed=2560
+- name: 92|Relay_-KR_2221
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.209.80
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 72|韩国 V2CROSS.COM_2
+  network: ws
+  port: 50000
+  server: 39.123.114.106
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /obdii.cfd:443/linkws
+- name: 92|Relay_-KR_2248
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.110.24
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2276
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.88.163
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2277
+  network: ws
+  password: blue2024
+  port: 443
+  server: 172.67.230.81
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2259
+  network: ws
+  password: bpb-trojan
+  port: 2083
+  server: 102.djr999998.eu.org
+  sni: 102.DJr999998.Eu.oRG
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 102.DJr999998.Eu.oRG
+    path: '%2Ftrmn52SDELDZ5sIxxz%3Fed%3D2560'
+- cipher: aes-256-cfb
+  name: 88|🇰🇷_KR_韩国_1
+  password: amazonskr05
+  port: 443
+  server: 43.201.47.36
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '72|🇰🇷 韩国_3 #1'
+  network: ws
+  port: 80
+  server: 34.64.219.99
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8dd34202-7790-43e3-f56e-897968e8f1a9
+  ws-opts:
+    headers:
+      host: gg.gg/lqmoe
+    path: /
+- cipher: aes-256-cfb
+  name: 72|韩国-1.34MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.35.167.90
+  type: ss
+- cipher: aes-256-cfb
+  name: 88|🇰🇷_KR_韩国_32
+  password: qwerREWQ@@
+  port: 49032
+  server: 125.141.26.7
+  type: ss
+- name: 92|Relay_-KR_2284
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.153.204
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2225
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.229.59
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2300
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.70.220
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- alterId: 1
+  cipher: auto
+  name: '72|🇰🇷 韩国_4 #1'
+  network: ws
+  port: 20006
+  server: cm-jm.okvpn.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 71759943-32fe-4dc2-bc20-fb67502c5dc2
+  ws-opts:
+    headers:
+      host: youtube-aweikeji
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 17
+  password: amazonskr05
+  port: 443
+  server: 3.35.54.153
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76,82|🇰🇷 KR 21
+  password: amazonskr05
+  port: 443
+  server: 3.38.253.126
+  tfo: false
+  type: ss
+- name: 92|Relay_-KR_2176
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.121.21
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- alterId: 32
+  cipher: none
+  name: 72|KR-GLaDOS-GEO-04
+  network: ws
+  port: 3205
+  server: aa1c23d.gd.gladns.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 20
+  password: amazonskr05
+  port: 443
+  server: 3.38.209.2
+  tfo: false
+  type: ss
+- name: 72|🇰🇷 www.85la.com 韩国 23
+  network: tcp
+  password: xjN4xcuPGg
+  port: 45101
+  server: a.522226.xyz
+  skip-cert-verify: true
+  sni: a.522226.xyz
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 69|🇰🇷 韩国_17
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: a068b91227.download.windowsupdate.com
+    mode: http
+  port: '806'
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- name: 92|Relay_-KR_2175
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.157.122
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 72|🇰🇷 Korea | 01
+  network: tcp
+  password: 73B99F1D-9829-0646-597D-8590416CB39D
+  port: 20065
+  server: oss-cn-shanghai.wdcloud.pro
+  skip-cert-verify: true
+  sni: mmbiz.qpic.cn
+  type: trojan
+  udp: true
+- name: 92|Relay_-KR_2217
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.154.93
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2195
+  network: ws
+  password: blue2024
+  port: 443
+  server: 190.93.246.42
   skip-cert-verify: true
   sni: hb.lii2010.us.kg
   type: trojan
@@ -1742,39 +1649,33 @@ proxies:
   server: 43.203.218.87
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 88|🇰🇷_KR_韩国_32
-  password: qwerREWQ@@
-  port: 49032
-  server: 125.141.26.7
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 85|VM-WS-TLS 🇰🇷 KR-119.205.51.190...
+  network: ws
+  port: 50000
+  server: 119.205.51.190
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 76|🇰🇷 KR 11
+  name: 76|🇰🇷 KR 24
   password: amazonskr05
   port: 443
-  server: 13.124.74.226
+  server: 43.201.254.74
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 13
-  password: amazonskr05
-  port: 443
-  server: 13.125.37.249
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 88|🇰🇷_KR_韩国_61
-  password: amazonskr05
-  port: 443
-  server: 3.34.95.205
-  type: ss
-- name: 92|Relay_-KR_1790
+- name: 92|Relay_-KR_2212
   network: ws
   password: blue2024
   port: 443
-  server: 104.17.235.35
+  server: 104.18.163.43
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -1782,44 +1683,169 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1842
+- name: 72|韩国-267.9KB/s_207_207
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20990
+  server: 146.56.151.232
+  skip-cert-verify: true
+  sni: sale.alibaba.com
+  type: trojan
+  udp: true
+- name: 92|Relay_-KR_2234
   network: ws
   password: blue2024
   port: 443
-  server: 190.93.246.42
+  server: 104.17.44.97
   skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2235
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.89.16
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 33
+  password: amazonskr05
+  port: 443
+  server: 52.79.56.225
+  tfo: false
+  type: ss
+- name: 92|Relay_-KR_2297
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.222.191
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2308
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.155.92
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2280
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.143.199
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 31
+  password: amazonskr05
+  port: 443
+  server: 52.79.157.153
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 37,63,72,92|Relay_ZZ-KR_5278
+  network: ws
+  port: 80
+  server: usnew.lbxjc.site
+  servername: chunchuan.kejixiaoqi666.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      HOST: chunchuan.kejixiaoqi666.store
+    path: /
+- name: 92|Relay_-KR_2296
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.86.187
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 67,69|21|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.230.190.100
+  tfo: false
+  type: ss
+- name: 92|Relay_-KR_2211
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.71.89
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  name: 69|🇰🇷 韩国_1
+  password: amazonskr05
+  port: '443'
+  server: 43.201.69.200
+  type: ss
+- name: 92|Relay_-KR_2167
+  network: ws
+  password: blue2024
+  port: 443
+  server: moura.ns.cloudflare.com
   sni: hb.lii2010.us.kg
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国11-国际 - AyucLouD-Ser...
-  password: ayuclsaa
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 807
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: '72|🇰🇷 韩国_9 #1'
+    path: '%2F%3Fed%3D2560'
+- name: 92|Relay_-KR_2249
   network: ws
-  port: 18000
-  server: mf-aws-kr-06.xncloud.xyz
+  password: blue2024
+  port: 443
+  server: 104.17.174.192
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ea77f328-a7b4-377d-831f-9bada63b7936
+  sni: ha.lii2010.us.kg
+  type: trojan
   ws-opts:
     headers:
-      host: mf-aws-kr-06.xncloud.xyz
-    path: /niaoyun
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: '72|二爷翻墙网 https://1808.free.hr_KR_... #1'
@@ -1834,20 +1860,48 @@ proxies:
     headers:
       host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
-- name: 72|韩国-1.48MB/s_803_803
-  network: tcp
-  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  port: 20980
-  server: ent1.imyourdaddy.top
-  skip-cert-verify: true
-  sni: sale.alibaba.com
-  type: trojan
-  udp: true
-- name: 92|Relay_-KR_1847
+- name: 92|Relay_-KR_2256
   network: ws
   password: blue2024
   port: 443
-  server: 190.93.244.159
+  server: 104.16.113.121
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- alterId: 1
+  cipher: auto
+  name: '72|🇰🇷 韩国_1 #1'
+  network: ws
+  port: 21888
+  server: 146.56.110.33
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0d821ee-75f0-4d9e-a56f-52d3eea79ce6
+  ws-opts:
+    headers:
+      host: 146.56.110.33
+    path: /
+- cipher: aes-128-gcm
+  name: 74|🇰🇷 Game 韩国02-标准 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: c03c2103380.download.windowsupdate.com
+    mode: http
+  port: 806
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- name: 92|Relay_-KR_2190
+  network: ws
+  password: blue2024
+  port: 443
+  server: 162.159.14.2
   skip-cert-verify: true
   sni: hb.lii2010.us.kg
   type: trojan
@@ -1856,15 +1910,21 @@ proxies:
     headers:
       Host: hb.lii2010.us.kg
     path: /?ed=2560
+- cipher: aes-256-cfb
+  name: 72|韩国-198.1KB/s
+  password: qwerREWQ@@
+  port: 54345
+  server: 221.139.79.57
+  type: ss
 - alterId: 0
   cipher: auto
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 37,59,72,92|Relay_ZZ-KR_5737
+  name: 37,63,72,92|Relay_ZZ-KR_5258
   network: ws
   port: 80
-  server: 104.17.221.248
+  server: 104.17.213.241
   servername: chunchuan.kejixiaoqi666.store
   skip-cert-verify: true
   type: vmess
@@ -1873,19 +1933,46 @@ proxies:
     headers:
       HOST: chunchuan.kejixiaoqi666.store
     path: /
+- cipher: aes-128-gcm
+  name: 74|🇰🇷 Game 韩国12-原生 - AyucLouD-Ser...
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: c03c2103380.download.windowsupdate.com
+    mode: http
+  port: 810
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- name: 92|Relay_-KR_2233
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.6.205
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 19
+  name: 69|🇰🇷 韩国_5
+  password: amazonskr05
+  port: '443'
+  server: 43.203.220.68
+  type: ss
+- cipher: aes-256-cfb
+  name: 88|🇰🇷_KR_韩国_61
   password: amazonskr05
   port: 443
-  server: 3.36.87.34
-  tfo: false
+  server: 3.34.95.205
   type: ss
-- name: 92|Relay_-KR_1782
+- name: 92|Relay_-KR_2286
   network: ws
   password: blue2024
   port: 443
-  server: 104.18.238.150
+  server: 104.24.237.141
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -1893,35 +1980,11 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1800
+- name: 92|Relay_-KR_2229
   network: ws
   password: blue2024
   port: 443
-  server: 104.16.16.17
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1834
-  network: ws
-  password: blue2024
-  port: 443
-  server: 92.60.74.217
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
-- name: 92|Relay_-KR_1807
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.254.194
+  server: 104.18.69.126
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -1931,116 +1994,109 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 72|🇰🇷 www.85la.com 韩国 11
+  name: 72|韩国 001
   network: ws
-  port: 46271
-  server: 158.180.68.13
+  port: 17443
+  server: 211.248.216.119
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: f99bfe05-e351-47df-e752-ac0aaea976dc
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     path: /
-- name: 92|Relay_-KR_1770
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 190.93.246.95
+- name: 72|韩国-2.53MB/s_185_185
+  network: tcp
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20982
+  server: ent1.imyourdaddy.top
   skip-cert-verify: true
-  sni: zeming13.us.kg
+  sni: sale.alibaba.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: zeming13.us.kg
-    path: /tr?ed=2560
-- name: 92|Relay_-KR_1839
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.228.161
-  skip-cert-verify: true
-  sni: hb.lii2010.us.kg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hb.lii2010.us.kg
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 76|🇰🇷 KR 14
-  password: amazonskr05
-  port: 443
-  server: 13.125.51.118
-  tfo: false
-  type: ss
-- name: 92|Relay_-KR_1789
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.16.150.224
-  skip-cert-verify: true
-  sni: ha.lii2010.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ha.lii2010.us.kg
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 72|韩国 阿里云_322
+  name: 72|二爷翻墙网 https://1808.free.hr_KR_...
   network: ws
-  port: 443
-  server: 149.129.8.215
+  port: 30012
+  server: 27.113.95.223
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37,59,72|Relay_-KR_1202
-  network: ws
-  port: 80
-  server: hsj.lbxjc.online
-  skip-cert-verify: true
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      host: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇰🇷 韩国 02 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 21007
-  server: host-027.crazyspeed.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 86|韩国01 | 1x KR
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41311
-  server: free.6vczxw.xyz
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
-  name: 74|🇰🇷 Video 韩国A-标准 - AyucLouD-Ser...
-  password: wedsa
+  name: 74|🇰🇷 Game 韩国01-标准 - AyucLouD-Ser...
+  password: QHPy2u
   plugin: obfs
   plugin-opts:
-    host: c085f103355.download.windowsupdate.com
+    host: c03c2103380.download.windowsupdate.com
     mode: http
-  port: 804
-  server: 231103level2.unclemanco.com
+  port: 803
+  server: 231103level3.unclemanco.com
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 11
+  password: amazonskr05
+  port: 443
+  server: 13.124.74.226
+  tfo: false
+  type: ss
+- name: 92|Relay_-KR_2307
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.20.25.249
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- alterId: 2
+  cipher: auto
+  name: 74|🇰🇷 [vip①]韩国1 - MG Network
+  network: ws
+  port: 23611
+  server: 11.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9a112be7-59ee-330b-a244-26b298704f29
+  ws-opts:
+    headers:
+      Host: 11.mamamajd.site
+    path: /
+- name: 92|Relay_-KR_2214
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.178.249
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2250
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.93.219
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
 - name: 72|韩国-892.2KB/s_705_705
   network: tcp
   password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
@@ -2050,25 +2106,37 @@ proxies:
   sni: sale.alibaba.com
   type: trojan
   udp: true
+- name: 92|Relay_-KR_2177
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.19.166.7
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 85|VM-WS-TLS 🇰🇷 KR-27.113.95.223:...
+  name: '72|二爷翻墙网 https://1808.free.hr_KR_... #2'
   network: ws
-  port: 30012
-  server: 27.113.95.223
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  port: 50000
+  server: 119.205.51.190
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /
-- name: 92|Relay_-KR_1780
+      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- name: 92|Relay_-KR_2261
   network: ws
   password: blue2024
   port: 443
-  server: 104.16.254.101
+  server: 104.16.116.100
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -2076,11 +2144,11 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1781
+- name: 92|Relay_-KR_2247
   network: ws
   password: blue2024
   port: 443
-  server: 104.17.6.78
+  server: 104.18.117.191
   skip-cert-verify: true
   sni: ha.lii2010.us.kg
   type: trojan
@@ -2088,38 +2156,183 @@ proxies:
     headers:
       Host: ha.lii2010.us.kg
     path: /?ed=2560
-- name: 92|Relay_-KR_1840
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 69|🇰🇷 韩国_21
+  password: qwerREWQ@@
+  port: '10218'
+  server: p229.panda004.net
+  tfo: false
+  type: ss
+- name: 92|Relay_-KR_2165
   network: ws
   password: blue2024
   port: 443
-  server: 103.21.244.169
+  server: 104.17.179.241
   skip-cert-verify: true
-  sni: hb.lii2010.us.kg
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2206
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 190.93.246.80
+  skip-cert-verify: true
+  sni: zeming13.us.kg
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: hb.lii2010.us.kg
+      Host: zeming13.us.kg
+    path: /tr?ed=2560
+- name: 92|Relay_-KR_2230
+  network: ws
+  password: blue2024
+  port: 443
+  server: 172.67.237.28
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
     path: /?ed=2560
+- name: 92|Relay_-KR_2227
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.158.83
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- name: 92|Relay_-KR_2210
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.16.20.138
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- cipher: aes-128-gcm
+  name: 74|🇰🇷 Game 韩国10-原生 - AyucLouD-Ser...
+  password: ayucew2
+  plugin: obfs
+  plugin-opts:
+    host: c03c2103380.download.windowsupdate.com
+    mode: http
+  port: 9001
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
   name: 74|🇰🇷 Game 韩国03-标准 - AyucLouD-Ser...
   password: ayucloud1
   plugin: obfs
   plugin-opts:
-    host: c085f103355.download.windowsupdate.com
+    host: c03c2103380.download.windowsupdate.com
     mode: http
   port: 913
   server: 231103level3.unclemanco.com
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 74|🇰🇷 Game 韩国05-标准 - AyucLouD-Ser...
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: c085f103355.download.windowsupdate.com
-    mode: http
-  port: 9030
-  server: 231103level3.unclemanco.com
-  type: ss
+- country: ZZ
+  name: '92|disney_KR #1'
+  network: ws
+  password: auto
+  port: 443
+  server: 104.18.1.89
+  sni: join-midas-x-x-----join-midas-x-x-----join-midas-x-x.join-midas-x-x-a14.workers.dev
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: join-midas-x-x-----join-midas-x-x-----join-midas-x-x.join-midas-x-x-a14.workers.dev
+    path: /?ed=2560
+- alterId: 1
+  cipher: auto
+  name: '72|🇰🇷 韩国_2 #1'
+  network: ws
+  port: 21888
+  server: 152.69.228.146
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c
+  ws-opts:
+    headers:
+      host: 152.69.228.146
+    path: /
+- name: 92|Relay_-KR_2236
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.19.149.54
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 72|韩国 V2CROSS.COM
+  network: ws
+  port: 30017
+  server: 61.84.74.108
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /obdii.cfd:443/linkws
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 26
+  password: amazonskr05
+  port: 443
+  server: 43.201.72.28
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 15
+  password: amazonskr05
+  port: 443
+  server: 13.209.16.115
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 76|🇰🇷 KR 19
+  password: amazonskr05
+  port: 443
+  server: 3.36.87.34
+  tfo: false
+  type: ss
+- name: 92|Relay_-KR_2193
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.18.211.40
+  skip-cert-verify: true
+  sni: ha.lii2010.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ha.lii2010.us.kg
+    path: /?ed=2560
