@@ -1,16 +1,4 @@
 proxies:
-- name: 85|TR-WS-NA 🇪🇪 EE-45.80.108.245:4...
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 45.80.108.245
-  skip-cert-verify: true
-  sni: za.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: za.ylks.xyz
-    path: //
 - name: 89|EE_speednode_0031
   network: ws
   password: NISHIKUITAN111
@@ -23,17 +11,27 @@ proxies:
     headers:
       Host: za.ylks.xyz
     path: /%2F
-- alterId: 0
-  cipher: auto
-  name: 64|🚀 Marz (SHEEP) [VMess - ws]
+- client-fingerprint: chrome
+  name: 103|15|EE_speednode_0031
   network: ws
-  port: '8080'
-  server: 62.60.135.13
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4dba618a-a752-40b5-a583-8b0ed0724009
+  password: NISHIKUITAN111
+  port: 443
+  server: 45.80.108.245
+  skip-cert-verify: false
+  sni: za.ylks.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: google.com
+      Host: za.ylks.xyz
+    path: //
+- name: 85|TR-WS-TLS 🇪🇪 EE-45.80.108.245:...
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 45.80.108.245
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
     path: /
