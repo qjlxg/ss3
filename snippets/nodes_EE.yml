@@ -1,15 +1,4 @@
 proxies:
-- name: 85|TR-WS-TLS 🇪🇪 EE-45.80.108.245:...
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 45.80.108.245
-  sni: za.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: za.ylks.xyz
-    path: /
 - name: 89|EE_speednode_0031
   network: ws
   password: NISHIKUITAN111
@@ -22,3 +11,27 @@ proxies:
     headers:
       Host: za.ylks.xyz
     path: /%2F
+- name: 85|TR-WS-TLS 🇪🇪 EE-45.80.108.245:...
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 45.80.108.245
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 103|15|EE_speednode_0031
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 45.80.108.245
+  skip-cert-verify: false
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: //
