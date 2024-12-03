@@ -1,51 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 67|19|🔒 VM-TCP-NA 🇨🇭 CH-94.131.99...
-  network: tcp
-  port: '47182'
-  server: 94.131.99.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
-- alterId: 0
-  cipher: auto
-  name: 72|瑞士 苏黎世Oracle云计算数据中心_284
-  network: ws
-  port: 443
-  server: 140.238.212.95
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
-- cipher: aes-256-cfb
-  name: 70|[SS] 🇨🇭 _CH_瑞士
-  password: asdKkaskJKfnsa
-  port: 80
-  server: 84.17.53.163
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,45,61,72,92,97|CH_3448
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.161
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,61,63,92|CH_3446
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.166.88.198
-  type: ss
-- alterId: 0
-  cipher: auto
   name: '72|二爷翻墙网 https://1808.free.hr_CH_... #1'
   network: ws
   port: 443
@@ -58,56 +13,48 @@ proxies:
     headers:
       host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,45,61,97|CH_3451
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.163
+- cipher: aes-256-cfb
+  name: 70|[SS] 🇨🇭 _CH_瑞士
+  password: asdKkaskJKfnsa
+  port: 80
+  server: 84.17.53.163
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39,40,61,63,92|CH_3453
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.166.88.5
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,38,40,45,61,63,85,97|CH_3444
+  name: 37,38,39,40,45,59,85,97|CH_3438
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 23.166.88.198
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 85|SS-TCP-NA 🇨🇭 CH-91.103.253.151...
-  password: n9WM3UHFQhFaUKqy2HmTJc
-  port: 19057
-  server: 91.103.253.151
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,59,85|CH_3442
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 23.166.88.198
   type: ss
-- name: 72|bngan.com_🇨🇭_CH_瑞士_1-128
-  network: tcp
-  password: 36ebef7d1b1d6205fd0c55f28800e674
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,39,40,45,97|CH_3439
+  password: shadowsocks
   port: 443
-  server: ch-server-01.f7256f.cn
-  skip-cert-verify: true
-  sni: ch-server-01.f7256f.cn
-  type: trojan
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 58,80|CH-186.190.215.32-7903 | 15.88...
-  network: ws
+  server: 156.146.62.163
+  type: ss
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,39,40,45,59,85,92,97|CH_3445
+  password: shadowsocks
   port: 443
-  server: 186.190.215.32
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 186.190.215.32
-    path: /
+  server: 156.146.62.162
+  type: ss
+- cipher: aes-256-gcm
+  country: ' CH'
+  name: 37,39,40,59,92| CH_3435
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.166.88.198
+  type: ss
 - name: 85|TR-WS-TLS 🇨🇭 CH-185.18.250.117...
   network: ws
   password: 1e9aadae-ca17-4f75-b0a0-7de5e3858cfb
@@ -119,61 +66,25 @@ proxies:
     headers:
       Host: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
     path: /Telegram@V2ray_Alpha/?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 85|SS-TCP-NA 🇨🇭 CH-91.103.253.151...
+  password: n9WM3UHFQhFaUKqy2HmTJc
+  port: 19057
+  server: 91.103.253.151
+  type: ss
 - cipher: aes-256-gcm
   country: CH
-  name: 37,38,39,40,45,61,63,85,97|CH_3447
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.166.88.221
+  name: 37,40,92|CH_3443
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.166.88.198
   type: ss
 - cipher: aes-128-gcm
   country: CH
-  name: 37,38,39,40,45,61,85,92,97|CH_3450
+  name: 37,38,40,45,59,72,92,97|CH_3436
   password: shadowsocks
   port: 443
-  server: 156.146.62.162
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,61,63,85|CH_3445
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 23.166.88.198
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 72|瑞士_由快嘴科技提供：kkzui.com197
-  network: ws
-  port: 443
-  server: 141.148.203.6
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
-- cipher: aes-256-gcm
-  country: ' CH'
-  name: 37,40,61,63,92| CH_3443
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-cfb
-  country: NL
-  name: 42,78,92|netflix_CH
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.15.82
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,61,63,92|CH_3449
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 23.166.88.198
+  server: 156.146.62.161
   type: ss
 - alterId: 0
   cipher: auto
@@ -189,10 +100,92 @@ proxies:
     headers:
       host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  name: 67|19|🔒 VM-TCP-NA 🇨🇭 CH-94.131.99...
+  network: tcp
+  port: '47182'
+  server: 94.131.99.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
+- name: 72|bngan.com_🇨🇭_CH_瑞士_1-128
+  network: tcp
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  port: 443
+  server: ch-server-01.f7256f.cn
+  skip-cert-verify: true
+  sni: ch-server-01.f7256f.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 72|瑞士 Oracle Corporation
+  network: ws
+  port: 443
+  server: 141.148.203.6
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  name: 72|瑞士 苏黎世Oracle云计算数据中心
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /obdii.cfd:443/linkws
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39,40,61,63,92|CH_3452
+  name: 37,38,39,40,45,59,85,97|CH_3441
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.166.88.221
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,40,59,92|CH_3437
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 23.166.88.198
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 58,80|CH-186.190.215.32-7960 | 15.11...
+  network: ws
+  port: 443
+  server: 186.190.215.32
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.32
+    path: /
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,59|CH_3440
   password: Y6R9pAtvxxzmGC
   port: 3389
+  server: 23.166.88.5
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,59|CH_3444
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 23.166.88.198
   type: ss
