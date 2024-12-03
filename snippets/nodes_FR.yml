@@ -1,71 +1,17 @@
 proxies:
-- cipher: aes-256-gcm
-  country: FR
-  name: 37|FR_3573
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 54.37.18.75
+- cipher: chacha20-ietf-poly1305
+  name: 81|YouTube面具人哈乐_法国_7
+  password: XoYrrEfZYxxHL3AI
+  port: 35699
+  server: ydthree.9sjd2dkesl2.shop
   type: ss
 - cipher: aes-256-gcm
   country: FR
-  name: 37|FR_3554
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 54.37.18.75
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37,59|Relay_-FR_2686
-  network: ws
-  port: 80
-  server: root.mid.al
-  skip-cert-verify: true
-  type: vmess
-  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
-  ws-opts:
-    headers:
-      Host: kim.gov.kp
-    path: /aries?ed=2048
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,40,59,85|FR_3551
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 54.37.12.70
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,97|FR_3572
-  password: KixLvKzwjekG00rm
-  port: 8000
+  name: 37,38,39,40,45,61|FR_3542
+  password: cdBIDV42DCwnfIN
+  port: 8119
   server: 149.202.82.172
   type: ss
-- name: 72|🇫🇷 法国_Telegram@kxswa 2
-  network: tcp
-  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
-  port: 443
-  server: fr3-full.privateip.net
-  skip-cert-verify: true
-  sni: fr3-full.privateip.net
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 74|🇫🇷 v2ray 法国巴黎节点VIP 180 - 紫云VPN...
-  network: ws
-  port: 443
-  server: 104.25.54.230
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c9ce23b2-9851-3b02-bd95-cca9b28762a5
-  ws-opts:
-    headers:
-      Host: fbl.369777.xyz
-    path: /wwwnet
 - alterId: 2
   cipher: auto
   name: 74|🇫🇷 v2ray 法国巴黎节点VIP 182 - 紫云VPN...
@@ -83,9 +29,1014 @@ proxies:
     path: /wwwnet
 - cipher: aes-256-gcm
   country: FR
-  name: 37,38,39,40,45,59,97|FR_3558
+  name: 37,38,39,40,45,61,85,92|FR_3547
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 149.202.82.172
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 83|🇫🇷FR-163.5.159.231-127
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-headers:
+    Host: irvideo.cfd
+  ws-path: /linkws
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 61,72|Relay_🏁ZZ-FR_4646
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  servername: irvideo.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      HOST: irvideo.cfd
+    path: /linkws
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,39,40,61,79| FR_3490
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 54.37.12.70
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: '72|🇫🇷 法国_1 #1'
+  network: ws
+  port: 32002
+  server: azhk3.sf66.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c
+  ws-opts:
+    headers:
+      host: azhk3.sf66.cf
+    path: /
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,61|FR_3510
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 54.37.18.75
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61,92|FR_3541
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,43,45,61,85,92|FR_3509
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '67,75|1,3,8,25|🇫🇷_FR_法国 #2'
+  network: http
+  port: 3389
+  server: 51.159.155.52
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 67|18|法国 OVH SAS
+  network: tcp
+  port: '3586'
+  server: 213.32.63.176
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: acba8460-6c85-4d67-8f74-5a51da5e8393
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,39,40,61,92| FR_3492
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 54.37.18.75
+  type: ss
+- cipher: aes-128-gcm
+  name: 74|🇫🇷 Web 法国I-标准 - AyucLouD-Servi...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: a3e11103463.download.windowsupdate.com
+    mode: http
+  port: 915
+  server: 231103level1.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 72|www.85la.com 🇫🇷 法国_4
+  network: ws
+  port: 443
+  server: discord.vpnsell.beauty
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 57529232-b316-4b4e-abf1-9b6063ba0316
+  ws-opts:
+    path: /29516/iliya
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 38,61| FR_340
+  network: ws
+  port: 443
+  server: 51.77.20.132
+  servername: a.baradiha.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: a.baradiha.com
+    path: /linkvws
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61,85,92|FR_3529
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,39,40,61,85,92|FR_3519
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 54.37.12.70
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,43,61|FR_3521
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 54.36.174.181
+  type: ss
+- country: FR
+  name: '60|netflix_FR #1'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.44.123.70
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 72|🇫🇷 法国_Telegram@kxswa
+  network: tcp
+  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
+  port: 443
+  server: 193.70.112.90
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 85|SS-TCP-NA 🇫🇷 FR-45.158.171.44:...
+  password: a8bt9fY0QsLS6eLnXUe0Ym
+  port: 8080
+  server: 45.158.171.44
+  type: ss
+- name: 72|🇫🇷 www.85la.com 法国 06
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.47.109.82
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,61|FR_3512
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 54.37.18.75
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: FR
+  h2-opts: {}
+  http-opts: {}
+  name: 37|FR_3553
+  network: ws
+  port: 443
+  server: 51.77.20.136
+  servername: capellare.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: capellare.com
+    path: /linkvws
+- cipher: aes-256-gcm
+  country: FR
+  name: 43|FR_30
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-cfb
+  country: FR
+  name: 37,38,39,40,45,92|FR_3544
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.159.111.208
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 85|VM-WS-TLS 🇫🇷 FR-146.19.168.161...
+  network: ws
+  port: 443
+  server: 146.19.168.161
+  servername: az05.beyondy.cfd
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 85|SS-TCP-NA 🇫🇷 FR-51.178.87.37:8...
+  password: G!yBwPWH3Vao
+  port: 807
+  server: 51.178.87.37
+  type: ss
+- cipher: aes-256-cfb
+  name: 70|[SS] 🇫🇷 _FR_法国
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.54.209
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 42,61,92|Relay_ZZ-FR_820
+  network: ws
+  port: 2052
+  server: 104.16.60.8
+  servername: worker-mute-bar-1719.nifotok993.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      HOST: worker-mute-bar-1719.nifotok993.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- cipher: aes-256-gcm
+  country: FR
+  name: 37|FR_3524
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,38,40,43,61| FR_3496
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 54.36.174.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: FR
+  name: 38,61|FR_355
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 51.178.87.37
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61,92|FR_3503
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,43,45|FR_3539
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 54.36.174.181
+  type: ss
+- name: 72|法国-4.14MB/s_866_866_866
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.188.100.159
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,38,39,40,43,61,92| FR_3483
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- name: 72|法国+巴黎Amazon数据中心_2_1
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.180.13.16
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,39,40,61,92| FR_3484
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 54.37.18.75
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 43|Relay_FR-FR_38
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,39,40,61,92|FR_3507
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 54.37.12.70
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: FR
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,61,72|FR_3555
+  network: ws
+  port: 443
+  server: az05.beyondy.cfd
+  servername: az05.beyondy.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      HOST: az05.beyondy.cfd
+    path: /link
+- name: 72|www.85la.com 🇫🇷 法国_1
+  network: tcp
+  password: wkmY1R4EcP
+  port: 443
+  server: 45.32.148.182
+  skip-cert-verify: true
+  sni: 45.32.148.182
+  type: trojan
+  udp: true
+- name: 72|🇫🇷 法国_Telegram@kxswa 4
+  network: tcp
+  password: FE0LWTBJ7gAn
+  port: 13349
+  server: 35.180.202.54
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 2,8,13,22,28,33,58,61,80|法国
+  network: ws
+  port: '443'
+  server: 45.80.111.9
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8
+  ws-opts:
+    headers:
+      Host: f.ylks.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 72|www.85la.com 🇫🇷 法国_6
+  network: ws
+  port: 443
+  server: 146.19.247.152
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 57529232-b316-4b4e-abf1-9b6063ba0316
+  ws-opts:
+    headers:
+      host: discord.vpnsell.beauty
+    path: /29516/iliya
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,38,39,40,43| FR_3486
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61,85,87,92|FR_3526
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 43|Relay_FR-FR_19
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: FR
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,39,40,61,72,92|FR_3554
+  network: tcp
+  port: 52728
+  server: 141.11.251.231
+  skip-cert-verify: true
+  type: vmess
+  uuid: d5e16b83-7b5c-45ea-d749-d6f6ad214447
+- alterId: 0
+  cipher: auto
+  name: '77|法国 #1'
+  network: ws
+  port: 443
+  server: 45.80.111.9
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8
+  ws-opts:
+    headers:
+      host: f.ylks.xyz
+    path: /
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,61|FR_3536
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 54.36.174.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 72|🇫🇷 www.85la.com 法国 240
+  network: ws
+  port: 443
+  server: latesurf.surfboardc16.WoRkErS.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
+  ws-opts:
+    path: /adenc36v.xtooltech.cfd:443/linkws
+- name: 72|🇫🇷 www.85la.com 法国 13
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.44.146.115
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 81|YouTube面具人哈乐_法国_13
+  password: XoYrrEfZYxxHL3AI
+  port: 16983
+  server: kis7as.9sjd2dkesl2.shop
+  type: ss
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,39,40,61| FR_3491
   password: RexnBgU7EV5ADxG
   port: 7002
+  server: 54.37.18.75
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: 61,72|Relay_🇷IR-🇷FR_501
+  network: ws
+  port: 443
+  server: beyonddsz.cfd
+  servername: beyonddsz.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      HOST: beyonddsz.cfd
+    path: /linkws
+- cipher: aes-256-gcm
+  country: FR
+  name: 43|Relay_FR-FR_49
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,61|FR_3505
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 54.37.18.75
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37|FR_3523
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,43,45,61,72|FR_3546
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 54.36.174.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 58,80|🇫🇷FR-51.77.20.137-7986 | 16.60...
+  network: ws
+  port: 443
+  server: 51.77.20.137
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: tilebani.com
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 37|Relay_-FR_2427
+  network: ws
+  port: 443
+  server: beyonddsz.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- name: 72|法国+巴黎Amazon数据中心_3
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.181.76.236
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,38,39,40,43,61| FR_3488
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 54.36.174.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 37,42|Relay_-FR_2283
+  network: ws
+  port: 80
+  server: root.mid.al
+  skip-cert-verify: true
+  type: vmess
+  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  ws-opts:
+    headers:
+      Host: kim.gov.kp
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  country: FR
+  h2-opts: {}
+  http-opts: {}
+  name: 37|FR_3549
+  network: ws
+  port: 80
+  server: 195.154.102.210
+  servername: fr1e-unmetered.v2freevpn.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      HOST: fr1e-unmetered.v2freevpn.com
+    path: /v133PDXkklxLEcOvD
+- cipher: aes-256-gcm
+  country: FR
+  name: 43|Relay_FR-FR_42
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+- name: 72|bngan.com_🇫🇷_FR_法国_44-475
+  network: tcp
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  port: 443
+  server: ger-server-01.selfupay.com
+  skip-cert-verify: true
+  sni: ger-server-01.selfupay.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,43,45,61|FR_3516
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 54.36.174.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 72,85|法国-44.2MB/s
+  password: vntxqHhPINXu5Ag6876fXO
+  port: 1080
+  server: 51.195.220.179
+  type: ss
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,39,40,61,92| FR_3487
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 54.37.18.75
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 74|🇫🇷 v2ray 法国巴黎节点VIP B-CDN - 紫云V...
+  network: ws
+  port: 443
+  server: kbl.997755.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c9ce23b2-9851-3b02-bd95-cca9b28762a5
+  ws-opts:
+    headers:
+      Host: kbl.997755.xyz
+    path: /wwwnet
+- cipher: aes-256-gcm
+  country: FR
+  name: 43|FR_26
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 145.239.1.100
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,6,7,8,9,11,12,13,14,20,21,22,23,26,27,28,29,31,32,33,34,42,61,71|🇫🇷_FR_法国
+  network: ws
+  port: '2082'
+  server: 146.19.21.61
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,61|FR_3513
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 54.37.18.75
+  type: ss
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,38,39,40,43,61| FR_3489
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61|FR_3515
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,39,40,61,92| FR_3494
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 54.37.18.75
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,43,61|FR_3528
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61|FR_3540
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 149.202.82.172
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 58,80|🇫🇷FR-163.5.159.231-0932 | 1.84...
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /
+- name: 72|🇫🇷 法国_Telegram@kxswa 3
+  network: tcp
+  password: 1038bc70-fe01-11ee-a6a2-1239d0255272
+  port: 443
+  server: 51.210.182.170
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,39,40,61|FR_3525
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 54.37.12.219
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61,85,92|FR_3532
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 149.202.82.172
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: FR
+  name: 37,38,39,83|FR_3518
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 51.178.87.37
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 85|SS-TCP-NA 🇫🇷 FR-45.158.171.141...
+  password: a8bt9fY0QsLS6eLnXUe0Ym
+  port: 8080
+  server: 45.158.171.141
+  type: ss
+- country: FR
+  name: 92|FR_959
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.47.154.110
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 37,42,70|Relay_-FR_2183
+  network: ws
+  port: 443
+  server: root.mid.al
+  servername: www.Arizona.edu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  ws-opts:
+    headers:
+      Host: kim.gov.kp
+    path: /aries?ed=2048
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61,85|FR_3534
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 149.202.82.172
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 74|🇫🇷 v2ray 法国巴黎节点VIP A-CDN - 紫云V...
+  network: ws
+  port: 443
+  server: fbl.369777.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c9ce23b2-9851-3b02-bd95-cca9b28762a5
+  ws-opts:
+    headers:
+      Host: fbl.369777.xyz
+    path: /wwwnet
+- alterId: 2
+  cipher: auto
+  name: 74|🇫🇷 v2ray 法国兰斯节点VIP CDN - 紫云VPN...
+  network: ws
+  port: 443
+  server: fls.997755.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c9ce23b2-9851-3b02-bd95-cca9b28762a5
+  ws-opts:
+    headers:
+      Host: fls.997755.xyz
+    path: /wwwnet
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61,92|FR_3533
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,61|FR_3506
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 54.37.18.75
+  type: ss
+- name: 72|🇫🇷 法国_Telegram@kxswa 2
+  network: tcp
+  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
+  port: 443
+  server: fr3-full.privateip.net
+  skip-cert-verify: true
+  sni: fr3-full.privateip.net
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,61|FR_3545
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 54.37.18.75
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 79|TG:@hkaa0|法国
+  network: ws
+  port: 443
+  server: discord.vpnsell.beauty
+  tls: true
+  type: vmess
+  uuid: 57529232-b316-4b4e-abf1-9b6063ba0316
+  ws-opts:
+    headers:
+      Host: discord.vpnsell.beauty
+    path: /29516/iliya
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61,92|FR_3531
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 149.202.82.172
+  type: ss
+- name: 85|TR-WS-TLS 🇫🇷 FR-141.11.203.203...
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 141.11.203.203
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 37,38,39,40,43,61| FR_3493
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,43,61|FR_3504
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 54.36.174.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇫🇷 法国 - Cyanmori
+  password: hJRTbknS8oyylv6x
+  port: 10076
+  server: fr.lvuy.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: FR
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,61,72|FR_3551
+  network: ws
+  port: 443
+  server: 146.19.168.161
+  servername: az05.beyondy.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      HOST: az05.beyondy.cfd
+    path: /link
+- cipher: aes-256-gcm
+  country: FR
+  name: 43|FR_17
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,43,45,61,85|FR_3530
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61,92|FR_3497
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61,85,92|FR_3508
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 149.202.82.172
+  type: ss
+- name: 72|法国+巴黎Amazon数据中心_1
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.47.48.218
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61|FR_3538
+  password: pKEW8JPByTVTLtM
+  port: 4444
   server: 149.202.82.172
   type: ss
 - alterId: 0
@@ -103,717 +1054,17 @@ proxies:
       host: baradiha.com
     path: /linkvws
 - cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,38,40,43,59,92,97| FR_3516
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 54.36.174.181
-  type: ss
-- name: 72|法国+巴黎Amazon数据中心_2_1
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.180.13.16
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 85|VM-WS-TLS 🇫🇷 FR-146.19.168.161...
-  network: ws
-  port: 443
-  server: 146.19.168.161
-  servername: az05.beyondy.cfd
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: az05.beyondy.cfd
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 74|🇫🇷 v2ray 法国巴黎节点VIP B-CDN - 紫云V...
-  network: ws
-  port: 443
-  server: kbl.997755.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c9ce23b2-9851-3b02-bd95-cca9b28762a5
-  ws-opts:
-    headers:
-      Host: kbl.997755.xyz
-    path: /wwwnet
-- name: 72|法国由快嘴科技提供：kkzui.com184
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.47.90.218
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,85,97|FR_3549
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 149.202.82.172
-  type: ss
-- name: 72|🇫🇷 法国_Telegram@kxswa 4
-  network: tcp
-  password: FE0LWTBJ7gAn
-  port: 13349
-  server: 35.180.202.54
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 74|🇫🇷 v2ray 法国巴黎节点VIP A-CDN - 紫云V...
-  network: ws
-  port: 443
-  server: fbl.369777.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c9ce23b2-9851-3b02-bd95-cca9b28762a5
-  ws-opts:
-    headers:
-      Host: fbl.369777.xyz
-    path: /wwwnet
-- alterId: 0
-  cipher: auto
-  name: 72|www.85la.com 🇫🇷 法国_6
-  network: ws
-  port: 443
-  server: 146.19.247.152
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 57529232-b316-4b4e-abf1-9b6063ba0316
-  ws-opts:
-    headers:
-      host: discord.vpnsell.beauty
-    path: /29516/iliya
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,85,87,97|FR_3552
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 149.202.82.172
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 72|🇫🇷 www.85la.com 法国 01
-  network: ws
-  port: 443
-  server: 173.245.58.11
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-  ws-opts:
-    headers:
-      host: worker-late28ygwuhw.motonob768.workers.dev
-    path: /xmivideo.cfd/linkws
-- alterId: 1
-  cipher: auto
-  name: '72|🇫🇷 法国_1 #1'
-  network: ws
-  port: 32002
-  server: azhk3.sf66.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9bf3ddad-c2a5-4056-8dae-5a3cb9e9b84c
-  ws-opts:
-    headers:
-      host: azhk3.sf66.cf
-    path: /
-- cipher: aes-256-ctr
-  country: FR
-  name: 37|Pool_FR_3579
-  obfs: tls1.2_ticket_auth
-  password: NewBypasser2023
-  port: 443
-  protocol: origin
-  server: 195.154.118.40
-  type: ssr
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,85,97|FR_3523
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,38,40,43,59,92,97| FR_3512
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 54.36.174.181
-  type: ss
-- name: 72|🇫🇷 法国_Telegram@kxswa 5
-  network: tcp
-  password: IytspY7M1rM4
-  port: 13390
-  server: 35.180.51.79
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 72|法国+巴黎Amazon数据中心_1
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.47.48.218
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,59|FR_3539
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 145.239.6.202
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 2,8,13,22,28,33,58,80|法国
-  network: ws
-  port: '443'
-  server: 45.80.111.9
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: af6eedf5-f2b4-447f-8b93-5fca33af06f8
-  ws-opts:
-    headers:
-      Host: f.ylks.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  country: FR
-  h2-opts: {}
-  http-opts: {}
-  name: 37,59,72|FR_3585
-  network: ws
-  port: 443
-  server: az05.beyondy.cfd
-  servername: az05.beyondy.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      HOST: az05.beyondy.cfd
-    path: /link
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,40,59,85,92|FR_3555
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 54.37.12.70
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,40,43,92,97|FR_3568
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 54.36.174.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 85|SS-TCP-NA 🇫🇷 FR-45.158.171.141...
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  port: 8080
-  server: 45.158.171.141
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: FR
-  name: 37,38,97|FR_3534
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 51.178.87.37
-  type: ss
-- name: 72|bngan.com_🇫🇷_FR_法国_44-475
-  network: tcp
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  port: 443
-  server: ger-server-01.selfupay.com
-  skip-cert-verify: true
-  sni: ger-server-01.selfupay.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: FR
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,40,59,72,92,97|FR_3580
-  network: tcp
-  port: 52728
-  server: 141.11.251.231
-  servername: 141.11.251.231
-  skip-cert-verify: true
-  type: vmess
-  uuid: d5e16b83-7b5c-45ea-d749-d6f6ad214447
-- country: FR
-  name: 92|FR_900
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.47.154.110
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,92,97|FR_3531
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,59|FR_3538
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,39,40,59| FR_3518
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,85,92,97|FR_3577
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37|FR_3532
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 54.37.18.75
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇷 FR
-  h2-opts: {}
-  http-opts: {}
-  name: 97|🇷 FR_358
-  network: ws
-  port: 443
-  server: 51.77.20.132
-  servername: a.baradiha.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-headers:
-    HOST: a.baradiha.com
-  ws-path: /linkvws
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,39,40,59,92| FR_3511
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 54.37.18.75
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇷FR
-  name: 59,85,87|🇫🇷FR_3365
-  password: qXvO7zYU7KeaB0Md7DQLow
-  port: 1080
-  server: 51.195.119.47
-  type: ss
-- country: FR
-  name: 92|FR_902
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.44.123.70
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37|FR_3528
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
   name: 85|SS-TCP-NA 🇫🇷 FR-51.195.149.115...
   password: KkDzY101Oe
   port: 45816
   server: 51.195.149.115
   type: ss
-- name: 85|TR-WS-TLS 🇫🇷 FR-141.11.203.203...
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 141.11.203.203
-  sni: za.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: za.ylks.xyz
-    path: /
 - cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,97|FR_3547
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 149.202.82.172
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 81|YouTube面具人哈乐_法国_13
-  password: XoYrrEfZYxxHL3AI
-  port: 16983
-  server: kis7as.9sjd2dkesl2.shop
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 95|Relay_-🇫🇷FR_20
-  network: ws
-  port: 80
-  server: root.mid.al
-  tls: false
-  type: vmess
-  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /aries?ed=2048
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,43,45,59,72,92,97|FR_3557
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 54.36.174.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: FR
-  name: 37,39,59,83,97|FR_3570
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 51.178.87.37
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: FR
-  name: 37,59,72,85,92|FR_3521
-  password: UeWIlSSoprBz0ihAvHTyYS
-  port: 443
-  server: 51.158.252.130
-  type: ss
-- name: 72|法国+巴黎Amazon数据中心_2
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.181.188.134
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,40,43,45,97|FR_3535
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37|FR_3575
-  password: Y6R9pAtvxxzmGC
-  port: 5601
+  country: ' FR'
+  name: 37,39,40,61,92| FR_3485
+  password: g5MeD6Ft3CWlJId
+  port: 5003
   server: 54.37.18.75
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 72|🇫🇷 www.85la.com 法国 240
-  network: ws
-  port: 443
-  server: latesurf.surfboardc16.WoRkErS.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
-  ws-opts:
-    path: /adenc36v.xtooltech.cfd:443/linkws
-- alterId: 2
-  cipher: auto
-  name: 74|🇫🇷 v2ray 法国兰斯节点VIP CDN - 紫云VPN...
-  network: ws
-  port: 443
-  server: fls.997755.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c9ce23b2-9851-3b02-bd95-cca9b28762a5
-  ws-opts:
-    headers:
-      Host: fls.997755.xyz
-    path: /wwwnet
-- alterId: 0
-  cipher: auto
-  country: FR
-  h2-opts: {}
-  http-opts: {}
-  name: 37,59,72|FR_3584
-  network: ws
-  port: 443
-  server: beyonddbc.sbs
-  servername: beyonddbc.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  ws-opts:
-    headers:
-      HOST: beyonddbc.sbs
-    path: /linkws
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,38,39,40,43,59,92,97| FR_3517
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,97|FR_3567
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 149.202.82.172
-  type: ss
-- name: 72|法国+巴黎Amazon数据中心_3
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.181.76.236
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37,70|Relay_-FR_1935
-  network: ws
-  port: 443
-  server: root.mid.al
-  servername: www.Arizona.edu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
-  ws-opts:
-    headers:
-      Host: kim.gov.kp
-    path: /aries?ed=2048
-- name: 72|法国+巴黎Amazon数据中心_1_1
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.188.216.8
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,72,97|FR_3574
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,43,59,92,97|FR_3546
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 43|FR_17
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 145.239.1.100
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-FR_1084
-  network: ws
-  port: 443
-  server: beyonddsz.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 92|Relay_ZZ-FR_2576
-  network: ws
-  port: 8880
-  server: 104.16.67.38
-  servername: 7hss-butterfly-d4c3.fijetem432.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-  ws-opts:
-    headers:
-      HOST: 7hss-butterfly-d4c3.fijetem432.workers.dev
-    path: /afrhms07.xfixedfloat.cfd/linkws
-- alterId: 0
-  cipher: auto
-  country: 🇷 FR
-  h2-opts: {}
-  http-opts: {}
-  name: 59,72|🇷 FR_3362
-  network: ws
-  port: 443
-  server: 146.19.168.161
-  servername: az05.beyondy.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      HOST: az05.beyondy.cfd
-    path: /link
-- cipher: chacha20-ietf-poly1305
-  country: FR
-  name: 37,38,40,85,97|FR_3527
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 51.178.87.37
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 72|www.85la.com 🇫🇷 法国_4
-  network: ws
-  port: 443
-  server: discord.vpnsell.beauty
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 57529232-b316-4b4e-abf1-9b6063ba0316
-  ws-opts:
-    path: /29516/iliya
-- cipher: aes-128-gcm
-  name: 74|🇫🇷 Web 法国I-标准 - AyucLouD-Servi...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: a3e11103463.download.windowsupdate.com
-    mode: http
-  port: 915
-  server: 231103level1.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 58,80|🇫🇷FR-163.5.159.231-0932 | 1.84...
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  name: 59,85|🇫🇷FR_3379
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 51.178.87.37
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,40,59,92|FR_3548
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 54.37.12.70
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,38,39,40,43,59,97| FR_3508
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 54.36.174.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '67,75|1,3,8,25|🇫🇷_FR_法国 #2'
-  network: http
-  port: 3389
-  server: 51.159.155.52
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,38,39,40,43,59,97| FR_3509
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,39,40,59,92| FR_3514
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 54.37.18.75
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 83|🇫🇷FR-163.5.159.231-127
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-headers:
-    Host: irvideo.cfd
-  ws-path: /linkws
-- cipher: chacha20-ietf-poly1305
-  name: 81|YouTube面具人哈乐_法国_11
-  password: XoYrrEfZYxxHL3AI
-  port: 25912
-  server: kis7as.9sjd2dkesl2.shop
   type: ss
 - name: 72|法国+V2CROSS.COM
   network: ws
@@ -830,84 +1081,36 @@ proxies:
     path: //
 - alterId: 0
   cipher: auto
-  country: 🇷 FR
+  country: FR
   h2-opts: {}
   http-opts: {}
-  name: 97|🇫🇷 FR_359
+  name: 37,61,72|FR_3550
   network: ws
   port: 443
-  server: az05.beyondy.cfd
-  servername: az05.beyondy.cfd
+  server: beyonddbc.sbs
+  servername: beyonddbc.sbs
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-headers:
-    HOST: az05.beyondy.cfd
-  ws-path: /link
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    headers:
+      HOST: beyonddbc.sbs
+    path: /linkws
 - cipher: aes-256-gcm
-  country: FR
-  name: 43|Relay_FR-FR_38
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  country: ' FR'
+  name: 37,38,39,40,43,61| FR_3482
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 54.36.174.181
   type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   country: FR
   h2-opts: {}
   http-opts: {}
-  name: 37,59,92|FR_3583
-  network: ws
-  port: 80
-  server: 195.154.102.210
-  servername: fr1e-unmetered.v2freevpn.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      HOST: fr1e-unmetered.v2freevpn.com
-    path: /v133PDXkklxLEcOvD
-- alterId: 0
-  cipher: auto
-  name: 79|TG:@hkaa0|法国
-  network: ws
-  port: 443
-  server: discord.vpnsell.beauty
-  tls: true
-  type: vmess
-  uuid: 57529232-b316-4b4e-abf1-9b6063ba0316
-  ws-opts:
-    headers:
-      Host: discord.vpnsell.beauty
-    path: /29516/iliya
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,6,7,8,9,11,12,13,14,20,21,22,23,26,27,28,29,31,32,33,34,59,71|🇫🇷_FR_法国
-  network: ws
-  port: '2082'
-  server: 146.19.21.61
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,40,45,59,92,97|FR_3561
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 149.202.82.172
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇷 FR
-  h2-opts: {}
-  http-opts: {}
-  name: 97|🇫🇷 FR_360
+  name: 37,38,61|FR_3552
   network: ws
   port: 443
   server: 51.77.20.137
@@ -916,185 +1119,10 @@ proxies:
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-headers:
-    HOST: tilebani.com
-  ws-path: /linkvws
-- name: 72|法国-4.14MB/s_866_866_866
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.188.100.159
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 81|YouTube面具人哈乐_法国_7
-  password: XoYrrEfZYxxHL3AI
-  port: 35699
-  server: ydthree.9sjd2dkesl2.shop
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 72|🇫🇷 法国_Telegram@kxswa 8
-  network: ws
-  port: 443
-  server: 193.160.130.117
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    path: /linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,43,59,97|FR_3550
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,59,97|FR_3545
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,40,59|FR_3542
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 54.37.12.219
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37|FR_3576
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 43|Relay_FR-FR_42
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-- name: 72|🇫🇷 法国_Telegram@kxswa 3
-  network: tcp
-  password: 1038bc70-fe01-11ee-a6a2-1239d0255272
-  port: 443
-  server: 51.210.182.170
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,43,45,59,85,97|FR_3537
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,85,97|FR_3571
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 149.202.82.172
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇫🇷FR
-  h2-opts: {}
-  http-opts: {}
-  name: 59,72|Relay_🇷FR-🇷FR_3416
-  network: ws
-  port: 443
-  server: beyonddsz.cfd
-  servername: beyonddsz.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
   ws-opts:
     headers:
-      HOST: beyonddsz.cfd
-    path: /linkws
-- cipher: chacha20-ietf-poly1305
-  name: 72,85|法国-44.2MB/s
-  password: vntxqHhPINXu5Ag6876fXO
-  port: 1080
-  server: 51.195.220.179
-  type: ss
-- country: FR
-  name: '60,92|netflix_FR #1'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.180.157.228
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,85,97|FR_3569
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,43,45,59,92,97|FR_3533
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37|FR_3536
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,92,97|FR_3524
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37|FR_3560
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 54.37.18.75
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 59,72,95|Relay_🏁ZZ-🇷FR_4665
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  servername: irvideo.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      HOST: irvideo.cfd
-    path: /linkws
-- cipher: chacha20-ietf-poly1305
-  name: 81|YouTube面具人哈乐_法国_8
-  password: XoYrrEfZYxxHL3AI
-  port: 44565
-  server: ydthree.9sjd2dkesl2.shop
-  type: ss
+      HOST: tilebani.com
+    path: /linkvws
 - grpc-opts:
     grpc-service-name: 443trojan
   name: 69,72|🇫🇷 法国_1
@@ -1109,194 +1137,51 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: FR
-  name: 43|Relay_FR-FR_19
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 58,80|🇫🇷FR-51.77.20.137-7986 | 16.60...
-  network: ws
-  port: 443
-  server: 51.77.20.137
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: tilebani.com
-    path: /
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,85,97|FR_3526
+  name: 37|FR_3520
   password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 149.202.82.172
+  port: 5001
+  server: 145.239.6.202
   type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,97|FR_3543
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 149.202.82.172
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: ' FR'
-  h2-opts: {}
-  http-opts: {}
-  name: 38,59| FR_348
-  network: ws
-  port: 443
-  server: 51.77.20.132
-  servername: a.baradiha.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: a.baradiha.com
-    path: /linkvws
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,97|FR_3564
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-cfb
-  country: FR
-  name: 37,38,39,40,45,59,97|FR_3544
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.159.111.208
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: FR
-  h2-opts: {}
-  http-opts: {}
-  name: 37,59|FR_3581
-  network: ws
-  port: 443
-  server: 51.77.20.136
-  servername: capellare.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: capellare.com
-    path: /linkvws
-- name: 72|🇫🇷 www.85la.com 法国 06
+- name: 72|法国+巴黎Amazon数据中心_2
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 52.47.109.82
+  server: 35.181.188.134
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - cipher: aes-256-gcm
   country: FR
-  name: 37,38,39,40,45,59,85,97|FR_3559
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 149.202.82.172
+  name: 37,38,39,40,43,61,92|FR_3502
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 54.36.174.181
   type: ss
 - alterId: 0
-  cipher: chacha20-poly1305
-  name: 67|18|法国 OVH SAS
-  network: tcp
-  port: '3586'
-  server: 213.32.63.176
-  servername: ''
-  tls: false
+  cipher: auto
+  name: 72|🇫🇷 法国_Telegram@kxswa 8
+  network: ws
+  port: 443
+  server: 193.160.130.117
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: acba8460-6c85-4d67-8f74-5a51da5e8393
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    path: /linkws
 - cipher: aes-256-gcm
   country: ' FR'
-  name: 37,39,40,59,92| FR_3510
-  password: g5MeD6Ft3CWlJId
-  port: 5003
+  name: 37,39,40,61,92| FR_3495
+  password: kDWvXYZoTBcGkC4
+  port: 8881
   server: 54.37.18.75
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: FR
-  name: 37,59,72|FR_3566
-  password: cIi3pVuOK3MCl662OhQ0sZ
-  port: 443
-  server: 62.210.88.22
+  name: 81|YouTube面具人哈乐_法国_8
+  password: XoYrrEfZYxxHL3AI
+  port: 44565
+  server: ydthree.9sjd2dkesl2.shop
   type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,85,92,97|FR_3541
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,85,92,97|FR_3530
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,97|FR_3578
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 149.202.82.172
-  type: ss
-- name: 72|🇫🇷 www.85la.com 法国 13
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.44.146.115
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,97|FR_3525
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-cfb
-  country: FR
-  name: 37,38,39,40,45,59,97|FR_3553
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.185.174
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 43|Relay_FR-FR_49
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 43|FR_26
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 145.239.1.100
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇫🇷 法国 - V2Link VPN
-  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
-  port: 34903
-  server: host-047.crazyspeed.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 72|🇫🇷 www.85la.com 法国 01_1
@@ -1311,64 +1196,123 @@ proxies:
     headers:
       host: latesurf.surfboardc16.WORKErS.DeV
     path: /adenc36v.xtooltech.cfd:443/linkws
-- cipher: chacha20-ietf-poly1305
-  name: 85|SS-TCP-NA 🇫🇷 FR-45.158.171.44:...
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  port: 8080
-  server: 45.158.171.44
-  type: ss
+- country: FR
+  name: 60,92|netflix_FR
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.180.157.228
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-ctr
+  country: FR
+  name: 37|Pool_FR_3548
+  obfs: tls1.2_ticket_auth
+  password: NewBypasser2023
+  port: 443
+  protocol: origin
+  server: 195.154.118.40
+  type: ssr
 - cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,38,39,40,43,59,92,97| FR_3519
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 54.36.174.181
+  country: FR
+  name: 37,38,39,40,45,61,85,87,92|FR_3535
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
   country: FR
-  name: 37,39,40,59,85|FR_3529
+  name: 37,38,39,40,45,61,92|FR_3501
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: FR
+  name: 37,72|FR_3514
+  password: cIi3pVuOK3MCl662OhQ0sZ
+  port: 443
+  server: 62.210.88.22
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,61|FR_3543
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 54.37.18.75
+  type: ss
+- name: 72|法国由快嘴科技提供：kkzui.com184
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.47.90.218
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,39,40,61,85,92|FR_3498
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 54.37.18.75
   type: ss
 - cipher: aes-256-gcm
   country: FR
-  name: 37,38,39,40,43,45,59,85,92,97|FR_3540
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 54.36.174.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 74|🇫🇷 法国 - Cyanmori
-  password: hJRTbknS8oyylv6x
-  port: 10076
-  server: fr.lvuy.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: FR
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,59|FR_3582
-  network: ws
+  name: 38,39,40,45,61,72,92|FR_344
+  password: pKEW8JPByTVTLtM
   port: 443
-  server: 51.77.20.137
-  servername: tilebani.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: tilebani.com
-    path: /linkvws
+  server: 149.202.82.172
+  type: ss
 - cipher: aes-256-gcm
   country: FR
-  name: 37,38,39,40,45,59,85,87,97|FR_3522
-  password: FoOiGlkAA9yPEGP
-  port: 7306
+  name: 37,38,39,40,45,61,92|FR_3499
+  password: KixLvKzwjekG00rm
+  port: 8000
   server: 149.202.82.172
+  type: ss
+- cipher: aes-256-cfb
+  country: FR
+  name: 37,38,39,40,45,92|FR_3517
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.185.174
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 72|🇫🇷 www.85la.com 法国 17
+  network: ws
+  port: 8880
+  server: 172.64.80.1
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  ws-opts:
+    headers:
+      host: fr-a.yuji2022.eu.org
+    path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
+- name: 72|法国+巴黎Amazon数据中心_1_1
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.188.216.8
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 81|YouTube面具人哈乐_法国_11
+  password: XoYrrEfZYxxHL3AI
+  port: 25912
+  server: kis7as.9sjd2dkesl2.shop
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: FR
+  name: 37,42,72,85,92|FR_3500
+  password: UeWIlSSoprBz0ihAvHTyYS
+  port: 443
+  server: 51.158.252.130
   type: ss
 - alterId: 2
   cipher: auto
@@ -1385,146 +1329,61 @@ proxies:
     headers:
       Host: fls.997755.xyz
     path: /wwwnet
-- cipher: aes-256-cfb
-  name: 70|[SS] 🇫🇷 _FR_法国
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.54.209
+- cipher: chacha20-ietf-poly1305
+  name: 74|🇫🇷 法国 - V2Link VPN
+  password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
+  port: 34903
+  server: host-047.crazyspeed.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 72|🇫🇷 www.85la.com 法国 17
-  network: ws
-  port: 8880
-  server: 172.64.80.1
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  ws-opts:
-    headers:
-      host: fr-a.yuji2022.eu.org
-    path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,40,43,45,59,85,97|FR_3562
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 149.202.82.172
-  type: ss
-- name: 72|www.85la.com 🇫🇷 法国_1
+- name: 72|🇫🇷 法国_Telegram@kxswa 5
   network: tcp
-  password: wkmY1R4EcP
-  port: 443
-  server: 45.32.148.182
+  password: IytspY7M1rM4
+  port: 13390
+  server: 35.180.51.79
   skip-cert-verify: true
-  sni: 45.32.148.182
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 92|Relay_ZZ-FR_2707
-  network: ws
-  port: 2052
-  server: 104.16.60.8
-  servername: worker-mute-bar-1719.nifotok993.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      HOST: worker-mute-bar-1719.nifotok993.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
 - cipher: aes-256-gcm
   country: FR
-  name: 37,59|FR_3563
-  password: zDNVedRFPQexG9v
-  port: 445
+  name: 37,38,39,40,43,45,61,85,92|FR_3527
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,39,40,59,79| FR_3513
-  password: g5MeD6Ft3CWlJId
-  port: 5003
+  country: FR
+  name: 37,39,40,61,85,92|FR_3522
+  password: KixLvKzwjekG00rm
+  port: 8000
   server: 54.37.12.70
   type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,39,40,59,92| FR_3515
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 37,39,40,59,92| FR_3520
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 54.37.18.75
-  type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
-  country: 🇷 FR
-  h2-opts: {}
-  http-opts: {}
-  name: 97| FR_357
+  name: 74|🇫🇷 v2ray 法国巴黎节点VIP 180 - 紫云VPN...
   network: ws
   port: 443
-  server: 146.19.168.161
-  servername: az05.beyondy.cfd
+  server: 104.25.54.230
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-headers:
-    HOST: az05.beyondy.cfd
-  ws-path: /link
-- name: 72|🇫🇷 法国_Telegram@kxswa
-  network: tcp
-  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
-  port: 443
-  server: 193.70.112.90
-  skip-cert-verify: true
-  type: trojan
   udp: true
-- country: FR
-  name: 60|netflix_FR
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.213.79
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 43|FR_30
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 145.239.1.100
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,40,45,59,92,97|FR_3556
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 149.202.82.172
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 95|Relay_-🇫🇷FR_19
-  network: ws
-  port: 443
-  server: root.mid.al
-  tls: true
-  type: vmess
-  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  uuid: c9ce23b2-9851-3b02-bd95-cca9b28762a5
   ws-opts:
     headers:
-      Host: www.Arizona.edu
-    path: /aries?ed=2048
+      Host: fbl.369777.xyz
+    path: /wwwnet
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,40,45,61,92|FR_3511
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,61|FR_3537
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 54.37.18.75
+  type: ss
