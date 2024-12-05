@@ -1,251 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '118,122,126|🔰CH : @cisco_plus🇧🇷 #2'
-  network: ws
-  port: '443'
-  server: 188.114.98.0
-  servername: odelia.autos
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: odelia.autos
-    path: linkvws
-- alterId: 1
-  cipher: auto
-  name: '118,122,126|🔰CH : @cisco_plus🇧🇷 #1'
-  network: ws
-  port: '443'
-  server: 22.vmessprotocol.telegram-vmessprotocol-channel.space
-  servername: odelia.autos
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: odelia.autos
-    path: linkvws
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,40,45,73,135,140|CH_3796
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.161
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,38,39,40,45,64,86,140|CH_3790
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,64,86|CH_3791
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 23.166.88.198
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '126|11,30|126|11,30|126|11|617|op瑞... #1'
-  network: ws
-  port: '2082'
-  server: yx1.xsjhl.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4b5ce38b-1de2-4666-8f4f-7070e5c9643c
-  ws-opts:
-    headers:
-      Host: oprs.xsjhl.xyz
-    path: /?ed=2048
-- alterId: 1
-  cipher: auto
-  name: '118,122,126|TELEGRAM CHANNEL : @VPNOD #1'
-  network: ws
-  port: '443'
-  server: waynn.makeup
-  servername: waynn.makeup
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: linkvws
-- name: 86|TR-WS-TLS 🇨🇭 CH-185.18.250.112...
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 185.18.250.112
-  sni: zb.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: zb.ylks.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 73,126|瑞士 苏黎世Oracle云计算数据中心_284
-  network: ws
-  port: 443
-  server: 140.238.212.95
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
-- name: 86|TR-WS-TLS 🇨🇭 CH-185.18.250.117...
-  network: ws
-  password: 1e9aadae-ca17-4f75-b0a0-7de5e3858cfb
-  port: 443
-  server: 185.18.250.117
-  sni: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- alterId: 1
-  cipher: auto
-  name: 58,81,126|CH-186.190.215.32-7922 | 15.37...
-  network: ws
-  port: 443
-  server: 186.190.215.32
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 186.190.215.32
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 126|11,30|126|11,30|126|11|438|@V2...
-  network: ws
-  port: '443'
-  server: 185.162.228.4
-  servername: vmess-ctb-de01.globalssh.xyz
-  tls: true
-  type: vmess
-  uuid: ece98d73-def3-4f30-b81f-02facbcada97
-  ws-opts:
-    headers:
-      Host: vmess-ctb-de01.globalssh.xyz
-    path: /vmess-ws
-- alterId: 0
-  cipher: auto
-  name: 73,126|二爷翻墙网 https://1808.free.hr_CH_...
-  network: ws
-  port: 443
-  server: 141.148.187.195
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  name: 126|11,30|126|11,30|126|11|432|🇨🇭_...
-  network: ws
-  port: 443
-  server: b2.wuxianliulianng.xyz
-  tls: true
-  type: vmess
-  uuid: c0949fdc-f58e-4b02-8c6c-54c5f2e1d848
-  ws-opts:
-    headers:
-      Host: 2.wuxianliulianng.xyz
-    path: /sometimesnaive
-- alterId: 0
-  cipher: auto
-  name: '73,126|二爷翻墙网 https://1808.free.hr_CH_... #1'
-  network: ws
-  port: 443
-  server: 152.67.65.201
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,40,64,135|CH_3789
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.166.88.198
-  type: ss
-- alterId: 233
-  cipher: auto
-  name: 118,122,126|Laowang_DM:245_瑞士
-  network: ws
-  port: '60896'
-  server: 45.134.17.153
-  tls: false
-  type: vmess
-  uuid: 9bbb6fea-0854-4bea-813d-26b3db5adcaa
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 1
-  cipher: auto
-  name: '126|11,30|126|11,30|126|11|400|🇨🇭C... #1'
-  network: ws
-  port: 443
-  server: 23.166.88.27
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 23.166.88.27
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: '118,122,126|TELEGRAM CHANNEL : @VPNOD'
-  network: ws
-  port: '443'
-  server: 104.22.32.111
-  servername: france-1vm.mr-radwan-daoud.de
-  tls: true
-  type: vmess
-  uuid: 1b26f9f0-fbe7-4cb5-94ea-cfe131961e6d
-  ws-opts:
-    headers:
-      Host: france-1vm.mr-radwan-daoud.de
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '118,122,126|🔰CH : @cisco_plus🇧🇷'
-  network: ws
-  port: '443'
-  server: 188.114.96.3
-  servername: oliv.beauty
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: oliv.beauty
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: '118,122,148|电报频道 https://1808.free.hr_CH_4... #1'
+  name: '118,122,126,148|电报频道 https://1808.free.hr_CH_4... #1'
   network: ws
   port: 443
   server: 141.148.203.6
@@ -257,75 +13,36 @@ proxies:
     headers:
       Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  name: 126|30|126|30|68|19| VM-TCP-NA 🇨🇭 ...
-  network: tcp
-  port: '47182'
-  server: 94.131.99.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
-- alterId: 0
-  cipher: auto
-  name: 126|11,30|126|11,30|126|11|400|🇨🇭C...
-  network: ws
-  port: 443
-  server: 140.238.212.95
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /obdii.cfd:443/linkws
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39|CH_3792
+  name: 37,39,40,64,135|CH_3807
   password: Y6R9pAtvxxzmGC
   port: 3389
-  server: 23.166.88.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 71|[SS] 🇨🇭 _CH_瑞士
-  password: asdKkaskJKfnsa
-  port: 80
-  server: 84.17.53.163
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,64|CH_3794
-  password: faBAoD54k87UJG7
-  port: 2376
   server: 23.166.88.198
   type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,38,40,45,64,86,140|CH_3788
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.166.88.221
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 126|11|432|🇨🇭_CH_瑞士
+  network: ws
+  port: 443
+  server: b2.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: c0949fdc-f58e-4b02-8c6c-54c5f2e1d848
+  ws-opts:
+    headers:
+      Host: 2.wuxianliulianng.xyz
+    path: /sometimesnaive
 - cipher: aes-128-gcm
   country: CH
-  name: 37,38,39,40,45,86,135,140|CH_3795
+  name: 37,38,39,40,45,135,140|CH_3806
   password: shadowsocks
   port: 443
   server: 156.146.62.162
   type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,40,64|CH_3797
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 23.166.88.198
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 118,122|电报频道 https://1808.free.hr_CH_4...
+  name: 118,122,126|电报频道 https://1808.free.hr_CH_4...
   network: ws
   port: 443
   server: 141.148.187.195
@@ -337,16 +54,26 @@ proxies:
     headers:
       Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
-- cipher: aes-128-gcm
+- cipher: aes-256-gcm
   country: CH
-  name: 37,38,39,40,45,140|CH_3793
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.163
+  name: 37,39,40,64,135|CH_3808
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 23.166.88.198
   type: ss
 - alterId: 0
+  cipher: aes-128-gcm
+  name: 126|11|422|Switzerland Private Lay...
+  network: tcp
+  port: '443'
+  server: sw-179.43.155.25.nip.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 47b43bb4-2768-431c-b704-edee85e2a48d
+- alterId: 0
   cipher: auto
-  name: 126|11,30|126|11,30|126|11|617|op瑞...
+  name: 126|11|617|op瑞士3-
   network: ws
   port: '2082'
   server: yx3.xsjhl.xyz
@@ -360,21 +87,70 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 73,126|瑞士 Oracle Corporation_342
+  name: 126|11|400|🇨🇭CH-140.238.212.95-121...
   network: ws
   port: 443
-  server: 141.148.203.6
-  skip-cert-verify: true
+  server: 140.238.212.95
+  servername: ''
   tls: true
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /obdii.cfd:443/linkws
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,64|CH_3799
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.166.88.198
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 126|11,30|126|11,30|126|11|617| 瑞士...
+  name: '118,122|🔰CH : @cisco_plus🇧🇷'
+  network: ws
+  port: '443'
+  server: 188.114.96.3
+  servername: oliv.beauty
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: oliv.beauty
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '118,122|🔰CH : @cisco_plus🇧🇷 #2'
+  network: ws
+  port: '443'
+  server: 188.114.98.0
+  servername: odelia.autos
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: odelia.autos
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '118,122|TELEGRAM CHANNEL : @VPNOD'
+  network: ws
+  port: '443'
+  server: 104.22.32.111
+  servername: france-1vm.mr-radwan-daoud.de
+  tls: true
+  type: vmess
+  uuid: 1b26f9f0-fbe7-4cb5-94ea-cfe131961e6d
+  ws-opts:
+    headers:
+      Host: france-1vm.mr-radwan-daoud.de
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 126|11|617|🇨🇭 瑞士1|cf
   network: ws
   port: '2052'
   server: hk.wish.ml
@@ -386,15 +162,187 @@ proxies:
     headers:
       Host: ch1.wish.ml
     path: /
-- alterId: 0
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,40|CH_3801
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.166.88.5
+  type: ss
+- alterId: 1
   cipher: auto
-  name: 73,126|🇨🇭 www.85la.com 瑞士 03
+  name: 58,126|CH-186.190.215.32-7922 | 15.37...
   network: ws
   port: 443
   server: 186.190.215.32
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.32
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 126|11|617|op瑞士2-解锁
+  network: ws
+  port: '2082'
+  server: yx2.xsjhl.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b5ce38b-1de2-4666-8f4f-7070e5c9643c
+  ws-opts:
+    headers:
+      Host: oprs.xsjhl.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 126|11|486|🇨🇭 www.85la.com 瑞士 03
+  network: ws
+  port: 443
+  server: 186.190.215.32
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 126|11|617|op瑞士1-解锁
+  network: ws
+  port: '2082'
+  server: yx1.xsjhl.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b5ce38b-1de2-4666-8f4f-7070e5c9643c
+  ws-opts:
+    headers:
+      Host: oprs.xsjhl.xyz
+    path: /?ed=2048
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,39,40,45,135,140|CH_3803
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.161
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: '118,122|TELEGRAM CHANNEL : @VPNOD #1'
+  network: ws
+  port: '443'
+  server: waynn.makeup
+  servername: waynn.makeup
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: linkvws
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,38,39,40,45,64,140|CH_3804
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.166.88.221
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,64|CH_3802
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 23.166.88.198
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 126|11|117|🆔@LuxyNet💎❖🇭❖CH❖57
+  network: ws
+  port: 443
+  server: v2node8.bipbupvpn.com
+  tls: false
+  type: vmess
+  uuid: 4e048d74-e46e-431f-a2f6-e81164e312e5
+  ws-opts:
+    path: /AAA
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,39,40,45,135,140|CH_3805
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.163
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '126|11|438|@V2FETCH #3'
+  network: ws
+  port: '443'
+  server: 185.162.228.4
+  servername: vmess-ctb-de01.globalssh.xyz
+  tls: true
+  type: vmess
+  uuid: ece98d73-def3-4f30-b81f-02facbcada97
+  ws-opts:
+    headers:
+      Host: vmess-ctb-de01.globalssh.xyz
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: 126|11|117|@LuxyNet❖CH❖19
+  network: tcp
+  port: 85
+  server: w8w.jelicc-ray.shop
+  tls: false
+  type: vmess
+  uuid: c03b6565-fd0c-43fc-89d8-f3e7ab7f3d5e
+- alterId: 233
+  cipher: auto
+  name: 118,122|Laowang_DM:245_瑞士
+  network: ws
+  port: '60896'
+  server: 45.134.17.153
+  tls: false
+  type: vmess
+  uuid: 9bbb6fea-0854-4bea-813d-26b3db5adcaa
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 1
+  cipher: auto
+  name: '118,122|🔰CH : @cisco_plus🇧🇷 #1'
+  network: ws
+  port: '443'
+  server: 22.vmessprotocol.telegram-vmessprotocol-channel.space
+  servername: odelia.autos
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: odelia.autos
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 126|11|400|🇨🇭CH-23.166.88.27-1665
+  network: ws
+  port: 443
+  server: 23.166.88.27
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.166.88.27
+    path: linkvws
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,38,39,40,45,64,140|CH_3800
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 23.166.88.198
+  type: ss
