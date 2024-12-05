@@ -1,21 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 126|14|422|🇪🇪@VPN_OCEAN
-  network: ws
-  port: '80'
-  server: 5.181.23.38
+  name: 126|14,33|126|14|438|tcp🇪🇪@ho3ino0...
+  network: tcp
+  port: '13608'
+  server: 135.181.89.97
   servername: ''
   tls: false
   type: vmess
-  uuid: 83018580-58ce-464f-b75c-2a1331a8f016
-  ws-opts:
-    headers:
-      Host: ee1.xv2ray.net
-    path: /vmess
+  uuid: 57477067-e15e-4963-8b7f-5e481c090fb8
 - alterId: 0
   cipher: auto
-  name: 126|14|422,438|[🇪🇪] telegram @prro...
+  name: 126|14,33|126|14|422,438|[🇪🇪] tele...
   network: tcp
   port: '8080'
   server: 80.253.246.179
@@ -23,31 +19,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4e2b4472-7e98-449d-954a-3edcb3485543
-- alterId: 0
-  cipher: auto
-  name: 126|14|438|ws🇪🇪@ho3ino00
-  network: ws
-  port: '53100'
-  server: 135.181.89.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3bd3315d-7a52-4ba3-fe81-0da63d1825f6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: 86|TR-WS-TLS 🇪🇪 EE-45.80.108.245:...
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 45.80.108.245
-  sni: za.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: za.ylks.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 122,126|🚀 Marz (SHEEP) [VMess - ws]
@@ -64,21 +35,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 126|14|649|爱沙尼亚_1204003
-  network: ws
-  port: '2082'
-  server: 45.80.110.224
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '126|14|69,76,146,323|YEEY5712 #3'
+  name: 126|14,33|126|14|69,76,146,323|YEE...
   network: tcp
   port: '8881'
   server: 170.187.163.89
@@ -86,13 +43,28 @@ proxies:
   tls: false
   type: vmess
   uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- name: 86|TR-WS-TLS 🇪🇪 EE-45.80.108.245:...
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 45.80.108.245
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /
 - alterId: 0
   cipher: auto
-  name: 126|14|438|tcp🇪🇪@ho3ino00
-  network: tcp
-  port: '13608'
+  name: 126|14,33|126|14|438|ws🇪🇪@ho3ino00
+  network: ws
+  port: '53100'
   server: 135.181.89.97
   servername: ''
   tls: false
   type: vmess
-  uuid: 57477067-e15e-4963-8b7f-5e481c090fb8
+  uuid: 3bd3315d-7a52-4ba3-fe81-0da63d1825f6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
