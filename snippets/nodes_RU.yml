@@ -1,313 +1,145 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 69,73,84|俄罗斯 V2CROSS.COM
-  password: 36ZCHeabUSfKjfQEvJ4HDV
-  port: 54170
-  server: 185.242.86.156
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 73|俄罗斯联邦-197.7KB/s_798_798
+  name: 68|153,582,583|RU 8|openitr
   network: ws
-  port: 8080
-  server: n001.kovmk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 92f1932f-ee19-464f-900c-93df90df830d
-  ws-opts:
-    headers:
-      host: daohang.kovmk.website
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 19,74|🇷🇺_RU_俄罗斯联邦
-  network: tcp
-  port: 35972
-  server: 45.147.200.170
+  port: 80
+  server: is3-vmess.sshmax.xyz
   tls: false
   type: vmess
-  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
-- cipher: aes-256-gcm
-  name: 71,73,78,84,86|[SS] 🇷🇺 俄罗斯 莫斯科JustHost
-  password: dongtaiwang.com
-  port: 32233
-  server: 185.22.152.125
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37,129|RU_3722
-  network: ws
-  port: 9781
-  server: 176.32.33.100
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0b81bf04-d700-45eb-88ac-9e0e4a199ff3
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 73|俄罗斯联邦-250.0KB/s_374_374
-  network: ws
-  port: 33026
-  server: socks5tobefree.ydns.eu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
+  uuid: a8d33442-de64-4980-a779-540c1eedbc25
   ws-opts:
     headers:
-      host: socks5tobefree.ydns.eu
-    path: /dangerzone
-- name: 86|TR-WS-TLS 🇷🇺 RU-5.182.85.93:44...
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 5.182.85.93
-  sni: za.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: za.ylks.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 73|俄罗斯联邦-668.2KB/s_799_799
-  network: ws
-  port: 8080
-  server: m003.mmzhk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
-  ws-opts:
-    headers:
-      host: daohang.mmzhk.website
-    path: /xyz
-- name: 86|TR-WS-TLS 🇷🇺 RU-185.176.24.104...
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 185.176.24.104
-  sni: zb.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: zb.ylks.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 86|VM-WS-NA 🇷🇺 RU-45.8.158.32:316...
-  network: ws
-  port: 3168
-  server: 45.8.158.32
-  tls: false
-  type: vmess
-  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37,86|RU_3826
-  network: ws
-  port: 7660
-  server: 192.124.176.87
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2e09dfcb-7dd6-4584-bbd5-137e1f55bb0c
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  country: RU
-  name: 37,38,39,40,58,81,86,141|RU_3697
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
-  server: 45.89.52.66
-  type: ss
-- cipher: aes-128-gcm
-  name: 75|🇷🇺 Video 俄罗斯A-标准 - AyucLouD-Se...
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: b4caf103606.download.windowsupdate.com
-    mode: http
-  port: 1549
-  server: 231103levelx.unclemanco.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: ' AM'
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_ AM-RU_3268
-  network: tcp
-  port: 15002
-  server: 15002.vpdnss.top
-  servername: 15002.vpdnss.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- alterId: 0
-  cipher: auto
-  name: 73|🇷🇺 www.85la.com 俄罗斯 07_2
-  network: ws
-  port: 7806
-  server: 176.32.33.158
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b40ff864-6da9-48b8-869e-1976d150a609
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  country: RU
-  name: 37,38,39,40,58,81,86,141|RU_3696
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  server: 45.89.52.66
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,39,40,58,64,81,84,86,136|RU_3685
-  password: Zgg@X0m515
-  port: 30252
-  server: 176.124.199.255
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '122|🆔: @SurenVpnBot | Moscow 🇷🇺'
-  network: ws
-  port: '8880'
-  server: 103.113.68.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
-  ws-opts:
-    headers:
-      Host: 103.113.68.233
+      Host: is3-vmess.sshmax.xyz
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 122|👉🆔 @v2ray_configs_pool📡🇷🇺Russi...
+  name: '68|449|🇷🇺 Russian Federation - Kr... #5'
   network: ws
-  port: '12425'
-  server: 45.8.158.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- name: 86|TR-WS-TLS 🇷🇺 RU-195.133.11.229...
-  network: ws
-  password: PU3f7528NtNXnQqb9X263rGSD
   port: 443
-  server: 195.133.11.229
-  sni: get.fragmentary.info
-  type: trojan
+  server: 92.223.114.6
+  servername: fjij9pkomxouiela.114517.xyz
+  tls: true
+  type: vmess
+  uuid: 5c854e2e-205c-4309-8363-ff60ea7b2a16
   ws-opts:
     headers:
-      Host: get.fragmentary.info
-    path: /socks5tobefree
+      Host: fjij9pkomxouiela.114517.xyz
+    path: /cgi-bin/api/dataflow/
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #15'
+  network: ws
+  port: 80
+  server: 185.250.149.236
+  servername: ru1.v2rayserv.com
+  tls: true
+  type: vmess
+  uuid: bc4f16e3-0b57-4367-8caf-88ee67859920
+  ws-opts:
+    headers:
+      Host: ru1.v2rayserv.com
+    path: /sshocean
 - cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,38,39,40,86,141|RU_3704
-  password: afKAHp1VfRWZu91LIi9o0D
-  port: 58176
-  server: 94.228.165.178
+  name: 68|153|🇷🇺 RU 52 → tg@nicevpn123
+  password: NC7jORVNrruV/+3+PwOJrnnOeG7n75X1
+  port: 8388
+  server: 89.19.216.18
   type: ss
 - alterId: 0
   cipher: auto
-  name: 122|俄罗斯联邦-3.06MB/s
+  name: 68|4|RU_youtube@资源分享师_8
   network: ws
-  port: '80'
-  server: 45.144.2.113
+  port: 7806
+  server: 195.58.48.220
   tls: false
   type: vmess
-  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+  uuid: 921712b1-2fb3-4963-9d70-eb9fafdab1e5
   ws-opts:
-    headers:
-      Host: 45.144.2.113
     path: /
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,38,40,71,73,84,86,88,141|RU_3703
-  password: 6OAGLD+DOA6UcFp5Udf0r/UzyjwHV+yheNkoFDk6uL8=
-  port: 38753
-  server: 213.108.22.109
-  type: ss
-- name: 73|俄罗斯+V2CROSS.COM_4_248
-  network: tcp
-  password: c5691b8f-d833-41e4-9295-769f3edb4cd2
-  port: 443
-  server: customer-185-231-206-12.stark-industries.solutions
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 73|俄罗斯+鞑靼斯坦喀山justhost
-  password: dongtaiwang.com
-  port: 12345
-  server: 46.17.40.57
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 73|🇷🇺 www.85la.com 俄罗斯 63
-  network: tcp
-  port: 2098
-  server: f41.maryam1500.top
-  skip-cert-verify: true
-  tls: false
+  grpc-opts:
+    grpc-service-name: '@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs'
+  name: '68|449|🇷🇺 Russian Federation - NA... #7'
+  network: grpc
+  port: 8443
+  server: 185.109.21.111
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+  uuid: 35c918a9-0dda-4630-8e22-173fc2b1b391
 - alterId: 0
   cipher: auto
-  name: '129|👉🆔 @v2ray_configs_pool📡🇷🇺Russi... #2'
+  name: 68,73|4,486|🇷🇺 www.85la.com 俄罗斯 24
   network: ws
-  port: '8080'
+  port: 7806
   server: 176.32.33.158
   tls: false
   type: vmess
-  uuid: d2372537-6a05-49bb-882d-84f2efd9fb7c
+  uuid: 4f4b8d86-548e-45ee-8b1c-afc5871a8da3
   ws-opts:
-    headers:
-      Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,58,73,81,84,86|RU_3695
-  password: s#W0tqg%@N
-  port: 23022
-  server: 109.120.186.9
-  type: ss
-- name: 86|TR-WS-TLS 🇷🇺 RU-45.8.211.242:4...
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #46'
   network: ws
-  password: bpb-trojan
+  port: 80
+  server: 5.188.121.133
+  tls: false
+  type: vmess
+  uuid: e0337da7-b4ae-478f-989a-19d0bc00225e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|240|俄罗斯(油管:破解资源君) #6'
+  network: ws
   port: 443
-  server: 45.8.211.242
-  sni: bpb.my79801.com
-  type: trojan
+  server: gcssjp.sylu.cyou
+  tls: true
+  type: vmess
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
   ws-opts:
     headers:
-      Host: bpb.my79801.com
-    path: /tr
+      Host: gcssjp.sylu.cyou
+    path: /Falling42gcssjpnode
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #52'
+  network: ws
+  port: 80
+  server: 5.188.121.138
+  tls: false
+  type: vmess
+  uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c
+  ws-opts:
+    path: /mehdi
+- cipher: chacha20-ietf-poly1305
+  name: 68|153,473|Russia_Krasnodar_ss_12...
+  password: Zu5sVdhPITkII1Rf9bUTjt0ws1nks4vgBoHhe7QxwEk0j3Ai
+  port: 51348
+  server: 146.185.198.44
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|240|俄罗斯(油管:破解资源君) #5'
+  network: ws
+  port: 443
+  server: gcsde.sylu.cyou
+  tls: true
+  type: vmess
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  ws-opts:
+    headers:
+      Host: gcsde.sylu.cyou
+    path: /Falling42gcsdenode
 - alterId: 32
   cipher: auto
-  name: '126,127|12|俄罗斯(欢迎订阅Youtube破解资源君) #1'
+  name: 134,135|12|俄罗斯(欢迎订阅Youtube破解资源君)
   network: ws
   port: '443'
-  server: v2-14.ssrsub.one
+  server: v2-11.ssrsub.one
   tls: true
   type: vmess
   uuid: 28adbea8-7c0d-4074-815f-10de6574fb2a
@@ -317,113 +149,85 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: RU
-  h2-opts: {}
   http-opts:
     method: GET
     path:
     - /
-  name: 37,39,40|RU_3727
+  name: 68,144|20|[VMess] RU_729
   network: http
   port: 2098
-  server: 185.247.184.115
-  skip-cert-verify: true
+  server: 147.45.51.16
+  tls: false
   type: vmess
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- cipher: aes-256-cfb
-  country: RU
-  name: 37,38,39,40,58,81,86,136,141|RU_3701
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 45.89.52.66
-  type: ss
 - alterId: 0
   cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37,122,129,149|RU_3709
+  name: 68|153,449|🇷🇺 Russian Federation ...
   network: ws
-  port: 9781
-  server: 176.32.33.73
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9d499f36-cf4a-47a6-9629-c9608927a1a3
-  ws-opts:
-    path: /
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000
-  fast-open: true
-  name: 57|Russia_Moscow_hy_1
-  port: 12345
-  ports: 12345
-  protocol: udp
-  server: 46.17.43.223
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 1000
-- alterId: 0
-  cipher: auto
-  name: '122,129|👉🆔 @v2ray_configs_pool📡🇷🇺Russi... #1'
-  network: ws
-  port: '9668'
-  server: 176.32.33.100
-  servername: ''
+  port: 80
+  server: 45.144.2.113
   tls: false
   type: vmess
-  uuid: 4c2a34ca-2da7-4c5c-9d74-6a3b0b586a47
+  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
   ws-opts:
-    headers:
-      Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: 69,80,122,126,129|俄罗斯 V2CROSS.COM 2
+  name: '68|449|🇷🇺 Russian Federation - Mo... #70'
   network: ws
-  port: 33026
-  server: socks5tobefree.ydns.eu
+  port: 80
+  server: 92.223.122.172
+  tls: false
+  type: vmess
+  uuid: e0337da7-b4ae-478f-989a-19d0bc00225e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #42'
+  network: ws
+  port: 8080
+  server: 95.181.230.68
+  tls: false
+  type: vmess
+  uuid: d0fd80a1-0a99-43ea-a18c-046c5106a961
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #48'
+  network: ws
+  port: 80
+  server: 5.188.121.135
+  tls: false
+  type: vmess
+  uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c
+  ws-opts:
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #91'
+  network: ws
+  port: 443
+  server: 92.223.122.170
+  servername: cc66.111711.xyz
   tls: true
   type: vmess
-  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
+  uuid: 859b9dd2-23e5-4663-abe9-aca56154a1f4
   ws-opts:
-    headers:
-      Host: socks5tobefree.ydns.eu
-    path: /dangerzone
+    path: /bb
 - alterId: 0
   cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37|RU_3705
-  network: ws
-  port: 9781
-  server: 46.29.161.224
-  skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: '@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet'
+  name: '68|449|🇷🇺 Russian Federation - NA... #8'
+  network: grpc
+  port: 8443
+  server: 45.67.215.70
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 7eaefdd1-6210-4837-8ce5-3ac2c4f391e0
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 73|🇷🇺 www.85la.com 俄罗斯 25_2
-  network: ws
-  port: 7806
-  server: 176.32.35.198
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8497d432-2a53-4ea2-8963-a19298a9c7fb
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 73|🇷🇺_RU_俄罗斯_2
-  password: 3MgIhqwp4pjM8SKwixNkYZ
-  port: 33068
-  server: 193.124.22.253
-  type: ss
+  uuid: 9dc54683-0996-4074-ab83-98da08d80e12
 - cipher: aes-128-gcm
   name: 75|🇷🇺 Web 俄罗斯I-标准 - AyucLouD-Serv...
   password: ayucloud1
@@ -436,57 +240,270 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,86|RU_3684
-  password: p0XqZ4Oiw2xZjPmVxzyg6PgL8vSajJ43Bb1ukJNnUT0kAkFOrqvWPxNl2xLSE0mw
-  port: 42658
-  server: 5.182.38.211
+  name: 68|153|🇷🇺 RU 36 → tg@nicevpn123
+  password: UXoGWyjwDVZIl1WMuHtxSi
+  port: 5700
+  server: 139.28.220.18
   type: ss
-- cipher: aes-256-gcm
-  name: 86|SS-TCP-NA 🇷🇺 RU-45.142.246.232...
-  password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
-  port: 19994
-  server: 45.142.246.232
-  type: ss
-- name: 86|TR-WS-TLS 🇷🇺 RU-46.254.92.27:4...
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 46.254.92.27
-  sni: zb.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: zb.ylks.xyz
-    path: /
 - alterId: 0
   cipher: auto
-  name: 73|俄罗斯联邦-250.3KB/s_1_358_358
-  network: ws
-  port: 33026
-  server: 89.169.55.152
-  skip-cert-verify: true
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '68|323,362,363,372,373,377,382,38... #360'
+  network: http
+  port: 37672
+  server: 176.119.159.245
+  servername: apple.com
   tls: true
   type: vmess
-  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
-  ws-opts:
-    headers:
-      host: socks5tobefree.ydns.eu
-    path: /dangerzone
+  uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
 - alterId: 0
   cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37,122,129|RU_3737
+  name: '68|449|🇷🇺 Russian Federation - Mo... #32'
   network: ws
-  port: 9781
-  server: 176.32.32.68
-  skip-cert-verify: true
+  port: 80
+  server: 5.188.121.165
+  tls: false
   type: vmess
-  uuid: 64c74108-eee1-4855-91e6-3609a0fb2a47
+  uuid: e0337da7-b4ae-478f-989a-19d0bc00225e
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 68|153|🇷🇺 RU 25 → tg@nicevpn123
+  network: ws
+  port: 2086
+  server: 45.133.247.249
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - St... #1'
+  network: ws
+  port: 80
+  server: 92.223.64.12
+  tls: false
+  type: vmess
+  uuid: 44c5de7f-0be4-4e96-c73c-f4c94c15e8af
+  ws-opts:
+    headers:
+      Host: parasto01.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: 68|188,254|RU🇷🇺 | vkvd127.mycdn.m...
+  network: ws
+  port: 80
+  server: 141.94.237.82
+  tls: false
+  type: vmess
+  uuid: fd43c7a9-19f7-4c3a-88e2-eaac77e08d42
+  ws-opts:
+    headers:
+      Host: vkvd127.mycdn.me
+    path: /RACEVPN
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 2 → tg@nicevpn123
+  password: u3vnfMkutB4brBoGSkAphE
+  port: 60422
+  server: 195.2.76.71
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #45'
+  network: ws
+  port: 443
+  server: 185.174.138.19
+  servername: rockp.blanku.me
+  tls: true
+  type: vmess
+  uuid: 91a4ed1f-f693-4685-a6be-f0981d6f2613
+  ws-opts:
+    headers:
+      Host: tree.blanku.me
+    path: /wss28885
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #46'
+  network: ws
+  port: 443
+  server: 185.174.138.16
+  servername: Kansas.bobbykotick.rip
+  tls: true
+  type: vmess
+  uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+  ws-opts:
+    headers:
+      Host: Kansas.bobbykotick.rip
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #80'
+  network: ws
+  port: 443
+  server: 103.113.68.233
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #64'
+  network: ws
+  port: 443
+  server: 185.109.21.243
+  servername: Kansas.kotick.site
+  tls: true
+  type: vmess
+  uuid: 57B70423-6992-4A04-9939-D2844170C079
+  ws-opts:
+    headers:
+      Host: Kansas.kotick.site
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 68|449|🇷🇺 Russian Federation - Sa...
+  network: ws
+  port: 80
+  server: 92.223.43.13
+  tls: false
+  type: vmess
+  uuid: 89a151c7-9484-4e63-d921-c30245337408
+  ws-opts:
+    headers:
+      Host: mashti89.ddns.net
+    path: /mehdi
+- name: 73|俄罗斯+V2CROSS.COM_4_248
+  network: tcp
+  password: c5691b8f-d833-41e4-9295-769f3edb4cd2
+  port: 443
+  server: customer-185-231-206-12.stark-industries.solutions
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #21'
+  network: ws
+  port: 80
+  server: 185.221.160.42
+  servername: hello-world-solitary-sky-c0bf.ourwayapp.workers.dev
+  tls: false
+  type: vmess
+  uuid: 1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c
+  ws-opts:
+    path: /oSiR4t7dQow0J9ea3kKkF
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 37,58,68,73,81,84,86|RU_3578
+  password: s#W0tqg%@N
+  port: 23022
+  server: 109.120.186.9
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68,73|271|俄罗斯-圣彼得堡-003
+  network: ws
+  port: 8639
+  server: 195.58.48.220
+  tls: false
+  type: vmess
+  uuid: 58295eb4-d83e-453a-b4a6-6f659825afc7
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #51'
+  network: ws
+  port: 443
+  server: 45.142.120.54
+  servername: sandp.blanku.me
+  tls: true
+  type: vmess
+  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  ws-opts:
+    headers:
+      Host: sand.blanku.me
+    path: /wss51068
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '68|449|🇷🇺 Russian Federation - NA... #14'
+  network: grpc
+  port: 2087
+  server: 185.221.160.205
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: dd1f6c32-e31d-4282-8c1e-9e9f5686e013
+- alterId: 0
+  cipher: auto
+  name: '137|👉🆔 @v2ray_configs_pool📡🇷🇺Russi... #6'
+  network: ws
+  port: '9781'
+  server: 176.32.33.100
+  tls: false
+  type: vmess
+  uuid: eb335cf0-c534-40b2-80d5-07b5a5da6119
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #50'
+  network: ws
+  port: 2086
+  server: 103.113.68.233
+  tls: false
+  type: vmess
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #41'
+  network: ws
+  port: 15481
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: df3fd5ce-a20c-497a-8eb6-693a017a1761
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 37,86|RU_3584
+  password: UVkBuHr6db60WgQxx7jpNrNw02dpHyaFDDXSc8GSPrjPv2hafHo0ORyo1tGSX527
+  port: 52293
+  server: 193.46.56.10
+  type: ss
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: els_grpcone.yunjisuan.cf
+  name: '68|449|🇷🇺 Russian Federation - Mo... #5'
+  network: grpc
+  port: 15833
+  server: 185.22.154.111
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f28968b5-cae5-4c64-929c-123cca068c7d
+- cipher: chacha20-ietf-poly1305
+  name: 68|117,363,384|🇺RU-91.207.183.63-...
+  password: mX1q8sv17wA5LGDHIHD6Jo
+  port: 15720
+  server: 91.207.183.63
+  type: ss
 - name: 86|TR-WS-NA 🇷🇺 RU-185.174.138.239...
   network: ws
   password: bpb-trojan
@@ -500,73 +517,440 @@ proxies:
     path: /tr
 - alterId: 0
   cipher: auto
-  name: 73|🇷🇺 www.85la.com 俄罗斯 02
+  name: '68|438,449|🇷🇺 Russian Federation ... #2'
   network: ws
-  port: 8639
-  server: 195.58.48.220
-  skip-cert-verify: true
+  port: 2052
+  server: 185.221.160.125
   tls: false
   type: vmess
-  uuid: 56701d98-27dd-4e55-ad42-940e3892391b
+  uuid: 6066abf1-cdb1-4818-d35a-7c8e0ee90320
+  ws-opts:
+    headers:
+      Host: aa.v2jey.fun
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|449|🇷🇺 Russian Federation - Ka...
+  network: ws
+  port: 80
+  server: 95.85.88.8
+  tls: false
+  type: vmess
+  uuid: 89a151c7-9484-4e63-d921-c30245337408
+  ws-opts:
+    headers:
+      Host: mashti89.ddns.net
+    path: /mehdi
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 37,38,40,68,71,73,84,86,88,145|RU_3579
+  password: 6OAGLD+DOA6UcFp5Udf0r/UzyjwHV+yheNkoFDk6uL8=
+  port: 38753
+  server: 213.108.22.109
+  type: ss
+- cipher: aes-256-cfb
+  name: 68|363,384,590|[02-24]-🇺-俄罗斯-160-...
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 217.30.10.63
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Ye... #2'
+  network: ws
+  port: 80
+  server: 92.223.108.14
+  tls: false
+  type: vmess
+  uuid: ba9c93d7-490c-4dba-c21a-a50b94cd9c90
+  ws-opts:
+    path: /mehdi
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 43,68|RU_89
+  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
+  port: 13022
+  server: 212.113.106.243
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|240|俄罗斯(油管:破解资源君) #7'
+  network: ws
+  port: 443
+  server: gcsshk.sylu.cyou
+  tls: true
+  type: vmess
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  ws-opts:
+    headers:
+      Host: gcsshk.sylu.cyou
+    path: /Falling42gcsshknode
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 47 → tg@nicevpn123
+  password: ndJuPjq7WbFDjB4oacljGw
+  port: 10141
+  server: 5.182.36.245
+  type: ss
+- cipher: aes-256-cfb
+  name: 68|363,384|🇺RU-213.183.53.208-546...
+  password: GeregetR8cvQHzYr
+  port: 9030
+  server: 213.183.53.208
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #28'
+  network: ws
+  port: 443
+  server: 185.135.82.125
+  tls: false
+  type: vmess
+  uuid: 8d78c2a8-acaa-467d-9234-d2606624506d
+  ws-opts:
+    headers:
+      Host: www.69296134.xyz
+    path: /path/243535322906
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #59'
+  network: ws
+  port: 443
+  server: 194.87.48.43
+  tls: false
+  type: vmess
+  uuid: e2b68fe2-eff2-476b-94cc-b256652010cc
+  ws-opts:
+    headers:
+      Host: ahqls.cdn.node.a.tddns-ounk.com
+    path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8
+- alterId: 1
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #29'
+  network: ws
+  port: 80
+  server: 45.144.2.10
+  tls: false
+  type: vmess
+  uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641
+  ws-opts:
+    path: /WebSocket
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #35'
+  network: ws
+  port: 49987
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 814536ee-60c5-4ae2-c180-10675abde770
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|649|俄罗斯联邦_1204015
+  network: ws
+  port: 2082
+  server: 185.59.218.24
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #30'
+  network: ws
+  port: 32910
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 430c607a-2996-4eba-ab48-1f4407bee973
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #16'
+  network: ws
+  port: 20203
+  server: 185.246.154.69
+  tls: false
+  type: vmess
+  uuid: fe1c4015-4a86-4da4-8ee8-4aad07754275
+  ws-opts:
+    headers:
+      Host: yongdong.xyz
+    path: /yongdong
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #17'
+  network: ws
+  port: 80
+  server: 45.67.215.70
+  tls: false
+  type: vmess
+  uuid: 03e5dd72-5e9d-4e55-9504-ff8c2131b225
+  ws-opts:
+    headers:
+      Host: sbl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '126,130|👉🆔 @v2ray_configs_pool📡🇷🇺Russi... #3'
+  network: ws
+  port: '12425'
+  server: 45.8.158.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- cipher: chacha20-ietf-poly1305
+  name: 68|252|RU 🇷🇺 St Petersburg
+  password: Kw6hMXQ2Z7ey7mf2Uqyr
+  port: 8389
+  server: 82.202.220.242
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|240|俄罗斯(油管:破解资源君) #3'
+  network: ws
+  port: 443
+  server: gcorehkk.sylu.cyou
+  tls: true
+  type: vmess
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  ws-opts:
+    headers:
+      Host: gcorehkk.sylu.cyou
+    path: /Falling42gcorehkknode
+- alterId: 32
+  cipher: auto
+  name: 68|283|🇷🇺 RU_968 |23.14Mb
+  network: ws
+  port: 443
+  server: v2-12.ssrsub.one
+  tls: true
+  type: vmess
+  uuid: 9c6a715a-9707-42c3-8ff6-9737bd456cf2
+  ws-opts:
+    headers:
+      Host: v2-12.ssrsub.one
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #24'
+  network: ws
+  port: 30481
+  server: 194.67.111.4
+  tls: false
+  type: vmess
+  uuid: cba3d128-72be-4b54-acd5-76abc467bfc8
   ws-opts:
     path: /
 - alterId: 32
   cipher: auto
-  name: 126,127|12|俄罗斯(欢迎订阅Youtube破解资源君)
+  name: 68,70|283,430|🇷🇺 RU_1211 | 1.53Mb
   network: ws
-  port: '443'
-  server: v2-11.ssrsub.one
+  port: 443
+  server: v2-14.ssrsub.one
   tls: true
   type: vmess
-  uuid: 28adbea8-7c0d-4074-815f-10de6574fb2a
+  uuid: 9c6a715a-9707-42c3-8ff6-9737bd456cf2
   ws-opts:
     headers:
-      Host: ''
+      Host: v2-14.ssrsub.one
     path: /
-- cipher: aes-256-gcm
-  name: '86|SS-TCP-NA 🇷🇺 RU-45.142.246.232... #1'
-  password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
-  port: 19796
-  server: 45.142.246.232
-  type: ss
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000
-  fast-open: true
-  name: 57|Russia_Moscow_hy_0
-  port: 64907
-  ports: 30000-40000
-  protocol: udp
-  server: 46.17.43.223
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 1000
 - alterId: 0
   cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37,122|RU_3706
+  name: '68|449|🇷🇺 Russian Federation - No... #1'
   network: ws
-  port: 9781
-  server: 46.29.161.159
-  skip-cert-verify: true
+  port: 14369
+  server: 195.133.53.192
+  tls: false
   type: vmess
-  uuid: 0b81bf04-d700-45eb-88ac-9e0e4a199ff3
+  uuid: 2331affa-1194-45ae-9457-3746120c4751
+  ws-opts:
+    headers:
+      Host: 195.133.53.192
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #37'
+  network: ws
+  port: 55119
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 9b2effd1-be51-41dc-a4c6-f67185194c6e
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 68|117,363,384|🇺RU-146.185.198.44...
+  password: V7jmsA6PQsLn
+  port: 444
+  server: 146.185.198.44
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #12'
+  network: ws
+  port: 80
+  server: 5.188.121.163
+  tls: false
+  type: vmess
+  uuid: e0337da7-b4ae-478f-989a-19d0bc00225e
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #57'
+  network: ws
+  port: 443
+  server: 45.151.144.234
+  tls: false
+  type: vmess
+  uuid: 9afbb703-c486-39b1-9cd6-abdd430973e9
+  ws-opts:
+    headers:
+      Host: 45.151.144.234
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #8'
+  network: ws
+  port: 80
+  server: 92.223.122.177
+  tls: false
+  type: vmess
+  uuid: e0337da7-b4ae-478f-989a-19d0bc00225e
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: 73|🇷🇺 www.85la.com 俄罗斯 26
+  name: 68,73|486|🇷🇺 www.85la.com 俄罗斯 25
   network: ws
-  port: 4900
+  port: 7806
   server: 176.32.35.198
-  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 56701d98-27dd-4e55-ad42-940e3892391b
+  uuid: 8497d432-2a53-4ea2-8963-a19298a9c7fb
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 87 → tg@nicevpn123
+  password: tEO1As10EffDW5svXAwgvb
+  port: 2562
+  server: 77.105.140.135
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #65'
+  network: ws
+  port: 443
+  server: 185.176.24.3
+  servername: lingering-firefly-dcd7.rrp65536.workers.dev
+  tls: true
+  type: vmess
+  uuid: 2D967DC2-0B1D-4858-A2BD-4FA25BC61F71
+  ws-opts:
+    headers:
+      Host: lingering-firefly-dcd7.rrp65536.workers.dev
+    path: /speedtest/Amsterdam.kotick.site
+- alterId: 0
+  cipher: auto
+  name: 68|69,222,232,536,539,547,548,551...
+  network: ws
+  port: 12425
+  server: 45.8.158.32
+  tls: false
+  type: vmess
+  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #43'
+  network: ws
+  port: 8080
+  server: 109.107.189.219
+  tls: false
+  type: vmess
+  uuid: 595f5e67-1501-4a04-8cab-274830ef94ae
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #7'
+  network: ws
+  port: 80
+  server: 92.223.122.173
+  tls: false
+  type: vmess
+  uuid: e0337da7-b4ae-478f-989a-19d0bc00225e
+  ws-opts:
+    headers:
+      Host: telegram.helix-servers.jboy.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '68|449|🇷🇺 Russian Federation - NA... #11'
+  network: grpc
+  port: 443
+  server: 45.142.120.117
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 994a53a8-8bc4-4183-92b5-c7b72ce8e93d
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #69'
+  network: ws
+  port: 80
+  server: 92.223.122.170
+  tls: false
+  type: vmess
+  uuid: ba9c93d7-490c-4dba-c21a-a50b94cd9c90
+  ws-opts:
+    path: /mehdi
+- cipher: aes-256-cfb
+  country: RU
+  name: 37,68,86,144|RU_3583
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 45.89.52.66
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #81'
+  network: ws
+  port: 443
+  server: 45.135.134.137
+  servername: v116a.aagogo.cf
+  tls: true
+  type: vmess
+  uuid: c7ba8e84-2d65-38e6-92e8-2c13bb6dd512
+  ws-opts:
+    headers:
+      Host: v116a.aagogo.cf
+    path: /v116-kDPxxx6Otf
+- alterId: 64
+  cipher: auto
+  name: 68|430|🇷🇺 RU_1210 |37.56Mb
+  network: ws
+  port: 6666
+  server: 91.245.227.135
+  tls: false
+  type: vmess
+  uuid: df1c069f-e97c-4580-adf2-e2b4186a5589
   ws-opts:
     path: /
 - alterId: 0
@@ -589,178 +973,554 @@ proxies:
     path: /iphone
 - alterId: 0
   cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 37,39,40|RU_3724
-  network: http
-  port: 2098
-  server: f41.maryam1500.top
-  servername: f41.maryam1500.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- name: 86|TR-WS-TLS 🇷🇺 RU-185.148.107.11...
+  name: '68|438,449|🇷🇺 Russian Federation ... #3'
   network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 185.148.107.11
-  sni: zb.ylks.xyz
-  type: trojan
+  port: 2082
+  server: 185.221.160.125
+  tls: false
+  type: vmess
+  uuid: 07a85318-7c20-4a5e-b61b-9d1436128b66
   ws-opts:
     headers:
-      Host: zb.ylks.xyz
+      Host: cc.v2jey.fun
     path: /
-- cipher: aes-128-gcm
-  name: 75|🇷🇺 Game 俄罗斯01-标准 - AyucLouD-Se...
-  password: dajkdkjda&dja*/?
-  plugin: obfs
-  plugin-opts:
-    host: b4caf103606.download.windowsupdate.com
-    mode: http
-  port: 37863
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  country: RU
-  name: 37,86|RU_3699
-  password: X522OqAdyYS4HBeQ3Djjq7Ou1+MryMZFu4IRaNKcWF0=
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #74'
+  network: ws
   port: 2096
-  server: 109.120.176.218
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '129|👉🆔 @v2ray_configs_pool📡🇷🇺Russi... #3'
-  network: ws
-  port: '7806'
-  server: 46.29.161.159
-  tls: false
-  type: vmess
-  uuid: ecbf0e0f-5cc9-47eb-99c1-8b3bb2c58627
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 122|🇷🇺 Russia
-  network: ws
-  port: '2024'
-  server: 45.14.244.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bf1dd328-a605-48fd-918f-44cca1cfe07f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: 86|TR-WS-TLS 🇷🇺 RU-185.176.24.2:4...
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 185.176.24.2
-  sni: 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV
-    path: /tr9vfP2lflALkJrNsQ?ed=2560
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 43|RU_91
-  password: GXGhsxweEyBgvyUc5Xaoae
-  port: 15708
-  server: 77.91.103.108
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 136|RU_733
-  network: http
-  port: 2098
-  server: 147.45.51.16
-  skip-cert-verify: true
-  type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- name: 86|TR-WS-TLS 🇷🇺 RU-194.53.53.140:...
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 194.53.53.140
-  sni: za.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: za.ylks.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '19,74|🇷🇺_RU_俄罗斯联邦 #1'
-  network: ws
-  port: 12910
-  server: 45.136.245.240
+  server: 103.113.68.233
+  servername: vk.com
   tls: true
   type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
   ws-opts:
-    path: /
+    headers:
+      Host: vk.com
+    path: /vmess
+- alterId: 2
+  cipher: auto
+  name: 68|283,430,449|🇷🇺 Russian Federat...
+  network: ws
+  port: 233
+  server: 45.89.229.9
+  tls: false
+  type: vmess
+  uuid: 40d245c7-138f-3a25-aa26-2bbcbf4a17af
+  ws-opts:
+    headers:
+      Host: RU02-1-BUDNA.233cloud-node.com
+    path: /v2ray/233yun.xyz
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #41'
+  network: ws
+  port: 443
+  server: 185.59.218.25
+  servername: Kansas.gafn.online
+  tls: true
+  type: vmess
+  uuid: C704DFEA-298E-41E9-AFBF-01DB2270F5A1
+  ws-opts:
+    headers:
+      Host: Kansas.gafn.online
+    path: /speedtest
 - cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 43|RU_89
-  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
-  port: 13022
-  server: 212.113.106.243
+  name: 68|153|🇷🇺 RU 91 → tg@nicevpn123
+  password: VRKnPTULDqxaExI5yLJjoc
+  port: 32025
+  server: 92.246.136.190
   type: ss
 - alterId: 0
   cipher: auto
-  country: 🇺 RU
-  h2-opts: {}
-  http-opts: {}
-  name: 141|🇷🇺 RU_522
+  name: '68|449|🇷🇺 Russian Federation - Mo... #58'
+  network: ws
+  port: 2052
+  server: 194.87.70.83
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-opts:
+    headers:
+      Host: v138a.ai88888.top
+    path: /526-ddxDMRvLdlt
+- alterId: 0
+  cipher: auto
+  name: '68|438,449|🇷🇺 Russian Federation ... #5'
+  network: ws
+  port: 8880
+  server: 185.221.160.125
+  tls: false
+  type: vmess
+  uuid: 3fdc90df-4a88-4d02-de2d-6b3e1576b805
+  ws-opts:
+    headers:
+      Host: aa.v2jey.fun
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '126,130,137|👉🆔 @v2ray_configs_pool📡🇷🇺Russi... #2'
+  network: ws
+  port: '9781'
+  server: 176.32.33.73
+  tls: false
+  type: vmess
+  uuid: 4e3b8f22-6b2f-4fdc-b76a-db013679f185
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68,126,130|191|🇷🇺_RU_俄罗斯联邦_3@38
+  network: ws
+  port: 80
+  server: 45.89.230.196
+  tls: false
+  type: vmess
+  uuid: 8f9f526b-cab6-41d2-9424-cbdde94ea14f
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|323,362,363,372,373,377,382,38... #866'
   network: ws
   port: 443
   server: 185.221.160.163
-  servername: worker-mute-bar-1719.nifotok993.workers.dev
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: worker-lingering-fog-c021.gesofog870.workers.dev
+    path: /kellie.makeup/linkvws
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '68|449|🇷🇺 Russian Federation - NA... #13'
+  network: grpc
+  port: 2087
+  server: 31.12.75.204
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 08ec6a06-8c15-4069-a781-8c725a30b7e7
+- cipher: chacha20-ietf-poly1305
+  name: 68|252|RU 🇷🇺 Moscow
+  password: BjnLULGTNTBUCvuSaW8f
+  port: 8389
+  server: 80.93.181.194
+  type: ss
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: '@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet'
+  name: 68|449|🇷🇺 Russian Federation - NA...
+  network: grpc
+  port: 2083
+  server: 45.67.215.70
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5c211ebb-3a70-4953-b22d-5807c90a495c
+- alterId: 0
+  cipher: auto
+  name: '73|二爷翻墙网 https://1808.free.hr_RU_... #1'
+  network: ws
+  port: 443
+  server: 194.76.18.22
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-headers:
-    HOST: worker-mute-bar-1719.nifotok993.workers.dev
-  ws-path: /glweidf.cfd/linkws
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 86|VM-WS-NA 🇷🇺 RU-195.58.49.12:50...
+  name: '68|449|🇷🇺 Russian Federation - Mo... #66'
   network: ws
-  port: 5025
-  server: 195.58.49.12
+  port: 15263
+  server: 176.32.35.57
   tls: false
   type: vmess
-  uuid: 2c1bf682-52de-49a3-a4a2-8725bf6e5e01
+  uuid: 157bad50-258a-47ce-e732-828fc24fbbba
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37,122,129|RU_3717
+  name: '68|449|🇷🇺 Russian Federation - Mo... #26'
   network: ws
-  port: 9781
-  server: 46.29.161.15
-  skip-cert-verify: true
+  port: 80
+  server: 92.223.123.51
+  tls: false
   type: vmess
-  uuid: 8765b365-4d13-4b15-b5cb-74a8a18b2260
+  uuid: e0337da7-b4ae-478f-989a-19d0bc00225e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Sa... #1'
+  network: ws
+  port: 80
+  server: 92.223.43.14
+  tls: false
+  type: vmess
+  uuid: 841e673e-4885-4ec4-f35f-89bb581e161c
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - St... #3'
+  network: ws
+  port: 8080
+  server: 194.147.85.212
+  tls: false
+  type: vmess
+  uuid: c401a8ab-7836-44bc-828f-a51e4860d3a9
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #25'
+  network: ws
+  port: 80
+  server: 92.223.123.50
+  tls: false
+  type: vmess
+  uuid: e0337da7-b4ae-478f-989a-19d0bc00225e
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 37,38,39,40,73,86,144|RU_3577
+  password: 2fwufOmJ9ELfN4umzcHBfV
+  port: 12224
+  server: 194.87.82.28
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|153|🇷🇺 RU 79 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: elsone.vbdf.lol
+  tls: false
+  type: vmess
+  uuid: 94e070a5-fc29-49bf-a1c3-11f3ef2df33d
+  ws-opts:
+    headers:
+      Host: elsone.vbdf.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|153|🇷🇺 RU 94 → tg@nicevpn123
+  network: ws
+  port: 8000
+  server: mdlzz.vbdf.lol
+  tls: false
+  type: vmess
+  uuid: 94e070a5-fc29-49bf-a1c3-11f3ef2df33d
+  ws-opts:
+    headers:
+      Host: mdlzz.vbdf.lol
+    path: /?ed=512
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #78'
+  network: ws
+  port: 2083
+  server: 103.113.68.233
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 68|43,449|🇷🇺 Russian Federation -...
+  network: ws
+  port: 443
+  server: 195.133.53.253
+  tls: false
+  type: vmess
+  uuid: 04b38baf-5b78-4937-b27a-83057b08b776
+  ws-opts:
+    headers:
+      Host: 195.133.53.253
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #82'
+  network: ws
+  port: 8443
+  server: 103.113.68.233
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #39'
+  network: ws
+  port: 443
+  server: 185.59.218.139
+  servername: Kansas.Kotick.site
+  tls: true
+  type: vmess
+  uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+  ws-opts:
+    headers:
+      Host: Kansas.Kotick.site
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #71'
+  network: ws
+  port: 443
+  server: 193.9.49.34
+  servername: lille.kotick.site
+  tls: true
+  type: vmess
+  uuid: 021017F5-220B-4A8B-9D2A-8AFFFC50E810
+  ws-opts:
+    headers:
+      Host: lille.kotick.site
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #47'
+  network: ws
+  port: 443
+  server: 185.174.138.221
+  servername: Amsterdam.kotick.site
+  tls: true
+  type: vmess
+  uuid: 57B70423-6992-4A04-9939-D2844170C079
+  ws-opts:
+    headers:
+      Host: Amsterdam.kotick.site
+    path: /speedtest
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 8 → tg@nicevpn123
+  password: 1f8jdOIKkxRWMUeOfXPeo8
+  port: 28190
+  server: 109.107.172.30
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #83'
+  network: ws
+  port: 36904
+  server: 185.143.221.235
+  servername: ru.zerodisk.site
+  tls: true
+  type: vmess
+  uuid: f8ef7c47-9735-439c-a42b-355bae224656
+  ws-opts:
+    headers:
+      Host: ru.zerodisk.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|117,323,362,363,372,373,377,38... #83'
+  network: ws
+  port: 443
+  server: 185.59.218.177
+  tls: false
+  type: vmess
+  uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+  ws-opts:
+    path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
+- alterId: 0
+  cipher: auto
+  name: 68,137|4,556,561,562|🔒 VM-WS-NA 🇷🇺 RU...
+  network: ws
+  port: 7806
+  server: 46.29.161.159
+  tls: false
+  type: vmess
+  uuid: d150e5c1-11a4-4737-86f6-aeefde5acc62
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #62'
+  network: ws
+  port: 852
+  server: 176.119.156.229
+  tls: false
+  type: vmess
+  uuid: 04eb6d9d-f6b8-4f6a-92e7-b336b2168b26
+  ws-opts:
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: '68|582|32|🇷🇺 俄罗斯(油管:破解资源君2.0) #6'
+  network: ws
+  port: 80
+  server: 45.11.92.100
+  tls: false
+  type: vmess
+  uuid: e026af69-5e36-4cd5-d40e-347f2955a3f6
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 57 → tg@nicevpn123
+  password: xCoBqYZGaMivNlzIhjpIH5
+  port: 31212
+  server: 85.192.63.92
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 65 → tg@nicevpn123
+  password: LLVD6lbENjzG1vj15Fvq7r
+  port: 15174
+  server: 62.113.110.233
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|582,583|RU 4|openitr
+  network: ws
+  port: 80
+  server: de3-vmess.sshmax.xyz
+  tls: false
+  type: vmess
+  uuid: 4ec2f1b0-b45d-41bf-b1d1-ec6ad7206cc8
+  ws-opts:
+    headers:
+      Host: de3-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - No... #7'
+  network: ws
+  port: 443
+  server: 195.133.53.90
+  servername: 195.133.53.90
+  tls: false
+  type: vmess
+  uuid: 04b38baf-5b78-4937-b27a-83057b08b776
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Sa... #3'
+  network: ws
+  port: 443
+  server: 92.223.43.14
+  servername: pepsiii.ddns.net
+  tls: true
+  type: vmess
+  uuid: fa773763-0a31-4ee0-9494-141e7ec50eef
+  ws-opts:
+    headers:
+      Host: pepsiii.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|188,254|RU🇷🇺 | vkvd127.mycdn.m... #5'
+  network: ws
+  port: 80
+  server: us.eaxeg.be
+  tls: false
+  type: vmess
+  uuid: ec451354-ad9c-4a01-9c93-5dbb9409623d
+  ws-opts:
+    headers:
+      Host: vkvd127.mycdn.me
+    path: /5k7oCLn871DU5O2ONZ6a2i
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '68|449|🇷🇺 Russian Federation - NA... #4'
+  network: grpc
+  port: 2087
+  server: 31.12.75.203
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 08ec6a06-8c15-4069-a781-8c725a30b7e7
+- alterId: 0
+  cipher: auto
+  name: 68|449|🇷🇺 Russian Federation - No...
+  network: ws
+  port: 80
+  server: 5.8.43.5
+  tls: false
+  type: vmess
+  uuid: 44c5de7f-0be4-4e96-c73c-f4c94c15e8af
+  ws-opts:
+    headers:
+      Host: parasto01.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #45'
+  network: ws
+  port: 80
+  server: 5.188.121.132
+  tls: false
+  type: vmess
+  uuid: a1a0bbfd-390b-437c-e8aa-3f61654fc7a8
+  ws-opts:
+    path: /mehdi
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 77 → tg@nicevpn123
+  password: NdipHbnILjBtQgQx0Iww5q
+  port: 59393
+  server: 83.217.9.199
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Ye... #1'
+  network: ws
+  port: 80
+  server: 92.223.108.15
+  tls: false
+  type: vmess
+  uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c
+  ws-opts:
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Kr... #4'
+  network: ws
+  port: 80
+  server: 92.223.114.6
+  tls: false
+  type: vmess
+  uuid: 8bb11d57-929e-40a3-c4bc-61f9bbc85af8
+  ws-opts:
+    headers:
+      Host: koooka.ddns.net
+    path: /mehdi
+- alterId: 2
+  cipher: auto
+  name: 68|283,449|🇷🇺 Russian Federation ...
+  network: ws
+  port: 233
+  server: 2.56.240.171
+  tls: false
+  type: vmess
+  uuid: 40d245c7-138f-3a25-aa26-2bbcbf4a17af
+  ws-opts:
+    headers:
+      Host: RU01-1-4UD60.233cloud-node.com
+    path: /v2ray/233yun.xyz
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #40'
+  network: ws
+  port: 80
+  server: 5.188.121.178
+  tls: false
+  type: vmess
+  uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c
   ws-opts:
     path: /
 - alterId: 0
@@ -779,125 +1539,106 @@ proxies:
     path: /xyz
 - alterId: 0
   cipher: auto
-  name: 122,129|@ProxyFn / @nimPRO 🇷🇺
+  name: '68|449|🇷🇺 Russian Federation - Kr... #2'
   network: ws
-  port: '48257'
-  server: 185.143.220.99
-  servername: ''
+  port: 80
+  server: 92.223.114.14
   tls: false
   type: vmess
-  uuid: a5f79062-a0aa-445a-f087-6b7121ee110e
+  uuid: e0337da7-b4ae-478f-989a-19d0bc00225e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|438,449|🇷🇺 Russian Federation ... #6'
+  network: ws
+  port: 8880
+  server: 45.142.120.10
+  tls: false
+  type: vmess
+  uuid: 3fdc90df-4a88-4d02-de2d-6b3e1576b805
   ws-opts:
     headers:
-      Host: ''
-    path: /?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 87|俄罗斯01 | 1x RU
-  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
-  port: 41511
-  server: free.6vczxw.xyz
+      Host: aa.v2jey.fun
+    path: /
+- cipher: aes-256-cfb
+  name: 68|363,384,590|[02-24]-🇺-俄罗斯-167-...
+  password: NvS8N4Vf8qAGPSCL
+  port: 9046
+  server: 217.30.10.63
   type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 73|🇷🇺 www.85la.com 俄罗斯 64
-  network: tcp
-  port: 2098
-  server: 185.247.184.115
-  skip-cert-verify: true
+  name: '68|191,323,362,363,372,373,377,38... #78'
+  network: ws
+  port: 10258
+  server: 45.129.2.237
   tls: false
   type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+  uuid: add194d6-192c-4ea3-a5af-eea994390831
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 48|俄罗斯(yudou66.com 玉豆免费节点)
+  name: '68|449|🇷🇺 Russian Federation - NA... #23'
   network: ws
-  port: '33026'
-  server: 89.169.55.152
+  port: 80
+  server: 109.172.45.81
+  tls: false
+  type: vmess
+  uuid: 4c586bac-7408-4db2-a47d-0f2eeccd1c80
+  ws-opts:
+    path: /@vcloud21
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 68|153|🇷🇺 RU 88 → tg@nicevpn123
+  network: grpc
+  port: 32740
+  server: 5.42.80.252
   servername: ''
   tls: true
   type: vmess
-  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
-  ws-opts:
-    headers:
-      Host: socks5tobefree.ydns.eu
-    path: /dangerzone
-- name: 86|TR-WS-TLS 🇷🇺 RU-46.254.92.112:...
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 46.254.92.112
-  sni: za.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: za.ylks.xyz
-    path: /
-- fast-open: true
-  name: 57|Russia_Moscow_hy2_0
-  password: dongtaiwang.com
-  port: 50717
-  server: 46.17.41.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,64,86|RU_3680
-  password: oYQ8JwEldYn4KT2gfZ6eNl
-  port: 51584
-  server: 89.23.103.21
-  type: ss
+  uuid: 433f1111-b780-4eae-b7e7-d7823b09e701
 - alterId: 0
   cipher: auto
-  name: 73|🇷🇺 www.85la.com 俄罗斯 05
+  name: '68|449|🇷🇺 Russian Federation - No... #4'
   network: ws
-  port: 2593
-  server: 176.32.33.158
-  skip-cert-verify: true
+  port: 27182
+  server: 195.133.53.192
   tls: false
   type: vmess
-  uuid: 921712b1-2fb3-4963-9d70-eb9fafdab1e5
+  uuid: a22df2ec-6200-11ec-9070-fecccc2333dc
   ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 43|RU_90
-  password: P2zxXPewlV3BlfqqYiSthvtLc
-  port: 12949
-  server: 212.113.106.243
-  type: ss
-- cipher: aes-256-cfb
-  country: RU
-  name: 37,38,39,40,58,81,86,141|RU_3702
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 45.89.52.66
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,86|RU_3700
-  password: O4xHyEq9GnMgORYoDUDP8e
-  port: 15584
-  server: 213.108.23.243
-  type: ss
+    path: /AmrTCtbk/
 - alterId: 0
   cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37,129|RU_3707
+  name: '68|449|🇷🇺 Russian Federation - Mo... #44'
   network: ws
-  port: 9781
-  server: 46.29.161.228
-  skip-cert-verify: true
+  port: 80
+  server: 5.188.121.179
+  tls: false
   type: vmess
-  uuid: eb335cf0-c534-40b2-80d5-07b5a5da6119
+  uuid: 336ae92f-b745-40dc-cc4d-01e8313a5d51
   ws-opts:
-    path: /
+    path: /mehdi
+- alterId: 2
+  cipher: auto
+  name: 68|96|github.com/mianfeifq |🇷🇺俄罗斯...
+  network: ws
+  port: 443
+  server: 625tw01.fx6688.top
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      Host: 625tw01.fx6688.top
+    path: /ray
 - alterId: 0
   cipher: auto
-  name: 86,122|VM-WS-TLS 🇷🇺 RU-45.67.32.147:4...
+  name: 68,86,126,130|69,76,222,226,232,536,539,547,...
   network: ws
   port: 40413
   server: 45.67.32.147
@@ -909,6 +1650,353 @@ proxies:
     headers:
       Host: jh57.dumbppl.lovestoblog.com
     path: /makeacall
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #89'
+  network: ws
+  port: 443
+  server: 5.188.121.135
+  servername: zero666.ddns.net
+  tls: true
+  type: vmess
+  uuid: 0575c4de-8db2-4f44-837a-6afeae3e48f2
+  ws-opts:
+    headers:
+      Host: zero666.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: 68|153,582,583|RU 9|openitr
+  network: ws
+  port: 443
+  server: nl-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: f269033e-a955-4dee-9345-948ed5b77838
+  ws-opts:
+    headers:
+      Host: nl-full.privateip.net
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #79'
+  network: ws
+  port: 2087
+  server: 103.113.68.233
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #38'
+  network: ws
+  port: 33041
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 9db43f70-d9d0-49dc-823c-138125092e33
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #10'
+  network: ws
+  port: 2095
+  server: 103.113.68.233
+  tls: false
+  type: vmess
+  uuid: 58b60a45-b09a-409b-ac56-e705af76054a
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /vmess
+- cipher: aes-256-gcm
+  name: 73|俄罗斯+鞑靼斯坦喀山justhost
+  password: dongtaiwang.com
+  port: 12345
+  server: 46.17.40.57
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #13'
+  network: ws
+  port: 10499
+  server: 185.22.154.111
+  tls: false
+  type: vmess
+  uuid: 4f95be3b-fb31-49c1-becd-1a31ab4b44f1
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /?ed=1024
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Kr... #3'
+  network: ws
+  port: 80
+  server: 92.223.114.7
+  tls: false
+  type: vmess
+  uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c
+  ws-opts:
+    headers:
+      Host: xx2xxl.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: 86|VM-WS-NA 🇷🇺 RU-176.32.33.100:9...
+  network: ws
+  port: 9668
+  server: 176.32.33.100
+  tls: false
+  type: vmess
+  uuid: 4c2a34ca-2da7-4c5c-9d74-6a3b0b586a47
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #64'
+  network: ws
+  port: 443
+  server: 46.29.163.99
+  tls: false
+  type: vmess
+  uuid: 8744c979-6e54-4391-8cfb-29188988e409
+  ws-opts:
+    path: /
+- alterId: 1
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #34'
+  network: ws
+  port: 443
+  server: 185.176.24.137
+  servername: edeen.makeup
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: edeen.makeup
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 68|153,582,583|RU 3|openitr
+  network: ws
+  port: 80
+  server: de1-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
+  ws-opts:
+    headers:
+      Host: de1-vmess.greenssh.xyz
+    path: /
+- name: 86|TR-WS-TLS 🇷🇺 RU-195.133.11.229...
+  network: ws
+  password: PU3f7528NtNXnQqb9X263rGSD
+  port: 443
+  server: 195.133.11.229
+  sni: get.fragmentary.info
+  type: trojan
+  ws-opts:
+    headers:
+      Host: get.fragmentary.info
+    path: /socks5tobefree
+- alterId: 0
+  cipher: auto
+  name: 68|449|🇷🇺 Russian Federation - Ro...
+  network: ws
+  port: 80
+  server: 5.101.68.5
+  tls: false
+  type: vmess
+  uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65
+  ws-opts:
+    headers:
+      Host: mehdi.mashtopituanbipi.tk
+    path: /
+- cipher: aes-256-cfb
+  name: 68|363,384|RU-213.183.53.222-0613...
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 213.183.53.222
+  type: ss
+- name: 86|TR-WS-TLS 🇷🇺 RU-185.176.24.2:4...
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 185.176.24.2
+  sni: 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV
+    path: /tr9vfP2lflALkJrNsQ?ed=2560
+- alterId: 32
+  cipher: auto
+  name: '68|323,356,362,363,372,373,377,38... #8'
+  network: ws
+  port: 8090
+  server: 91.193.181.192
+  tls: false
+  type: vmess
+  uuid: 08bc30e1-be39-4eb4-e887-e6579be15a45
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '68|449|🇷🇺 Russian Federation - Mo... #2'
+  network: grpc
+  port: 15833
+  server: 185.22.154.115
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+- alterId: 0
+  cipher: auto
+  name: '68|438,449|🇷🇺 Russian Federation ... #7'
+  network: ws
+  port: 8880
+  server: 185.174.138.34
+  tls: false
+  type: vmess
+  uuid: 3fdc90df-4a88-4d02-de2d-6b3e1576b805
+  ws-opts:
+    headers:
+      Host: aa.v2jey.fun
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #47'
+  network: ws
+  port: 80
+  server: 5.188.121.134
+  tls: false
+  type: vmess
+  uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c
+  ws-opts:
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: 19,74|🇷🇺_RU_俄罗斯联邦
+  network: tcp
+  port: 35972
+  server: 45.147.200.170
+  tls: false
+  type: vmess
+  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
+- alterId: 0
+  cipher: auto
+  name: 68|191,237,240,386,394,395,424,42...
+  network: ws
+  port: 443
+  server: surongwei.eu.org
+  tls: true
+  type: vmess
+  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+  ws-opts:
+    headers:
+      Host: surongwei.eu.org
+    path: /reffs7y26g0ua
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 26 → tg@nicevpn123
+  password: ygSXLTCrL8zeKb2n6mghK8J26GVHWmZA4pyy84Pyg6E=
+  port: 13896
+  server: 45.67.32.147
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 73|俄罗斯联邦-250.0KB/s_374_374
+  network: ws
+  port: 33026
+  server: socks5tobefree.ydns.eu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
+  ws-opts:
+    headers:
+      host: socks5tobefree.ydns.eu
+    path: /dangerzone
+- alterId: 0
+  cipher: auto
+  name: 68|473|Russia_Moscow_vmess_1141
+  network: ws
+  port: 54321
+  server: eedp257bubu2wefy.lovebaipiao.net
+  servername: www.apple.com
+  tls: false
+  type: vmess
+  uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
+  ws-opts:
+    headers:
+      Host: eedp257bubu2wefy.lovebaipiao.net
+    path: /iphone
+- cipher: aes-256-cfb
+  name: 68|363,384,590|[02-24]-🇺-俄罗斯-061-...
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 217.30.10.63
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #36'
+  network: ws
+  port: 22722
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 90b585d3-8814-4d6f-b558-5550cf86ed1f
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Kr... #1'
+  network: ws
+  port: 443
+  server: 92.223.114.4
+  tls: false
+  type: vmess
+  uuid: 5c854e2e-205c-4309-8363-ff60ea7b2a16
+  ws-opts:
+    path: /cgi-bin/api/dataflow/
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 55 → tg@nicevpn123
+  password: 1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA
+  port: 8388
+  server: 91.192.81.21
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Ye... #3'
+  network: ws
+  port: 80
+  server: 92.223.108.13
+  tls: false
+  type: vmess
+  uuid: ba9c93d7-490c-4dba-c21a-a50b94cd9c90
+  ws-opts:
+    headers:
+      Host: shoooshi.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: Frankfurt
+  name: '68|449|🇷🇺 Russian Federation - NA... #3'
+  network: grpc
+  port: 8443
+  server: 185.176.24.137
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8c5a4ace-ac17-448e-a445-365ae9bc87de
 - alterId: 0
   cipher: auto
   name: 73|二爷翻墙网 https://1808.free.hr_RU_...
@@ -923,41 +2011,2093 @@ proxies:
     headers:
       host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,86|RU_3682
-  password: UVkBuHr6db60WgQxx7jpNrNw02dpHyaFDDXSc8GSPrjPv2hafHo0ORyo1tGSX527
-  port: 52293
-  server: 193.46.56.10
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Ye... #6'
+  network: ws
+  port: 80
+  server: 92.223.108.7
+  tls: false
+  type: vmess
+  uuid: a1a0bbfd-390b-437c-e8aa-3f61654fc7a8
+  ws-opts:
+    headers:
+      Host: lovebinahayat.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '68|449|🇷🇺 Russian Federation - NA... #15'
+  network: http
+  port: 443
+  server: 95.142.40.102
+  servername: eset.com
+  tls: true
+  type: vmess
+  uuid: 7d8f1672-e3d8-4ae9-ee2e-4a0bd883a555
+- alterId: 2
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #20'
+  network: ws
+  port: 23463
+  server: 45.144.2.171
+  tls: false
+  type: vmess
+  uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b
+  ws-opts:
+    headers:
+      Host: www.jd.hk
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 68|449|🇷🇺 Russian Federation - Kr...
+  network: ws
+  port: 80
+  server: 92.223.114.11
+  tls: false
+  type: vmess
+  uuid: 62c655e5-d9a3-45c2-cc84-4141c542a6f4
+  ws-opts:
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: 68|34,35,153,400,582,583|RU 6|ope...
+  network: ws
+  port: 443
+  server: 185.148.104.118
+  servername: ab-test-frosty-flower-e7fb.tariroc864.workers.dev
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: ab-test-frosty-flower-e7fb.tariroc864.workers.dev
+    path: /hms02.fxiaomi.sbs/link
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #75'
+  network: ws
+  port: 443
+  server: 193.9.49.90
+  servername: rockp.blanku.me
+  tls: true
+  type: vmess
+  uuid: 91a4ed1f-f693-4685-a6be-f0981d6f2613
+  ws-opts:
+    headers:
+      Host: tree.blanku.me
+    path: /wss28885
+- cipher: aes-128-gcm
+  name: 68|153|🇷🇺 RU 24 → tg@nicevpn123
+  password: Telegram-ZEDMODEON
+  port: 25365
+  server: 78.153.149.211
   type: ss
 - alterId: 0
   cipher: auto
-  name: 86|VM-WS-NA 🇷🇺 RU-176.32.33.100:9...
+  name: '68|449|🇷🇺 Russian Federation - NA... #44'
   network: ws
-  port: 9668
-  server: 176.32.33.100
+  port: 443
+  server: 212.188.76.67
+  servername: cc66.111711.xyz
+  tls: true
+  type: vmess
+  uuid: 859b9dd2-23e5-4663-abe9-aca56154a1f4
+  ws-opts:
+    path: /bb
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 37,86|RU_3572
+  password: O4xHyEq9GnMgORYoDUDP8e
+  port: 15584
+  server: 213.108.23.243
+  type: ss
+- name: 68|153|🇷🇺 RU 17 → tg@nicevpn123
+  network: ws
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+  ws-opts:
+    path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #55'
+  network: ws
+  port: 443
+  server: 185.221.160.236
+  servername: LosAngeles.gafn.online
+  tls: true
+  type: vmess
+  uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+  ws-opts:
+    headers:
+      Host: LosAngeles.gafn.online
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #53'
+  network: ws
+  port: 443
+  server: 91.215.43.170
+  servername: sandp.blanku.me
+  tls: true
+  type: vmess
+  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  ws-opts:
+    headers:
+      Host: sand.blanku.me
+    path: /wss51068
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #56'
+  network: ws
+  port: 80
+  server: 91.207.183.91
   tls: false
   type: vmess
-  uuid: 4c2a34ca-2da7-4c5c-9d74-6a3b0b586a47
+  uuid: 2152559e-5595-4928-a3f1-6dab9c9c3a5c
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #61'
+  network: ws
+  port: 10000
+  server: 45.95.203.252
+  tls: false
+  type: vmess
+  uuid: 2d8a37ce-323e-11ee-b38b-a3c30cb81099
+  ws-opts:
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #39'
+  network: ws
+  port: 16763
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 9fea2038-b86c-4715-b732-54d3937111e0
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 68|117,363,384|🇺RU-31.172.67.43-9...
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 31.172.67.43
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|487|🇷🇺_RU_俄罗斯联邦_2
+  network: ws
+  port: 13964
+  server: 45.147.200.170
+  tls: false
+  type: vmess
+  uuid: 2cd0f258-d8cf-4c56-a5ec-5e400c1bbde8
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: '73|二爷翻墙网 https://1808.free.hr_RU_... #1'
+  name: '68|449|🇷🇺 Russian Federation - Mo... #73'
   network: ws
   port: 443
-  server: 194.76.18.22
-  skip-cert-verify: true
+  server: 193.9.49.4
+  servername: lille.kotick.site
   tls: true
+  type: vmess
+  uuid: FB7D8BA4-7456-4021-8B1D-8D65C2A453F1
+  ws-opts:
+    headers:
+      Host: lille.kotick.site
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 73|🇷🇺 www.85la.com 俄罗斯 64
+  network: tcp
+  port: 2098
+  server: 185.247.184.115
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- cipher: aes-128-gcm
+  country: RU
+  name: 37,86|RU_3587
+  password: X522OqAdyYS4HBeQ3Djjq7Ou1+MryMZFu4IRaNKcWF0=
+  port: 2096
+  server: 109.120.176.218
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|188,254|RU🇷🇺 | vkvd127.mycdn.m... #2'
+  network: ws
+  port: 80
+  server: de.tradex2080.com
+  tls: false
+  type: vmess
+  uuid: cb4fca5f-edf8-415b-aa8f-ac52f415296a
+  ws-opts:
+    headers:
+      Host: vkvd127.mycdn.me
+    path: /0fpZFB6IbpNptGAxAtI0QM
+- cipher: aes-256-cfb
+  country: RU
+  name: 37,39,68,81,86|RU_3589
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 45.89.52.66
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #27'
+  network: ws
+  port: 8880
+  server: 45.142.120.232
+  tls: false
+  type: vmess
+  uuid: 0c664f44-9f69-454f-841a-4616715df26f
+  ws-opts:
+    path: /?ed\u003d2048
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #19'
+  network: ws
+  port: 80
+  server: 92.223.123.45
+  tls: false
+  type: vmess
+  uuid: 7b898ef1-35ec-423a-ad6e-f826d705e2fe
+  ws-opts:
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - No... #3'
+  network: ws
+  port: 80
+  server: 5.8.43.6
+  tls: false
+  type: vmess
+  uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c
+  ws-opts:
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #24'
+  network: ws
+  port: 80
+  server: 92.223.123.48
+  tls: false
+  type: vmess
+  uuid: 62c655e5-d9a3-45c2-cc84-4141c542a6f4
+  ws-opts:
+    path: /mehdi
+- name: 86|TR-WS-TLS 🇷🇺 RU-46.254.92.112:...
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 46.254.92.112
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #76'
+  network: ws
+  port: 443
+  server: 2.56.241.39
+  servername: ru.199301.xyz
+  tls: true
+  type: vmess
+  uuid: 738438a8-f8a9-4e19-ae96-77399e3024e6
+  ws-opts:
+    headers:
+      Host: ru.199301.xyz
+    path: /cc025514ca9/
+- alterId: 0
+  cipher: auto
+  name: 68|4|RU_youtube@资源分享师_21
+  network: ws
+  port: 7806
+  server: 46.29.161.228
+  tls: false
+  type: vmess
+  uuid: c77801ad-532b-4231-8550-467fe5871a5e
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 73|🇷🇺_RU_俄罗斯_2
+  password: 3MgIhqwp4pjM8SKwixNkYZ
+  port: 33068
+  server: 193.124.22.253
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #17'
+  network: ws
+  port: 20202
+  server: 185.246.154.69
+  tls: false
+  type: vmess
+  uuid: fe1c4015-4a86-4da4-8ee8-4aad07754275
+  ws-opts:
+    headers:
+      Host: yongdong.xyz
+    path: /yongdong
+- alterId: 0
+  cipher: auto
+  name: '137|👉🆔 @v2ray_configs_pool📡🇷🇺Russi... #5'
+  network: ws
+  port: '8080'
+  server: 176.32.33.158
+  tls: false
+  type: vmess
+  uuid: d2372537-6a05-49bb-882d-84f2efd9fb7c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #34'
+  network: ws
+  port: 22369
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 89b2aba9-98e6-40b5-b82f-ac5415124955
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|188,254|RU🇷🇺 | vkvd127.mycdn.m... #4'
+  network: ws
+  port: 80
+  server: hidd2.parthianempire.org
+  tls: false
+  type: vmess
+  uuid: 19c80ce9-0935-41b9-b077-277621316a87
+  ws-opts:
+    headers:
+      Host: vkvd127.mycdn.me
+    path: /liUxUGJTGoPjd07ui73LZgwx8s
+- name: 86|TR-WS-TLS 🇷🇺 RU-194.53.53.140:...
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 194.53.53.140
+  sni: za.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: za.ylks.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #62'
+  network: ws
+  port: 2083
+  server: 45.8.211.228
+  servername: donate.darkmood.cfd
+  tls: true
+  type: vmess
+  uuid: 0937fae5-5541-4b6b-965f-1f8d16f03dee
+  ws-opts:
+    headers:
+      Host: donate.darkmood.cfd
+    path: '@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs@daily_configs'
+- alterId: 0
+  cipher: auto
+  name: 68|582,583|RU 12|openitr
+  network: ws
+  port: 80
+  server: 89.221.224.12
+  tls: false
+  type: vmess
+  uuid: c692f74a-9314-48ea-92e2-c4179e0dacbe
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #72'
+  network: ws
+  port: 443
+  server: 193.9.49.11
+  servername: v.fal.saintink.ir
+  tls: true
+  type: vmess
+  uuid: 13D878A5-DEAC-426D-921C-4500C0BB01D8
+  ws-opts:
+    headers:
+      Host: v.fal.saintink.ir
+    path: /speedtest/Kansas.kotick.site
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #11'
+  network: ws
+  port: 80
+  server: 185.22.154.115
+  tls: false
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #60'
+  network: ws
+  port: 443
+  server: 45.142.120.156
+  servername: Paris.v2ray.online
+  tls: true
+  type: vmess
+  uuid: 7796507C-F8B2-415E-B4C8-8C1EF79C8E17
+  ws-opts:
+    headers:
+      Host: Paris.v2ray.online
+    path: /speedtest
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 96 → tg@nicevpn123
+  password: hnRXsWFscwBEAvGnqQQoU2
+  port: 25091
+  server: 94.142.138.56
+  type: ss
+- cipher: aes-128-gcm
+  name: 75|🇷🇺 Game 俄罗斯01-标准 - AyucLouD-Se...
+  password: dajkdkjda&dja*/?
+  plugin: obfs
+  plugin-opts:
+    host: b4caf103606.download.windowsupdate.com
+    mode: http
+  port: 37863
+  server: 231103level3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 43,68|RU_90
+  password: P2zxXPewlV3BlfqqYiSthvtLc
+  port: 12949
+  server: 212.113.106.243
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 68|473|Russia_Moscow_ss_12299
+  password: wU7DQyQfXiVRfQfCwd59iI
+  port: 60422
+  server: moscow.telegavpn.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #18'
+  network: ws
+  port: 20201
+  server: 185.246.154.69
+  tls: false
+  type: vmess
+  uuid: fe1c4015-4a86-4da4-8ee8-4aad07754275
+  ws-opts:
+    headers:
+      Host: yongdong.xyz
+    path: /yongdong
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #90'
+  network: ws
+  port: 443
+  server: 91.207.183.82
+  servername: ru1.socifiles.com
+  tls: true
+  type: vmess
+  uuid: e24c8820-ad07-11ed-b8c4-1239d0255272
+  ws-opts:
+    headers:
+      Host: ru1.socifiles.com
+    path: /vmws
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 37,68,86|RU_3581
+  password: 6W3KNlsw77BkOmhv36B76iKeOzNiECcO1qvmpvP2yTXCuODvctTKgRTNqc5dPRLY
+  port: 42658
+  server: 5.182.38.211
+  type: ss
+- name: 86|TR-WS-TLS 🇷🇺 RU-45.8.211.242:4...
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 45.8.211.242
+  sni: bpb.my79801.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bpb.my79801.com
+    path: /tr
+- cipher: aes-256-cfb
+  name: 68|363,384,590|[02-24]-🇺-俄罗斯-045-...
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 217.30.10.63
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|141,449|🇷🇺 Russian Federation ...
+  network: ws
+  port: 50404
+  server: 45.135.134.169
+  servername: ru2.longyun.buzz
+  tls: true
+  type: vmess
+  uuid: fc2038b4-ed83-38e7-a123-17e717c2e543
+  ws-opts:
+    headers:
+      Host: ru2.longyun.buzz
+    path: /vv
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #37'
+  network: ws
+  port: 443
+  server: 185.174.138.38
+  servername: sparrow.digicloud.shop
+  tls: true
+  type: vmess
+  uuid: d3990020-4d90-4d1a-bd6b-61d506ff7038
+  ws-opts:
+    headers:
+      Host: sparrow.digicloud.shop
+    path: /graphql
+- alterId: 0
+  cipher: auto
+  name: 68|91|RU🇷🇺 | dk1.xv2ray.net-80 | ...
+  network: ws
+  port: 80
+  server: 104.18.40.89
+  tls: false
+  type: vmess
+  uuid: 12357ee8-39c0-4256-ad1a-155ea72235d9
+  ws-opts:
+    headers:
+      Host: dk1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 68|153,582,583|RU 10|openitr
+  network: ws
+  port: 8880
+  server: 45.87.155.70
+  tls: false
+  type: vmess
+  uuid: 88c0a1fb-fc4d-4eab-85c7-4dd84407e9a5
+  ws-opts:
+    path: /vmess
+- cipher: aes-256-cfb
+  name: 68|363,384,590|[02-24]-🇺-俄罗斯-179-...
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 217.30.10.63
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #9'
+  network: ws
+  port: 2082
+  server: 103.113.68.233
+  tls: false
+  type: vmess
+  uuid: 58b60a45-b09a-409b-ac56-e705af76054a
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #38'
+  network: ws
+  port: 443
+  server: 185.59.218.91
+  servername: Lille.kotick.site
+  tls: true
+  type: vmess
+  uuid: 57B70423-6992-4A04-9939-D2844170C079
+  ws-opts:
+    headers:
+      Host: Lille.kotick.site
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 68|422|Russia Baxet
+  network: ws
+  port: 443
+  server: t2.bestcloud.tk
+  servername: er3.mybestjj.com
+  tls: true
+  type: vmess
+  uuid: 539bc754-934e-431d-a7ae-96c71eb1830e
+  ws-opts:
+    headers:
+      Host: er3.mybestjj.com
+    path: /2
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '68|449|🇷🇺 Russian Federation - NA... #6'
+  network: grpc
+  port: 2087
+  server: 31.12.75.210
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 08ec6a06-8c15-4069-a781-8c725a30b7e7
+- alterId: 0
+  cipher: auto
+  name: 68|96|Relay_🇷🇺RU-🇷🇺RU_102
+  network: ws
+  port: 80
+  server: v001.v2dns.bar
+  tls: false
+  type: vmess
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  ws-opts:
+    headers:
+      Host: YouTube-aweikeji
+    path: /a11-dCeBnloadPy
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #77'
+  network: ws
+  port: 2053
+  server: 103.113.68.233
+  servername: ru1-vmess.sshmax.xyz
+  tls: true
+  type: vmess
+  uuid: 58b60a45-b09a-409b-ac56-e705af76054a
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: '@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray'
+  name: '68|449|🇷🇺 Russian Federation - NA... #12'
+  network: grpc
+  port: 443
+  server: 45.67.215.70
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 41c0ff8d-8f6f-4afa-ac35-2a68004461ea
+- cipher: chacha20-ietf-poly1305
+  name: 68|582|21|🇺 RU_640
+  password: 3GNhODxPaSK9z2E82pzI1b
+  port: 14249
+  server: 80.242.58.174
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #19'
+  network: ws
+  port: 80
+  server: 185.176.24.137
+  tls: false
+  type: vmess
+  uuid: 0239b1ce-468c-45b3-8d2a-85b1c0b274d9
+  ws-opts:
+    headers:
+      Host: ca2.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '68|323,362,363,372,373,377,382,38... #442'
+  network: ws
+  port: 443
+  server: 194.76.18.113
+  tls: false
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 51,54|🇷🇺RU_107
+  name: '19,68,74|🇷🇺_RU_俄罗斯联邦 #1'
+  network: ws
+  port: 12910
+  server: 45.136.245.240
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|153|🇷🇺 RU 37 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: hk-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: f2c48b2f-c581-4d7d-846e-8bd97d93bd65
+  ws-opts:
+    headers:
+      Host: hk-full.privateip.net
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #33'
+  network: ws
+  port: 80
+  server: 185.176.24.162
+  tls: false
+  type: vmess
+  uuid: c88c576d-6ec8-48e9-ad0c-120a761c7eb5
+  ws-opts:
+    headers:
+      Host: amstd.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|192|🇷🇺 _俄罗斯联邦_YouTube:VV科技_76
+  network: ws
+  port: 443
+  server: 92.223.72.42
+  tls: true
+  type: vmess
+  uuid: ae08412f-5bb9-4be7-8560-1984976a1097
+  ws-opts:
+    headers:
+      Host: govacaxixo.watchdoctor.xyz
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #50'
+  network: ws
+  port: 2053
+  server: 141.8.192.164
+  servername: q.cr0018.workers.dev
+  tls: true
+  type: vmess
+  uuid: 8B155F07-B3FB-46FA-AEC5-221CB23A2FFB
+  ws-opts:
+    headers:
+      Host: q.cr0018.workers.dev
+    path: /Lille.kotick.site/speedtest
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #85'
+  network: ws
+  port: 443
+  server: 45.144.30.196
+  servername: ru-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 4d0d22a5-0f21-41ec-a5f7-5075ae074857
+  ws-opts:
+    path: /racevpn
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000
+  fast-open: true
+  name: 57|Russia_Moscow_hy_1
+  port: 12345
+  ports: 12345
+  protocol: udp
+  server: 46.17.43.223
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 1000
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '68|449|🇷🇺 Russian Federation - NA... #2'
+  network: grpc
+  port: 2087
+  server: 185.176.24.71
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: eabd29f6-d008-49db-f542-409525dae9f3
+- alterId: 0
+  cipher: auto
+  name: '68|188,254|RU🇷🇺 | vkvd127.mycdn.m... #3'
+  network: ws
+  port: 80
+  server: hidd2.afsharidempire.uk
+  tls: false
+  type: vmess
+  uuid: 19c80ce9-0935-41b9-b077-277621316a87
+  ws-opts:
+    headers:
+      Host: vkvd127.mycdn.me
+    path: /liUxUGJTGoPjd07ui73LZgwx8s
+- alterId: 0
+  cipher: auto
+  name: 68|240|俄罗斯(油管:破解资源君)
+  network: ws
+  port: 443
+  server: gcoresgg.sylu.cyou
+  tls: true
+  type: vmess
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  ws-opts:
+    headers:
+      Host: gcoresgg.sylu.cyou
+    path: /Falling42gcoresggnode
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '68|449|🇷🇺 Russian Federation - NA... #9'
+  network: grpc
+  port: 2087
+  server: 45.142.120.251
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 39225a42-9789-4420-8d0f-01c12fadc5c3
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #87'
+  network: ws
+  port: 443
+  server: 46.17.41.31
+  servername: ruv-1.openv2ray.com
+  tls: true
+  type: vmess
+  uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /opentunnel?user=opentunnel.net-ndsphonemy
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: els_grpcthree.yunjisuan.cf
+  name: '68|449|🇷🇺 Russian Federation - Mo... #6'
+  network: grpc
+  port: 15835
+  server: 185.22.154.115
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 35 → tg@nicevpn123
+  password: KTwIQM1cQJwtkrjfld6Usn
+  port: 32913
+  server: 46.226.162.112
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #28'
+  network: ws
+  port: 28018
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 300a01c9-6be0-41e5-9bf9-b6507e3c0c77
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 68|29,153|🇷🇺 RU 78 → tg@nicevpn12...
+  password: qgpdyzHj8rZW9fDxxkUHRI
+  port: 29312
+  server: 217.196.103.206
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68,73|271|俄罗斯-喀山-001
+  network: ws
+  port: 2593
+  server: 176.32.33.158
+  tls: false
+  type: vmess
+  uuid: 58295eb4-d83e-453a-b4a6-6f659825afc7
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|438,449|🇷🇺 Russian Federation ... #1'
+  network: ws
+  port: 2082
+  server: 185.174.138.34
+  tls: false
+  type: vmess
+  uuid: 07a85318-7c20-4a5e-b61b-9d1436128b66
+  ws-opts:
+    headers:
+      Host: cc.v2jey.fun
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #48'
+  network: ws
+  port: 443
+  server: 45.8.211.84
+  servername: rough-mouse-e3b2.rrp65536.workers.dev
+  tls: true
+  type: vmess
+  uuid: 2D967DC2-0B1D-4858-A2BD-4FA25BC61F71
+  ws-opts:
+    headers:
+      Host: rough-mouse-e3b2.rrp65536.workers.dev
+    path: /speedtest/Dusseldorf.kotick.site
+- cipher: aes-256-cfb
+  country: RU
+  name: 37,38,39,40,58,68,81,86,144|RU_3588
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 45.89.52.66
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|438,449|🇷🇺 Russian Federation ... #4'
+  network: ws
+  port: 2052
+  server: 45.142.120.10
+  tls: false
+  type: vmess
+  uuid: a9144feb-0857-4203-892d-f7ad5940d31f
+  ws-opts:
+    headers:
+      Host: aa.v2jey.fun
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #35'
+  network: ws
+  port: 443
+  server: 185.59.218.72
+  servername: Lille.bobbykotick.rip
+  tls: true
+  type: vmess
+  uuid: C704DFEA-298E-41E9-AFBF-01DB2270F5A1
+  ws-opts:
+    headers:
+      Host: Lille.bobbykotick.rip
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 68|153|🇷🇺 RU 80 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 77.91.103.47
+  tls: false
+  type: vmess
+  uuid: 09e35fe0-2efd-44c1-96fb-46b7b3cc28eb
+  ws-opts:
+    path: /vmess
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 28 → tg@nicevpn123
+  password: IKDBUJ8RH6qI10QR1MSTqR
+  port: 16006
+  server: 46.226.164.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 81 → tg@nicevpn123
+  password: zErfOQDf3lOXZ24DK9EcAL
+  port: 16991
+  server: 5.42.86.33
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - St... #4'
+  network: ws
+  port: 443
+  server: 188.68.220.171
+  servername: edeen.makeup
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: edeen.makeup
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 68|449|🇷🇺 Russian Federation - Mo...
+  network: ws
+  port: 443
+  server: 45.131.69.76
+  tls: false
+  type: vmess
+  uuid: fa7aa57b-1695-3a64-b5e8-b04cf43fa710
+  ws-opts:
+    headers:
+      Host: docs.microsoft.com
+    path: /v2
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #27'
+  network: ws
+  port: 80
+  server: 92.223.123.20
+  tls: false
+  type: vmess
+  uuid: 62c655e5-d9a3-45c2-cc84-4141c542a6f4
+  ws-opts:
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #30'
+  network: ws
+  port: 2082
+  server: 45.142.120.110
+  tls: false
+  type: vmess
+  uuid: 13050c1b-9f77-4bd7-c4c7-ca5c5494c78d
+  ws-opts:
+    headers:
+      Host: testshecanmci.symodi.ml
+    path: /mOPMNpoedg
+- alterId: 0
+  cipher: auto
+  name: 126,130|俄罗斯联邦-3.06MB/s
+  network: ws
+  port: '80'
+  server: 45.144.2.113
+  tls: false
+  type: vmess
+  uuid: 1cb996c8-e5bf-40d2-9a3c-149b3b721c5f
+  ws-opts:
+    headers:
+      Host: 45.144.2.113
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|582,583|RU 11|openitr
+  network: ws
+  port: 80
+  server: sk1-vmess.sshmax.xyz
+  tls: false
+  type: vmess
+  uuid: 06c2b568-b7df-4e80-9031-c83569397db4
+  ws-opts:
+    headers:
+      Host: sk1-vmess.sshmax.xyz
+    path: /vmess
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 89 → tg@nicevpn123
+  password: u6RYZyNId5RmoWTNTum0nz
+  port: 8234
+  server: 185.229.65.157
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #23'
+  network: ws
+  port: 80
+  server: 92.223.123.47
+  tls: false
+  type: vmess
+  uuid: 28db139c-aff0-4ed8-80f5-3e747c4c737c
+  ws-opts:
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #68'
+  network: ws
+  port: 443
+  server: 185.109.21.211
+  servername: sandp.blanku.me
+  tls: true
+  type: vmess
+  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  ws-opts:
+    headers:
+      Host: sand.blanku.me
+    path: /wss51068
+- alterId: 0
+  cipher: auto
+  name: 68|438,449|🇷🇺 Russian Federation ...
+  network: ws
+  port: 2052
+  server: 185.174.138.34
+  tls: false
+  type: vmess
+  uuid: 6066abf1-cdb1-4818-d35a-7c8e0ee90320
+  ws-opts:
+    headers:
+      Host: ee.v2jey.fun
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|34,35|俄罗斯联邦_新西伯利亚 #29'
+  network: ws
+  port: 40045
+  server: 45.130.147.178
+  tls: false
+  type: vmess
+  uuid: 58b557ae-fe5f-4aaa-916e-8c862996c7cd
+  ws-opts:
+    headers:
+      Host: 45.130.147.178
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|240|俄罗斯(油管:破解资源君) #2'
+  network: ws
+  port: 443
+  server: gcsssg.sylu.cyou
+  tls: true
+  type: vmess
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  ws-opts:
+    headers:
+      Host: gcsssg.sylu.cyou
+    path: /Falling42gcsssgnode
+- alterId: 0
+  cipher: auto
+  name: 68|153,582,583|RU 5|openitr
+  network: ws
+  port: 443
+  server: ca-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 8da41d0a-0454-4ced-a7e2-4de2a3dcc525
+  ws-opts:
+    headers:
+      Host: ca-full.privateip.net
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 68|29|🇺RU(AzadNet.t.me)_003
+  network: grpc
+  port: 8443
+  server: 85.159.229.8
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: afe57557-df24-43e5-9cea-5d2acc2cad08
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #49'
+  network: ws
+  port: 443
+  server: 185.109.21.204
+  servername: long-snow-e3ca.klb170637635.workers.dev
+  tls: true
+  type: vmess
+  uuid: EA0D70A5-C3BA-4B7E-BC80-5A824F5F3551
+  ws-opts:
+    headers:
+      Host: long-snow-e3ca.klb170637635.workers.dev
+    path: /speedtest/Kansas.kotick.site
+- alterId: 0
+  cipher: auto
+  country: RU
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 37,39,40,68|RU_3602
+  network: http
+  port: 2098
+  server: 185.247.184.115
+  skip-cert-verify: true
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,39,40,64,68,73,86| RU_481
+  password: A5ro8FafxmuBNXGKJrLQ6x
+  port: 12575
+  server: 89.185.84.185
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '126,130,137|👉🆔 @v2ray_configs_pool📡🇷🇺Russi... #4'
+  network: ws
+  port: '9668'
+  server: 176.32.33.100
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c2a34ca-2da7-4c5c-9d74-6a3b0b586a47
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '68|449|🇷🇺 Russian Federation - NA... #1'
+  network: grpc
+  port: 443
+  server: 45.142.120.58
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 11600612-cdfd-4f9c-8d41-26c76313c0aa
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - St... #5'
+  network: ws
+  port: 443
+  server: 5.53.124.85
+  servername: edeen.makeup
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: edeen.makeup
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #21'
+  network: ws
+  port: 11188
+  server: 185.149.21.116
+  tls: false
+  type: vmess
+  uuid: dfe0bd78-0454-4923-8f21-111550a876c9
+  ws-opts:
+    headers:
+      Host: YouTube-aweikeji
+    path: /hello
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #60'
+  network: ws
+  port: 80
+  server: 45.84.1.36
+  tls: false
+  type: vmess
+  uuid: 5181a6dc-b12c-49c4-ad9b-a38053d33341
+  ws-opts:
+    headers:
+      Host: ru1.v2rayserv.com
+    path: /sshocean
+- alterId: 64
+  cipher: auto
+  name: '68|323,362,363,372,373,377,382,38... #827'
+  network: ws
+  port: 443
+  server: 185.173.94.213
+  tls: true
+  type: vmess
+  uuid: 8d78c2a8-acaa-467d-9234-d2606624506d
+  ws-opts:
+    headers:
+      Host: www.13311625.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #31'
+  network: ws
+  port: 2095
+  server: 185.109.21.110
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr4.v2-teh.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 32
+  cipher: auto
+  name: 70|俄罗斯(欢迎订阅Youtube破解资源君)
+  network: ws
+  port: 443
+  server: v2-11.ssrsub.one
+  tls: true
+  type: vmess
+  uuid: 28adbea8-7c0d-4074-815f-10de6574fb2a
+  ws-opts:
+    headers:
+      Host: v2-11.ssrsub.one
+    path: /
+- cipher: aes-256-gcm
+  name: 86|SS-TCP-NA 🇷🇺 RU-45.142.246.232...
+  password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
+  port: 19796
+  server: 45.142.246.232
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 68|590|[02-24]-🇷🇺-俄罗斯-028-91.206....
+  password: FCx0i7b33H9G
+  port: 35030
+  server: 91.206.92.176
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #25'
+  network: ws
+  port: 80
+  server: 46.29.162.114
+  tls: false
+  type: vmess
+  uuid: f1398579-eed1-3335-9ffb-5dac467e23ac
+  ws-opts:
+    headers:
+      Host: vali-dns.cp31.ott.cibntv.net
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Ka... #1'
+  network: ws
+  port: 80
+  server: 95.85.88.9
+  tls: false
+  type: vmess
+  uuid: 841e673e-4885-4ec4-f35f-89bb581e161c
+  ws-opts:
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #88'
+  network: ws
+  port: 443
+  server: 5.188.121.179
+  servername: zapriuzapri.ddns.net
+  tls: true
+  type: vmess
+  uuid: 76f77d6e-8839-44b9-9440-2a72457adce9
+  ws-opts:
+    headers:
+      Host: zapriuzapri.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|323,362,363,372,373,377,382,38... #869'
+  network: ws
+  port: 443
+  server: 194.76.18.0
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kittiy.sbs
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 68|582,583|RU 13|openitr
+  network: ws
+  port: 8880
+  server: 5.182.39.27
+  tls: false
+  type: vmess
+  uuid: ffa054fd-602e-4a72-b4b1-90902479ba9d
+  ws-opts:
+    path: /vmess
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 37,38,39,40,86|RU_3576
+  password: afKAHp1VfRWZu91LIi9o0D
+  port: 58176
+  server: 94.228.165.178
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 73|俄罗斯联邦-250.3KB/s_1_358_358
+  network: ws
+  port: 33026
+  server: 89.169.55.152
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
+  ws-opts:
+    headers:
+      host: socks5tobefree.ydns.eu
+    path: /dangerzone
+- fast-open: true
+  name: 57|Russia_Moscow_hy2_0
+  password: dongtaiwang.com
+  port: 50717
+  server: 46.17.41.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '68|29,41|俄罗斯联邦_圣彼得堡 #1'
+  network: ws
+  port: 12910
+  server: 22.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 22.lwdh.us
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #26'
+  network: ws
+  port: 8080
+  server: 45.142.120.13
+  tls: false
+  type: vmess
+  uuid: 12357ee8-39c0-4256-ad1a-155ea72235d9
+  ws-opts:
+    headers:
+      Host: dk1.xv2ray.net
+    path: /vmess
+- cipher: aes-128-gcm
+  name: 75|🇷🇺 Video 俄罗斯A-标准 - AyucLouD-Se...
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: b4caf103606.download.windowsupdate.com
+    mode: http
+  port: 1549
+  server: 231103levelx.unclemanco.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - St... #6'
+  network: ws
+  port: 443
+  server: 45.131.40.93
+  servername: edeen.makeup
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: edeen.makeup
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #29'
+  network: ws
+  port: 38968
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 30de9560-9c98-41ef-fd91-546b8d74c12e
+  ws-opts:
+    path: /
+- alterId: 32
+  cipher: auto
+  name: '134,135|12|俄罗斯(欢迎订阅Youtube破解资源君) #1'
+  network: ws
+  port: '443'
+  server: v2-14.ssrsub.one
+  tls: true
+  type: vmess
+  uuid: 28adbea8-7c0d-4074-815f-10de6574fb2a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 73|俄罗斯联邦-668.2KB/s_799_799
+  network: ws
+  port: 8080
+  server: m003.mmzhk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
+  ws-opts:
+    headers:
+      host: daohang.mmzhk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 68|99|490_俄罗斯联邦-4.38MB
+  network: ws
+  port: 443
+  server: insaneguo2333.top
+  tls: true
+  type: vmess
+  uuid: 40fd551a-0bbe-460d-b0d9-4bf4ad413b0f
+  ws-opts:
+    headers:
+      Host: insaneguo2333.top
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: els_grpctow.yunjisuan.cf
+  name: '68|449|🇷🇺 Russian Federation - Mo... #3'
+  network: grpc
+  port: 15834
+  server: 185.22.154.115
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #67'
+  network: ws
+  port: 50080
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 13615365-c1e7-4a4c-da87-14c23deb457a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: els_grpcone.yunjisuan.cf
+  name: 68|422|🇷🇺@VPN_OCEAN
+  network: grpc
+  port: 15833
+  server: els_grpcone.yunjisuan.cf
+  servername: els_grpcone.yunjisuan.cf
+  tls: true
+  type: vmess
+  uuid: f28968b5-cae5-4c64-929c-123cca068c7d
+- cipher: aes-256-gcm
+  name: 68,71,73,78,84,86|8,164,201,286,300,309,363,384|...
+  password: dongtaiwang.com
+  port: 32233
+  server: 185.22.152.125
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|357,358,359,360,449|🇷🇺 Russian...
+  network: ws
+  port: 443
+  server: 193.9.49.69
+  servername: lille.kotick.site
+  tls: true
+  type: vmess
+  uuid: 3ACF30A1-CDB5-480E-8D6C-D968CB59AF30
+  ws-opts:
+    headers:
+      Host: lille.kotick.site
+    path: /speedtest
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 3 → tg@nicevpn123
+  password: WrszSP43UAOcFljDkb8vAL
+  port: 57262
+  server: 185.174.137.72
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #22'
+  network: ws
+  port: 80
+  server: 5.188.121.137
+  tls: false
+  type: vmess
+  uuid: ba9c93d7-490c-4dba-c21a-a50b94cd9c90
+  ws-opts:
+    headers:
+      Host: shoooshi.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #53'
+  network: ws
+  port: 26060
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: e6209a6a-27ac-401b-ead0-39af1f05d37a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #65'
+  network: ws
+  port: 80
+  server: 176.32.35.22
+  tls: false
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 48|俄罗斯(yudou66.com 玉豆免费节点)
+  network: ws
+  port: '33026'
+  server: 89.169.55.152
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
+  ws-opts:
+    headers:
+      Host: socks5tobefree.ydns.eu
+    path: /dangerzone
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #22'
+  network: ws
+  port: 80
+  server: 185.174.138.19
+  tls: false
+  type: vmess
+  uuid: ff6ab879-0b8e-4aec-be9f-adc49b6613f2
+  ws-opts:
+    headers:
+      Host: m232.marivan.buzz
+    path: /r6145481573
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #1'
+  network: ws
+  port: 80
+  server: 193.233.48.148
+  tls: false
+  type: vmess
+  uuid: 4c112c3a-b47e-11ee-a51b-1326a729f123
+  ws-opts:
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #84'
+  network: ws
+  port: 443
+  server: 185.250.149.236
+  servername: ru1.v2rayserv.com
+  tls: true
+  type: vmess
+  uuid: 52d647ff-56d5-44ac-9f60-066856044111
+  ws-opts:
+    headers:
+      Host: ru1.v2rayserv.com
+    path: /vmess
+- name: 86|TR-WS-TLS 🇷🇺 RU-185.148.107.11...
+  network: ws
+  password: NISHIKUITAN111
+  port: 443
+  server: 185.148.107.11
+  sni: zb.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: zb.ylks.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|323,362,363,372,373,377,382,38... #185'
+  network: ws
+  port: 443
+  server: 194.76.18.22
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '68|573|俄罗斯 #1'
+  network: ws
+  port: 800
+  server: 23.100.91.135
+  tls: false
+  type: vmess
+  uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d
+  ws-opts:
+    headers:
+      Host: els.xiaobaiyun.me
+    path: /hls
+- cipher: chacha20-ietf-poly1305
+  name: 68|582|21|🇷🇺 RU_641
+  password: uf8L2qfrISGIU7xL7Cwr4O
+  port: 21712
+  server: 62.133.60.60
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|153,582,583|RU 7|openitr
+  network: ws
+  port: 80
+  server: 45.87.155.70
+  tls: false
+  type: vmess
+  uuid: 88c0a1fb-fc4d-4eab-85c7-4dd84407e9a5
+  ws-opts:
+    path: /vmess
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 90 → tg@nicevpn123
+  password: oog65JXEql48VTve79V89g
+  port: 61992
+  server: 212.113.106.76
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 68,86|582|21|🇷🇺 RU_642
+  password: lHOX38pCOouUOVJ5JURWeO
+  port: 65262
+  server: 62.133.63.21
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 27 → tg@nicevpn123
+  password: DmMQUmI7pgQDnrWqLXC00L
+  port: 15214
+  server: 94.228.165.234
+  type: ss
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: '-------Telegram-----@FOXNT------'
+  name: '68|449|🇷🇺 Russian Federation - NA... #10'
+  network: grpc
+  port: 2087
+  server: 45.67.215.70
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 75d014c4-e2c0-478d-a78c-5ff215821870
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #49'
+  network: ws
+  port: 2052
+  server: 103.113.68.233
+  tls: false
+  type: vmess
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
+  ws-opts:
+    path: /vmess
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 6 → tg@nicevpn123
+  password: CkMpBwWZ0Cr1RhVVNSXXMp
+  port: 64930
+  server: 5.44.42.60
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|153|🇷🇺 RU 85 → tg@nicevpn123
+  network: ws
+  port: 8001
+  server: mdlzz.vbdf.lol
+  tls: false
+  type: vmess
+  uuid: 94e070a5-fc29-49bf-a1c3-11f3ef2df33d
+  ws-opts:
+    headers:
+      Host: mdlzz.vbdf.lol
+    path: /?ed=512
+- cipher: chacha20-ietf-poly1305
+  name: 68|582|21|🇺 RU_639
+  password: M5MW2NjJPbckRpYr6MaOjn
+  port: 61194
+  server: 89.23.110.74
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|153|🇷🇺 RU 70 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 85.117.234.167
+  tls: false
+  type: vmess
+  uuid: 1a363dc9-698c-49d2-e00d-c43005f64c40
+  ws-opts:
+    path: /TG@dns68免费节点
+- cipher: chacha20-ietf-poly1305
+  name: 68|117,363,384|🇺RU-185.221.153.52...
+  password: slatpifOon
+  port: 444
+  server: 185.221.153.52
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #31'
+  network: ws
+  port: 45614
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 64df746e-6c7a-4a00-8a29-fcb2aa8a00d2
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 68|363,384,590|[02-24]-🇺-俄罗斯-188-...
+  password: TPqX8edgbAURcAMb
+  port: 9079
+  server: 217.30.10.63
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|449|🇷🇺 Russian Federation - Ye...
+  network: ws
+  port: 80
+  server: 92.223.108.16
+  tls: false
+  type: vmess
+  uuid: 89a151c7-9484-4e63-d921-c30245337408
+  ws-opts:
+    headers:
+      Host: mashti89.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #40'
+  network: ws
+  port: 443
+  server: 185.59.218.249
+  servername: Amsterdam.kotick.site
+  tls: true
+  type: vmess
+  uuid: 57B70423-6992-4A04-9939-D2844170C079
+  ws-opts:
+    headers:
+      Host: Amsterdam.kotick.site
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 126,130,137|👉🆔 @v2ray_configs_pool📡🇷🇺Russi...
+  network: ws
+  port: '9781'
+  server: 176.32.32.68
+  tls: false
+  type: vmess
+  uuid: 7e228ce5-097c-4462-bf92-11ee96095081
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #86'
+  network: ws
+  port: 10001
+  server: 45.95.203.252
+  servername: ru1.vpnjantit.com
+  tls: true
+  type: vmess
+  uuid: 5b9a1110-45e5-11ee-84c7-7bfe68bf7009
+  ws-opts:
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #43'
+  network: ws
+  port: 443
+  server: 194.53.53.220
+  servername: Amsterdam.kotick.site
+  tls: true
+  type: vmess
+  uuid: 57B70423-6992-4A04-9939-D2844170C079
+  ws-opts:
+    headers:
+      Host: Amsterdam.kotick.site
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 68|449|🇷🇺 Russian Federation - St...
+  network: ws
+  port: 16231
+  server: 31.129.105.239
+  tls: false
+  type: vmess
+  uuid: 793e03cc-2b08-4d1b-bb0b-592567d19043
+  ws-opts:
+    headers:
+      Host: 31.129.105.239
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 43|RU_91
+  password: GXGhsxweEyBgvyUc5Xaoae
+  port: 15708
+  server: 77.91.103.108
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 37,64,68,86|RU_3574
+  password: oYQ8JwEldYn4KT2gfZ6eNl
+  port: 51584
+  server: 89.23.103.21
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #61'
+  network: ws
+  port: 443
+  server: 45.8.211.1
+  servername: wild-queen-f90d.klb170637635.workers.dev
+  tls: true
+  type: vmess
+  uuid: EA0D70A5-C3BA-4B7E-BC80-5A824F5F3551
+  ws-opts:
+    headers:
+      Host: wild-queen-f90d.klb170637635.workers.dev
+    path: /speedtest/Kansas.kotick.site
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #54'
+  network: ws
+  port: 443
+  server: 185.221.160.113
+  servername: rockp.blanku.me
+  tls: true
+  type: vmess
+  uuid: 91a4ed1f-f693-4685-a6be-f0981d6f2613
+  ws-opts:
+    headers:
+      Host: tree.blanku.me
+    path: /wss28885
+- alterId: 0
+  cipher: auto
+  name: 68|429,449|🇷🇺 Russian Federation ...
+  network: ws
+  port: 443
+  server: 5.188.121.136
+  servername: cc66.111711.xyz
+  tls: true
+  type: vmess
+  uuid: 859b9dd2-23e5-4663-abe9-aca56154a1f4
+  ws-opts:
+    path: /bb
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - No... #6'
+  network: ws
+  port: 80
+  server: 195.133.53.90
+  tls: false
+  type: vmess
+  uuid: 130def25-7e22-429f-a831-0bb376b5862b
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: '68|449|🇷🇺 Russian Federation - Mo... #4'
+  network: grpc
+  port: 15833
+  server: 46.29.166.88
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: fe2ff945-6428-491a-81ab-7f97c6b77216
+- alterId: 2
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - No... #5'
+  network: ws
+  port: 23432
+  server: 45.8.159.40
+  tls: false
+  type: vmess
+  uuid: 0509ec73-6fc9-3f5c-9277-202a64bec224
+  ws-opts:
+    headers:
+      Host: ru1a.budog.xyz
+    path: /index
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #66'
+  network: ws
+  port: 443
+  server: 185.176.24.161
+  servername: Lille.kotick.site
+  tls: true
+  type: vmess
+  uuid: DD55C6D3-835C-4F90-9F99-9160CF2023EF
+  ws-opts:
+    headers:
+      Host: Lille.kotick.site
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #67'
+  network: ws
+  port: 443
+  server: 185.221.160.208
+  servername: Dusseldorf.bobbykotick.rip
+  tls: true
+  type: vmess
+  uuid: F3E36B53-E75E-48C0-B9F1-F918F397E996
+  ws-opts:
+    headers:
+      Host: Dusseldorf.bobbykotick.rip
+    path: /speedtest
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000
+  fast-open: true
+  name: 57|Russia_Moscow_hy_0
+  port: 64907
+  ports: 30000-40000
+  protocol: udp
+  server: 46.17.43.223
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 1000
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #58'
+  network: ws
+  port: 443
+  server: 185.109.21.40
+  servername: Lille.kotick.site
+  tls: true
+  type: vmess
+  uuid: E03D552A-A5B1-4EFC-B0CD-FADCFE6B3971
+  ws-opts:
+    headers:
+      Host: Lille.kotick.site
+    path: /speedtest
+- cipher: aes-256-cfb
+  name: 68|363,384|🇷🇺RU-213.183.53.222-54...
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 213.183.53.222
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 68|117|🆔@LuxyNet💎❖🇺❖RU❖360
+  password: MjU9yGcudqQlVH1y3KiA8f
+  port: 46717
+  server: djemserv.ddns.net
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #55'
+  network: ws
+  port: 46527
+  server: 85.117.235.13
+  tls: false
+  type: vmess
+  uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b
+  ws-opts:
+    headers:
+      Host: www.jd.hk
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #56'
+  network: ws
+  port: 443
+  server: 45.142.120.219
+  servername: dawn-bread-cd90.azs34091.workers.dev
+  tls: true
+  type: vmess
+  uuid: 45C7B3CD-E09D-4CA8-96DC-312D7B10B666
+  ws-opts:
+    headers:
+      Host: dawn-bread-cd90.azs34091.workers.dev
+    path: /speedtest/Kansas.kotick.site
+- alterId: 0
+  cipher: auto
+  name: 51,54,68|🇷🇺RU_107
   network: ws
   port: 43688
   server: 195.133.53.192
@@ -968,3 +4108,526 @@ proxies:
     headers:
       Host: YouTube-aweikeji
     path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #63'
+  network: ws
+  port: 443
+  server: 185.178.208.140
+  servername: sandp.blanku.me
+  tls: true
+  type: vmess
+  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  ws-opts:
+    headers:
+      Host: sand.blanku.me
+    path: /wss51068
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Ye... #4'
+  network: ws
+  port: 80
+  server: 92.223.108.6
+  tls: false
+  type: vmess
+  uuid: 3590898e-6f91-4a7b-de36-7c497d5197f9
+  ws-opts:
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #52'
+  network: ws
+  port: 443
+  server: 45.67.215.15
+  servername: eu-2.0rd.net
+  tls: true
+  type: vmess
+  uuid: 31f78220-37a9-11ee-b232-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: eu-2.0rd.net
+    path: /@hopev2ray
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #42'
+  network: ws
+  port: 443
+  server: 185.174.138.36
+  servername: Amsterdam.kotick.site
+  tls: true
+  type: vmess
+  uuid: 57B70423-6992-4A04-9939-D2844170C079
+  ws-opts:
+    headers:
+      Host: Amsterdam.kotick.site
+    path: /speedtest
+- cipher: chacha20-ietf-poly1305
+  name: 68|582|21| RU_638
+  password: lTV4fQ2JkTnXD8GoYzwOSg
+  port: 22195
+  server: 147.45.50.104
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: RU
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 37,39,40,68|RU_3601
+  network: http
+  port: 2098
+  server: f41.maryam1500.top
+  servername: f41.maryam1500.top
+  skip-cert-verify: true
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 59 → tg@nicevpn123
+  password: 3fbeb668f48414f6
+  port: 57456
+  server: 45.139.24.63
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #59'
+  network: ws
+  port: 8443
+  server: 185.221.160.146
+  servername: data-us-fremont-3.ikuan.dev
+  tls: true
+  type: vmess
+  uuid: 663362e5-a132-444c-944d-34fe172f7f2f
+  ws-opts:
+    headers:
+      Host: data-us-fremont-3.ikuan.dev
+    path: /microsoft?ed=2048
+- cipher: aes-256-cfb
+  name: 68|363,384,590|[02-24]-🇺-俄罗斯-130-...
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 217.30.10.63
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|410|🇷🇺 v2rayfree.eu.org - 俄罗斯莫...
+  network: ws
+  port: 80
+  server: v12a.toddns.tk
+  tls: false
+  type: vmess
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+  ws-opts:
+    headers:
+      Host: v12a.toddns.tk
+    path: /fr-111unlimitxxx
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #57'
+  network: ws
+  port: 443
+  server: 185.109.21.65
+  servername: Kansas.bobbykotick.rip
+  tls: true
+  type: vmess
+  uuid: 001FDA95-2C68-49E7-BDC9-4AAB5E921759
+  ws-opts:
+    headers:
+      Host: Kansas.bobbykotick.rip
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #14'
+  network: ws
+  port: 21901
+  server: 185.22.152.130
+  tls: false
+  type: vmess
+  uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2
+  ws-opts:
+    path: /vv
+- cipher: chacha20-ietf-poly1305
+  name: 68|582|21|🇷🇺RU_644
+  password: F4fChWGojIcmxuMROuVQIQKGKRdg09vKfGp2STzSrdzrUSwZ
+  port: 51348
+  server: 45.87.219.110
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|112,449|🇷🇺 Russian Federation ...
+  network: ws
+  port: 80
+  server: 103.113.68.233
+  tls: false
+  type: vmess
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
+  ws-opts:
+    headers:
+      Host: 103.113.68.233
+    path: /vmess
+- cipher: aes-256-cfb
+  name: '68|363,384,387,388|@filternet0142... #9'
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 92.223.109.126
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #18'
+  network: ws
+  port: 18810
+  server: 193.233.85.152
+  tls: false
+  type: vmess
+  uuid: 86b74a25-f9ab-3dc5-9bf9-65c5bb31a14d
+  ws-opts:
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #32'
+  network: ws
+  port: 2095
+  server: 185.109.21.88
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr4.v2-teh.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: 68,126,130|284,473|Russia_Glazov_vmess_12...
+  network: ws
+  port: 2024
+  server: 45.14.244.133
+  tls: false
+  type: vmess
+  uuid: bf1dd328-a605-48fd-918f-44cca1cfe07f
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - No... #2'
+  network: ws
+  port: 34222
+  server: 45.8.159.40
+  tls: false
+  type: vmess
+  uuid: 0509ec73-6fc9-3f5c-9277-202a64bec224
+  ws-opts:
+    headers:
+      Host: ru1b.budog.xyz
+    path: /index
+- alterId: 0
+  cipher: auto
+  name: 68|312|2022.11.07_🇷🇺RU_87
+  network: ws
+  port: 80
+  server: 5.45.94.28
+  servername: 5.45.94.28
+  tls: false
+  type: vmess
+  uuid: bd3d81c6-9d40-4e75-8a23-7c55d69bf801
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #63'
+  network: ws
+  port: 80
+  server: 46.17.42.73
+  tls: false
+  type: vmess
+  uuid: f1398579-eed1-3335-9ffb-5dac467e23ac
+  ws-opts:
+    headers:
+      Host: vali-dns.cp31.ott.cibntv.net
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '68|240|俄罗斯(油管:破解资源君) #4'
+  network: ws
+  port: 443
+  server: gcsshkk.sylu.cyou
+  tls: true
+  type: vmess
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  ws-opts:
+    headers:
+      Host: gcsshkk.sylu.cyou
+    path: /Falling42gcsshkknode
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #51'
+  network: ws
+  port: 48257
+  server: 185.143.220.99
+  tls: false
+  type: vmess
+  uuid: a5f79062-a0aa-445a-f087-6b7121ee110e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - St... #2'
+  network: ws
+  port: 80
+  server: 92.223.64.4
+  tls: false
+  type: vmess
+  uuid: 841e673e-4885-4ec4-f35f-89bb581e161c
+  ws-opts:
+    headers:
+      Host: faaaati.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: 68|96|俄罗斯 005
+  network: ws
+  port: 48443
+  server: v3.ssrsub.com
+  tls: false
+  type: vmess
+  uuid: ec3e47e9-8dd7-4302-aa1a-a5658d34e931
+  ws-opts:
+    headers:
+      Host: douyincdn.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '68|323,362,363,372,373,377,382,38... #274'
+  network: http
+  port: 26743
+  server: 194.87.248.27
+  tls: false
+  type: vmess
+  uuid: 59952a8e-b712-4190-d85e-f9aadd65faa0
+- cipher: chacha20-ietf-poly1305
+  name: 68|582|21|🇷🇺 RU_643
+  password: yeKtZW31qXeZbAz8HsH4zFui7aseIogssEK7X9XZsLZcUjw6
+  port: 51348
+  server: 89.185.84.34
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #33'
+  network: ws
+  port: 48443
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 87aa7876-48e8-4950-9148-0ee5534e2b84
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #68'
+  network: ws
+  port: 51855
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 1d7ad548-ffa7-4e57-9af0-ebf4d6d51001
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 87|俄罗斯01 | 1x RU
+  password: 04767f30-d9ef-4da3-9795-811d1d7483d3
+  port: 41511
+  server: free.6vczxw.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 126,130,137|@ProxyFn / @nimPRO 🇷🇺
+  network: ws
+  port: '48257'
+  server: 185.143.220.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a5f79062-a0aa-445a-f087-6b7121ee110e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 68|271|俄罗斯-圣彼得堡-002
+  network: ws
+  port: 4900
+  server: 195.58.49.12
+  tls: false
+  type: vmess
+  uuid: 58295eb4-d83e-453a-b4a6-6f659825afc7
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '68|449|🇷🇺 Russian Federation - NA... #16'
+  network: http
+  port: 443
+  server: 95.142.40.124
+  servername: eset.com
+  tls: true
+  type: vmess
+  uuid: 7d8f1672-e3d8-4ae9-ee2e-4a0bd883a555
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - NA... #36'
+  network: ws
+  port: 443
+  server: 185.174.138.65
+  servername: dawn-bread-cd90.azs34091.workers.dev
+  tls: true
+  type: vmess
+  uuid: 2D967DC2-0B1D-4858-A2BD-4FA25BC61F71
+  ws-opts:
+    headers:
+      Host: dawn-bread-cd90.azs34091.workers.dev
+    path: /speedtest/Dusseldorf.kotick.site
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 62 → tg@nicevpn123
+  password: XZMPTXYRC2XB8jet5UiHOn
+  port: 50211
+  server: 46.19.69.244
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '126,130|👉🆔 @v2ray_configs_pool📡🇷🇺Russi... #1'
+  network: ws
+  port: '9781'
+  server: 46.29.161.159
+  tls: false
+  type: vmess
+  uuid: 7e228ce5-097c-4462-bf92-11ee96095081
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Ye... #5'
+  network: ws
+  port: 80
+  server: 92.223.108.5
+  tls: false
+  type: vmess
+  uuid: fe0c9b8e-68dc-419f-bf8d-d23f559e54e1
+  ws-opts:
+    headers:
+      Host: mrfilterinf02.ddns.net
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #20'
+  network: ws
+  port: 8080
+  server: 103.113.68.233
+  tls: false
+  type: vmess
+  uuid: fddb3781-7e15-4731-a933-94db110b4bbc
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Mo... #54'
+  network: ws
+  port: 46266
+  server: 176.32.35.57
+  tls: false
+  type: vmess
+  uuid: 24c507a2-baf3-43a4-916b-16fa30f1efb7
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|449|🇷🇺 Russian Federation - Sa... #2'
+  network: ws
+  port: 80
+  server: 92.223.43.12
+  tls: false
+  type: vmess
+  uuid: 89a151c7-9484-4e63-d921-c30245337408
+  ws-opts:
+    headers:
+      Host: mashti89.ddns.net
+    path: /mehdi
+- alterId: 1
+  cipher: auto
+  name: 68|326|🇷🇺 https://www.mattkaydiar...
+  network: ws
+  port: 8080
+  server: ru.mooncloud.top
+  tls: false
+  type: vmess
+  uuid: 00a356fc-71c7-4837-85ef-66a074a39530
+  ws-opts:
+    headers:
+      Host: ru.mooncloud.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 73|俄罗斯联邦-197.7KB/s_798_798
+  network: ws
+  port: 8080
+  server: n001.kovmk.website
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 92f1932f-ee19-464f-900c-93df90df830d
+  ws-opts:
+    headers:
+      host: daohang.kovmk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: '68|188,254|RU🇷🇺 | vkvd127.mycdn.m... #1'
+  network: ws
+  port: 80
+  server: 95.164.44.140
+  tls: false
+  type: vmess
+  uuid: 7e7325be-5c04-400a-9f11-e7f51c9cb1a9
+  ws-opts:
+    headers:
+      Host: vkvd127.mycdn.me
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 73|🇷🇺 www.85la.com 俄罗斯 63
+  network: tcp
+  port: 2098
+  server: f41.maryam1500.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|🇷🇺 RU 19 → tg@nicevpn123
+  password: 1ef9jGvAyzXLLnjssRFr8M
+  port: 25663
+  server: 94.228.169.114
+  type: ss
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: '@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray'
+  name: '68|449|🇷🇺 Russian Federation - NA... #5'
+  network: grpc
+  port: 2053
+  server: 45.67.215.70
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8fac0e66-13a0-443f-fd7a-8c0b027e4632
