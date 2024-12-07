@@ -1,17 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  country: ' TW'
-  name: 37,38,39,40,48,50,60|Relay_ TW-ZZ_3676
-  password: F585FCDB-6351-48D4-82C1-599B5447A589
-  port: 40020
-  server: soontw.soon.guru
+  name: '65|TW_Taipei_Akari Networks_OpenA... #1'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50110
+  server: 120.232.217.71
   type: ss
 - alterId: 0
   cipher: auto
   country: ' TW'
   h2-opts: {}
   http-opts: {}
-  name: 40|ChatGPT  TW_35
+  name: 40|ChatGPT  TW_39
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -20,10 +19,29 @@ proxies:
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: '65|TW_Taipei_Akari Networks_OpenA... #1'
+  name: 65|TW_Taipei_Akari Networks_OpenA...
   password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50110
+  port: 50004
   server: 120.232.217.71
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 65|TW_Kaohsiung_Digital United In...
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50004
+  server: 120.232.217.70
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' TW'
+  name: 37,38,39,40,42,50,60|Relay_ TW-ZZ_3772
+  password: F585FCDB-6351-48D4-82C1-599B5447A589
+  port: 40020
+  server: soontw.soon.guru
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65|TW_Kaohsiung_Digital United In... #1'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 61006
+  server: 120.240.88.37
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '65|TW_Taipei_Akari Networks_OpenA... #2'
@@ -38,35 +56,3 @@ proxies:
   server: 122.188.71.132
   skip-cert-verify: true
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '65|TW_Kaohsiung_Digital United In... #1'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61006
-  server: 120.240.88.37
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 37,50|TW_3947
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  skip-cert-verify: true
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 65|TW_Kaohsiung_Digital United In...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50004
-  server: 120.232.217.70
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 65|TW_Taipei_Akari Networks_OpenA...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50004
-  server: 120.232.217.71
-  type: ss
