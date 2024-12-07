@@ -1,14 +1,7 @@
 proxies:
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39,40,64|CH_3392
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,64|CH_3395
+  name: 37,39,40,64|CH_3316
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 23.166.88.5
@@ -27,60 +20,6 @@ proxies:
     headers:
       Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,45,58,64,81,86,136,141|CH_3389
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.164
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '73|二爷翻墙网 https://1808.free.hr_CH_... #1'
-  network: ws
-  port: 443
-  server: 152.67.65.201
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  name: 73|🇨🇭 www.85la.com 瑞士 03
-  network: ws
-  port: 443
-  server: 186.190.215.32
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 1
-  cipher: auto
-  name: 58,81|CH-186.190.215.32-7848 | 10.96...
-  network: ws
-  port: 443
-  server: 186.190.215.32
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 186.190.215.32
-    path: /
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,64|CH_3390
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.166.88.198
-  type: ss
 - alterId: 0
   cipher: auto
   name: '122|🔰CH : @cisco_plus🇧🇷'
@@ -95,19 +34,37 @@ proxies:
     headers:
       Host: oliv.beauty
     path: linkvws
-- alterId: 233
-  cipher: auto
-  name: 122|Laowang_DM:245_瑞士
+- cipher: chacha20-ietf-poly1305
+  name: 86,88|SS-TCP-NA 🇨🇭 CH-91.103.253.151...
+  password: dK18qW8Psf5xDaQ8vtHJtK
+  port: 19057
+  server: 91.103.253.151
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,64,136|CH_3315
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,39,40,45,58,64,81,86,136,141|CH_3308
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.164
+  type: ss
+- name: 86|TR-WS-TLS 🇨🇭 CH-185.18.250.112...
   network: ws
-  port: '60896'
-  server: 45.134.17.153
-  tls: false
-  type: vmess
-  uuid: 9bbb6fea-0854-4bea-813d-26b3db5adcaa
+  password: NISHIKUITAN111
+  port: 443
+  server: 185.18.250.112
+  sni: zb.ylks.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: zb.ylks.xyz
+    path: /
 - name: 86|TR-WS-TLS 🇨🇭 CH-185.18.250.117...
   network: ws
   password: 1e9aadae-ca17-4f75-b0a0-7de5e3858cfb
@@ -119,12 +76,38 @@ proxies:
     headers:
       Host: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
     path: /Telegram@V2ray_Alpha/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 122|电报频道 https://1808.free.hr_CH_5...
+  network: ws
+  port: 443
+  server: 152.67.65.201
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  name: 73|🇨🇭 www.85la.com 瑞士 03
+  network: ws
+  port: 443
+  server: 186.190.215.32
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
 - cipher: aes-128-gcm
   country: CH
-  name: 37,38,39,40,45,73,136,141|CH_3393
+  name: 37,38,39,40,45,136,141|CH_3310
   password: shadowsocks
   port: 443
-  server: 156.146.62.161
+  server: 156.146.62.163
   type: ss
 - alterId: 0
   cipher: auto
@@ -142,18 +125,25 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 122|电报频道 https://1808.free.hr_CH_5...
+  name: '73|二爷翻墙网 https://1808.free.hr_CH_... #1'
   network: ws
   port: 443
   server: 152.67.65.201
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+      host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,40,64|CH_3312
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.166.88.198
+  type: ss
 - cipher: aes-256-cfb
   name: 71|[SS] 🇨🇭 _CH_瑞士
   password: asdKkaskJKfnsa
@@ -163,10 +153,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 73|瑞士 苏黎世Oracle云计算数据中心_284
+  name: 73|瑞士 Oracle Corporation_342
   network: ws
   port: 443
-  server: 140.238.212.95
+  server: 141.148.203.6
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -175,72 +165,27 @@ proxies:
     headers:
       host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /obdii.cfd:443/linkws
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,64|CH_3388
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,64|CH_3394
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.166.88.198
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 86,88|SS-TCP-NA 🇨🇭 CH-91.103.253.151...
-  password: dK18qW8Psf5xDaQ8vtHJtK
-  port: 19057
-  server: 91.103.253.151
-  type: ss
 - alterId: 1
   cipher: auto
-  name: '122|🔰CH : @cisco_plus🇧🇷 #1'
+  name: 58,81|CH-186.190.215.32-7848 | 10.96...
   network: ws
-  port: '443'
-  server: 22.vmessprotocol.telegram-vmessprotocol-channel.space
-  servername: odelia.autos
+  port: 443
+  server: 186.190.215.32
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: odelia.autos
-    path: linkvws
+      Host: 186.190.215.32
+    path: /
 - cipher: aes-128-gcm
   country: CH
-  name: 37,38,39,40,45,141|CH_3391
+  name: 37,38,40,45,73,136,141|CH_3314
   password: shadowsocks
   port: 443
-  server: 156.146.62.163
+  server: 156.146.62.161
   type: ss
-- name: 86|TR-WS-TLS 🇨🇭 CH-185.18.250.112...
-  network: ws
-  password: NISHIKUITAN111
-  port: 443
-  server: 185.18.250.112
-  sni: zb.ylks.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: zb.ylks.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 122,149|电报频道 https://1808.free.hr_CH_4...
-  network: ws
-  port: 443
-  server: 141.148.187.195
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
   name: '122,129|TELEGRAM CHANNEL : @VPNOD'
@@ -257,10 +202,10 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 73|瑞士 Oracle Corporation_342
+  name: 73|瑞士 苏黎世Oracle云计算数据中心_284
   network: ws
   port: 443
-  server: 141.148.203.6
+  server: 140.238.212.95
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -269,27 +214,13 @@ proxies:
     headers:
       host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /obdii.cfd:443/linkws
-- cipher: aes-256-gcm
-  country: ' CH'
-  name: 37,38,39,40,45,64,86,141| CH_3387
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.166.88.221
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,40,45,86,136,141|CH_3313
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.162
   type: ss
-- alterId: 1
-  cipher: auto
-  name: '122,129|TELEGRAM CHANNEL : @VPNOD #1'
-  network: ws
-  port: '443'
-  server: waynn.makeup
-  servername: waynn.makeup
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: linkvws
 - alterId: 0
   cipher: auto
   name: '122|🔰CH : @cisco_plus🇧🇷 #2'
@@ -303,4 +234,80 @@ proxies:
   ws-opts:
     headers:
       Host: odelia.autos
+    path: linkvws
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,40,64|CH_3311
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 23.166.88.198
+  type: ss
+- alterId: 233
+  cipher: auto
+  name: 122|Laowang_DM:245_瑞士
+  network: ws
+  port: '60896'
+  server: 45.134.17.153
+  tls: false
+  type: vmess
+  uuid: 9bbb6fea-0854-4bea-813d-26b3db5adcaa
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- cipher: aes-256-gcm
+  country: ' CH'
+  name: 37,38,39,40,45,64,86,141| CH_3307
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.166.88.221
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 122,149|电报频道 https://1808.free.hr_CH_4...
+  network: ws
+  port: 443
+  server: 141.148.187.195
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,64,136|CH_3309
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.166.88.198
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: '122|🔰CH : @cisco_plus🇧🇷 #1'
+  network: ws
+  port: '443'
+  server: 22.vmessprotocol.telegram-vmessprotocol-channel.space
+  servername: odelia.autos
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: odelia.autos
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: '122,129|TELEGRAM CHANNEL : @VPNOD #1'
+  network: ws
+  port: '443'
+  server: waynn.makeup
+  servername: waynn.makeup
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
     path: linkvws
