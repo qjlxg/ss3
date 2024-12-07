@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-256-gcm
   country: DE
-  name: 37,38,39,40,48,52,55,60|DE_3326
+  name: 37,38,39,40,48,50,60|DE_3181
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 217.182.198.219
@@ -11,42 +11,151 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 48,52|Relay_🏁ZZ-🇪DE_4376
+  name: 50|Relay_🏁ZZ-🇪DE_4434
   network: ws
-  port: 2052
-  server: 104.18.202.250
-  servername: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+  port: 443
+  server: 104.17.197.31
+  servername: quiet-moon-132a.xetag42714.workers.dev
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
   ws-opts:
     headers:
-      HOST: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /hms02.fxiaomi.sbs/link
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 37,38,39,40,48,55,60| DE_3321
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 217.182.198.219
-  type: ss
+      HOST: quiet-moon-132a.xetag42714.workers.dev
+    path: /jahfkjha.cfd/linkws
+- country: DE
+  name: 49,55|DE_06
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.29.101.57
+  sni: trojan.burgerip.co.uk
+  type: trojan
   udp: true
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   country: DE
-  name: 37,38,39,40,48,52,55,60|DE_3337
-  password: XKFKl2rULjIp74
-  port: 8009
+  name: 37|DE_3171
+  password: BhJuEJY6cFuoEMerdIABuc
+  port: 80
+  server: 167.172.170.30
+  type: ss
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 37,38,39,40,48,50,55,60| DE_3166
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-cfb
+  country: ' DE'
+  name: 37,38,39,40,48,50,60| DE_3160
+  password: ZpNDDKRu9MagNvaf
+  port: 9015
+  server: 80.92.204.106
+  type: ss
+- alterId: 1
+  cipher: auto
+  country: DE
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,48,50|DE_3191
+  network: ws
+  port: 443
+  server: 57.129.25.20
+  servername: 57.129.25.20
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: 57.129.25.20
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 50|Relay_🏁ZZ-🇩🇪DE_4429
+  network: ws
+  port: 2083
+  server: 104.16.60.8
+  servername: worker-damp-duadwans.jevesoj131.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      HOST: worker-damp-duadwans.jevesoj131.workers.dev
+    path: /glweidf.cfd/linkws
+- cipher: chacha20-ietf-poly1305
+  country: DE
+  name: 37,38,39,40,48,50,55,60|DE_3180
+  password: 0zyDRZ1XmNXaaCAN7KEA8a
+  port: 28825
+  server: 45.151.62.54
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 47|🇩🇪DE-57.129.24.141-7721 | 24.9...
+  network: ws
+  port: 443
+  server: 57.129.24.141
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 37,39,40,50,55| DE_3163
+  password: e4FCWrgpkji3QY
+  port: 9102
   server: 217.182.198.219
   type: ss
 - cipher: aes-256-gcm
   country: ' DE'
-  name: 37,38,40,48,55,60| DE_3315
-  password: e4FCWrgpkji3QY
-  port: 9101
+  name: 37,38,39,40,48,50,55,60| DE_3164
+  password: FoOiGlkAA9yPEGP
+  port: 7306
   server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 37,39,40,48,50| DE_3159
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-cfb
+  country: DE
+  name: 37,38,39,40,48,50,60|DE_3179
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  server: 80.92.204.106
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19,66|🇩🇪_DE_德国
+  network: ws
+  port: 45103
+  server: de-frankfurt-oracle-b26cf5.ip1.shop
+  tls: false
+  type: vmess
+  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
+  ws-opts: {}
+- cipher: aes-256-cfb
+  country: DE
+  name: 38,40,48,50,55|DE_314
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  server: 80.92.204.106
   type: ss
 - country: DE
-  name: 49|DE_06
+  name: '42,49|netflix_DE #1'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -54,94 +163,82 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: DE
-  name: 37,38,40,48,52,60|DE_3330
-  password: 0zyDRZ1XmNXaaCAN7KEA8a
-  port: 28825
-  server: 45.151.62.54
-  type: ss
-- cipher: aes-256-gcm
-  country: DE
-  name: 37,38,39,40,48,52,55,60|DE_3327
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 217.182.198.219
-  type: ss
 - cipher: aes-256-gcm
   country: ' DE'
-  name: 37,38,39,40,48,55,60| DE_3324
+  name: 37,38,39,40,48,50,60| DE_3168
   password: cdBIDV42DCwnfIN
-  port: 8118
+  port: 8119
   server: 217.182.198.219
   type: ss
 - alterId: 0
   cipher: auto
-  country: DE
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 37,38,48,56|Relay_DE-DE_3343
-  network: ws
-  port: 443
-  server: frankfurt03.zgjok.com
-  servername: frankfurt03.zgjok.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
-  ws-opts:
-    headers:
-      HOST: frankfurt03.zgjok.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 44|Germany- High Speed
-  network: ws
-  port: 80
-  server: vceu3.718398.xyz
-  tls: false
-  type: vmess
-  uuid: a6dfb50f-75bb-48e0-b56a-1edeb62b5a49
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv06
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 37,39,40| DE_3320
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 217.182.198.219
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-DE_819
+  name: 50|Relay_🏁ZZ-🇪DE_4428
   network: ws
   port: 2086
-  server: 104.16.60.8
+  server: 104.16.67.38
+  servername: snowy-river-f497.turkeys-radford.workers.dev
   skip-cert-verify: true
   type: vmess
-  udp: true
   uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      Host: worker-lingering-fog-c021.gesofog870.workers.dev
+      HOST: snowy-river-f497.turkeys-radford.workers.dev
     path: /linde06.indiavideo.sbs/linkws
-- cipher: aes-256-cfb
-  country: ' DE'
-  name: 37,38,39,40,48,55,60| DE_3314
-  password: aLpQtfEZe445QyHk
-  port: 9098
-  server: 80.92.204.106
-  type: ss
-- cipher: aes-256-cfb
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 46|Germany_None_hysteria_61
+  port: 64914
+  ports: 30000-40000
+  server: 146.0.36.114
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- cipher: chacha20-ietf-poly1305
   country: DE
-  name: 37,38,39,40,48,55,60|DE_3336
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 80.92.204.106
+  name: 37,42,48,50,55|DE_3182
+  password: 2EtPqn6HYjUNcHohLfUpFQwnfjCCQ5mh1mJdEMCBucuWZ9P1udkRKHnVxuo55k1KXz2Fo6jrgt18W66opty1e4bm1jzfCfBb
+  port: 50841
+  server: 84.19.31.63
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: DE
+  h2-opts: {}
+  http-opts: {}
+  name: 45,48,50|Relay_DE-DE_19
+  network: ws
+  port: 443
+  server: glweidf.cfd
+  servername: glweidf.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      HOST: glweidf.cfd
+    path: /linkws
+- country: DE
+  name: 55|DE_819
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 18.157.227.122
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: DE
+  name: 37,38,39,40,48,50,60|DE_3184
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 217.182.198.219
   type: ss
 - alterId: 1
   cipher: auto
@@ -157,284 +254,100 @@ proxies:
     headers:
       Host: 23.158.56.39
     path: /
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   country: DE
-  name: 37,38,39,40,48,60|DE_3338
-  password: ZET59LF6DvCC8KVt
-  port: 9005
-  server: 80.92.204.106
+  name: 37,38,39,40,48,50,60|DE_3185
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 217.182.198.219
   type: ss
-- country: DE
-  name: 42|DE_806
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.157.227.122
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
+  country: DE
   h2-opts: {}
   http-opts: {}
-  name: 48|Relay_🏁ZZ-🇪DE_4404
+  name: 37,48,50|Relay_DE-DE_3193
   network: ws
   port: 443
-  server: 104.17.197.31
-  servername: quiet-moon-132a.xetag42714.workers.dev
+  server: frankfurt03.zgjok.com
+  servername: frankfurt03.zgjok.com
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
   ws-opts:
     headers:
-      HOST: quiet-moon-132a.xetag42714.workers.dev
-    path: /jahfkjha.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 19|🇩🇪_DE_德国
-  network: ws
-  port: 45103
-  server: de-frankfurt-oracle-b26cf5.ip1.shop
-  tls: false
-  type: vmess
-  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 48,52|Relay_🏁ZZ-🇪DE_4318
-  network: ws
-  port: 80
-  server: 104.16.61.8
-  servername: range-shape-b3fuegu.bananok182.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      HOST: range-shape-b3fuegu.bananok182.workers.dev
-    path: /hms02.fxiaomi.sbs/link
+      HOST: frankfurt03.zgjok.com
+    path: /
 - cipher: aes-256-gcm
-  country: DE
-  name: 37,38,39,40,48,52,55,60|DE_3339
-  password: PCnnH6SQSnfoS27
-  port: 8090
+  country: ' DE'
+  name: 37,38,39,40,48,50,55,60| DE_3162
+  password: cdBIDV42DCwnfIN
+  port: 8118
   server: 217.182.198.219
   type: ss
-- cipher: aes-256-cfb
-  country: ' DE'
-  name: 37,38,39,40,48,60| DE_3313
-  password: ZpNDDKRu9MagNvaf
-  port: 9015
-  server: 80.92.204.106
-  type: ss
-- country: DE
-  name: 49|DE_07
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.176.4.217
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   country: ' DE'
-  name: 37,39,40,55| DE_3322
+  name: 37,38,39,40,48,50,55,60| DE_3169
   password: e4FCWrgpkji3QY
-  port: 9102
+  port: 9101
   server: 217.182.198.219
   type: ss
-- cipher: aes-256-gcm
-  country: DE
-  name: 37,38,39,40,48,52,55,60|DE_3332
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 217.182.198.219
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 48,52,55|Relay_🏁ZZ-🇪DE_4344
-  network: ws
-  port: 8080
-  server: 104.16.60.8
-  servername: hyfhhg.jadovah977.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      HOST: hyfhhg.jadovah977.workers.dev
-    path: /jahfkjha.cfd/linkws
 - alterId: 0
   cipher: auto
   country: DE
   h2-opts: {}
   http-opts: {}
-  name: 37,38,48,52|DE_3345
+  name: 37,48,55|DE_3192
   network: ws
   port: 443
-  server: 57.129.24.141
+  server: 139.162.187.29
+  servername: gwdef.sbs
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
   ws-opts:
-    path: /linkvws
+    headers:
+      HOST: gwdef.sbs
+    path: /linkws
 - cipher: aes-256-cfb
   country: DE
-  name: 37,38,39,40,48,55,60|DE_3328
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
+  name: 37|DE_3186
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
   server: 80.92.204.106
-  type: ss
-- cipher: aes-256-cfb
-  country: DE
-  name: 37,48|DE_3331
-  password: wjTugX3ZtHMB9c3Z
-  port: 9057
-  server: 80.92.204.106
-  type: ss
-- cipher: aes-256-gcm
-  country: DE
-  name: 37,38,40,48,52,60|DE_3334
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: DE
-  name: 37,38,39,40,48,52,60|DE_3335
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-cfb
-  country: ' DE'
-  name: 37,38,39,40,48,55,60| DE_3323
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
-  server: 80.92.204.106
-  type: ss
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 37,38,39,40,48,60| DE_3316
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 217.182.198.219
   type: ss
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 48|Relay_🏁ZZ-🇪DE_4316
+  name: 50|Relay_🏁ZZ-🇪DE_4420
   network: ws
   port: 2086
   server: 104.16.67.38
-  servername: snowy-river-f497.turkeys-radford.workers.dev
+  servername: worker-damp-duadwans.jevesoj131.workers.dev
   skip-cert-verify: true
   type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
   ws-opts:
     headers:
-      HOST: snowy-river-f497.turkeys-radford.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- cipher: aes-256-gcm
+      HOST: worker-damp-duadwans.jevesoj131.workers.dev
+    path: /glweidf.cfd/linkws
+- cipher: aes-256-cfb
   country: ' DE'
-  name: 37,38,39,40,48,55,60| DE_3317
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 217.182.198.219
+  name: 37,38,39,40,48,55,60| DE_3165
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 80.92.204.106
   type: ss
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 48,55|Relay_ZZ-🇪DE_4302
-  network: ws
-  port: 8080
-  server: 104.16.67.38
-  servername: 8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      HOST: 8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev
-    path: /hms02.fxiaomi.sbs/link
-- alterId: 0
-  cipher: auto
   country: DE
   h2-opts: {}
   http-opts: {}
-  name: 37,38,48,52|DE_3342
-  network: ws
-  port: 443
-  server: 57.129.28.69
-  servername: baradiha.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: baradiha.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 48,52|Relay_🏁ZZ-🇪DE_4391
-  network: ws
-  port: 80
-  server: 104.16.60.8
-  servername: range-shape-b3fuegu.bananok182.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      HOST: range-shape-b3fuegu.bananok182.workers.dev
-    path: /hms02.fxiaomi.sbs/link
-- cipher: rc4-md5
-  country: DE
-  name: 37,40,48,56|DE_3329
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 52|Relay_🏁ZZ-🇩🇪DE_1031 | 6.40Mb
-  network: ws
-  port: 8080
-  server: 104.16.67.38
-  servername: square-snowflake-486a.beshir-beisel.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      HOST: square-snowflake-486a.beshir-beisel.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  country: DE
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,48,52|DE_3348
+  name: 37,38,48,50|DE_3187
   network: ws
   port: 443
   server: 57.129.24.124
@@ -449,82 +362,168 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-DE_831
-  network: ws
-  port: 443
-  server: linde06.indiavideo.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  country: DE
-  h2-opts: {}
-  http-opts: {}
-  name: 37,48|Relay_DE-DE_3347
-  network: ws
-  port: 443
-  server: jahfkjha.cfd
-  servername: jahfkjha.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      HOST: jahfkjha.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 52|Relay_🏁ZZ-🇩🇪DE_1018 | 5.25Mb
+  name: 50|Relay_🏁ZZ-DE_4404
   network: ws
-  port: 2052
-  server: 104.16.67.38
-  servername: icy-butterfly-4100.email-0kn8d.workers.dev
+  port: 2095
+  server: 104.16.68.38
+  servername: misty-dew-e2f1.turkeys-radford.workers.dev
   skip-cert-verify: true
   type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      HOST: icy-butterfly-4100.email-0kn8d.workers.dev
-    path: /glweidf.sbs/linkws
+      HOST: misty-dew-e2f1.turkeys-radford.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
+- cipher: aes-256-cfb
+  country: DE
+  name: 37,48,50|DE_3176
+  password: wjTugX3ZtHMB9c3Z
+  port: 9057
+  server: 80.92.204.106
+  type: ss
 - cipher: aes-256-gcm
   country: DE
-  name: 37,38,39,40,48,52,55,60|DE_3333
+  name: 37,38,39,40,48,50,55,60|DE_3173
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 217.182.198.219
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 47|🇩🇪DE-130.61.156.132-0386 | 24....
+  network: ws
+  port: 443
+  server: frankfurt03.zgjok.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
+  ws-opts:
+    headers:
+      Host: frankfurt03.zgjok.com
+    path: /
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 37,38,39,40,48,50,55,60| DE_3167
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-cfb
+  country: ' DE'
+  name: 37,38,39,40,48,50,60| DE_3157
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  server: 80.92.204.106
+  type: ss
+- cipher: rc4-md5
+  country: DE
+  name: 37,40,48,55|DE_3177
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
+  type: ss
+- cipher: aes-256-cfb
+  country: DE
+  name: 37,39,60|DE_3175
+  password: f63gg8EruDnUrmz4
+  port: 9010
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  country: DE
+  name: 37,38,39,40,48,50,60|DE_3178
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-128-cfb
+  name: 37,48|Relay_-DE_584
+  obfs: http_post
+  password: +asd6a5s5df+
+  port: 443
+  protocol: auth_aes128_md5
+  server: nsus3.irundns.net
+  type: ssr
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 37,38,39,40,48,50,60| DE_3161
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 217.182.198.219
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: DE
+  name: 37,38,39,40,48,50,60|DE_3174
   password: faBAoD54k87UJG7
-  port: 2375
+  port: 2376
   server: 217.182.198.219
   type: ss
 - cipher: aes-256-gcm
-  country: ' DE'
-  name: 37,38,39,40,48,55,60| DE_3318
-  password: cdBIDV42DCwnfIN
-  port: 8119
+  country: DE
+  name: 37,38,39,40,48,50,55,60|DE_3183
+  password: TEzjfAYq2IjtuoS
+  port: 6697
   server: 217.182.198.219
   type: ss
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 46|Germany_None_hysteria_61
-  port: 64914
-  ports: 30000-40000
-  server: 146.0.36.114
+- cipher: aes-256-cfb
+  country: ' DE'
+  name: 37,38,39,40,48,55,60| DE_3158
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 80.92.204.106
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: DE
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,48|DE_3188
+  network: ws
+  port: 443
+  server: 57.129.28.69
+  servername: baradiha.com
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: baradiha.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: DE
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,48,50|DE_3190
+  network: ws
+  port: 443
+  server: 57.129.24.141
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- cipher: aes-256-gcm
+  country: DE
+  name: 37,38,39,40,48,50,55,60|DE_3172
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: DE
+  name: 37,38,39,40,48,50,60|DE_3170
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 217.182.198.219
+  type: ss
 - alterId: 0
   cipher: auto
   name: 47|🇩🇪DE-57.129.24.125-7732 | 24.0...
@@ -539,242 +538,3 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 48,52|Relay_🏁ZZ-🇪DE_4304
-  network: ws
-  port: 8880
-  server: 104.16.67.38
-  servername: worker-divine-hat-02d6.savofir317.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      HOST: worker-divine-hat-02d6.savofir317.workers.dev
-    path: /glweidf.cfd/linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 48|Relay_-🇩🇪DE_1253
-  network: ws
-  port: 2082
-  server: 104.16.68.38
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: worker-divine-hat-02d6.savofir317.workers.dev
-    path: /glweidf.cfd/linkws
-- cipher: aes-128-cfb
-  name: 37,48|Relay_-DE_579
-  obfs: http_post
-  password: +asd6a5s5df+
-  port: 443
-  protocol: auth_aes128_md5
-  server: nsus3.irundns.net
-  type: ssr
-- alterId: 0
-  cipher: auto
-  country: ' ZZ'
-  h2-opts: {}
-  http-opts: {}
-  name: 38,48|Relay_ ZZ-DE_874
-  network: ws
-  port: 443
-  server: 162.159.1.94
-  servername: green-morning-ce19.mehdipost667.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      HOST: green-morning-ce19.mehdipost667.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-DE_3160
-  network: ws
-  port: 443
-  server: new-configmy.clashroyale733232.wOrKerS.DEv
-  servername: new-configmy.clashroyale733232.wOrKERS.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: new-configmy.clashroyale733232.wOrKerS.DEv
-    path: /linde06.indiavideo.sbs:443/linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-DE_1285
-  network: ws
-  port: 2095
-  server: 104.16.61.8
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: worker-lingering-fog-c021.gesofog870.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  country: DE
-  h2-opts: {}
-  http-opts: {}
-  name: 37,48|Relay_DE-DE_3346
-  network: ws
-  port: 443
-  server: glweidf.cfd
-  servername: glweidf.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      HOST: glweidf.cfd
-    path: /linkws
-- cipher: chacha20-ietf-poly1305
-  country: DE
-  name: 37,42,48,55|DE_3340
-  password: 2EtPqn6HYjUNcHohLfUpFQwnfjCCQ5mh1mJdEMCBucuWZ9P1udkRKHnVxuo55k1KXz2Fo6jrgt18W66opty1e4bm1jzfCfBb
-  port: 50841
-  server: 84.19.31.63
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 48|Relay_-DE_1252
-  network: ws
-  port: 8080
-  server: 104.18.202.250
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /jahfkjha.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 47,58|🇩🇪DE-130.61.156.132-0386 | 24....
-  network: ws
-  port: 443
-  server: frankfurt03.zgjok.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
-  ws-opts:
-    headers:
-      Host: frankfurt03.zgjok.com
-    path: /
-- name: '42,49|netflix_DE #2'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.29.101.57
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 47|🇩🇪DE-57.129.24.141-7721 | 24.9...
-  network: ws
-  port: 443
-  server: 57.129.24.141
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  country: ' DE'
-  name: 37,38,39,40,48,60| DE_3325
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 80.92.204.106
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 48,52|Relay_🏁ZZ-🇪DE_4413
-  network: ws
-  port: 2052
-  server: 104.16.68.38
-  servername: proud-union-8659.email-0kn8d.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      HOST: proud-union-8659.email-0kn8d.workers.dev
-    path: /glweidf.sbs/linkws
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 37,38,39,40,48,55,60| DE_3319
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇩🇪DE
-  name: 48|🇩🇪DE_3191
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  server: 80.92.204.106
-  type: ss
-- alterId: 1
-  cipher: auto
-  country: DE
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,48,52|DE_3341
-  network: ws
-  port: 443
-  server: 57.129.25.20
-  servername: 57.129.25.20
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: 57.129.25.20
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  country: DE
-  h2-opts: {}
-  http-opts: {}
-  name: 37,48,55|DE_3344
-  network: ws
-  port: 443
-  server: 139.162.187.29
-  servername: gwdef.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      HOST: gwdef.sbs
-    path: /linkws

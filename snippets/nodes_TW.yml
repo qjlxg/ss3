@@ -1,8 +1,21 @@
 proxies:
+- name: 65|TW_Taipei_Radishcloud Technolo...
+  network: tcp
+  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
+  port: 19214
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '65|TW_Taipei_Akari Networks_OpenA... #1'
+  name: 65|TW_Kaohsiung_Digital United In...
   password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50110
+  port: 50004
+  server: 120.232.217.70
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65|TW_Taipei_Akari Networks_OpenA... #2'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50003
   server: 120.232.217.71
   type: ss
 - alterId: 0
@@ -10,15 +23,23 @@ proxies:
   country: ' TW'
   h2-opts: {}
   http-opts: {}
-  name: 37,60|Relay_ TW-TW_3676
-  network: tcp
-  port: 1521
-  server: 013.ap.pop.node-for-smallairport.win
+  name: 40|ChatGPT  TW_36
+  network: ws
+  port: 443
+  server: hk.xn--vpn-rw7eh25o.com
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: ab0ab89d-de80-44bd-b938-cafda772976d
+  uuid: c9002485-0cfe-4617-86d3-0a9b959247a7
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 65|TW_Taipei_Akari Networks_OpenA...
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50004
+  server: 120.232.217.71
+  type: ss
 - client-fingerprint: chrome
-  name: 66|🇹🇼 13|🇹🇼 台湾|@ripaojiedian
+  name: 66|15|🇹🇼 台湾|@ripaojiedian
   network: ws
   password: ouo
   port: 81
@@ -31,9 +52,15 @@ proxies:
       Host: tr.koiok.us.kg
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: '65|TW_Taipei_Akari Networks_OpenA... #2'
+  name: '65|TW_Kaohsiung_Digital United In... #1'
   password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50003
+  port: 61006
+  server: 120.240.88.37
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65|TW_Taipei_Akari Networks_OpenA... #1'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50110
   server: 120.232.217.71
   type: ss
 - alterId: 0
@@ -41,7 +68,7 @@ proxies:
   country: ' TW'
   h2-opts: {}
   http-opts: {}
-  name: 37,48,55|Relay_ TW-TW_3295
+  name: 37,48,50,55|Relay_ TW-TW_3140
   network: ws
   port: 443
   server: hk.xn--vpn-rw7eh25o.com
@@ -51,40 +78,3 @@ proxies:
   uuid: c9002485-0cfe-4617-86d3-0a9b959247a7
   ws-opts:
     path: /
-- name: 65|TW_Taipei_Radishcloud Technolo...
-  network: tcp
-  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
-  port: 19214
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 42|disney_netflix_TW
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54032
-  server: t-wn01.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 65|TW_Kaohsiung_Digital United In...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50004
-  server: 120.232.217.70
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '42|disney_netflix_TW #1'
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54038
-  server: t-wn04.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 65|TW_Taipei_Akari Networks_OpenA...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50004
-  server: 120.232.217.71
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '65|TW_Kaohsiung_Digital United In... #1'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61006
-  server: 120.240.88.37
-  type: ss
