@@ -1,59 +1,134 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 122|电报频道 https://1808.free.hr_SE_4...
+  name: 68|429|MOHSEN-🇷🇴-RO_9
   network: ws
   port: 443
-  server: 141.147.147.180
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  server: 45.85.119.178
   tls: true
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: d5e6c2f0-c735-11ed-b235-205c6d5f5d78
   ws-opts:
-    headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- name: 73|🇸🇪 www.85la.com 瑞典 06
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.165.17
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 73|瑞典-3.50MB/s_113_113
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 16.170.80.93
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
+    path: /@hopev2ray
 - alterId: 0
   cipher: auto
-  name: 133|SE_youtube@资源分享师_1
+  name: 68|429|MOHSEN-🇸🇪-SE_4
   network: ws
-  port: 23451
-  server: westsg2-ddns.oraclenat.cc
-  servername: westsg2-ddns.oraclenat.cc
+  port: 80
+  server: shopify.ca
   tls: false
   type: vmess
-  uuid: 116db514-783f-4116-8078-83abed8aeb15
+  uuid: be35f39f-571d-4240-8ab2-8055aae3a53e
   ws-opts:
     headers:
-      Host: westsg2-ddns.oraclenat.cc
-    path: /
-- name: 73|瑞典-94.8MB/s_375_375
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.11.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+      Host: shopify.ca
+    path: /catre2
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇷🇴-RO_2
+  network: ws
+  port: 443
+  server: 45.85.119.44
+  tls: true
+  type: vmess
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  ws-opts:
+    path: /current_time
+- name: 86,136|TR-WS-TLS 🇸🇪 SE-185.146.173.42...
+  network: ws
+  password: 542f66d8-6b06-4340-a829-76d23db7ca80
+  port: 443
+  server: 185.146.173.42
+  sni: fr1.trojanvpn.xyz
   type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: fr1.trojanvpn.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 68|153|SE 21 → tg@nicevpn123
+  network: ws
+  port: 30000
+  server: 148.135.14.109
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇳🇱-NL_8
+  network: ws
+  port: 8880
+  server: 45.131.5.204
+  tls: false
+  type: vmess
+  uuid: fc21768b-83f8-4d99-a803-25ee085abfa6
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 68|153|SE 1 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: 148.135.12.174
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇳🇱-NL_12
+  network: ws
+  port: 443
+  server: 188.114.99.116
+  tls: true
+  type: vmess
+  uuid: 128a73ee-a5a3-4dce-a832-5c3f60841032
+  ws-opts:
+    path: /jp03.cctvvip.ml/cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - z36.zirogame36.pw
+    method: GET
+    path:
+    - /
+  name: 68|429|MOHSEN-🇮🇷-IR_4
+  network: http
+  port: 19068
+  server: z36.zirogame36.pw
+  tls: false
+  type: vmess
+  uuid: a7077888-b621-4f31-9884-be19aca81ed3
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇮🇩-ID_3
+  network: ws
+  port: 80
+  server: id.ftvpn.xyz
+  tls: false
+  type: vmess
+  uuid: 49cfb56e-ae2b-478d-a4ee-cddb92213dc2
+  ws-opts:
+    headers:
+      Host: id.ftvpn.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇫🇮-FI_9
+  network: ws
+  port: 11111
+  server: 95.216.183.164
+  tls: false
+  type: vmess
+  uuid: 60dcd710-a1a1-4ad7-b0df-47aa98e62b6a
+  ws-opts:
+    path: /@parsashonam
 - name: 86,136|TR-WS-TLS 🇸🇪 SE-185.146.173.34...
   network: ws
   password: aee423ce-e4b0-4555-b5b7-486dd0284fd2
@@ -65,24 +140,648 @@ proxies:
     headers:
       Host: nl1.trojanvpn.xyz
     path: /
-- name: 86,136|TR-WS-TLS 🇸🇪 SE-185.146.173.69...
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_2
   network: ws
-  password: b697183d-288b-40ab-98ae-8e3eb85f371c
+  port: 80
+  server: hedy.taherfix1.site
+  tls: false
+  type: vmess
+  uuid: 683ea3d3-eda1-42ba-ac7c-71a222821ff6
+  ws-opts:
+    headers:
+      Host: hedy.taherfix1.site
+    path: /HzavvY9f4fAigOXlzpp7ZopIagO
+- alterId: 0
+  cipher: auto
+  name: 73|瑞典 V2CROSS.COM_2_330
+  network: ws
+  port: 80
+  server: 185.146.173.158
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: d396-flower-d396.megare7260.workers.dev
+    path: /obdii.cfd/linkws
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇫🇮-FI_7
+  network: ws
+  port: 8081
+  server: 95.217.25.166
+  tls: false
+  type: vmess
+  uuid: dc4cf0b7-386f-4fc6-ec46-998b77ccd916
+  ws-opts:
+    path: /@hashmakvpn 🇩🇪
+- name: 73|瑞典-51.6MB/s_990_990
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 63.246.112.81
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 68,133|7,331,409,498|SE_youtube@资源分享师...
+  network: ws
+  port: 23451
+  server: westsg2-ddns.oraclenat.cc
+  servername: westsg2-ddns.oraclenat.cc
+  tls: false
+  type: vmess
+  uuid: b8f91e94-0b4e-4cde-a510-639b75ca495a
+  ws-opts:
+    headers:
+      Host: westsg2-ddns.oraclenat.cc
+    path: /
+- name: 68|153|SE 12 → tg@nicevpn123
+  network: ws
+  password: dGKXcHgs3P
+  port: 80
+  server: 185.146.173.66
+  skip-cert-verify: true
+  type: trojan
+  ws-opts:
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252CTurk'
+- cipher: chacha20-ietf-poly1305
+  name: 68|117,153,363,384,429|MOHSEN-🇳🇱-...
+  password: qGjmI8WQlF0tfhDbkLqGdN
+  port: 8080
+  server: passconf.xyz
+  type: ss
+- name: 73|🇸🇪 www.85la.com 瑞典 06_1
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 16.170.58.228
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 68|313,363,384,590|[02-24]-🇪-瑞典-0...
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 167.88.63.44
+  type: ss
+- cipher: aes-256-gcm
+  name: 68|313,363,384,590|[02-24]-🇸-瑞典-2...
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 167.88.61.14
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇮🇩-ID_5
+  network: ws
+  port: 80
+  server: nusa.putrastores.xyz
+  tls: false
+  type: vmess
+  uuid: 53b5eea7-2427-468e-bc1e-c0f4f10a7562
+  ws-opts:
+    headers:
+      Host: nusa.putrastores.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 68|153|SE 14 → tg@nicevpn123
+  network: ws
+  port: 17542
+  server: zzz.nikili1236vip.top
+  tls: true
+  type: vmess
+  uuid: 51ea7cdf-2278-4a13-b2e4-632cda111110
+  ws-opts:
+    headers:
+      Host: zzz.nikili1236vip.top
+    path: /50ab5b
+- cipher: chacha20-ietf-poly1305
+  name: '68|363,384,387,388|@filternet0142... #11'
+  password: pydQILh06AvJ
+  port: 27092
+  server: 13.49.241.14
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 68|153|SE 7 → tg@nicevpn123
+  network: ws
+  port: 31000
+  server: 148.135.38.70
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/153428133302
+- cipher: aes-256-gcm
+  name: 68|429|MOHSEN-🇫🇮-FI_3
+  password: R2Lp3a4tgj
+  port: 30705
+  server: 135.181.172.225
+  type: ss
+- name: 73|🇸🇪 www.85la.com 瑞典 06_2
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.50.165.17
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_47
+  network: ws
+  port: 21581
+  server: jp04-alt-vm0.entry.srthdw.art
+  tls: true
+  type: vmess
+  uuid: 7be47b43-bdbd-3a00-a508-f0c79247e032
+  ws-opts:
+    headers:
+      Host: jp04-alt-vm0.entry.srthdw.art
+    path: /hlsrthe214/8u4692j
+- alterId: 0
+  cipher: auto
+  name: 68|311,429|MOHSEN-undefined_64
+  network: ws
+  port: 2095
+  server: mci1.servernett.shop
+  tls: false
+  type: vmess
+  uuid: 015381f0-938e-45fd-9833-4b2155d572d6
+  ws-opts:
+    headers:
+      Host: mci1.servernett.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_57
+  network: ws
   port: 443
-  server: 185.146.173.69
-  sni: uk1.trojanvpn.xyz
+  server: st1.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    headers:
+      Host: st1.6bbt.tk
+    path: /6bbt.tk
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇻🇳-VN_3
+  network: ws
+  port: 80
+  server: 103.197.184.42
+  tls: false
+  type: vmess
+  uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
+  ws-opts:
+    path: /hahuutung
+- name: 73|瑞典-3.69MB/s_106_106
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.49.7.121
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 73,136|瑞典_由快嘴科技提供：kkzui.com94
+  network: ws
+  port: 443
+  server: 185.146.173.129
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      host: nt-haze-7dad.rogap16875.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_11
+  network: ws
+  port: 8080
+  server: origin.f.crazyspeed.xyz
+  tls: false
+  type: vmess
+  uuid: e5cc8668-bb9d-4769-abe1-24ffd714fd78
+  ws-opts:
+    headers:
+      Host: origin.f.crazyspeed.xyz
+    path: /nices
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_50
+  network: ws
+  port: 443
+  server: rsa1.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    headers:
+      Host: rsa1.6bbt.tk
+    path: /6bbt.tk
+- alterId: 0
+  cipher: auto
+  name: 68|339|[SE_VMESS_WS_70.34.212.226...
+  network: ws
+  port: 8443
+  server: 70.34.212.226
+  tls: false
+  type: vmess
+  uuid: 3d0c8ee5-3329-4252-aa1c-65f3fdaa0343
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_39
+  network: ws
+  port: 2053
+  server: server5.melina-turk.beauty
+  tls: true
+  type: vmess
+  uuid: 00a2e13c-4800-4c6a-abdf-e1df549d71dc
+  ws-opts:
+    headers:
+      Host: server5.melina-turk.beauty
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: 68|429|MOHSEN-🇮🇪-IE_1
+  password: ML4TGTHD7vU5tGLlwupiEN
+  port: 55814
+  server: 40.127.184.176
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|191,429|MOHSEN-🇸🇪-SE_7
+  network: ws
+  port: 64443
+  server: se-ls03.nb1.fr
+  tls: true
+  type: vmess
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  ws-opts:
+    headers:
+      Host: se-ls03.nb1.fr
+    path: /clientarea
+- name: 73|🇸🇪 www.85la.com 瑞典 05_1
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.61.110.110
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: 73|🇸🇪 www.85la.com 瑞典 08
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.21.117.38
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_19
+  network: ws
+  port: 80
+  server: hi.murix.de
+  tls: false
+  type: vmess
+  uuid: bb8595d3-25f9-4378-8500-64910472cd7e
+  ws-opts:
+    headers:
+      Host: hi.murix.de
+    path: /Mb5EFyHBJsWwPpDh5KFsLfQ/vmessws
+- cipher: aes-256-gcm
+  name: 68|590|[02-24]-🇪-瑞典-180-167.88.63...
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 167.88.63.17
+  type: ss
+- name: 73|瑞典-57.8MB/s_29_29
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.50.229.219
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 68|429|MOHSEN-🇳🇱-NL_3
+  network: grpc
+  port: 443
+  server: irancell1.unlimiteddev.cloud
+  servername: irancell1.unlimiteddev.cloud
+  tls: true
+  type: vmess
+  uuid: 4cf0579e-e450-4250-be31-bea11f01ed9c
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇳🇱-NL_9
+  network: ws
+  port: 80
+  server: 188.114.96.3
+  tls: false
+  type: vmess
+  uuid: 58340bf3-d51d-45e2-87a8-effa78e4bca6
+  ws-opts:
+    path: /hax02
+- name: 73|🇸🇪 www.85la.com 瑞典 03_1
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.53.223.92
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 68|429|MOHSEN-undefined_7
+  network: grpc
+  port: 29981
+  server: t2.l9liiii.info
+  servername: t2.l9liiii.info
+  tls: true
+  type: vmess
+  uuid: 509536fc-5c2e-45a6-e0eb-c97f668bf149
+- name: 86,136|TR-WS-TLS 🇸🇪 SE-185.146.173.32...
+  network: ws
+  password: 5495ebe2-dc52-4cb4-8f25-2a13877183e6
+  port: 443
+  server: 185.146.173.32
+  sni: de1.trojanvpn.xyz
   type: trojan
   ws-opts:
     headers:
-      Host: uk1.trojanvpn.xyz
+      Host: de1.trojanvpn.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
-  country: ' SE'
-  name: 37,39,40,86,141| SE_4591
-  password: UDcjYQ6Z6AIWxViZpqyOmO
-  port: 44013
-  server: 46.246.98.155
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇻🇳-VN_6
+  network: ws
+  port: 80
+  server: vietnam11.azzphuc.pro
+  tls: false
+  type: vmess
+  uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
+  ws-opts:
+    headers:
+      Host: vietnam11.azzphuc.pro
+    path: /hahuutung
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 68|429|MOHSEN-🇮🇷-IR_8
+  network: http
+  port: 22301
+  server: 91.107.244.178
+  tls: false
+  type: vmess
+  uuid: 176ed834-75dc-4e4c-a536-f05479b39b3c
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_58
+  network: ws
+  port: 443
+  server: dga5.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    headers:
+      Host: dga5.6bbt.tk
+    path: /6bbt.tk
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - z23.zirogame23.pw
+    method: GET
+    path:
+    - /
+  name: 68|429|MOHSEN-undefined_45
+  network: http
+  port: 12716
+  server: z23.zirogame23.pw
+  tls: false
+  type: vmess
+  uuid: 760b3425-f418-4f2c-ba5c-261ae575cfa4
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_43
+  network: ws
+  port: 2096
+  server: upload.tahermollaei.pw
+  tls: true
+  type: vmess
+  uuid: 234d02ce-d588-49a5-b328-6d2514cd57a0
+  ws-opts:
+    headers:
+      Host: upload.tahermollaei.pw
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_54
+  network: ws
+  port: 443
+  server: dga3.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    headers:
+      Host: dga3.6bbt.tk
+    path: /6bbt.tk
+- alterId: 64
+  cipher: auto
+  name: 68|153|SE 10 → tg@nicevpn123
+  network: ws
+  port: 31000
+  server: 148.135.9.66
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇦🇪-AE
+  network: ws
+  port: 14471
+  server: 193.123.95.170
+  tls: false
+  type: vmess
+  uuid: 52768552-c2b2-4460-89f1-e740cc145b99
+  ws-opts:
+    path: /ws-path
+- client-fingerprint: chrome
+  name: 147|15|SE_speednode_0042
+  network: ws
+  password: 542f66d8-6b06-4340-a829-76d23db7ca80
+  port: 443
+  server: 185.146.173.42
+  skip-cert-verify: false
+  sni: fr1.trojanvpn.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: fr1.trojanvpn.xyz
+    path: //
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇮🇩-ID_4
+  network: ws
+  port: 443
+  server: id.ftvpn.xyz
+  tls: true
+  type: vmess
+  uuid: 49cfb56e-ae2b-478d-a4ee-cddb92213dc2
+  ws-opts:
+    headers:
+      Host: id.ftvpn.xyz
+    path: /vmess
+- cipher: aes-256-gcm
+  name: 68|313,363,384,590|[02-24]-🇸-瑞典-1...
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 167.88.61.60
   type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - z5.zirogame5.pw
+    method: GET
+    path:
+    - /
+  name: 68|429|MOHSEN-undefined_32
+  network: http
+  port: 46581
+  server: z5.zirogame5.pw
+  tls: false
+  type: vmess
+  uuid: 13c09602-3838-4e26-d13e-8edff0bfd8d4
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_15
+  network: ws
+  port: 443
+  server: origin.b.crazyspeed.xyz
+  tls: false
+  type: vmess
+  uuid: e5cc8668-bb9d-4769-abe1-24ffd714fd78
+  ws-opts:
+    headers:
+      Host: origin.b.crazyspeed.xyz
+    path: /nices
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_60
+  network: ws
+  port: 80
+  server: v51.gaowosiquanjia.top
+  tls: false
+  type: vmess
+  uuid: fceab4b1-5abd-4015-a165-aa694327b462
+  ws-opts:
+    headers:
+      Host: v51.gaowosiquanjia.top
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 68|429|MOHSEN-🇷🇴-RO_6
+  network: grpc
+  port: 8443
+  server: 45.85.119.45
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: eec18634-5f08-4efa-dfb8-727543b920e0
+- cipher: aes-256-cfb
+  name: 68|117,363,384|🇸SE-37.19.222.214-...
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.19.222.214
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇨🇷-CR_2
+  network: ws
+  port: 80
+  server: cf.noaries.de
+  tls: false
+  type: vmess
+  uuid: 314c1387-618c-4689-97fc-4bc9a1ae5e05
+  ws-opts:
+    headers:
+      Host: cf.noaries.de
+    path: /
+- name: 90|SE_speednode_0042
+  network: ws
+  password: 542f66d8-6b06-4340-a829-76d23db7ca80
+  port: 443
+  server: 185.146.173.42
+  skip-cert-verify: true
+  sni: fr1.trojanvpn.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: fr1.trojanvpn.xyz
+    path: /%2F
+- alterId: 0
+  cipher: auto
+  name: 68|153|SE 11 → tg@nicevpn123
+  network: ws
+  port: 17542
+  server: 148.135.94.70
+  tls: true
+  type: vmess
+  uuid: 51ea7cdf-2278-4a13-b2e4-632cda111110
+  ws-opts:
+    path: /50ab5b
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_1
+  network: ws
+  port: 2053
+  server: mtn.mmdhossein20.tk
+  tls: true
+  type: vmess
+  uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+  ws-opts:
+    headers:
+      Host: mtn.mmdhossein20.tk
+    path: /
 - alterId: 0
   cipher: auto
   name: 73|瑞典_由快嘴科技提供：kkzui.com212
@@ -97,7 +796,307 @@ proxies:
     headers:
       host: jahfkjha.cfd
     path: /linkws
-- name: 73|🇸🇪 www.85la.com 瑞典 03
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_24
+  network: ws
+  port: 80
+  server: amir.test989811.xyz
+  tls: false
+  type: vmess
+  uuid: b69ad6e0-6953-4eaa-c48e-be38d15f312f
+  ws-opts:
+    headers:
+      Host: amir.test989811.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇷🇴-RO_7
+  network: ws
+  port: 443
+  server: 45.85.118.93
+  tls: true
+  type: vmess
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  ws-opts:
+    path: /quranweb7.xyz/current_time
+- alterId: 0
+  cipher: auto
+  name: 68|44|瑞典_Telegram+@djkkdcx
+  network: ws
+  port: 80
+  server: 185.146.173.122
+  tls: false
+  type: vmess
+  uuid: 35107a77-f684-4abc-946d-8542fb4c110e
+  ws-opts:
+    headers:
+      Host: xn--018o.orerblog.filtv.blog.boredhot.cloudcccc.joinbede.sbs.
+    path: /@TEHRANARGI
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇷🇴-RO_1
+  network: ws
+  port: 443
+  server: 45.85.118.248
+  tls: true
+  type: vmess
+  uuid: 76E66799-1763-4EE9-ABD6-5523EE0E416D
+  ws-opts:
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇳🇱-NL_2
+  network: ws
+  port: 443
+  server: irancell.amirbahrampor.fun
+  tls: true
+  type: vmess
+  uuid: f9ea60de-1456-468a-a2d1-452757f75f53
+  ws-opts:
+    headers:
+      Host: irancell.amirbahrampor.fun
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_56
+  network: ws
+  port: 443
+  server: ydla2.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    headers:
+      Host: ydla2.6bbt.tk
+    path: /6bbt.tk
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_52
+  network: ws
+  port: 443
+  server: rd1.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    headers:
+      Host: rd1.6bbt.tk
+    path: /6bbt.tk
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇳🇱-NL_1
+  network: ws
+  port: 80
+  server: 188.114.97.7
+  tls: false
+  type: vmess
+  uuid: 58340bf3-d51d-45e2-87a8-effa78e4bca6
+  ws-opts:
+    path: /hax02
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇮🇩-ID_2
+  network: ws
+  port: 443
+  server: 103.173.75.61
+  tls: true
+  type: vmess
+  uuid: 22060cd0-d1f3-11ed-b630-205c6d5f5d78
+  ws-opts:
+    path: /hlz0vcn5
+- alterId: 0
+  cipher: auto
+  name: 68|153|SE 26 → tg@nicevpn123
+  network: ws
+  port: 8443
+  server: 154.84.175.39
+  tls: true
+  type: vmess
+  uuid: 2b6ff9f6-00b6-4bc7-e16f-a7f1f4d43e4c
+  ws-opts:
+    path: /build
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_35
+  network: ws
+  port: 443
+  server: mkh.bandar98.cloud
+  tls: true
+  type: vmess
+  uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f
+  ws-opts:
+    headers:
+      Host: mkh.bandar98.cloud
+    path: /quranweb40.xyz/current_time
+- name: 73|瑞典-3.44MB/s_108_108
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 16.171.204.132
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_29
+  network: ws
+  port: 80
+  server: chpa.vipservers.me
+  tls: false
+  type: vmess
+  uuid: 2fbbcfb9-6055-4626-ad60-25e43b4ad8ae
+  ws-opts:
+    headers:
+      Host: chpa.vipservers.me
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 68|429|MOHSEN-🇮🇷-IR_10
+  network: http
+  port: 30288
+  server: 185.83.113.164
+  tls: false
+  type: vmess
+  uuid: 52847fe3-fd80-4d88-d765-35c7f93d8561
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_13
+  network: ws
+  port: 443
+  server: origin.j.crazyspeed.xyz
+  tls: false
+  type: vmess
+  uuid: e5cc8668-bb9d-4769-abe1-24ffd714fd78
+  ws-opts:
+    headers:
+      Host: origin.j.crazyspeed.xyz
+    path: /nices
+- alterId: 0
+  cipher: auto
+  name: 68|112|瑞典_121320007
+  network: ws
+  port: 80
+  server: se1-vmess.sshmax.xyz
+  tls: false
+  type: vmess
+  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
+  ws-opts:
+    headers:
+      Host: se1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇻🇳-VN_5
+  network: ws
+  port: 80
+  server: 117.2.203.124
+  tls: false
+  type: vmess
+  uuid: b3b67842-78f7-4706-dae5-38a47d2180ef
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '68|323,362,363,372,373,377,382,38... #762'
+  network: ws
+  port: 80
+  server: 141.147.11.108
+  tls: false
+  type: vmess
+  uuid: 96782c55-676e-4b71-c8fe-1defe0988a76
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 68|429|MOHSEN-🇫🇮-FI_6
+  network: grpc
+  port: 8080
+  server: titan-cat.smsbomberonline.top
+  servername: titan-cat.smsbomberonline.top
+  tls: true
+  type: vmess
+  uuid: 7db9888c-3e64-4d1e-cd77-8c7f814b9b00
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_63
+  network: ws
+  port: 2095
+  server: arsalan.arsalanv3.sbs
+  tls: false
+  type: vmess
+  uuid: c219b33f-f3c3-4f70-9e12-79b4618a210e
+  ws-opts:
+    headers:
+      Host: arsalan.arsalanv3.sbs
+    path: /
+- cipher: aes-256-gcm
+  name: 68|313,363,384,590|[02-24]-🇸🇪-瑞典-...
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 167.88.61.60
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_9
+  network: ws
+  port: 80
+  server: origin.crazyspeed.xyz
+  tls: false
+  type: vmess
+  uuid: e5cc8668-bb9d-4769-abe1-24ffd714fd78
+  ws-opts:
+    headers:
+      Host: origin.crazyspeed.xyz
+    path: /nices
+- name: 73|瑞典-3.50MB/s_113_113
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 16.170.80.93
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 68,122|429|MOHSEN-undefined_71
+  network: ws
+  port: 80
+  server: uae.artunnel57.host
+  tls: false
+  type: vmess
+  uuid: 839a0331-800c-434f-b9ce-acd136370630
+  ws-opts:
+    headers:
+      Host: uae.artunnel57.host
+    path: /vmess-ntls
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - z17.zirogame17.pw
+    method: GET
+    path:
+    - /
+  name: 68|429|MOHSEN-🇮🇷-IR_7
+  network: http
+  port: 57077
+  server: z17.zirogame17.pw
+  tls: false
+  type: vmess
+  uuid: 0a49d0bf-7f90-421a-fba6-70531d848c60
+- name: 73|🇸🇪 www.85la.com 瑞典 03_2
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -106,36 +1105,249 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 73|🇸🇪 www.85la.com 瑞典 05_1
+- cipher: aes-256-gcm
+  name: 68|313,363,384,590|[02-24]-🇪-瑞典-2...
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 167.88.61.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 127|RXMwN1_oh6rokKVfSEs
+  obfs: http_simple
+  obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20
+  password: Uk92CS
+  port: '12000'
+  protocol: auth_aes128_sha1
+  protocol-param: Mjg2NTU4OnBRdTh3TA
+  server: n09.boom.party
+  type: ssr
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 68|429|MOHSEN-🇮🇷-IR_5
+  network: http
+  port: 31270
+  server: 46.209.20.209
+  tls: false
+  type: vmess
+  uuid: d591b877-8ae3-4f96-d327-4673a236e1c8
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_12
+  network: ws
+  port: 443
+  server: origin.i.crazyspeed.xyz
+  tls: false
+  type: vmess
+  uuid: e5cc8668-bb9d-4769-abe1-24ffd714fd78
+  ws-opts:
+    headers:
+      Host: origin.i.crazyspeed.xyz
+    path: /nices
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇦🇺-AU_3
+  network: ws
+  port: 80
+  server: 168.138.102.89
+  tls: false
+  type: vmess
+  uuid: 0792ca95-a0ba-4510-eab3-8ea03239c532
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇸🇪-SE_3
+  network: ws
+  port: 8080
+  server: shopify.co.uk
+  tls: false
+  type: vmess
+  uuid: be35f39f-571d-4240-8ab2-8055aae3a53e
+  ws-opts:
+    headers:
+      Host: shopify.co.uk
+    path: /play1
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇸🇪-SE_5
+  network: ws
+  port: 8080
+  server: 13.53.126.30
+  tls: false
+  type: vmess
+  uuid: dd702cb3-e2c1-4f97-e530-acbf1b55e47b
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 68|438|@ho3ino00🇸🇪Stockholm-1061
+  network: grpc
+  port: 48597
+  server: 13.48.150.165
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: da5292f7-3ef1-4f53-8f12-83ac48aba27e
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_23
+  network: ws
+  port: 443
+  server: eu4_gra.739256.xyz
+  tls: true
+  type: vmess
+  uuid: d7501e7f-2f4d-42a4-920f-b0adc6285de0
+  ws-opts:
+    headers:
+      Host: eu4_gra.739256.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇻🇳-VN_4
+  network: ws
+  port: 80
+  server: 103.197.184.43
+  tls: false
+  type: vmess
+  uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
+  ws-opts:
+    path: /hahuutung
+- alterId: 64
+  cipher: auto
+  name: 68|153|SE 17 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: 148.135.33.228
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/153428133302
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇻🇳-VN_1
+  network: ws
+  port: 80
+  server: 103.197.184.40
+  tls: false
+  type: vmess
+  uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
+  ws-opts:
+    path: /hahuutung
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇻🇳-VN_2
+  network: ws
+  port: 80
+  server: 103.197.184.39
+  tls: false
+  type: vmess
+  uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
+  ws-opts:
+    path: /hahuutung
+- alterId: 0
+  cipher: auto
+  name: 68|356,429|MOHSEN-🇸🇪-SE_6
+  network: ws
+  port: 2096
+  server: 70.34.200.116
+  tls: false
+  type: vmess
+  uuid: ce06ce76-4993-4ad0-c542-befe4a8dd498
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' SE'
+  name: 37,38,39,40,86,141| SE_3857
+  password: UDcjYQ6Z6AIWxViZpqyOmO
+  port: 44013
+  server: 46.246.98.155
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|112|瑞典_121320008
+  network: ws
+  port: 80
+  server: 94.131.98.104
+  tls: false
+  type: vmess
+  uuid: 5559bfdc-04ef-404a-af0c-4c698fc488f2
+  ws-opts:
+    headers:
+      Host: 94.131.98.104
+    path: /vmess
+- name: 73|瑞典-3.41MB/s_79_79
   network: tcp
   password: telegram-id-directvpn
   port: 22222
-  server: 13.61.110.110
+  server: 13.48.83.146
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 73|瑞典-713.6KB/s_931_931
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.53.152.136
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: SE
-  name: 42,60|SE_542
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.51.123.222
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 73|瑞典_由快嘴科技提供;kkzui.com171
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 68|429|MOHSEN-🇫🇮-FI_5
+  network: http
+  port: 443
+  server: 95.216.166.180
+  tls: false
+  type: vmess
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_48
+  network: ws
+  port: 443
+  server: dga1.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    headers:
+      Host: dga1.6bbt.tk
+    path: /6bbt.tk
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇲🇽-MX
+  network: ws
+  port: 443
+  server: 213.156.144.6
+  tls: true
+  type: vmess
+  uuid: 859b9dd2-23e5-4663-abe9-aca56154a1f4
+  ws-opts:
+    path: /bb
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇻🇳-VN_7
+  network: ws
+  port: 80
+  server: 103.197.185.174
+  tls: false
+  type: vmess
+  uuid: df3e0b9c-05fc-4969-aa2f-4f085df45994
+  ws-opts:
+    path: /HungPlay
+- cipher: aes-256-cfb
+  name: 68|117,363,384|🇸🇪SE-37.19.222.211...
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.19.222.211
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 73|瑞典 V2CROSS.COM_2
   network: ws
   port: 80
   server: Back.MsV2ray.online
@@ -147,118 +1359,36 @@ proxies:
     headers:
       host: d396-flower-d396.megare7260.workers.dev
     path: /obdii.cfd/linkws
-- name: 73|瑞典-3.44MB/s_108_108
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 16.171.204.132
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 127|RXMwN1_oh6rokKVfSEs
-  obfs: http_simple
-  obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20
-  password: Uk92CS
-  port: '12000'
-  protocol: auth_aes128_sha1
-  protocol-param: Mjg2NTU4OnBRdTh3TA
-  server: n09.boom.party
-  type: ssr
-- name: 73|瑞典-57.8MB/s_29_29
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.229.219
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 86,90|TR-WS-NA 🇸🇪 SE-185.146.173.42:...
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇷🇴-RO_10
   network: ws
-  password: 542f66d8-6b06-4340-a829-76d23db7ca80
-  port: 443
-  server: 185.146.173.42
-  skip-cert-verify: true
-  sni: fr1.trojanvpn.xyz
-  type: trojan
+  port: 2053
+  server: 45.85.119.48
+  tls: true
+  type: vmess
+  uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
   ws-opts:
-    headers:
-      Host: fr1.trojanvpn.xyz
-    path: /%2F
-- name: 73|🇸🇪 www.85la.com 瑞典 08
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.21.117.38
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 86,136|TR-WS-TLS 🇸🇪 SE-185.146.173.32...
-  network: ws
-  password: 5495ebe2-dc52-4cb4-8f25-2a13877183e6
-  port: 443
-  server: 185.146.173.32
-  sni: de1.trojanvpn.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: de1.trojanvpn.xyz
     path: /
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37,58,72,81|Relay_-SE_2529
+  name: 68|429|MOHSEN-undefined_10
   network: ws
   port: 443
-  server: visa.com
-  servername: xjp.daluquan.top
-  tls: true
+  server: origin.e.crazyspeed.xyz
+  tls: false
   type: vmess
-  uuid: 302fe943-4bbe-4cd6-bdbd-4446aeb72b1e
+  uuid: e5cc8668-bb9d-4769-abe1-24ffd714fd78
   ws-opts:
     headers:
-      Host: xjp.daluquan.top
-    path: /
-- name: 73|🇸🇪 www.85la.com 瑞典 04
-  network: tcp
-  password: wkmY1R4EcP
+      Host: origin.e.crazyspeed.xyz
+    path: /nices
+- cipher: aes-256-cfb
+  name: 68|117,363,384|🇪SE-37.19.222.213-...
+  password: asdKkaskJKfnsa
   port: 443
-  server: 65.20.115.19
-  skip-cert-verify: true
-  sni: myket.io
-  type: trojan
-  udp: true
-- name: 73|🇸🇪 www.85la.com 瑞典 03_1
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.53.223.92
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 73|瑞典-3.41MB/s_79_79
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.48.83.146
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 73|瑞典-3.69MB/s_106_106
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.49.7.121
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
+  server: 37.19.222.213
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 75|🇸🇪 瑞典 - V2Link VPN
   password: 90cfc577-6d59-4bf8-b2e4-9f7f842d5c8e
@@ -266,29 +1396,106 @@ proxies:
   server: host-059.crazyspeed.xyz
   type: ss
   udp: true
-- name: 73|瑞典-51.6MB/s_990_990
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.246.112.81
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 73|瑞典_由快嘴科技提供;kkzui.com170
+  name: 68|429|MOHSEN-🇮🇷-IR_14
   network: ws
-  port: 80
-  server: 185.146.173.158
-  skip-cert-verify: true
+  port: 51598
+  server: 46.245.79.53
+  tls: true
+  type: vmess
+  uuid: bbeddeb5-e933-4e08-d2bc-020dbc6a5024
+  ws-opts:
+    path: /apiws
+- alterId: 0
+  cipher: auto
+  name: 68,122|429|MOHSEN-🇳🇱-NL_13
+  network: ws
+  port: 2083
+  server: 95.179.128.145
   tls: false
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: 1cf2679f-8ec4-4b07-d758-132573825850
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇷🇴-RO_4
+  network: ws
+  port: 443
+  server: 45.85.119.45
+  tls: true
+  type: vmess
+  uuid: 11d92a7d-6998-43ad-9ad2-26666e7a5d27
+  ws-opts:
+    path: /ca1.vm.xservs.xyz
+- cipher: chacha20-ietf-poly1305
+  name: 68|252|SE 🇸🇪 Stockholm
+  password: fAmKHf3Dft78ZyzL9kYF
+  port: 8389
+  server: 45.83.91.66
+  type: ss
+- cipher: aes-256-gcm
+  name: '68|313,363,384,590|[02-24]-🇸🇪-瑞典-... #1'
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 167.88.61.60
+  type: ss
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: /
+  name: 68|429|MOHSEN-undefined_31
+  network: grpc
+  port: 443
+  server: chpa.vipservers.me
+  servername: chpa.vipservers.me
+  tls: true
+  type: vmess
+  uuid: 2fbbcfb9-6055-4626-ad60-25e43b4ad8ae
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_55
+  network: ws
+  port: 443
+  server: dga4.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
   ws-opts:
     headers:
-      host: d396-flower-d396.megare7260.workers.dev
-    path: /obdii.cfd/linkws
+      Host: dga4.6bbt.tk
+    path: /6bbt.tk
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_17
+  network: ws
+  port: 2052
+  server: lepingshop.mmdhossein20.tk
+  tls: false
+  type: vmess
+  uuid: 49db1084-c6bf-47df-d31e-3092fc542c40
+  ws-opts:
+    headers:
+      Host: lepingshop.mmdhossein20.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇮🇹-IT_1
+  network: ws
+  port: 10000
+  server: 45.86.231.199
+  tls: false
+  type: vmess
+  uuid: 766c2d78-bdd4-11ed-98e9-00163cf4ebda
+  ws-opts:
+    path: /vpnjantit
+- cipher: chacha20-ietf-poly1305
+  name: 68|153|SE 4 → tg@nicevpn123
+  password: JouoHF2YNllsnHVvS4ZImD
+  port: 23456
+  server: 13.53.93.151
+  type: ss
 - name: 73|瑞典-258.5KB/s_748_748
   network: tcp
   password: telegram-id-privatevpns
@@ -298,35 +1505,231 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- country: SE
-  name: 42,60,88|SE_540
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-🇨🇷-CR_4
+  network: ws
+  port: 8080
+  server: 190.93.246.196
+  tls: false
+  type: vmess
+  uuid: c0942f3d-58cd-43a9-8282-1bcc3b9f291e
+  ws-opts:
+    path: /uitsrt
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_14
+  network: ws
+  port: 443
+  server: origin.a.crazyspeed.xyz
+  tls: false
+  type: vmess
+  uuid: e5cc8668-bb9d-4769-abe1-24ffd714fd78
+  ws-opts:
+    headers:
+      Host: origin.a.crazyspeed.xyz
+    path: /nices
+- name: 73|瑞典-94.8MB/s_375_375
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 51.20.194.11
+  server: 13.50.11.128
+  skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 73|🇸🇪 www.85la.com 瑞典 06_1
+- cipher: aes-256-gcm
+  name: '68|313,363,384,590|[02-24]-🇪-瑞典-0... #1'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 167.88.61.60
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_33
+  network: ws
+  port: 443
+  server: 1.hk1997.pro
+  tls: true
+  type: vmess
+  uuid: 3e1890e7-4746-4378-89ba-10c7bbe06094
+  ws-opts:
+    headers:
+      Host: 1.hk1997.pro
+    path: /tufgvws
+- cipher: aes-256-gcm
+  name: '68|313,363,384,590|[02-24]-🇸-瑞典-1... #1'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 167.88.61.60
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_16
+  network: ws
+  port: 443
+  server: origin.k.crazyspeed.xyz
+  tls: false
+  type: vmess
+  uuid: e5cc8668-bb9d-4769-abe1-24ffd714fd78
+  ws-opts:
+    headers:
+      Host: origin.k.crazyspeed.xyz
+    path: /nices
+- name: 86,136|TR-WS-TLS 🇸🇪 SE-185.146.173.69...
+  network: ws
+  password: b697183d-288b-40ab-98ae-8e3eb85f371c
+  port: 443
+  server: 185.146.173.69
+  sni: uk1.trojanvpn.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uk1.trojanvpn.xyz
+    path: /
+- cipher: aes-256-cfb
+  name: 68|117,363,384|🇸🇪SE-37.19.222.212...
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 37.19.222.212
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_51
+  network: ws
+  port: 443
+  server: rsa3.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    headers:
+      Host: rsa3.6bbt.tk
+    path: /6bbt.tk
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_53
+  network: ws
+  port: 443
+  server: rda2.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    headers:
+      Host: rda2.6bbt.tk
+    path: /6bbt.tk
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - z42.zirogame42.pw
+    method: GET
+    path:
+    - /
+  name: 68|429|MOHSEN-🇮🇷-IR_1
+  network: http
+  port: 59188
+  server: z42.zirogame42.pw
+  tls: false
+  type: vmess
+  uuid: 72e6c0c2-fa4f-43b8-d2f7-0b0a240eed1a
+- cipher: chacha20-ietf-poly1305
+  name: 68|363,384,387,388,429|MOHSEN-🇫🇮-...
+  password: siF98xBL2v1i
+  port: 8478
+  server: 135.181.114.242
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 122|电报频道 https://1808.free.hr_SE_4...
+  network: ws
+  port: 443
+  server: 141.147.147.180
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  name: 68,122|429|MOHSEN-undefined_70
+  network: ws
+  port: 443
+  server: uae.artunnel57.host
+  tls: true
+  type: vmess
+  uuid: 839a0331-800c-434f-b9ce-acd136370630
+  ws-opts:
+    headers:
+      Host: uae.artunnel57.host
+    path: /vmess-tls
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_59
+  network: ws
+  port: 443
+  server: dg2.6bbt.tk
+  tls: false
+  type: vmess
+  uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5
+  ws-opts:
+    headers:
+      Host: dg2.6bbt.tk
+    path: /6bbt.tk
+- cipher: chacha20-ietf-poly1305
+  name: 68|429|MOHSEN-🇸🇪-SE_2
+  password: eOj257ncofSP4hQphZrxma
+  port: 8443
+  server: 16.170.159.23
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|29|🇪SE(AzadNet.t.me)_004
+  network: ws
+  port: 443
+  server: 185.146.173.158
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    path: /linkws
+- name: 73|瑞典-713.6KB/s_931_931
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 16.170.58.228
+  server: 13.53.152.136
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 73|瑞典_由快嘴科技提供：kkzui.com94
+  name: 68|429|MOHSEN-🇮🇷-IR_2
   network: ws
-  port: 443
-  server: 185.146.173.129
-  skip-cert-verify: true
-  tls: true
+  port: 33270
+  server: svt26.iran2vip.com
+  tls: false
   type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  uuid: 5a6ff202-8a16-482a-91c9-3960f08e347c
   ws-opts:
     headers:
-      host: nt-haze-7dad.rogap16875.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
+      Host: svt26.iran2vip.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 68|429|MOHSEN-undefined_8
+  network: ws
+  port: 2053
+  server: a.sandbad.live
+  tls: true
+  type: vmess
+  uuid: 4b7ac57c-efbd-4a12-a06e-a24640f320fa
+  ws-opts:
+    headers:
+      Host: a.sandbad.live
+    path: /
