@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 122|🚀 Marz (SHEEP) [VMess - ws]
-  network: ws
-  port: '8080'
-  server: 62.60.135.13
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4dba618a-a752-40b5-a583-8b0ed0724009
-  ws-opts:
-    headers:
-      Host: google.com
-    path: /
 - name: 86|TR-WS-TLS 🇪🇪 EE-45.80.108.245:...
   network: ws
   password: NISHIKUITAN111
@@ -26,29 +12,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 68|438|ws🇪🇪@ho3ino00
+  name: 122|🚀 Marz (SHEEP) [VMess - ws]
   network: ws
-  port: 53100
-  server: 135.181.89.97
+  port: '8080'
+  server: 62.60.135.13
+  servername: ''
   tls: false
   type: vmess
-  uuid: 3bd3315d-7a52-4ba3-fe81-0da63d1825f6
+  uuid: 4dba618a-a752-40b5-a583-8b0ed0724009
   ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  name: '68|363,384,387,388|@filternet0142... #6'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.252.5.234
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '68|323,362,363,372,373,377,382,38... #24'
-  network: ws
-  port: 80
-  server: 176.112.146.190
-  tls: false
-  type: vmess
-  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
-  ws-opts:
+    headers:
+      Host: google.com
     path: /
