@@ -1,22 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🇪 SE
-  h2-opts: {}
-  http-opts: {}
-  name: 60|🇪 SE_571
-  network: ws
-  port: 80
-  server: 185.146.173.59
-  servername: freevpn878.hamidimorteza680.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-headers:
-    HOST: freevpn878.hamidimorteza680.workers.dev
-  ws-path: /glweidf.cfd/linkws
 - country: SE
-  name: '49|netflix_SE #1'
+  name: '49,55|netflix_SE #1'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.61.41.167
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: SE
+  name: 49,55|netflix_SE
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -24,19 +17,12 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: ' SE'
-  name: 37,38,39,40,48,50,60| SE_4031
-  password: UDcjYQ6Z6AIWxViZpqyOmO
-  port: 44013
-  server: 46.246.98.155
-  type: ss
 - country: SE
-  name: 49,55|SE_13
+  name: 49|SE_15
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 16.16.224.111
+  server: 51.21.28.14
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
@@ -45,7 +31,7 @@ proxies:
   country: 🇪 SE
   h2-opts: {}
   http-opts: {}
-  name: 60|🇪 SE_570
+  name: 60|🇪 SE_535
   network: ws
   port: 80
   server: Back.MsV2ray.online
@@ -56,17 +42,31 @@ proxies:
   ws-headers:
     HOST: d396-flower-d396.megare7260.workers.dev
   ws-path: /obdii.cfd/linkws
+- alterId: 0
+  cipher: auto
+  country: 🇸🇪 SE
+  h2-opts: {}
+  http-opts: {}
+  name: 60|🇪 SE_536
+  network: ws
+  port: 80
+  server: 185.146.173.59
+  servername: freevpn878.hamidimorteza680.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-headers:
+    HOST: freevpn878.hamidimorteza680.workers.dev
+  ws-path: /glweidf.cfd/linkws
+- cipher: chacha20-ietf-poly1305
+  country: ' SE'
+  name: 37,38,39,40,48,50,60| SE_4003
+  password: UDcjYQ6Z6AIWxViZpqyOmO
+  port: 44013
+  server: 46.246.98.155
+  type: ss
 - country: SE
-  name: 49|netflix_SE
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.21.28.14
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: SE
-  name: 55|Relay_SE-NL_753
+  name: 55|Relay_SE-NL_893
   network: ws
   password: aee423ce-e4b0-4555-b5b7-486dd0284fd2
   port: 443
@@ -83,7 +83,7 @@ proxies:
   country: 🇸🇪 SE
   h2-opts: {}
   http-opts: {}
-  name: 60|🇸🇪 SE_572
+  name: 60|🇸🇪 SE_537
   network: ws
   port: 80
   server: 185.146.173.158

@@ -1,73 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 47|🇸🇬SG-206.238.236.36-7779 | 21....
-  network: ws
-  port: 2052
-  server: 206.238.236.36
-  servername: 🇸🇬SG-206.238.236.36-7779 | 21.912MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /
-- cipher: aes-256-cfb
-  country: 🇬SG
-  name: 50|🇬SG_679
-  password: amazonskr05
-  port: 443
-  server: 18.141.184.102
-  type: ss
-- name: '65|SG_Singapore_Datacamp Limited_... #1'
-  network: tcp
-  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
-  port: 19222
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- name: '65|SG_Singapore_Datacamp Limited_... #3'
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19224
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- name: 65|SG_Singapore_RN2_OpenAI
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19210
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37,50|Relay_-SG_3301
-  network: ws
-  port: 443
-  server: 3.clarity168.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 48f837fa-12d0-498d-b5f6-94f9979736a4
-  ws-opts:
-    headers:
-      Host: 3.clarity168.com
-    path: /tk
-- cipher: aes-256-cfb
-  country: US
-  name: '42|netflix_SG #1'
-  password: amazonskr05
-  port: 443
-  server: 47.128.215.67
-  type: ss
-- alterId: 0
-  cipher: auto
   country: 🇸🇬SG
   h2-opts: {}
   http-opts: {}
@@ -86,22 +19,62 @@ proxies:
     path: /
 - cipher: aes-256-cfb
   country: SG
-  name: 43|SG_93
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: 8099
-  server: 139.162.5.19
-  type: ss
-- cipher: rc4-md5
-  name: 42,47,48,50,55|netflix_SG
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.227.45
-  type: ss
-- cipher: aes-256-cfb
-  name: 18|_SG_
+  name: 37,48,50,55|SG_4009
   password: amazonskr05
   port: 443
-  server: 54.179.87.28
+  server: 13.212.36.13
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 44|新加坡|湖南移动|Linode|1x
+  network: tcp
+  port: 39288
+  server: cs.guanguan.club
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
+  country: ' SG'
+  h2-opts: {}
+  http-opts: {}
+  name: 37|Relay_ SG-SG_4007
+  network: ws
+  port: 443
+  server: tls.95.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 47|🇸🇬SG-206.238.236.36-7862 | 25....
+  network: ws
+  port: 2052
+  server: 206.238.236.36
+  servername: 🇸🇬SG-206.238.236.36-7862 | 25.022MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /
+- name: '65|SG_Singapore_Datacamp Limited_... #3'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19224
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 65|SG_Singapore_Akile LTD_OpenAI_...
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 61020
+  server: 120.240.88.34
   type: ss
 - name: '65|SG_Singapore_Oracle Corporatio... #2'
   network: tcp
@@ -110,52 +83,6 @@ proxies:
   server: 122.188.71.132
   skip-cert-verify: true
   type: trojan
-- name: 65|SG_Singapore_Oracle Corporatio...
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19227
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '65|SG_Singapore_Akari Networks_Op... #3'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50006
-  server: 120.232.217.70
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '65|SG_Singapore_Akari Networks_Op... #4'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50105
-  server: 120.232.217.71
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 42,48,55,56|SG_409
-  password: amazonskr05
-  port: 443
-  server: 3.1.195.116
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 37,42,48,55,56|SG_4038
-  password: amazonskr05
-  port: 443
-  server: 18.142.177.17
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 65|SG_Singapore_Akile LTD_OpenAI_...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61020
-  server: 120.240.88.34
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 37,48,50,55,56|SG_4037
-  password: amazonskr05
-  port: 443
-  server: 13.212.36.13
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: '65|SG_Singapore_Akari Networks_Op... #2'
   password: 0e91a29a-989d-4934-a1fb-7b653319397f
@@ -164,16 +91,138 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: SG
   h2-opts: {}
   http-opts: {}
-  name: 37,38,39,40,48,55,60|SG_4042
-  network: tcp
-  port: 57614
-  server: 5.34.176.111
+  name: 37,50|Relay_-SG_3394
+  network: ws
+  port: 443
+  server: 3.clarity168.com
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
+  udp: true
+  uuid: 48f837fa-12d0-498d-b5f6-94f9979736a4
+  ws-opts:
+    headers:
+      Host: 3.clarity168.com
+    path: /tk
+- name: 65|SG_Singapore_Oracle Corporatio...
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19227
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
+  country: 🇸SG
+  name: 48,55|🇸🇬SG_3483
+  password: amazonskr05
+  port: 443
+  server: 175.41.187.222
+  type: ss
+- name: '65|SG_Singapore_Datacamp Limited_... #2'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19223
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '65|SG_Singapore_Akari Networks_Op... #4'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50105
+  server: 120.232.217.71
+  type: ss
+- cipher: aes-256-cfb
+  name: 18,66|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 43|SG_94
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  port: 8099
+  server: 139.162.41.174
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 37|Relay_-SG_3016
+  network: ws
+  port: 443
+  server: tls.96.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
+  ws-opts:
+    headers:
+      Host: tls.96.node-for-bigairport.win
+    path: /
+- cipher: aes-256-cfb
+  country: SG
+  name: 37,48,55|SG_4010
+  password: amazonskr05
+  port: 443
+  server: 54.251.216.7
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65|SG_Singapore_Akile LTD_OpenAI_... #1'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 61020
+  server: 120.240.88.37
+  type: ss
+- cipher: aes-256-cfb
+  country: SG
+  name: 37,48,55|SG_4011
+  password: amazonskr05
+  port: 443
+  server: 18.142.177.17
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇬SG
+  name: 48,50,55|🇸🇬SG_3484
+  password: amazonskr05
+  port: 443
+  server: 13.250.110.56
+  type: ss
+- name: 65|SG_Singapore_RN2_OpenAI
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19210
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- name: 65|SG_Singapore_Datacamp Limited_...
+  network: tcp
+  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
+  port: 19225
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '65|SG_Singapore_Akari Networks_Op... #5'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50005
+  server: 120.232.217.71
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 65|SG_Singapore_Akari Networks_Op...
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50006
+  server: 120.232.217.71
+  type: ss
+- name: '65|SG_Singapore_Datacamp Limited_... #1'
+  network: tcp
+  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
+  port: 19222
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 41|SG |  LB-1P
@@ -189,83 +238,18 @@ proxies:
     headers:
       Host: d16henb377mok4.cloudfront.net
     path: /stream
-- cipher: chacha20-ietf-poly1305
-  name: '65|SG_Singapore_Akile LTD_OpenAI_... #1'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61020
-  server: 120.240.88.37
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 65|SG_Singapore_Akari Networks_Op...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50006
-  server: 120.232.217.71
-  type: ss
-- name: '65|SG_Singapore_Oracle Corporatio... #1'
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19228
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
 - cipher: aes-256-cfb
   country: SG
-  name: 37,42,48,50,55|SG_4041
-  password: amazonskr05
-  port: 443
-  server: 13.250.110.56
-  type: ss
-- name: 65|SG_Singapore_Datacamp Limited_...
-  network: tcp
-  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
-  port: 19225
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- name: '65|SG_Singapore_Datacamp Limited_... #2'
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19223
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- cipher: aes-256-cfb
-  country: SG
-  name: 37,42,48,55,56|SG_4039
-  password: amazonskr05
-  port: 443
-  server: 54.251.216.7
-  type: ss
-- cipher: aes-256-cfb
-  country: SG
-  name: 37,42,48,55|SG_4040
-  password: amazonskr05
-  port: 443
-  server: 175.41.187.222
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-SG_3110
-  network: ws
-  port: 443
-  server: tls.95.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: tls.95.node-for-bigairport.win
-    path: /
-- cipher: aes-256-cfb
-  country: SG
-  name: 43|SG_94
+  name: 43|SG_93
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8099
-  server: 139.162.41.174
+  server: 139.162.5.19
+  type: ss
+- cipher: rc4-md5
+  name: 47,48,50,55|🇸🇬SG-68.183.227.45-0392 | 12.3...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.45
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '65|SG_Singapore_Akari Networks_Op... #1'
@@ -274,8 +258,53 @@ proxies:
   server: 120.232.217.70
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '65|SG_Singapore_Akari Networks_Op... #5'
+  name: '65|SG_Singapore_Akari Networks_Op... #3'
   password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50005
-  server: 120.232.217.71
+  port: 50006
+  server: 120.232.217.70
   type: ss
+- name: '65|SG_Singapore_Oracle Corporatio... #1'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19228
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 66|15|🇸🇬 新加坡|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54030
+  server: s-g04.loveroise.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ' SG'
+  h2-opts: {}
+  http-opts: {}
+  name: 38,40,48,50,52,55| SG_508
+  network: tcp
+  port: 57614
+  server: 5.34.176.111
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
+- alterId: 0
+  cipher: auto
+  country: ' SG'
+  h2-opts: {}
+  http-opts: {}
+  name: 37| SG_4008
+  network: ws
+  port: 443
+  server: tls.96.node-for-bigairport.win
+  servername: tls.96.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      HOST: tls.96.node-for-bigairport.win
+    path: /
