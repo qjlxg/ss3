@@ -1,11 +1,5 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: '65|TW_Taipei_Akari Networks_OpenA... #2'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50003
-  server: 120.232.217.71
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: '65|TW_Taipei_Akari Networks_OpenA... #1'
   password: 0e91a29a-989d-4934-a1fb-7b653319397f
   port: 50110
@@ -18,12 +12,31 @@ proxies:
   server: 122.188.71.132
   skip-cert-verify: true
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 65|TW_Kaohsiung_Digital United In...
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50004
+  server: 120.232.217.70
+  type: ss
+- client-fingerprint: chrome
+  name: 66|15|🇹🇼 台湾|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 81
+  server: 210.61.97.241
+  skip-cert-verify: false
+  sni: tr.koiok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koiok.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   country: ' TW'
   h2-opts: {}
   http-opts: {}
-  name: 40|ChatGPT  TW_35
+  name: 40|ChatGPT  TW_31
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -38,14 +51,14 @@ proxies:
   server: 120.232.217.71
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 65|TW_Kaohsiung_Digital United In...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50004
-  server: 120.232.217.70
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: '65|TW_Kaohsiung_Digital United In... #1'
   password: 0e91a29a-989d-4934-a1fb-7b653319397f
   port: 61006
   server: 120.240.88.37
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '65|TW_Taipei_Akari Networks_OpenA... #2'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50003
+  server: 120.232.217.71
   type: ss

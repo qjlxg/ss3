@@ -1,42 +1,42 @@
 proxies:
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39,48,50,55|CH_3640
+  name: 37,39,48,50|CH_3433
   password: faBAoD54k87UJG7
-  port: 2375
+  port: 2376
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,48,50,55|CH_3426
+  password: Y6R9pAtvxxzmGC
+  port: 3306
   server: 23.166.88.198
   type: ss
 - cipher: aes-128-gcm
   country: CH
-  name: 37,38,39,40,45,48,50,60|CH_3642
+  name: 37,38,39,40,45,47,48,50,55,60|CH_3434
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.164
+  type: ss
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,39,40,45,48,50,60|CH_3427
   password: shadowsocks
   port: 443
   server: 156.146.62.163
   type: ss
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39,40,50|CH_3646
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,38,39,40,45,48,50,60|CH_3645
+  name: 37,38,39,40,45,48,50,55,60|CH_3431
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 23.166.88.198
   type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,38,39,40,48,50,55|CH_3641
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.166.88.221
-  type: ss
 - alterId: 1
   cipher: auto
-  name: 47|CH-186.190.215.32-7799 | 22.61...
+  name: 47|CH-186.190.215.32-7936 | 15.43...
   network: ws
   port: 443
   server: 186.190.215.32
@@ -50,22 +50,43 @@ proxies:
     path: /
 - cipher: aes-256-gcm
   country: CH
-  name: 37,40,50,55|CH_3647
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,40,50,55|CH_3644
+  name: 37,40,48|CH_3428
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 23.166.88.5
   type: ss
 - cipher: aes-256-gcm
   country: CH
-  name: 37,40,48,50,55|CH_3643
+  name: 37,40,48,50,55|CH_3429
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 23.166.88.198
+  type: ss
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,39,40,45,48,50,55,60|CH_3435
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.161
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,48,50,55|CH_3432
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,48,50|CH_3430
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: ' CH'
+  name: 37,38,39,40,45,48,50,60| CH_3425
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.166.88.221
   type: ss
