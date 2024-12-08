@@ -1,23 +1,9 @@
 proxies:
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39,40,48,50,52,55|CH_3677
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,45,48,50,55,60|CH_3676
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.163
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,38,39,40,45,48,50,52,60|CH_3675
-  password: g5MeD6Ft3CWlJId
-  port: 5003
+  name: 37,40,52|CH_3719
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 23.166.88.198
   type: ss
 - alterId: 1
@@ -36,36 +22,43 @@ proxies:
     path: /
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39,40,48,50,52,55|CH_3679
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,48,50,52|CH_3681
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,38,39,45,48,50,52,60|CH_3678
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.166.88.221
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,50,52,55|CH_3680
+  name: 37,39,40,48,52,55|CH_3720
   password: faBAoD54k87UJG7
   port: 2375
   server: 23.166.88.198
   type: ss
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39,40,50,52|CH_3674
+  name: 37,38,39,40,45,48,50,52,60|CH_3725
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,48,52|CH_3724
   password: Y6R9pAtvxxzmGC
   port: 3389
-  server: 23.166.88.5
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,39,40,45,48,50,60|CH_3722
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.163
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,52|CH_3721
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,48,52|CH_3723
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 23.166.88.198
   type: ss
