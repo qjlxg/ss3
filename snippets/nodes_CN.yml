@@ -1,35 +1,10 @@
 proxies:
 - alterId: 64
   cipher: auto
-  country: ' CN'
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,40,48,55| CN_3733
-  network: tcp
-  port: 59003
-  server: 183.236.51.36
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 37,38,40,48,50,55|CN_3739
-  network: tcp
-  port: 48712
-  server: 107.148.207.249
-  servername: appsvs.shop
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,39,40,48,50,55,56,58,68|CN_3738
+  name: 37,38,39,40,48,50,55,56,58,60,68|CN_3679
   network: tcp
   port: 45017
   server: 142.0.134.243
@@ -41,49 +16,19 @@ proxies:
   country: ' CN'
   h2-opts: {}
   http-opts: {}
-  name: 37,38,40,48,50| CN_3730
+  name: 37,40,42,48,55,60| CN_3670
   network: tcp
   port: 50002
-  server: 47.92.152.169
+  server: 114.55.132.202
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 66|CN_speednode_0008
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54028
-  server: s-g03.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 66|CN_speednode_0006
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54004
-  server: h-k03.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 66|CN_speednode_0007
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54096
-  server: j-p01.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 66|CN_speednode_0005
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54032
-  server: t-wn01.loveroise.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 66|CN_speednode_0004
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54098
-  server: j-p02.loveroise.com
-  type: ss
 - alterId: 64
   cipher: auto
   country: ' CN'
   h2-opts: {}
   http-opts: {}
-  name: 37,38,40,48,55| CN_3735
+  name: 37,38,40,42,48,55,60| CN_3672
   network: tcp
   port: 50002
   server: 112.132.215.12
@@ -91,23 +36,21 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 68|电报频道 https://1808.free.hr_CN_6...
-  network: ws
-  port: 443
-  server: 8.219.83.38
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-  tls: true
+  country: ' CN'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,40,42,48,50,60| CN_3675
+  network: tcp
+  port: 50002
+  server: 47.92.152.169
+  skip-cert-verify: true
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf
   country: CN
-  name: 37,45,48|Relay_CN-CN_3736
+  name: 37,45,48|Relay_CN-CN_3677
   obfs: plain
   password: mblank1port
   port: 560
@@ -119,36 +62,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 37|Relay_-CN_2435
-  network: ws
-  port: 37000
-  server: 38.33.56.38
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.24006857.xyz
-    path: /path/1730971482357
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,39,40,48,50,55|CN_3737
-  network: tcp
-  port: 45017
-  server: 142.0.134.244
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-CN_2650
+  name: 37|Relay_-CN_2590
   network: ws
   port: 37000
   server: 38.33.56.39
@@ -161,11 +75,162 @@ proxies:
     headers:
       Host: www.24006857.xyz
     path: /path/1731231349070
+- cipher: chacha20-ietf-poly1305
+  name: 66|CN_speednode_0004
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54098
+  server: j-p02.loveroise.com
+  type: ss
+- alterId: 64
+  cipher: auto
+  country: ' CN'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,40,42,48,50,55,60| CN_3674
+  network: tcp
+  port: 50004
+  server: 112.132.212.19
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 66|CN_speednode_0006
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54004
+  server: h-k03.loveroise.com
+  type: ss
+- alterId: 64
+  cipher: auto
+  country: ' CN'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,40,42,55,60| CN_3673
+  network: tcp
+  port: 59003
+  server: 183.236.51.36
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 37|Relay_-CN_2526
+  name: 37|Relay_-CN_2373
+  network: ws
+  port: 37000
+  server: 38.33.56.38
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.24006857.xyz
+    path: /path/1730971482357
+- cipher: chacha20-ietf-poly1305
+  name: 66|CN_speednode_0008
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54028
+  server: s-g03.loveroise.com
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 25|🇨🇳_CN_中国
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: ' CN'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,40,42,55,60| CN_3671
+  network: tcp
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,39,40,48,50,55,60|CN_3678
+  network: tcp
+  port: 45017
+  server: 142.0.134.244
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 68|电报频道 https://1808.free.hr_CN_7...
+  network: ws
+  port: 443
+  server: 8.222.165.104
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,39,40,48,50,60|CN_3680
+  network: tcp
+  port: 48712
+  server: 107.148.207.249
+  servername: appsvs.shop
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 66|CN_speednode_0005
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54032
+  server: t-wn01.loveroise.com
+  type: ss
+- cipher: rc4-md5
+  country: CN
+  name: 50|🇨CN_302
+  password: uYhVA160ZoSg3AI5
+  port: 6700
+  server: 1.12.237.86
+  type: ss
+- alterId: 64
+  cipher: auto
+  country: ' CN'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,40,42,48,55,60| CN_3676
+  network: tcp
+  port: 50002
+  server: 47.116.173.76
+  servername: rac.679888.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 66|CN_speednode_0007
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54096
+  server: j-p01.loveroise.com
+  type: ss
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 37|Relay_-CN_2463
   network: ws
   port: 37000
   server: 38.33.56.42
@@ -178,86 +243,9 @@ proxies:
     headers:
       Host: www.24006857.xyz
     path: /path/1731663763983
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 48|🇨🇳CN_3105
-  network: tcp
-  port: 45017
-  server: 142.0.134.242
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: ' CN'
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,40,48,55| CN_3731
-  network: tcp
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  country: CN
-  name: 45,50,55|CN_08
-  password: uYhVA160ZoSg3AI5
-  port: 6700
-  server: 1.12.237.86
-  type: ss
-- alterId: 64
-  cipher: auto
-  country: ' CN'
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,40,48,50,55| CN_3734
-  network: tcp
-  port: 50004
-  server: 112.132.212.19
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: ' CN'
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,40,48,55| CN_3732
-  network: tcp
-  port: 50002
-  server: 47.116.173.76
-  servername: rac.679888.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 25|🇨🇳_CN_中国
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   name: 18|_CN_
   password: hGkQ6915tD
   port: 15082
   server: 59.56.77.178
   type: ss
-- alterId: 64
-  cipher: auto
-  country: ' CN'
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,40,48,55| CN_3729
-  network: tcp
-  port: 50002
-  server: 114.55.132.202
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
