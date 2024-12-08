@@ -1,15 +1,6 @@
 proxies:
 - country: SE
-  name: 49,55|SE_18
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 16.16.140.180
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: SE
-  name: 49|SE_15
+  name: 49|netflix_SE
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -18,7 +9,25 @@ proxies:
   type: trojan
   udp: true
 - country: SE
-  name: 49|SE_17
+  name: 55|SE_661
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.61.88.43
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: SE
+  name: 49|SE_16
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.21.28.14
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: SE
+  name: 55|SE_660
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -26,8 +35,15 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: ' SE'
+  name: 37,38,39,40,50| SE_4091
+  password: UDcjYQ6Z6AIWxViZpqyOmO
+  port: 44013
+  server: 46.246.98.155
+  type: ss
 - country: SE
-  name: 55|Relay_SE-NL_680
+  name: 55|Relay_SE-NL_659
   network: ws
   password: aee423ce-e4b0-4555-b5b7-486dd0284fd2
   port: 443
@@ -39,12 +55,3 @@ proxies:
     headers:
       Host: nl1.trojanvpn.xyz
     path: /
-- country: SE
-  name: 42,49,55|SE_786
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.21.28.14
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
