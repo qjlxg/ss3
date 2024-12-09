@@ -1,9 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: '63|TW_Kaohsiung_Digital United In... #1'
+  name: 63|TW_Kaohsiung_Digital United In...
   password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61006
-  server: 120.240.88.37
+  port: 50004
+  server: 120.232.217.70
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '63|TW_Taipei_Akari Networks_OpenA... #2'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50003
+  server: 120.232.217.71
   type: ss
 - name: 63|TW_Taipei_Radishcloud Technolo...
   network: tcp
@@ -13,30 +19,10 @@ proxies:
   skip-cert-verify: true
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '63|TW_Taipei_Akari Networks_OpenA... #2'
+  name: '63|TW_Kaohsiung_Digital United In... #1'
   password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50003
-  server: 120.232.217.71
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: TW
-  h2-opts: {}
-  http-opts: {}
-  name: 37,47,49|TW_3769
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  skip-cert-verify: true
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '63|TW_Taipei_Akari Networks_OpenA... #1'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50110
-  server: 120.232.217.71
+  port: 61006
+  server: 120.240.88.37
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 63|TW_Taipei_Akari Networks_OpenA...
@@ -44,18 +30,12 @@ proxies:
   port: 50004
   server: 120.232.217.71
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 63|TW_Kaohsiung_Digital United In...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50004
-  server: 120.232.217.70
-  type: ss
 - alterId: 0
   cipher: auto
   country: ' TW'
   h2-opts: {}
   http-opts: {}
-  name: 40|ChatGPT  TW_30
+  name: 40|ChatGPT  TW_33
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -63,3 +43,9 @@ proxies:
   type: vmess
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: '63|TW_Taipei_Akari Networks_OpenA... #1'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50110
+  server: 120.232.217.71
+  type: ss
