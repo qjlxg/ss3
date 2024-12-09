@@ -1,18 +1,18 @@
 proxies:
-- alterId: 1
-  cipher: auto
-  name: 46|CH-186.190.215.32-7863 | 25.80...
-  network: ws
-  port: 443
-  server: 186.190.215.32
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 186.190.215.32
-    path: /
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,49,51|CH_3453
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,38,39,40,47,49,51|CH_3452
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.166.88.221
+  type: ss
 - alterId: 0
   cipher: auto
   name: 66|电报频道 https://1808.free.hr_CH_5...
@@ -28,10 +28,52 @@ proxies:
       Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
 - cipher: aes-256-gcm
-  country: ' CH'
-  name: 40,49,51|ChatGPT  CH_18
+  country: CH
+  name: 37,39,40,47,51,54|CH_3454
   password: faBAoD54k87UJG7
-  port: 2376
+  port: 2375
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,40,49,51,54|CH_3456
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,47,49,51|CH_3448
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.166.88.5
+  type: ss
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,40,44,47,49,59|CH_3450
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.163
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,38,40,47,49,51,59|CH_3457
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: ' CH'
+  name: 40,49,51|ChatGPT  CH_19
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,40,47,49,51|CH_3455
+  password: pKEW8JPByTVTLtM
+  port: 4444
   server: 23.166.88.198
   type: ss
 - alterId: 0
@@ -48,10 +90,31 @@ proxies:
     headers:
       Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
-- cipher: aes-256-gcm
-  country: ' CH'
-  name: 40,47,51,54|ChatGPT  CH_23
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.166.88.198
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,40,44,47,49,54,59|CH_3451
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.162
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 46|CH-186.190.215.32-7863 | 25.80...
+  network: ws
+  port: 443
+  server: 186.190.215.32
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.32
+    path: /
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,39,40,44,47,49,54,59|CH_3449
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.161
   type: ss
