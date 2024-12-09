@@ -1,46 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,49,51,54|CH_3616
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,38,39,40,44,47,49,51,54,59|CH_3618
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-128-gcm
-  country: ' CH'
-  name: 37,38,39,40,44,47,49,54,59| CH_3609
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.162
-  type: ss
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,44,46,47,49,51,54,59|CH_3611
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.164
-  type: ss
-- cipher: aes-256-gcm
-  country: ' CH'
-  name: 37,38,39,40,47,49,51,54| CH_3610
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.166.88.221
-  type: ss
-- cipher: aes-256-gcm
-  country: ' CH'
-  name: 40,47,49,51|ChatGPT  CH_23
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.166.88.5
-  type: ss
 - alterId: 1
   cipher: auto
   name: 46|CH-186.190.215.32-7863 | 25.80...
@@ -55,30 +13,9 @@ proxies:
     headers:
       Host: 186.190.215.32
     path: /
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,49,51|CH_3617
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,49,51|CH_3615
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,44,47,49,54,59|CH_3613
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.163
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 65|电报频道 https://1808.free.hr_CH_5...
+  name: 66|电报频道 https://1808.free.hr_CH_5...
   network: ws
   port: 443
   server: 152.67.65.201
@@ -90,23 +27,16 @@ proxies:
     headers:
       Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,44,47,49,54,59|CH_3612
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.161
-  type: ss
 - cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,47,49,51|CH_3614
-  password: pKEW8JPByTVTLtM
-  port: 4444
+  country: ' CH'
+  name: 40,49,51|ChatGPT  CH_18
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 23.166.88.198
   type: ss
 - alterId: 0
   cipher: auto
-  name: 65|电报频道 https://1808.free.hr_CH_4...
+  name: 66|电报频道 https://1808.free.hr_CH_4...
   network: ws
   port: 443
   server: 141.148.203.6
@@ -118,3 +48,10 @@ proxies:
     headers:
       Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
+- cipher: aes-256-gcm
+  country: ' CH'
+  name: 40,47,51,54|ChatGPT  CH_23
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.166.88.198
+  type: ss

@@ -1,130 +1,37 @@
 proxies:
-- alterId: 1
-  cipher: auto
-  country: JP
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,47,49,54|JP_3856
-  network: ws
-  port: 443
-  server: 92.38.178.93
-  servername: 92.38.178.93
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: 92.38.178.93
-    path: linkvws
 - cipher: aes-256-cfb
-  country: 🇵JP
-  name: 47|🇵JP_3302
+  country: 🇯🇵JP
+  name: 47,55|🇯🇵JP_3305
   password: amazonskr05
   port: 443
-  server: 52.196.152.62
+  server: 52.193.184.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 62|JP_Tokyo_Cloudflare, Inc._Open...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50113
-  server: 120.232.217.70
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: JP
-  name: 43|Pool_JP_69
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 185.172.113.182
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: JP
-  name: 43|Pool_JP_71
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 185.172.113.182
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-JP_3331
-  network: ws
-  port: 443
-  server: tls.02.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: tls.02.node-for-bigairport.win
-    path: /
-- alterId: 1
-  cipher: auto
-  country: 🇵 JP
-  h2-opts: {}
-  http-opts: {}
-  name: 59| JP_426
-  network: ws
-  port: 443
-  server: 92.38.178.93
-  servername: 92.38.178.93
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-headers:
-    HOST: 92.38.178.93
-  ws-path: linkvws
-- cipher: chacha20-ietf-poly1305
-  name: 62|JP_Tokyo_Akari Networks_OpenAI...
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50008
-  server: 120.232.217.71
-  type: ss
-- cipher: aes-256-cfb
-  name: 38,47|Relay_-JP_297
-  obfs: tls1.2_ticket_auth
-  password: eAokbaDN6
-  port: 8081
-  protocol: origin
-  server: jp-am48-6.eqnode.net
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 46,47,49|🇯🇵JP-54.199.12.31-1721 | 16.04...
-  password: amazonskr05
-  port: 443
-  server: 54.199.12.31
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: JP
-  name: 43|Pool_JP_72
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 185.172.113.182
-  type: ss
-- cipher: aes-256-cfb
-  country: JP
-  name: 37,49|JP_3853
-  password: amazonskr05
-  port: 443
-  server: 52.195.205.31
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '62|JP_Tokyo_Akari Networks_OpenAI... #2'
+  name: '63|JP_Tokyo_Akari Networks_OpenAI... #2'
   password: 0e91a29a-989d-4934-a1fb-7b653319397f
   port: 50114
   server: 120.232.217.71
   type: ss
+- name: '63|JP_Tokyo_Oracle Corporation_Op... #1'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19245
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  country: JP
+  name: 43|Pool_JP_73
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 185.172.113.182
+  type: ss
 - alterId: 1
   cipher: auto
   country: JP
   h2-opts: {}
   http-opts: {}
-  name: 37,38,39,40,47,54,59|Relay_JP-JP_3858
+  name: 38,40,47,54,59|Relay_JP-JP_395
   network: tcp
   port: 21585
   server: jp03-alt-vm0.entry.srthdw.art
@@ -132,9 +39,63 @@ proxies:
   tls: true
   type: vmess
   uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10
+- cipher: chacha20-ietf-poly1305
+  country: JP
+  name: 43|Pool_JP_74
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 185.172.113.182
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇵JP
+  name: 47|🇵JP_3307
+  password: amazonskr05
+  port: 443
+  server: 54.199.34.196
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 63|JP_Tokyo_Cloudflare, Inc._Clau...
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50008
+  server: 120.232.217.70
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 63|JP_Tokyo_Akari Networks_OpenAI...
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50008
+  server: 120.232.217.71
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇯🇵JP
+  name: 47,49|🇯🇵JP_3306
+  password: 3426362sED92Yty14d86a
+  port: 8448
+  server: 45.12.207.208
+  type: ss
+- name: 63|JP_Chūōchō_Datacamp Limited_Op...
+  network: tcp
+  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
+  port: 19242
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- name: '63|JP_Tokyo_Oracle Corporation_Op... #2'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19246
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  country: JP
+  name: 43|Pool_JP_69
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 185.172.113.182
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 65|电报频道 https://1808.free.hr_JP_4...
+  name: 66|电报频道 https://1808.free.hr_JP_4...
   network: ws
   port: 443
   server: 146.56.153.6
@@ -146,116 +107,30 @@ proxies:
     headers:
       Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
     path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-JP_3345
-  network: ws
-  port: 33443
-  server: tls.05.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: tls.05.node-for-bigairport.win
-    path: /
-- cipher: aes-256-cfb
-  name: 46,47,49|🇯🇵JP-43.207.112.115-0373 | 15....
-  password: amazonskr05
-  port: 443
-  server: 43.207.112.115
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-JP_3185
-  network: ws
-  port: 22443
-  server: tls.18.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: tls.18.node-for-bigairport.win
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '62|JP_Tokyo_Akari Networks_OpenAI... #5'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50114
-  server: 120.232.217.70
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-JP_3145
-  network: ws
-  port: 33443
-  server: tls.12.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: tls.12.node-for-bigairport.win
-    path: /
 - cipher: aes-256-cfb
   country: 🇵JP
-  name: 47|🇵JP_3307
+  name: 47|🇯🇵JP_3304
   password: amazonskr05
   port: 443
-  server: 54.199.34.196
+  server: 54.168.120.13
   type: ss
-- cipher: aes-256-cfb
+- alterId: 64
+  cipher: auto
   country: JP
-  name: 37,47,54|JP_3851
-  password: amazonskr05
-  port: 443
-  server: 18.183.227.204
-  type: ss
-- cipher: aes-256-cfb
-  country: JP
-  name: 37,49,54|JP_3852
-  password: amazonskr05
-  port: 443
-  server: 54.248.142.136
-  type: ss
-- name: '62|JP_Tokyo_Oracle Corporation_Op... #2'
+  h2-opts: {}
+  http-opts: {}
+  name: 44,49|JP_76
   network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19246
-  server: 122.188.71.132
+  port: 24445
+  server: 140.83.63.38
   skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '62|JP_Tokyo_Akari Networks_OpenAI... #1'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61001
-  server: 120.240.88.37
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: JP
-  name: 43|Pool_JP_74
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 185.172.113.182
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: JP
-  name: 43|Pool_JP_73
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 185.172.113.182
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- cipher: aes-256-cfb
+  name: 46,47,49|🇯🇵JP-54.199.12.31-1721 | 16.04...
+  password: amazonskr05
+  port: 443
+  server: 54.199.12.31
   type: ss
 - alterId: 0
   cipher: auto
@@ -273,109 +148,35 @@ proxies:
       Host: d17ttua58dfmz.cloudfront.net
     path: /stream
 - cipher: aes-256-cfb
-  country: 🇯🇵JP
-  name: 47,55,63|🇯🇵JP_3305
+  name: 46,47,49|🇯🇵JP-43.207.112.115-0373 | 15....
   password: amazonskr05
   port: 443
-  server: 52.193.184.18
+  server: 43.207.112.115
   type: ss
-- name: 62|JP_Chūōchō_Datacamp Limited_Op...
-  network: tcp
-  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
-  port: 19242
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- alterId: 64
+- alterId: 1
   cipher: auto
-  country: JP
+  country: 🇵 JP
   h2-opts: {}
   http-opts: {}
-  name: 44,49|JP_76
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
+  name: 59| JP_426
+  network: ws
+  port: 443
+  server: 92.38.178.93
+  servername: 92.38.178.93
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-headers:
+    HOST: 92.38.178.93
+  ws-path: linkvws
 - cipher: aes-256-cfb
   country: 🇵JP
-  name: 47|🇯🇵JP_3304
+  name: 47|🇵JP_3302
   password: amazonskr05
   port: 443
-  server: 54.168.120.13
+  server: 52.196.152.62
   type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-JP_3094
-  network: ws
-  port: 33443
-  server: tls.19.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: tls.19.node-for-bigairport.win
-    path: /
-- name: '62|JP_Tokyo_Oracle Corporation_Op... #1'
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19245
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-JP_3344
-  network: ws
-  port: 23443
-  server: tls.04.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: tls.04.node-for-bigairport.win
-    path: /
-- name: 62|JP_Chūōchō_Datacamp Limited_Cl...
-  network: tcp
-  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
-  port: 19243
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '62|JP_Tokyo_Akari Networks_OpenAI... #3'
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50113
-  server: 120.232.217.71
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_-JP_3136
-  network: ws
-  port: 22443
-  server: tls.11.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3519dfc0-fa27-41cc-8c19-981818f9f6d5
-  ws-opts:
-    headers:
-      Host: tls.11.node-for-bigairport.win
-    path: /
 - cipher: chacha20-ietf-poly1305
   country: JP
   name: 43|Pool_JP_75
@@ -383,46 +184,65 @@ proxies:
   port: 809
   server: 185.172.113.182
   type: ss
+- name: 63|JP_Chūōchō_Datacamp Limited_Cl...
+  network: tcp
+  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
+  port: 19243
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   country: JP
-  name: 43|Pool_JP_70
+  name: 43|Pool_JP_71
   password: G!yBwPWH3Vao
-  port: 804
+  port: 812
   server: 185.172.113.182
   type: ss
-- name: 62|JP_Tokyo_Oracle Corporation_Op...
+- cipher: chacha20-ietf-poly1305
+  name: 63|JP_Tokyo_Cloudflare, Inc._Open...
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50113
+  server: 120.232.217.70
+  type: ss
+- alterId: 1
+  cipher: auto
+  country: ' JP'
+  h2-opts: {}
+  http-opts: {}
+  name: 38,47,49,54| JP_393
+  network: ws
+  port: 443
+  server: 92.38.178.93
+  servername: 92.38.178.93
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: 92.38.178.93
+    path: linkvws
+- name: 63|JP_Tokyo_Oracle Corporation_Op...
   network: tcp
   password: 1069121a-4774-38f5-876a-95b35d1a3fbf
   port: 19247
   server: 122.188.71.132
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  country: JP
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_JP-JP_3854
-  network: ws
-  port: 443
-  server: tls.06.node-for-bigairport.win
-  servername: tls.06.node-for-bigairport.win
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
-  ws-opts:
-    headers:
-      HOST: tls.06.node-for-bigairport.win
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 62|JP_Tokyo_Cloudflare, Inc._Clau...
+  name: '63|JP_Tokyo_Akari Networks_OpenAI... #5'
   password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 50008
+  port: 50114
   server: 120.232.217.70
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '63|JP_Tokyo_Akari Networks_OpenAI... #1'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 61001
+  server: 120.240.88.37
+  type: ss
 - cipher: chacha20-ietf
-  name: '62|JP_Tokyo_Akari Networks_OpenAI... #4'
+  name: '63|JP_Tokyo_Akari Networks_OpenAI... #4'
   obfs: plain
   obfs-param: 78fe8292462.microsoft.com
   password: renzhecloud
@@ -432,10 +252,49 @@ proxies:
   server: pr3.jymzffbquawl.com
   type: ssr
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 63|15|🇯🇵 日本3|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54102
-  server: j-p04.loveroise.com
-  tfo: false
+  name: '63|JP_Tokyo_Akari Networks_OpenAI... #3'
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 50113
+  server: 120.232.217.71
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ' JP'
+  h2-opts: {}
+  http-opts: {}
+  name: 40|ChatGPT  JP_299
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  skip-cert-verify: true
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  ws-path: /
+- cipher: aes-256-cfb
+  country: 🇵JP
+  name: 47,54|🇵JP_3303
+  password: amazonskr05
+  port: 443
+  server: 18.183.227.204
+  type: ss
+- cipher: rc4-md5
+  country: 🇵JP
+  name: 47,49,54|JP_3301
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 172.105.199.111
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: JP
+  name: 43|Pool_JP_70
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 185.172.113.182
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: JP
+  name: 43|Pool_JP_72
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 185.172.113.182
   type: ss

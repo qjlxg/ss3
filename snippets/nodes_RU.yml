@@ -1,38 +1,52 @@
 proxies:
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000
-  fast-open: true
-  name: 45|Russia_Moscow_hy_1
-  port: 12345
-  ports: 12345
-  protocol: udp
-  server: 46.17.43.223
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 1000
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37,54|RU_3915
-  network: ws
-  port: 6370
-  server: 46.29.161.228
-  skip-cert-verify: true
-  type: vmess
-  uuid: a5fa5f80-a383-46aa-b589-86ef68b5820c
-  ws-opts:
-    path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,39,40,44,47,49,51,54,59| RU_441
+  password: JdkppSRNMuKUIbF229zC1e
+  port: 12575
+  server: 89.185.84.185
+  type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇷🇺RU
   name: 47,49|🇷🇺RU_3429
   password: oYQ8JwEldYn4KT2gfZ6eNl
   port: 51584
   server: 89.23.103.21
+  type: ss
+- cipher: aes-256-cfb
+  country: RU
+  name: 38,39,40,47,49,59|RU_469
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 40|ChatGPT  RU_408
+  password: 6OAGLD+DOA6UcFp5Udf0r/UzyjwHV+yheNkoFDk6uL8=
+  port: 38753
+  server: 213.108.22.109
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 38,39,40,47,49,51,54,59|RU_452
+  password: I1onhFIawC9IpNB2ZE73CK
+  port: 52873
+  server: 81.19.141.45
+  type: ss
+- cipher: aes-256-cfb
+  country: RU
+  name: 38,40,46,47,49,59|RU_463
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  name: 47|🇷🇺RU_3420
+  password: 6W3KNlsw77BkOmhv36B76iKeOzNiECcO1qvmpvP2yTXCuODvctTKgRTNqc5dPRLY
+  port: 42658
+  server: 5.182.38.211
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: RU
@@ -41,12 +55,33 @@ proxies:
   port: 12949
   server: 212.113.106.243
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 38,40,47,49,59|RU_466
+  password: afKAHp1VfRWZu91LIi9o0D
+  port: 58176
+  server: 94.228.165.178
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 49|🇺RU_671
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,40,44,59| RU_442
+  password: B4Nokj3Yqfta6tWqum6r8k
+  port: 28768
+  server: 46.29.238.83
+  type: ss
 - alterId: 0
   cipher: auto
   country: RU
   h2-opts: {}
   http-opts: {}
-  name: 37,54|RU_3920
+  name: 54|RU_1044
   network: ws
   port: 6090
   server: 194.87.69.42
@@ -55,46 +90,14 @@ proxies:
   uuid: a5fa5f80-a383-46aa-b589-86ef68b5820c
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🇷🇺RU
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 47|🇷🇺RU_3448
-  network: http
-  port: 2098
-  server: 147.45.51.16
+- fast-open: true
+  name: 45|Russia_Moscow_hy2_0
+  password: dongtaiwang.com
+  port: 50717
+  server: 46.17.41.189
   skip-cert-verify: true
-  type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,39,40,46,47,49,51|RU_3900
-  password: Zgg@X0m515
-  port: 30252
-  server: 176.124.199.255
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '19,63|🇷🇺_RU_俄罗斯联邦 #1'
-  network: ws
-  port: 12910
-  server: 45.136.245.240
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,38,39,40,47,49,59|RU_3903
-  password: 2fwufOmJ9ELfN4umzcHBfV
-  port: 12224
-  server: 194.87.82.28
-  type: ss
+  sni: www.bing.com
+  type: hysteria2
 - alterId: 0
   cipher: auto
   country: 🇺 RU
@@ -112,96 +115,187 @@ proxies:
   ws-headers:
     HOST: worker-mute-bar-1719.nifotok993.workers.dev
   ws-path: /glweidf.cfd/linkws
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,40,47,49,59| RU_448
+  password: 2fwufOmJ9ELfN4umzcHBfV
+  port: 12224
+  server: 194.87.82.28
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 0,6,11,16,20,26,31,36|🇷🇺_RU_俄罗斯
+  name: '19|🇷🇺_RU_俄罗斯联邦 #1'
   network: ws
-  port: 2082
-  server: 185.221.160.12
-  servername: ''
+  port: 12910
+  server: 45.136.245.240
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,39,40,47,49,54,59| RU_445
+  password: gmYDzSG6K35s8b19oY4fGz
+  port: 18622
+  server: 92.118.112.111
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|🇷🇺_RU_俄罗斯联邦
+  network: tcp
+  port: 35972
+  server: 45.147.200.170
   tls: false
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
+  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 38,39,40,49,59|RU_451
+  password: SQj0SiArKuBiIzcrPCvr5j
+  port: 33320
+  server: 77.83.246.74
+  type: ss
 - cipher: aes-256-cfb
   country: RU
-  name: 37,38,40,47,49,54,59|RU_3904
+  name: 38,39,40,47,49,54,59|RU_470
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 49|🇺RU_658
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 49|🇷🇺RU_681
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 49|🇷🇺RU_699
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: RU
+  name: 38,39,40,47,49,54,59|RU_474
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   server: 45.89.52.66
   type: ss
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 37|RU_3924
-  network: ws
-  port: 6370
-  server: 176.32.32.68
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000
+  fast-open: true
+  name: 45|Russia_Moscow_hy_1
+  port: 12345
+  ports: 12345
+  protocol: udp
+  server: 46.17.43.223
   skip-cert-verify: true
-  type: vmess
-  uuid: a5fa5f80-a383-46aa-b589-86ef68b5820c
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 43|RU_91
-  password: GXGhsxweEyBgvyUc5Xaoae
-  port: 15708
-  server: 77.91.103.108
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 37|Relay_ZZ-RU_5380
-  network: ws
-  port: 8443
-  server: yycfde1.benbo789.me
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7288eff1-f1f1-4d4e-ae40-82e9bf47c673
-  ws-opts:
-    path: /
+  sni: bing.com
+  type: hysteria
+  up: 1000
 - alterId: 0
   cipher: auto
   country: 🇷🇺RU
-  h2-opts: {}
-  http-opts: {}
-  name: 49|🇺RU_706
-  network: tcp
-  port: 47555
-  server: 46.29.166.237
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- alterId: 0
-  cipher: auto
-  country: RU
   h2-opts: {}
   http-opts:
     method: GET
     path:
     - /
-  name: 37,47|RU_3925
+  name: 47|🇷🇺RU_3448
   network: http
   port: 2098
-  server: 185.247.184.115
+  server: 147.45.51.16
   skip-cert-verify: true
   type: vmess
   uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- cipher: aes-128-gcm
+- cipher: aes-256-cfb
   country: RU
-  name: 37,47|RU_3898
+  name: 38,39,40,47,49,59|RU_462
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇷🇺RU
+  name: 47|🇷🇺RU_3421
   password: X522OqAdyYS4HBeQ3Djjq7Ou1+MryMZFu4IRaNKcWF0=
   port: 2096
   server: 109.120.176.218
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 49|🇷🇺RU_702
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 43|RU_89
+  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
+  port: 13022
+  server: 212.113.106.243
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 49|🇷🇺RU_704
+  password: VcFuyXvND2yQWSFY
+  port: 9054
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 49|🇷🇺RU_690
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,39,40,47,49,51,54,59| RU_439
+  password: 0zyDRZ1XmNXaaCAN7KEA8a
+  port: 28825
+  server: 45.151.62.54
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 49|🇷🇺RU_676
+  password: FG5ddLsMPbV5CutE
+  port: 9050
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,39,49,51,54,59| RU_438
+  password: WfmxKX2FBJRU0Ie9VLIYDL
+  port: 20012
+  server: 141.98.234.93
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 38,39,40,47,49,51,54,59| RU_444
+  password: uQS5ntVqC00sSKkeNzUiD3
+  port: 42090
+  server: 89.23.103.125
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 49|🇷🇺RU_663
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
+  server: 45.89.52.66
   type: ss
 - alpn:
   - h3
@@ -217,78 +311,71 @@ proxies:
   sni: bing.com
   type: hysteria
   up: 1000
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 43|RU_89
-  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
-  port: 13022
-  server: 212.113.106.243
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,40|RU_3901
-  password: 6OAGLD+DOA6UcFp5Udf0r/UzyjwHV+yheNkoFDk6uL8=
-  port: 38753
-  server: 213.108.22.109
-  type: ss
 - alterId: 0
   cipher: auto
-  country: RU
+  country: 🇷🇺RU
   h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 37,39,40|RU_3913
-  network: http
-  port: 2098
-  server: f41.maryam1500.top
-  servername: f41.maryam1500.top
+  http-opts: {}
+  name: 49|🇺RU_706
+  network: tcp
+  port: 47555
+  server: 46.29.166.237
   skip-cert-verify: true
   type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- fast-open: true
-  name: 45|Russia_Moscow_hy2_0
-  password: dongtaiwang.com
-  port: 50717
-  server: 46.17.41.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,38,39,40,47,49,54,59|RU_3908
-  password: DkK3bmkKh2rdK9k6EXSOQv
-  port: 44908
-  server: 46.29.238.83
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,38,39,40,47,49,59|RU_3905
-  password: afKAHp1VfRWZu91LIi9o0D
-  port: 58176
-  server: 94.228.165.178
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 49|🇷🇺RU_684
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  server: 45.89.52.66
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19,63|🇷🇺_RU_俄罗斯联邦
-  network: tcp
-  port: 35972
-  server: 45.147.200.170
+  name: 0,6,11,16,20,26,31,36|🇷🇺_RU_俄罗斯
+  network: ws
+  port: 2082
+  server: 185.221.160.12
+  servername: ''
   tls: false
   type: vmess
-  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 43|RU_91
+  password: GXGhsxweEyBgvyUc5Xaoae
+  port: 15708
+  server: 77.91.103.108
+  type: ss
 - alterId: 0
   cipher: auto
   country: RU
   h2-opts: {}
   http-opts: {}
-  name: 37|RU_3912
+  name: 54|RU_1046
   network: ws
   port: 6370
-  server: 46.29.161.109
+  server: 46.29.161.228
   skip-cert-verify: true
   type: vmess
   uuid: a5fa5f80-a383-46aa-b589-86ef68b5820c
   ws-opts:
     path: /
+- cipher: aes-256-cfb
+  country: RU
+  name: 38,40,47,49,59|RU_465
+  password: PeHSHm5SqEjBuEXE
+  port: 9065
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 49|🇷🇺RU_674
+  password: TPqX8edgbAURcAMb
+  port: 9079
+  server: 45.89.52.66
+  type: ss
