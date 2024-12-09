@@ -1,39 +1,88 @@
 proxies:
-- cipher: aes-256-gcm
+- cipher: aes-128-gcm
   country: CH
-  name: 37,39,40,48,50|CH_3508
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.166.88.198
+  name: 37,38,39,40,45,47,48,50,60|CH_3520
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.164
+  type: ss
+- cipher: aes-128-gcm
+  country: ' CH'
+  name: 37,38,39,40,45,48,50,55,60| CH_3517
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.162
   type: ss
 - cipher: aes-128-gcm
   country: CH
-  name: 37,38,39,40,45,48,50,60|CH_3509
+  name: 37,38,40,45,48,50,60|CH_3527
   password: shadowsocks
   port: 443
   server: 156.146.62.161
   type: ss
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39,40,50,55|CH_3514
+  name: 37,39,40,48,50|CH_3521
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.166.88.5
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,48,50|CH_3526
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,48,50,55|CH_3524
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,40,48,50,55|CH_3523
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 23.166.88.198
   type: ss
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39,40,48,50|CH_3512
-  password: pKEW8JPByTVTLtM
-  port: 4444
+  name: 37,38,39,40,45,48,50,55,60|CH_3522
+  password: g5MeD6Ft3CWlJId
+  port: 5003
   server: 23.166.88.198
   type: ss
 - cipher: aes-128-gcm
   country: CH
-  name: 37,38,40,45,48,50,60|CH_3507
+  name: 37,38,39,40,45,48,50,55,60|CH_3519
   password: shadowsocks
   port: 443
   server: 156.146.62.163
   type: ss
+- cipher: aes-256-gcm
+  country: ' CH'
+  name: 37,38,39,40,45,48,50,60| CH_3518
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.166.88.221
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 68|电报频道 https://1808.free.hr_CH_5...
+  network: ws
+  port: 443
+  server: 152.67.65.201
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
 - alterId: 1
   cipher: auto
   name: 47|CH-186.190.215.32-7936 | 15.43...
@@ -48,45 +97,24 @@ proxies:
     headers:
       Host: 186.190.215.32
     path: /
+- alterId: 0
+  cipher: auto
+  name: 68|电报频道 https://1808.free.hr_CH_4...
+  network: ws
+  port: 443
+  server: 141.148.203.6
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
 - cipher: aes-256-gcm
   country: CH
-  name: 37,38,39,40,45,48,50,60|CH_3513
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
-  country: ' CH'
-  name: 37,38,39,40,45,48,50,60| CH_3505
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 23.166.88.221
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,48,50|CH_3506
+  name: 37,39,40,48,50|CH_3525
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 23.166.88.198
-  type: ss
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,45,47,48,50,60|CH_3510
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.164
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,50|CH_3511
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.166.88.5
-  type: ss
-- cipher: aes-128-gcm
-  country: ' CH'
-  name: 37,38,39,40,45,48,50,55,60| CH_3504
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.162
   type: ss
