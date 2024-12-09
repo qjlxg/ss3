@@ -1,63 +1,35 @@
 proxies:
 - cipher: aes-256-gcm
-  country: ' CH'
-  name: 40,48,50,52,55|ChatGPT  CH_27
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
   country: CH
-  name: 37,40,48,50,52|CH_3738
+  name: 37,39,40,48,50|CH_3508
   password: faBAoD54k87UJG7
   port: 2376
   server: 23.166.88.198
   type: ss
+- cipher: aes-128-gcm
+  country: CH
+  name: 37,38,39,40,45,48,50,60|CH_3509
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.161
+  type: ss
 - cipher: aes-256-gcm
   country: CH
-  name: 37,38,39,40,45,48,50,52,55|CH_3739
-  password: g5MeD6Ft3CWlJId
-  port: 5003
+  name: 37,39,40,50,55|CH_3514
+  password: Y6R9pAtvxxzmGC
+  port: 3389
   server: 23.166.88.198
   type: ss
 - cipher: aes-256-gcm
   country: CH
-  name: 37,39,40,48,50,52|CH_3741
+  name: 37,39,40,48,50|CH_3512
   password: pKEW8JPByTVTLtM
   port: 4444
   server: 23.166.88.198
   type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,48,52|CH_3736
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.166.88.5
-  type: ss
-- cipher: aes-128-gcm
-  country: ' CH'
-  name: 37,38,39,40,45,48,50| CH_3734
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.162
-  type: ss
 - cipher: aes-128-gcm
   country: CH
-  name: 37,38,39,40,45,47,48,50,52,55|CH_3735
-  password: shadowsocks
-  port: 443
-  server: 156.146.62.164
-  type: ss
-- cipher: aes-256-gcm
-  country: CH
-  name: 37,39,40,48,50,52|CH_3737
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-128-gcm
-  country: CH
-  name: 37,38,39,40,45,48,50,55|CH_3742
+  name: 37,38,40,45,48,50,60|CH_3507
   password: shadowsocks
   port: 443
   server: 156.146.62.163
@@ -76,10 +48,45 @@ proxies:
     headers:
       Host: 186.190.215.32
     path: /
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,38,39,40,45,48,50,60|CH_3513
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: ' CH'
+  name: 37,38,39,40,45,48,50,60| CH_3505
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 23.166.88.221
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,48,50|CH_3506
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 23.166.88.198
+  type: ss
 - cipher: aes-128-gcm
   country: CH
-  name: 37,38,39,40,45,48,50,55|CH_3740
+  name: 37,38,39,40,45,47,48,50,60|CH_3510
   password: shadowsocks
   port: 443
-  server: 156.146.62.161
+  server: 156.146.62.164
+  type: ss
+- cipher: aes-256-gcm
+  country: CH
+  name: 37,39,40,50|CH_3511
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.166.88.5
+  type: ss
+- cipher: aes-128-gcm
+  country: ' CH'
+  name: 37,38,39,40,45,48,50,55,60| CH_3504
+  password: shadowsocks
+  port: 443
+  server: 156.146.62.162
   type: ss
