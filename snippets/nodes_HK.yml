@@ -1,55 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 32,37,42,49|HK香港(mibei77.com 米贝节点分享)
-  network: ws
-  port: '2082'
-  server: 185.162.228.1
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- cipher: chacha20-ietf
-  country: HK
-  name: 37,49|HK_3401
-  password: asd123456
-  port: 8388
-  server: 103.149.183.10
-  type: ss
-- cipher: chacha20-ietf
-  country: HK
-  name: 37,38,39,40,44,47,49,54,59|HK_3402
-  password: asd123456
-  port: 8388
-  server: 103.36.91.23
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 4,10,15,24,30,35|13|🇭🇰 香港3|@ripaojiedian
+- name: '63|HK_Hong Kong_Radishcloud Techn... #1'
   network: tcp
-  port: 35601
-  server: 120.198.71.216
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '32,37,42,49|HK香港(mibei77.com 米贝节点分享) #1'
-  network: ws
-  port: '2082'
-  server: 185.162.231.92
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
+  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
+  port: 19202
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
 - name: '63|HK_Hong Kong_Radishcloud Techn... #2'
   network: tcp
   password: 1069121a-4774-38f5-876a-95b35d1a3fbf
@@ -64,24 +20,21 @@ proxies:
   server: 122.188.71.132
   skip-cert-verify: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 49|Relay_🇰HK-🇰HK_519
-  network: tcp
-  port: 30251
-  server: 1.65.205.116
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
 - alterId: 64
   cipher: auto
-  name: 4,10,15,24,30,35,66|13|🇭🇰 香港7|@ripaojiedian
+  name: 35,64,66|13|🇭🇰 香港9|@ripaojiedian
   network: tcp
-  port: 46602
-  server: 183.236.51.23
+  port: 50052
+  server: 183.236.48.158
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 4,10,15,24,30,35,63,64,66|13|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 58831
+  server: 183.236.48.163
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -93,10 +46,24 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: '32,37,42,49|HK香港(mibei77.com 米贝节点分享) #1'
+  network: ws
+  port: '2082'
+  server: 185.162.231.92
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   country: HK
   h2-opts: {}
   http-opts: {}
-  name: 37,39,40,47,49,54,63|Pool_HK_3404
+  name: 37,40,47,49,54,63|Pool_HK_4842
   network: tcp
   port: 30251
   server: 34.92.66.193
@@ -104,11 +71,46 @@ proxies:
   type: vmess
   uuid: 9e88a10b-655c-5120-89d0-408634169561
 - cipher: chacha20-ietf
-  name: '42,47|disney_netflix_HK #1'
+  country: HK
+  name: 37,49|HK_4836
   password: asd123456
   port: 8388
-  server: 194.41.59.80
+  server: 103.149.183.10
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: CN
+  name: 42,64|disney_HK
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54002
+  server: h-k02.loveroise.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 32,37,42,49|HK香港(mibei77.com 米贝节点分享)
+  network: ws
+  port: '2082'
+  server: 185.162.228.1
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- client-fingerprint: chrome
+  name: 64|15|🇭🇰 香港8|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 18443
+  server: 18.162.246.4
+  skip-cert-verify: false
+  sni: tr.koiok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koiok.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 41|HK |  LB-1T
@@ -124,54 +126,51 @@ proxies:
     headers:
       Host: d1th2ch215a6xr.cloudfront.net
     path: /stream?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 42,64|disney_netflix_HK
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54006
-  server: h-k04.loveroise.com
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 4,10,15,24,30,35,64,66|13|🇭🇰 香港7|@ripaojiedian
+  network: tcp
+  port: 46602
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 4,10,15,24,30,35,64|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 35601
+  server: 120.198.71.216
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   country: HK
-  name: 37,44,47,49|Pool_HK_3403
+  name: 37,44,47,49|Pool_HK_4838
   obfs: tls1.2_ticket_auth
   password: iFqnzSscN
   port: 8083
   protocol: origin
   server: 150.107.46.21
   type: ssr
-- alterId: 64
-  cipher: auto
-  name: 4,10,15,24,30,35,63,66|13|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 58831
-  server: 183.236.48.163
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '63|HK_Hong Kong_Radishcloud Techn... #1'
-  network: tcp
-  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
-  port: 19202
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,39,40,41,42,43,44,47,49,54,55,59,63,64|Relay_-HK_945
-  port: 30251
-  server: hkt2.bika.hk
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-- alterId: 64
-  cipher: auto
-  name: 35,66|13|🇭🇰 香港9|@ripaojiedian
-  network: tcp
-  port: 50052
-  server: 183.236.48.158
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 64|15|🇭🇰 香港6|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54000
+  server: h-k01.loveroise.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  country: HK
+  name: 37,38,39,47,49,54,59|HK_4837
+  password: asd123456
+  port: 8388
+  server: 103.36.91.23
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '42|disney_netflix_HK #1'
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54006
+  server: h-k04.loveroise.com
+  type: ss
