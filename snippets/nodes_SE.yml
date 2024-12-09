@@ -1,44 +1,19 @@
 proxies:
+- country: SE
+  name: 48|SE_24
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 16.170.4.71
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   country: 🇪 SE
   h2-opts: {}
   http-opts: {}
-  name: 60|🇪 SE_525
-  network: ws
-  port: 80
-  server: Back.MsV2ray.online
-  servername: d396-flower-d396.megare7260.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-headers:
-    HOST: d396-flower-d396.megare7260.workers.dev
-  ws-path: /obdii.cfd/linkws
-- country: SE
-  name: 42|SE_658
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 16.16.237.164
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: SE
-  name: 55|SE_893
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.66.126
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇸🇪 SE
-  h2-opts: {}
-  http-opts: {}
-  name: 60|🇸🇪 SE_527
+  name: 59| SE_506
   network: ws
   port: 80
   server: 185.146.173.158
@@ -51,20 +26,31 @@ proxies:
   ws-path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 68|电报频道 https://1808.free.hr_SE_4...
+  country: 🇪 SE
+  h2-opts: {}
+  http-opts: {}
+  name: 59|🇪 SE_507
   network: ws
-  port: 443
-  server: 141.147.147.180
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-  tls: true
+  port: 80
+  server: Back.MsV2ray.online
+  servername: d396-flower-d396.megare7260.workers.dev
+  skip-cert-verify: true
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
+  ws-headers:
+    HOST: d396-flower-d396.megare7260.workers.dev
+  ws-path: /obdii.cfd/linkws
 - country: SE
-  name: 55|Relay_SE-NL_892
+  name: 48,54|SE_23
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 16.16.237.164
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: SE
+  name: 54|Relay_SE-NL_1051
   network: ws
   password: aee423ce-e4b0-4555-b5b7-486dd0284fd2
   port: 443
@@ -76,40 +62,8 @@ proxies:
     headers:
       Host: nl1.trojanvpn.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🇪 SE
-  h2-opts: {}
-  http-opts: {}
-  name: 60|🇪 SE_526
-  network: ws
-  port: 80
-  server: 185.146.173.59
-  servername: freevpn878.hamidimorteza680.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-headers:
-    HOST: freevpn878.hamidimorteza680.workers.dev
-  ws-path: /glweidf.cfd/linkws
-- cipher: chacha20-ietf-poly1305
-  country: ' SE'
-  name: 38,39,50,60| SE_493
-  password: UDcjYQ6Z6AIWxViZpqyOmO
-  port: 44013
-  server: 46.246.98.155
-  type: ss
 - country: SE
-  name: 49|netflix_SE
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.211.69
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: SE
-  name: 42|SE_659
+  name: 54|SE_1053
   network: tcp
   password: telegram-id-directvpn
   port: 22222
@@ -117,3 +71,42 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- country: SE
+  name: '48,54|netflix_SE #1'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.50.66.126
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: SE
+  name: 37,38,40,49|SE_3927
+  password: UDcjYQ6Z6AIWxViZpqyOmO
+  port: 44013
+  server: 46.246.98.155
+  type: ss
+- country: SE
+  name: 48,54|netflix_SE
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.50.211.69
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 65|电报频道 https://1808.free.hr_SE_4...
+  network: ws
+  port: 443
+  server: 141.147.147.180
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws

@@ -1,16 +1,30 @@
 proxies:
-- name: '65|HK_Hong Kong_Radishcloud Techn... #1'
+- alterId: 0
+  cipher: auto
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 49|Relay_🇰HK-🇰HK_559
   network: tcp
-  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
-  port: 19202
+  port: 30251
+  server: 1.65.205.116
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
+- name: '62|HK_Hong Kong_Radishcloud Techn... #2'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19204
   server: 122.188.71.132
   skip-cert-verify: true
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 65|HK_Hong Kong_Akile LTD_OpenAI
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61008
-  server: 120.240.88.37
+  client-fingerprint: chrome
+  name: 63|15|🇭🇰 香港6|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54000
+  server: h-k01.loveroise.com
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -27,74 +41,44 @@ proxies:
     headers:
       Host: d1th2ch215a6xr.cloudfront.net
     path: /stream?ed=2048
-- alterId: 64
+- alterId: 0
   cipher: auto
-  country: CN
+  country: HK
   h2-opts: {}
   http-opts: {}
-  name: '42,68|disney_HK #2'
+  name: 37,39,40,47,49,54,62|Pool_HK_3826
   network: tcp
-  port: 51704
-  server: 183.236.51.23
+  port: 30251
+  server: 34.92.66.193
   skip-cert-verify: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  country: HK
-  name: 37,50|HK_3617
-  password: asd123456
-  port: 8388
-  server: 103.149.183.10
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 4,10,15,24,30,35,42,65,68|13|🇭🇰 香港5|@ripaojiedian
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
+- name: '62|HK_Hong Kong_Radishcloud Techn... #1'
   network: tcp
-  port: 58831
-  server: 183.236.48.163
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  country: 🇰HK
-  name: 50|HK_552
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  type: ss
-- name: 65|HK_Hong Kong_Radishcloud Techn...
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19209
+  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
+  port: 19202
   server: 122.188.71.132
   skip-cert-verify: true
   type: trojan
 - cipher: chacha20-ietf
   country: HK
-  name: 37,38,39,40,45,48,50,55,60|HK_3618
+  name: 37,49|HK_3823
   password: asd123456
   port: 8388
-  server: 103.36.91.23
+  server: 103.149.183.10
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 62|HK_Hong Kong_Akile LTD_OpenAI
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 61008
+  server: 120.240.88.37
   type: ss
 - alterId: 0
   cipher: auto
-  country: 🇰HK
+  country: 🇰 HK
   h2-opts: {}
   http-opts: {}
-  name: 52|Relay_HK-AR_137 | 2.17Mb
-  network: tcp
-  port: 15074
-  server: 15074.kuaiyin02.top
-  servername: 15074.kuaiyin02.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- alterId: 0
-  cipher: auto
-  country: ' HK'
-  h2-opts: {}
-  http-opts: {}
-  name: 42,60| HK_638
+  name: 59|🇰 HK_417
   network: tcp
   port: 15002
   server: 15002.vpdnss.top
@@ -102,11 +86,26 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+  ws-path: /
+- cipher: chacha20-ietf
+  country: HK
+  name: 37,38,39,40,44,47,49,54,59|HK_3821
+  password: asd123456
+  port: 8388
+  server: 103.36.91.23
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: HK
+  name: 37,47,54|HK_3822
+  password: FU9HUAR4ZPMXV9Wh815b3FGPi2EOfqHTdv5aDV0ZVJN25OWzcLUTHmFlw28xLE9n
+  port: 42658
+  server: 74.119.193.103
+  type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 37|Relay_-HK_3203
+  name: 37|Relay_-HK_3316
   network: ws
   port: 42358
   server: 0000000000000000000000000076.cgroup-node-for-bigairport.sbs
@@ -119,109 +118,84 @@ proxies:
     headers:
       Host: 0000000000000000000000000076.cgroup-node-for-bigairport.sbs
     path: /
-- alterId: 0
-  cipher: auto
-  name: 44|香港|广州移动|Neko|1.5x
-  network: tcp
-  port: 13337
-  server: gdcm.r1u.cn
-  tls: false
-  type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
 - alterId: 64
   cipher: auto
-  name: 4,10,15,24,30,35,42,68|13|🇭🇰 香港7|@ripaojiedian
-  network: tcp
-  port: 46602
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  country: HK
-  name: 37,45,48,50|Pool_HK_3619
-  obfs: tls1.2_ticket_auth
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  server: 150.107.46.21
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  country: HK
-  name: 37,48,55|HK_3616
-  password: FU9HUAR4ZPMXV9Wh815b3FGPi2EOfqHTdv5aDV0ZVJN25OWzcLUTHmFlw28xLE9n
-  port: 42658
-  server: 74.119.193.103
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: HK
-  h2-opts: {}
-  http-opts: {}
-  name: 37,39,40,48,50,55,65|Pool_HK_3620
-  network: tcp
-  port: 30251
-  server: 34.92.66.193
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-- name: '65|HK_Hong Kong_Radishcloud Techn... #2'
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19204
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: '42,68|disney_HK #1'
-  network: tcp
-  port: 56601
-  server: 183.236.51.23
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 4,10,15,24,30,35|13|🇭🇰 香港3|@ripaojiedian
+  name: 4,10,15,24,30,35,63|13|🇭🇰 香港3|@ripaojiedian
   network: tcp
   port: 35601
   server: 120.198.71.216
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 4,10,15,24,30,35,62,63,65|13|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 58831
+  server: 183.236.48.163
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 42|disney_HK
+  client-fingerprint: chrome
+  name: 63|15|🇭🇰 香港4|@ripaojiedian
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54006
-  server: h-k04.loveroise.com
+  port: 54002
+  server: h-k02.loveroise.com
+  tfo: false
   type: ss
-- alterId: 0
+- cipher: chacha20-ietf
+  country: 🇰HK
+  name: 49|HK_552
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
+  type: ss
+- cipher: aes-256-cfb
+  country: HK
+  name: 37,44,47,49|Pool_HK_3824
+  obfs: tls1.2_ticket_auth
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  server: 150.107.46.21
+  type: ssr
+- client-fingerprint: chrome
+  name: 63|15|🇭🇰 香港8|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 18443
+  server: 18.162.246.4
+  skip-cert-verify: false
+  sni: tr.koiok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koiok.us.kg
+    path: /?ed=2560
+- alterId: 64
   cipher: auto
-  country: ' HK'
-  h2-opts: {}
-  http-opts: {}
-  name: 40,50,52| HK_270
+  name: 4,10,15,24,30,35,63,65|13|🇭🇰 香港7|@ripaojiedian
   network: tcp
-  port: 30251
-  server: 1.65.205.116
-  skip-cert-verify: true
+  port: 46602
+  server: 183.236.51.23
+  tls: false
   type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-  ws-path: /
-- alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 62|HK_Hong Kong_Radishcloud Techn...
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19209
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
   cipher: auto
-  country: ' HK'
-  h2-opts: {}
-  http-opts: {}
-  name: 40,50,55| HK_268
+  name: 63,65|11,16|香港9|@ripaojiedian
   network: tcp
-  port: 30251
-  server: hkt2.bika.hk
-  skip-cert-verify: true
+  port: '50052'
+  server: 183.236.48.158
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-  ws-path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

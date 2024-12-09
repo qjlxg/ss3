@@ -4,32 +4,35 @@ proxies:
   country: GB
   h2-opts: {}
   http-opts: {}
-  name: 37,50|GB_3600
+  name: 37,38,49,51|GB_3809
   network: ws
   port: 443
-  server: 149.7.16.33
-  servername: vk.com
+  server: 172.99.190.206
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    headers:
-      HOST: vk.com
     path: /linkvws
-- cipher: aes-256-cfb
-  name: 37|Relay_-GB_166
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: shadowsocks-gb.ctsubvpn.ggff.net
+- cipher: aes-128-gcm
+  name: 37,38,39,40,44,47,49,51,54,59|Relay_-GB_109
+  password: shadowsocks
+  port: 443
+  server: uk-dc1.yangon.club
   type: ss
-  udp: true
+- cipher: aes-256-gcm
+  country: GB
+  name: 37,38,39,40,47,49,51,54,59|GB_3792
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 145.239.6.202
+  type: ss
 - country: GB
-  name: 55|GB_824
+  name: 48|netflix_GB
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 18.171.2.157
+  server: 35.177.35.170
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
@@ -38,7 +41,7 @@ proxies:
   country: GB
   h2-opts: {}
   http-opts: {}
-  name: 37,48,50,52|GB_3597
+  name: 37,47,49,51|GB_3806
   network: ws
   port: 443
   server: 149.7.16.102
@@ -51,46 +54,12 @@ proxies:
     headers:
       HOST: jader.fun
     path: /linkvws
-- cipher: aes-128-gcm
-  country: GB
-  name: 43|Relay_GB-GB_59
-  password: shadowsocks
-  port: 443
-  server: ak1793.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: GB
-  name: 37,39,42,48,60|Relay_GB-GB_3582
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: series-a2.varzesh360.co
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 44|UK-London
-  network: ws
-  port: 8080
-  server: uk.718398.xyz
-  tls: false
-  type: vmess
-  uuid: a6dfb50f-75bb-48e0-b56a-1edeb62b5a49
-  ws-opts:
-    headers:
-      Host: ''
-    path: /aaahax02
-- cipher: aes-256-gcm
-  country: GB
-  name: 37,38,39,40,48,50,52,55,60|GB_3580
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 145.239.6.202
-  type: ss
 - alterId: 0
   cipher: auto
   country: GB
   h2-opts: {}
   http-opts: {}
-  name: 37,50,55|GB_3594
+  name: 37,49|GB_3811
   network: ws
   port: 443
   server: 149.7.16.248
@@ -103,57 +72,109 @@ proxies:
     headers:
       HOST: vk.com
     path: linkvws
+- cipher: chacha20-ietf-poly1305
+  country: GB
+  name: 37|GB_3782
+  password: mps3FwmDjLrWaOVg
+  port: 443
+  server: 35.177.33.68
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: GB
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,47,49,51|GB_3813
+  network: ws
+  port: 443
+  server: 172.99.190.50
+  servername: 172.99.190.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: 172.99.190.50
+    path: linkvws
+- country: GB
+  name: 54|GB_967
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.169.70.78
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   country: GB
-  name: 37,38,39,40,48,50,52,60|GB_3575
+  name: 37,38,39,40,47,49,51,54,59|GB_3793
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 145.239.6.202
   type: ss
 - alterId: 0
   cipher: auto
-  country: ' GB'
+  country: GB
   h2-opts: {}
   http-opts: {}
-  name: 38,39,48| GB_382
-  network: tcp
-  port: 52728
-  server: 141.11.251.231
-  servername: 141.11.251.231
-  skip-cert-verify: true
-  type: vmess
-  uuid: d5e16b83-7b5c-45ea-d749-d6f6ad214447
-- cipher: aes-256-gcm
-  country: GB
-  name: 37,38,39,40,48,50,52,60|GB_3581
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 145.239.6.202
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16,37,42,50|🇬🇧_GB_英国
+  name: 37,49|GB_3801
   network: ws
-  port: 2082
-  server: 185.162.229.179
-  servername: ip18.6929198.xyz
-  tls: false
+  port: 443
+  server: 149.7.16.33
+  servername: vk.com
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
+      HOST: vk.com
+    path: /linkvws
+- country: GB
+  name: 48|GB_15
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.171.2.157
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: GB
+  name: 37,38,39,40,44,47,49,54,59|GB_3791
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 77.72.5.113
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: GB
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,47,49,51|GB_3807
+  network: ws
+  port: 443
+  server: 172.99.190.209
+  servername: vip2323.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: vip2323.cfd
+    path: /linkvws
 - cipher: aes-256-gcm
   country: GB
-  name: 37,38,40,48,50,52,60|GB_3589
-  password: Y6R9pAtvxxzmGC
-  port: 3306
+  name: 37,38,39,40,47,49,51,54,59|GB_3796
+  password: XKFKl2rULjIp74
+  port: 8008
   server: 145.239.6.202
   type: ss
 - alterId: 0
   cipher: auto
-  name: 47|🇬🇧GB-172.99.190.206-7888 | 34....
+  name: 46|🇬🇧GB-172.99.190.206-7888 | 34....
   network: ws
   port: 443
   server: 172.99.190.206
@@ -168,7 +189,7 @@ proxies:
   country: GB
   h2-opts: {}
   http-opts: {}
-  name: 37,48,50|GB_3598
+  name: 37,47,49|GB_3803
   network: ws
   port: 443
   server: 149.7.16.75
@@ -181,111 +202,6 @@ proxies:
     headers:
       HOST: inna.cfd
     path: /linkvws
-- cipher: chacha20-ietf-poly1305
-  country: ' ZZ'
-  name: 37,40,42,45,48,50|Relay_ ZZ-GB_4832
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: series-a1.samanehha.co
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: GB
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,48,50,52|GB_3602
-  network: ws
-  port: 443
-  server: 149.7.16.188
-  servername: 149.7.16.188
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: 149.7.16.188
-    path: /linkvws
-- cipher: aes-128-gcm
-  country: GB
-  name: 37,39,40,48,50,52,55,56|GB_3577
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.179
-  type: ss
-- country: GB
-  name: 49|netflix_GB
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.169.70.78
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: GB
-  name: 55|GB_823
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.177.35.170
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: GB
-  name: 37,38,39,40,48,50,52,60|GB_3578
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 145.239.6.202
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 37,38,39,40,48,50,55,60|Relay_-GB_119
-  password: 2MhvCwztJVewPXKkmfYES7jeDehtmi8Cjb1rFpM7971J4A91zQQC1jcNeBEeTEBKxqBWtuP45VPqPRzEcTFPCrnn3aU3mArX
-  port: 55988
-  server: mx2.drawnrisha.one
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  country: GB
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,48,50,52|GB_3595
-  network: ws
-  port: 443
-  server: 149.7.16.194
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 68|电报频道 https://1808.free.hr_GB_4...
-  network: ws
-  port: 2053
-  server: 141.144.198.113
-  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
-    path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  name: 47|🇬🇧GB-149.7.16.174-7911 | 35.46...
-  network: ws
-  port: 443
-  server: 149.7.16.174
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /
 - alterId: 64
   cipher: auto
   country: RS
@@ -301,69 +217,163 @@ proxies:
   ws-path: /
 - cipher: aes-256-gcm
   country: GB
-  name: 37,38,39,40,48,50,52,60|GB_3576
+  name: 37,38,39,40,47,48,49,54,59|GB_3786
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 51.68.206.229
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16,37,49|🇬🇧_GB_英国
+  network: ws
+  port: 2082
+  server: 185.162.229.179
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: GB
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,49,51|GB_3812
+  network: ws
+  port: 443
+  server: 149.7.16.73
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- cipher: aes-256-gcm
+  country: GB
+  name: 37,38,39,40,47,49,51,54,59|GB_3781
   password: XKFKl2rULjIp74
   port: 8009
   server: 145.239.6.202
   type: ss
-- cipher: aes-128-gcm
+- alterId: 1
+  cipher: auto
   country: GB
-  name: 43|Relay_GB-GB_58
-  password: shadowsocks
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,47,49,51|GB_3804
+  network: ws
   port: 443
-  server: ak1784.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-- cipher: aes-256-gcm
+  server: 149.7.16.194
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- cipher: chacha20-ietf-poly1305
   country: GB
-  name: 37,38,39,40,48,50,52,60|GB_3583
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: GB
-  name: 37,38,39,40,48,50,52,60|GB_3579
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 145.239.6.202
+  name: 37|GB_3798
+  password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6
+  port: 40003
+  server: 194.105.83.3
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 37,40,42,45,48,49,50,56|Relay_-GB_173
+  country: GB
+  name: 37,40,47,59|Relay_GB-GB_3778
   password: mps3FwmDjLrWaOVg
   port: 443
-  server: series-a2.samanehha.co
+  server: series-a2.varzesh360.co
+  type: ss
+- cipher: aes-256-gcm
+  country: GB
+  name: 37,38,40,47,49,51,54,59|GB_3799
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 145.239.6.202
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: GB
-  name: 37,42,48|Relay_GB-GB_3593
+  country: 🇬🇧GB
+  name: 47|Relay_🇬🇧GB-🇬🇧GB_3252
   password: W74XFALLLuw6m5IA
   port: 443
   server: 52.56.220.139
   type: ss
 - alterId: 0
   cipher: auto
-  country: GB
   h2-opts: {}
   http-opts: {}
-  name: 42|GB_636
+  name: 37|Relay_-GB_1715
   network: ws
   port: 443
   server: 16.724064.xyz
-  servername: 16.724064.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
+  udp: true
   uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f
   ws-opts:
     headers:
-      HOST: 16.724064.xyz
+      Host: 16.724064.xyz
     path: /zlppvws
+- country: GB
+  name: 54|GB_966
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 35.176.241.141
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: GB
+  name: 48|GB_14
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.43.220.26
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: GB
+  name: 37,54|Relay_GB-GB_3788
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: 18.170.165.111
+  type: ss
+- cipher: aes-128-gcm
+  country: GB
+  name: 37,39,40,47,49,51,54,55|GB_3797
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.179
+  type: ss
 - alterId: 0
   cipher: auto
   country: GB
   h2-opts: {}
   http-opts: {}
-  name: 37,50|GB_3599
+  name: 37,38,47,49,51|GB_3816
+  network: ws
+  port: 443
+  server: 149.7.16.188
+  servername: 149.7.16.188
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: 149.7.16.188
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: GB
+  h2-opts: {}
+  http-opts: {}
+  name: 37,49|GB_3815
   network: ws
   port: 443
   server: 149.7.16.172
@@ -377,17 +387,104 @@ proxies:
       HOST: vip2323.cfd
     path: /linkvws
 - cipher: aes-128-gcm
-  name: 37,38,39,40,45,48,50,52,60|Relay_-GB_114
+  country: GB
+  name: 43|Relay_GB-GB_58
   password: shadowsocks
   port: 443
-  server: uk-dc1.yangon.club
+  server: ak1784.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 37,38,44,47,48,49,59|Relay_-GB_138
+  password: mps3FwmDjLrWaOVg
+  port: 443
+  server: series-a2.samanehha.co
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 37,54,55|Relay_-GB_203
+  password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6
+  port: 40003
+  server: soonjp.soon.guru
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' ZZ'
+  name: 37,38,40,47,49,59|Relay_ ZZ-GB_4952
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a1.samanehha.co
+  type: ss
+- cipher: aes-128-gcm
+  country: GB
+  name: 43|Relay_GB-GB_59
+  password: shadowsocks
+  port: 443
+  server: ak1793.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+- cipher: aes-256-gcm
+  country: GB
+  name: 37,38,39,40,47,49,51,54,59|GB_3784
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 145.239.6.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 37,38,39,40,47,49,54,59|Relay_-GB_101
+  password: 2MhvCwztJVewPXKkmfYES7jeDehtmi8Cjb1rFpM7971J4A91zQQC1jcNeBEeTEBKxqBWtuP45VPqPRzEcTFPCrnn3aU3mArX
+  port: 55988
+  server: mx2.drawnrisha.one
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 65|电报频道 https://1808.free.hr_GB_4...
+  network: ws
+  port: 2053
+  server: 141.144.198.113
+  servername: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com
+    path: /obdii.cfd:443/linkws
+- cipher: chacha20-ietf-poly1305
+  country: ' GB'
+  name: 37,38,39,40,44,47,49,51,54,59| GB_3766
+  password: zCCkJdIC36BFBn2YZynUn0
+  port: 12575
+  server: 89.185.84.185
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ' GB'
+  h2-opts: {}
+  http-opts: {}
+  name: 38,47,51| GB_389
+  network: tcp
+  port: 52728
+  server: 141.11.251.231
+  servername: 141.11.251.231
+  skip-cert-verify: true
+  type: vmess
+  uuid: d5e16b83-7b5c-45ea-d749-d6f6ad214447
+- alterId: 0
+  cipher: auto
+  name: 46|🇬🇧GB-149.7.16.174-7911 | 35.46...
+  network: ws
+  port: 443
+  server: 149.7.16.174
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   country: GB
   h2-opts: {}
   http-opts: {}
-  name: 37,50,52|GB_3608
+  name: 37,49,51|GB_3802
   network: ws
   port: 443
   server: 68.168.31.242
@@ -402,57 +499,24 @@ proxies:
     path: /linkvws
 - cipher: aes-256-gcm
   country: GB
-  name: 37,38,40,48,49,50,60|GB_3574
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 51.68.206.229
+  name: 37,38,39,40,47,49,51,54,59|GB_3777
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-128-gcm
+  country: ' GB'
+  name: 40,44,46,47,51,55,59|ChatGPT  GB_230
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.198
   type: ss
 - alterId: 0
   cipher: auto
   country: GB
   h2-opts: {}
   http-opts: {}
-  name: 37,38,48,50,52|GB_3601
-  network: ws
-  port: 443
-  server: 172.99.190.50
-  servername: 172.99.190.50
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: 172.99.190.50
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  country: GB
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,50,52|GB_3606
-  network: ws
-  port: 443
-  server: 172.99.190.206
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- cipher: chacha20-ietf-poly1305
-  country: GB
-  name: '42|disney_netflix_GB #3'
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: 18.170.165.111
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: GB
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,48,50,52|GB_3609
+  name: 37,38,47,49,51|GB_3814
   network: ws
   port: 443
   server: 149.7.16.174
@@ -462,43 +526,17 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /linkvws
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   country: GB
-  name: 37,38,39,40,45,48,50,60|GB_3592
+  name: 37,38,39,40,47,49,51,54,59|GB_3779
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-cfb
+  name: 37,47|Relay_-GB_222
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 77.72.5.113
+  server: 51.15.15.82
   type: ss
-- alterId: 0
-  cipher: auto
-  country: GB
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,50,52|GB_3603
-  network: ws
-  port: 443
-  server: 149.7.16.73
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: GB
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,48,50,52|GB_3596
-  network: ws
-  port: 443
-  server: 172.99.190.209
-  servername: vip2323.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: vip2323.cfd
-    path: /linkvws
+  udp: true
