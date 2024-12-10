@@ -1,17 +1,962 @@
 proxies:
 - cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48|FR_364
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 145.239.6.202
+  type: ss
+- country: FR
+  name: 50|FR_1021
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.194.196
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 48|🇫🇷FR_386
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 54.37.18.75
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,42,46,48,50|FR_345
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
   country: ' FR'
-  name: 39,46,48|ChatGPT  FR_186
+  name: 39,46,48,50|ChatGPT  FR_202
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 54.37.12.219
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,39,46,48,50|FR_355
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 39,46,48,50|ChatGPT  FR_165
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 54.37.18.75
+  type: ss
+- country: FR
+  name: '41,47,50|netflix_FR #1'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.47.36.198
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48|FR_352
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,42,43,46,48|FR_359
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 54.36.174.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 46|🇷FR_3974
+  network: ws
+  port: 443
+  server: 194.9.172.65
+  servername: beyonddbc.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    headers:
+      HOST: beyonddbc.sbs
+    path: /linkws
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48,50|FR_356
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 145.239.6.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: FR
+  name: 37|FR_351
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 51.178.87.37
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 46|🇫🇷FR_3972
+  network: ws
+  port: 443
+  server: 51.77.20.136
+  servername: capellare.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: capellare.com
+    path: /linkvws
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48|FR_368
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48|FR_362
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 48|🇫🇷FR_388
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 54.37.18.75
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48,50|FR_375
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 217.182.198.219
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: IR
+  h2-opts: {}
+  http-opts: {}
+  name: 41,46,48|Relay_IR-FR_921
+  network: ws
+  port: 443
+  server: 2.189.59.4
+  servername: obdii.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      HOST: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 45|🇫🇷FR-193.160.130.245-8759 | 27...
+  network: ws
+  port: 443
+  server: beyonddsz.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 45|🇫🇷FR-45.145.165.113-8834 | 28....
+  network: ws
+  port: 443
+  server: hms19.best-tizi.top
+  servername: 🇫🇷FR-45.145.165.113-8834 | 28.252MB
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48,50|FR_347
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 48|🇫🇷FR_391
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 54.37.18.75
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48,50|FR_380
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,43,46,48|FR_365
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48,50|FR_346
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48,50|FR_358
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,42,48|FR_376
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 54.36.174.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 45|🇫🇷FR-163.5.159.231-1092 | 3.70...
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 46,48,50|🇫🇷FR_3978
+  network: ws
+  port: 80
+  server: 195.154.102.210
+  servername: fr1e-unmetered.v2freevpn.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      HOST: fr1e-unmetered.v2freevpn.com
+    path: /v133PDXkklxLEcOvD
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 46,48|Relay_🏁ZZ-FR_5031
+  network: ws
+  port: 2082
+  server: 104.16.67.38
+  servername: late-wave-1d0a.lesijo3430.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      HOST: late-wave-1d0a.lesijo3430.workers.dev
+    path: /ivideos.sbs/linkws
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 48|🇫🇷FR_382
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 54.37.18.75
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '41,46,48,50|netflix_FR #2'
+  network: ws
+  port: 80
+  server: 104.16.61.8
+  servername: d396-flower-d396.megare7260.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      HOST: d396-flower-d396.megare7260.workers.dev
+    path: /obdii.cfd/linkws
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 48,50|Relay_🏁ZZ-🇷FR_4481
+  network: ws
+  port: 2082
+  server: 104.16.61.8
+  servername: ury-unit-c030ehei8.poget71138.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      HOST: ury-unit-c030ehei8.poget71138.workers.dev
+    path: /ivideos.sbs/linkws
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48|FR_354
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 145.239.6.202
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 48,50|🇫🇷FR_491
+  network: ws
+  port: 443
+  server: 193.160.130.245
+  servername: beyonddsz.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      HOST: beyonddsz.cfd
+    path: /linkws
+- cipher: aes-256-gcm
+  country: FR
+  name: 42|FR_17
   password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 54.37.12.70
+  port: 8882
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,42,43,46,48|FR_373
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,42,46,48|FR_370
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,39,43,46,48|FR_341
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 42|Relay_FR-FR_49
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48,50|FR_357
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,42,46|FR_343
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48|FR_371
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,43,46,48|FR_378
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 48|🇫🇷FR_402
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 54.37.18.75
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 50|Relay_-FR_926
+  network: ws
+  port: 2086
+  server: 104.16.61.8
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ury-unit-c030ehei8.poget71138.workers.dev
+    path: /ivideos.sbs/linkws
+- country: FR
+  name: 50|FR_1022
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.237.86.252
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,48,50| FR_338
+  network: ws
+  port: 443
+  server: 146.19.168.161
+  servername: az05.beyondy.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      HOST: az05.beyondy.cfd
+    path: /link
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,42,46,48|FR_361
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,43,46,48|FR_340
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 149.202.82.172
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,48,50|Relay_ FR-FR_334
+  network: ws
+  port: 443
+  server: indiavideo.sbs
+  servername: indiavideo.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+  ws-opts:
+    headers:
+      HOST: indiavideo.sbs
+    path: /linkws
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48|FR_381
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 217.182.198.219
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 46,48,50|Relay_🇫🇷FR-🇷FR_3976
+  network: ws
+  port: 443
+  server: beyonddsz.cfd
+  servername: beyonddsz.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      HOST: beyonddsz.cfd
+    path: /linkws
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 48|🇫🇷FR_397
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 54.37.18.75
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,46,48,50| FR_339
+  network: ws
+  port: 443
+  server: az05.beyondy.cfd
+  servername: az05.beyondy.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      HOST: az05.beyondy.cfd
+    path: /link
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 48|🇫🇷FR_399
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 54.37.18.75
+  type: ss
+- cipher: aes-256-gcm
+  country: ' FR'
+  name: 39,42,43,46,48|ChatGPT  FR_145
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- name: 50|Relay_-FR_934
+  network: ws
+  password: blue2024
+  port: 443
+  server: 172.64.233.44
+  skip-cert-verify: true
+  sni: td.promote.icu
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  country: FR
+  name: 42|FR_30
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48|FR_369
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 217.182.198.219
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 45|🇫🇷FR-45.145.167.103-8718 | 24....
+  network: ws
+  port: 443
+  server: indiavideo.sbs
+  servername: 🇫🇷FR-45.145.167.103-8718 | 24.765MB
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+  ws-opts:
+    headers:
+      Host: indiavideo.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 45|🇫🇷FR-172.232.34.235-8893 | 28....
+  network: ws
+  port: 443
+  server: irhms03.dongfeng.cfd
+  servername: 🇫🇷FR-172.232.34.235-8893 | 28.186MB
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+  ws-opts:
+    headers:
+      Host: hms03.dongfeng.cfd
+    path: /
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48|FR_342
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 217.182.198.219
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,42,46,48|FR_374
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 54.36.174.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,46,48| FR_333
+  network: ws
+  port: 443
+  server: 51.77.20.137
+  servername: tilebani.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: tilebani.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: ' IR'
+  h2-opts: {}
+  http-opts: {}
+  name: 41,46,48|Relay_ IR-FR_919
+  network: ws
+  port: 443
+  server: 2.189.59.2
+  servername: obdii.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      HOST: obdii.cfd
+    path: /linkws
+- cipher: aes-256-gcm
+  country: FR
+  name: 42|Relay_FR-FR_19
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48,50|FR_377
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 217.182.198.219
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 46|Relay_🇷FR-🇷FR_3971
+  network: ws
+  port: 80
+  server: fr2e-tl7wr888kG8882h3.v2freevpn.com
+  servername: fr2e-tl7wr888kG8882h3.v2freevpn.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      HOST: fr2e-tl7wr888kG8882h3.v2freevpn.com
+    path: /frfrfffv888888mn01N
+- cipher: aes-256-gcm
+  country: FR
+  name: 42|FR_26
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 42|Relay_FR-FR_42
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 46|Relay_-FR_1179
+  network: ws
+  port: 80
+  server: root.mid.al
+  skip-cert-verify: true
+  type: vmess
+  uuid: a983c698-cae4-4254-d047-51898ccd8ee7
+  ws-opts:
+    headers:
+      Host: kim.gov.kp
+    path: /aries?ed=2048
+- cipher: chacha20-ietf-poly1305
+  country: ' FR'
+  name: 37,38,39,41,45,46,48,50,51| FR_332
+  password: jNb5JwjGoCerqxAXR0dIO4
+  port: 443
+  server: 62.210.88.22
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 46|🇫🇷FR_3949
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 145.239.6.202
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48|FR_344
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 217.182.198.219
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1,7,12,21,27,32,53|FR法国(mibei77.com 米贝节点分享)
+  network: ws
+  port: '443'
+  server: 163.5.159.231
+  servername: irvideo.cfd
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 45|🇫🇷FR-193.160.130.245-8768 | 28...
+  network: ws
+  port: 443
+  server: 193.160.130.245
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,42,46,48|FR_360
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 54.36.174.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇫🇷FR
+  name: 46|🇫🇷FR_3923
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 51.178.87.37
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,42,43,46,48,50|FR_349
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 149.202.82.172
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,51| FR_337
+  network: ws
+  port: 443
+  server: 163.5.159.231
+  servername: irvideo.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      HOST: irvideo.cfd
+    path: /linkws
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48,50|FR_379
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 217.182.198.219
   type: ss
 - cipher: aes-256-cfb
   country: FR
-  name: 37,39,43,46|FR_350
+  name: 37,38,39,43,46|FR_350
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 195.154.185.174
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,39,43,46,48|FR_366
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,46,48|FR_367
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 217.182.198.219
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,48,50| FR_335
+  network: ws
+  port: 443
+  server: 45.145.167.103
+  servername: indiavideo.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+  ws-opts:
+    headers:
+      HOST: indiavideo.sbs
+    path: /linkws
+- cipher: aes-256-gcm
+  country: FR
+  name: 37,38,39,42,46,48|FR_348
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 54.36.174.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: FR
+  h2-opts: {}
+  http-opts: {}
+  name: 41,46,48,51|FR_904
+  network: ws
+  port: 443
+  server: irvideo.cfd
+  servername: irvideo.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      HOST: irvideo.cfd
+    path: /linkws
+- cipher: aes-256-gcm
+  country: FR
+  name: 42|Relay_FR-FR_38
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '41,46,48|netflix_FR #3'
+  network: ws
+  port: 2082
+  server: 104.16.61.8
+  servername: y-old-mode-9c0diab.wiriy73548.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      HOST: y-old-mode-9c0diab.wiriy73548.workers.dev
+    path: /obdii.cfd/linkws
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 48|Relay_🏁ZZ-🇷FR_4495
+  network: ws
+  port: 443
+  server: 104.17.197.31
+  servername: quiet-moon-132a.xetag42714.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      HOST: quiet-moon-132a.xetag42714.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 37,46,48| FR_336
+  network: ws
+  port: 443
+  server: 51.77.20.132
+  servername: a.baradiha.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: a.baradiha.com
+    path: /linkvws
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 46|🇫🇷FR_3957
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 217.182.198.219
   type: ss
 - alterId: 0
   cipher: auto
@@ -34,950 +979,12 @@ proxies:
   port: 4444
   server: 217.182.198.219
   type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48,50|FR_357
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48,50|FR_347
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 217.182.198.219
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: FR
-  h2-opts: {}
-  http-opts: {}
-  name: 41,46,48,51|FR_932
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  servername: irvideo.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      HOST: irvideo.cfd
-    path: /linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 42|Relay_FR-FR_42
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 39,46,48,50|ChatGPT  FR_143
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,46,48|FR_362
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48,50|FR_355
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48,50|FR_358
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 48|🇫🇷FR_386
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 54.37.18.75
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: ' FR'
-  h2-opts: {}
-  http-opts: {}
-  name: 37,46,48,50| FR_335
-  network: ws
-  port: 443
-  server: 45.145.167.103
-  servername: indiavideo.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
-  ws-opts:
-    headers:
-      HOST: indiavideo.sbs
-    path: /linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48|FR_354
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 145.239.6.202
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 45|🇫🇷FR-193.160.130.245-8768 | 28...
-  network: ws
-  port: 443
-  server: 193.160.130.245
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48|FR_367
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 217.182.198.219
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' FR'
-  name: 37,38,39,41,45,46,48,50,51| FR_332
-  password: jNb5JwjGoCerqxAXR0dIO4
-  port: 443
-  server: 62.210.88.22
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 48|🇫🇷FR_402
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 42|FR_26
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 145.239.1.100
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 53|Relay_🏁ZZ-🇫🇷FR_1330 |37.29Mb
-  network: ws
-  port: 8880
-  server: 104.16.61.8
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: late-wave-1d0a.lesijo3430.workers.dev
-    path: /ivideos.sbs/linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 42|Relay_FR-FR_19
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,42,46|FR_343
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 48|🇫🇷FR_382
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 54.37.18.75
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 50,53|Relay_-FR_926
-  network: ws
-  port: 2086
-  server: 104.16.61.8
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: ury-unit-c030ehei8.poget71138.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  country: ' FR'
-  h2-opts: {}
-  http-opts: {}
-  name: 37,41| FR_337
-  network: ws
-  port: 443
-  server: 163.5.159.231
-  servername: irvideo.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      HOST: irvideo.cfd
-    path: /linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,42,46,48|FR_376
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 54.36.174.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 53|Relay_🏁ZZ-🇫🇷FR_2005 |59.31Mb
-  network: ws
-  port: 8880
-  server: 104.16.68.38
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: late-wave-1d0a.lesijo3430.workers.dev
-    path: /ivideos.sbs/linkws
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 48|🇫🇷FR_393
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,42,46,48|FR_361
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48|FR_368
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 145.239.6.202
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 46|🇫🇷FR_4021
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 39,42,43,46,48|ChatGPT  FR_157
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 46,48,51|Relay_🏁ZZ-🇷FR_5261
-  network: ws
-  port: 2086
-  server: 104.16.61.8
-  servername: ury-unit-c030ehei8.poget71138.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      HOST: ury-unit-c030ehei8.poget71138.workers.dev
-    path: /ivideos.sbs/linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,42,43,46,48|FR_359
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 54.36.174.181
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇫🇷FR
   h2-opts: {}
   http-opts: {}
-  name: 46|🇷FR_4044
-  network: ws
-  port: 443
-  server: 51.77.20.136
-  servername: capellare.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: capellare.com
-    path: /linkvws
-- cipher: aes-256-gcm
-  country: ' FR'
-  name: 39,46,48,50|ChatGPT  FR_195
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48|FR_369
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 217.182.198.219
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,7,12,21,27,32,53|FR法国(mibei77.com 米贝节点分享)
-  network: ws
-  port: '443'
-  server: 163.5.159.231
-  servername: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  name: 46|🇫🇷FR_4013
-  password: G!yBwPWH3Vao
-  port: 807
-  server: 51.178.87.37
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,43,46,48|FR_365
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 149.202.82.172
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '41|netflix_FR #1'
-  network: ws
-  port: 80
-  server: 104.16.61.8
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: d396-flower-d396.megare7260.workers.dev
-    path: /obdii.cfd/linkws
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 48,50|Relay_🏁ZZ-🇷FR_4481
-  network: ws
-  port: 2082
-  server: 104.16.61.8
-  servername: ury-unit-c030ehei8.poget71138.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      HOST: ury-unit-c030ehei8.poget71138.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  country: 🇫🇷FR
-  h2-opts: {}
-  http-opts: {}
-  name: 46,48,50|🇫🇷FR_4048
-  network: ws
-  port: 443
-  server: 193.160.130.245
-  servername: beyonddsz.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      HOST: beyonddsz.cfd
-    path: /linkws
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 48|🇫🇷FR_397
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 54.37.18.75
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 48|Relay_🏁ZZ-🇷FR_4495
-  network: ws
-  port: 443
-  server: 104.17.197.31
-  servername: quiet-moon-132a.xetag42714.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      HOST: quiet-moon-132a.xetag42714.workers.dev
-    path: /ivideos.sbs/linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,42,46,48,50|FR_345
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 54.36.174.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: ' FR'
-  h2-opts: {}
-  http-opts: {}
-  name: 37,46,48| FR_336
-  network: ws
-  port: 443
-  server: 51.77.20.132
-  servername: a.baradiha.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: a.baradiha.com
-    path: /linkvws
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,42,46,48|FR_360
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 54.36.174.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 53|Relay_🏁ZZ-🇫🇷FR_1259 |41.55Mb
-  network: ws
-  port: 2082
-  server: 104.16.68.38
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: late-wave-1d0a.lesijo3430.workers.dev
-    path: /ivideos.sbs/linkws
-- country: FR
-  name: 50|FR_1021
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.194.196
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48,50|FR_356
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 145.239.6.202
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 45|🇫🇷FR-172.232.34.235-8893 | 28....
-  network: ws
-  port: 443
-  server: irhms03.dongfeng.cfd
-  servername: 🇫🇷FR-172.232.34.235-8893 | 28.186MB
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
-  ws-opts:
-    headers:
-      Host: hms03.dongfeng.cfd
-    path: /
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,46,48|FR_342
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,42,43,46,48,50|FR_349
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 149.202.82.172
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: FR
-  name: 43|FR_46
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 51.178.87.37
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48|FR_352
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 145.239.6.202
-  type: ss
-- country: FR
-  name: 47,50|FR_06
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.47.36.198
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 42|Relay_FR-FR_38
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,42,46,48|FR_348
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 54.36.174.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 45|🇫🇷FR-45.145.165.113-8834 | 28....
-  network: ws
-  port: 443
-  server: hms19.best-tizi.top
-  servername: 🇫🇷FR-45.145.165.113-8834 | 28.252MB
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-  ws-opts:
-    headers:
-      Host: hms19.best-tizi.top
-    path: /
-- alterId: 0
-  cipher: auto
-  country: ' FR'
-  h2-opts: {}
-  http-opts: {}
-  name: 37,46,48,50| FR_339
-  network: ws
-  port: 443
-  server: az05.beyondy.cfd
-  servername: az05.beyondy.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      HOST: az05.beyondy.cfd
-    path: /link
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,43,46,48|FR_363
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,46,48|FR_381
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48|FR_344
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 217.182.198.219
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇫🇷FR
-  h2-opts: {}
-  http-opts: {}
-  name: 46,48,50|Relay_🇫🇷FR-🇫🇷FR_4047
-  network: ws
-  port: 443
-  server: beyonddsz.cfd
-  servername: beyonddsz.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      HOST: beyonddsz.cfd
-    path: /linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,43,46,48|FR_340
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,43,46,48|FR_378
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 149.202.82.172
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: FR
-  name: 37,39,46|FR_372
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 51.178.87.37
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 48|🇫🇷FR_391
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 54.37.18.75
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 41,53|Relay_-FR_630
-  network: ws
-  port: 8880
-  server: 104.16.60.8
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48,50|FR_375
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 42|FR_17
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 145.239.1.100
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,43,46,48|FR_366
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 149.202.82.172
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 45|🇫🇷FR-45.145.167.103-8718 | 24....
-  network: ws
-  port: 443
-  server: indiavideo.sbs
-  servername: 🇫🇷FR-45.145.167.103-8718 | 24.765MB
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
-  ws-opts:
-    headers:
-      Host: indiavideo.sbs
-    path: /
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,42,43,46,48|FR_373
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 145.239.6.202
-  type: ss
-- country: FR
-  name: 41,47,50|FR_933
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.237.86.252
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: ' FR'
-  h2-opts: {}
-  http-opts: {}
-  name: 37,46,48,50|Relay_ FR-FR_334
-  network: ws
-  port: 443
-  server: indiavideo.sbs
-  servername: indiavideo.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
-  ws-opts:
-    headers:
-      HOST: indiavideo.sbs
-    path: /linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 42|Relay_FR-FR_49
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇷FR
-  h2-opts: {}
-  http-opts: {}
-  name: 46|Relay_🇫🇷FR-🇷FR_4046
-  network: ws
-  port: 80
-  server: fr2e-tl7wr888kG8882h3.v2freevpn.com
-  servername: fr2e-tl7wr888kG8882h3.v2freevpn.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      HOST: fr2e-tl7wr888kG8882h3.v2freevpn.com
-    path: /frfrfffv888888mn01N
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48,50|FR_379
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 217.182.198.219
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇫🇷FR
-  h2-opts: {}
-  http-opts: {}
-  name: 46,48,50|🇫🇷FR_4049
-  network: ws
-  port: 80
-  server: 195.154.102.210
-  servername: fr1e-unmetered.v2freevpn.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      HOST: fr1e-unmetered.v2freevpn.com
-    path: /v133PDXkklxLEcOvD
-- name: 50|Relay_-FR_934
-  network: ws
-  password: blue2024
-  port: 443
-  server: 172.64.233.44
-  skip-cert-verify: true
-  sni: td.promote.icu
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48,50|FR_377
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48,50|FR_346
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 42|FR_30
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 145.239.1.100
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,43,46,48|FR_341
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 149.202.82.172
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 45|🇫🇷FR-193.160.130.245-8759 | 27...
-  network: ws
-  port: 443
-  server: beyonddsz.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 48|🇫🇷FR_399
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 54.37.18.75
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48|FR_371
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 48|🇫🇷FR_388
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 54.37.18.75
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: ' FR'
-  h2-opts: {}
-  http-opts: {}
-  name: 37,48| FR_333
-  network: ws
-  port: 443
-  server: 51.77.20.137
-  servername: tilebani.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: tilebani.com
-    path: /linkvws
-- cipher: chacha20-ietf-poly1305
-  name: 41|Relay_-FR_62
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54002
-  server: h-k02.loveroise.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 41,46,48,50,51|Relay_ZZ-FR_1360
-  network: ws
-  port: 2095
-  server: 104.16.60.8
-  servername: worker-mute-bar-1719.nifotok993.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      HOST: worker-mute-bar-1719.nifotok993.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48,50|FR_380
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 217.182.198.219
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 46,48|Relay_🏁ZZ-🇷FR_5183
-  network: ws
-  port: 2082
-  server: 104.16.67.38
-  servername: late-wave-1d0a.lesijo3430.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      HOST: late-wave-1d0a.lesijo3430.workers.dev
-    path: /ivideos.sbs/linkws
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,39,42,46,48|FR_370
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 54.36.174.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: FR
-  name: 37|FR_351
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 51.178.87.37
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
-  name: 37,38,39,46,48|FR_364
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 145.239.6.202
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇫🇷FR
-  h2-opts: {}
-  http-opts: {}
-  name: 48,50|🇷FR_488
+  name: 46,48,50|🇫🇷FR_3975
   network: ws
   port: 443
   server: 146.59.55.50
@@ -990,78 +997,55 @@ proxies:
     headers:
       HOST: o.metuji.com
     path: /linkvws
-- country: FR
-  name: 47|FR_05
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.44.115.227
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   country: ' FR'
-  name: 39,46,48|ChatGPT  FR_183
-  password: FoOiGlkAA9yPEGP
-  port: 7306
+  name: 39,46,48|ChatGPT  FR_189
+  password: PCnnH6SQSnfoS27
+  port: 8090
   server: 54.37.12.70
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 46|🇫🇷FR_3993
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 217.182.198.219
+  name: 46|🇷FR_3965
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 149.202.82.172
   type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 46|🇫🇷FR_3997
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 145.239.6.202
+- cipher: chacha20-ietf-poly1305
+  country: FR
+  name: 37|FR_372
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 51.178.87.37
   type: ss
 - alterId: 0
   cipher: auto
-  country: ' FR'
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 37,46,48,50| FR_338
+  name: 48,51|Relay_🏁ZZ-🇷FR_4524
   network: ws
-  port: 443
-  server: 146.19.168.161
-  servername: az05.beyondy.cfd
+  port: 2086
+  server: 104.16.61.8
+  servername: ury-unit-c030ehei8.poget71138.workers.dev
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
   ws-opts:
     headers:
-      HOST: az05.beyondy.cfd
-    path: /link
-- alterId: 0
-  cipher: auto
-  name: 45|🇫🇷FR-163.5.159.231-1092 | 3.70...
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 41|Relay_-FR_63
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54000
-  server: h-k01.loveroise.com
+      HOST: ury-unit-c030ehei8.poget71138.workers.dev
+    path: /ivideos.sbs/linkws
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 48|🇫🇷FR_393
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 54.37.18.75
   type: ss
 - cipher: aes-256-gcm
   country: FR
-  name: 37,38,39,42,46,48|FR_374
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 54.36.174.181
+  name: 37,38,39,43,46,48|FR_363
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 217.182.198.219
   type: ss

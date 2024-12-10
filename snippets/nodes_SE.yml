@@ -1,35 +1,23 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: ' SE'
-  name: 37,39,46,48| SE_490
-  password: UDcjYQ6Z6AIWxViZpqyOmO
-  port: 44013
-  server: 46.246.98.155
-  type: ss
 - country: SE
-  name: 41|SE_974
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.51.94.50
-  sni: trojan.burgerip.co.uk
+  name: 41,50|SE_934
+  network: ws
+  password: 5495ebe2-dc52-4cb4-8f25-2a13877183e6
+  port: 443
+  server: 185.146.173.32
+  sni: de1.trojanvpn.xyz
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: de1.trojanvpn.xyz
+    path: /
 - country: SE
-  name: 47,50|SE_17
+  name: 50|SE_1141
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
   server: 13.50.79.149
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- country: SE
-  name: 41|netflix_SE
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.51.0.10
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
@@ -46,3 +34,19 @@ proxies:
     headers:
       Host: nl1.trojanvpn.xyz
     path: /
+- cipher: chacha20-ietf-poly1305
+  country: ' SE'
+  name: 37,38,39,46,48| SE_490
+  password: UDcjYQ6Z6AIWxViZpqyOmO
+  port: 44013
+  server: 46.246.98.155
+  type: ss
+- country: SE
+  name: 47|netflix_SE
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.61.93.232
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
