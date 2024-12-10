@@ -1,9 +1,30 @@
 proxies:
 - cipher: aes-256-gcm
   country: ' CH'
-  name: 39,46,50,51|ChatGPT  CH_22
+  name: 39,48,50|ChatGPT  CH_29
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: ' CH'
+  name: 39,48,50|ChatGPT  CH_25
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 23.166.88.198
+  type: ss
+- cipher: aes-256-gcm
+  country: ' CH'
+  name: 39,51|ChatGPT  CH_27
   password: Y6R9pAtvxxzmGC
   port: 3389
+  server: 23.166.88.5
+  type: ss
+- cipher: aes-256-gcm
+  country: ' CH'
+  name: 39,48,50|ChatGPT  CH_24
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 23.166.88.198
   type: ss
 - alterId: 1
@@ -20,17 +41,3 @@ proxies:
     headers:
       Host: 186.190.215.32
     path: /
-- cipher: aes-256-gcm
-  country: ' CH'
-  name: 39,46,50|ChatGPT  CH_17
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 23.166.88.198
-  type: ss
-- cipher: aes-256-gcm
-  country: ' CH'
-  name: 39,50,51|ChatGPT  CH_26
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.166.88.198
-  type: ss
