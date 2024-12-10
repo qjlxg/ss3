@@ -1,10 +1,105 @@
 proxies:
+- cipher: rc4-md5
+  country: CN
+  name: 41,50|CN_918
+  password: uYhVA160ZoSg3AI5
+  port: 6700
+  server: 61.171.112.82
+  type: ss
+- cipher: aes-256-cfb
+  country: CN
+  name: 43,46,48,51|Pool_CN_15
+  obfs: plain
+  obfs-param: data.bilibili.com/ed5a2165400
+  password: http://cc.ax/
+  port: 41228
+  protocol: auth_aes128_md5
+  protocol-param: 165400:Hr2aXO
+  server: 222.186.20.102
+  type: ssr
+- cipher: aes-256-cfb
+  name: 18|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
+- alterId: 64
+  cipher: auto
+  country: 🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 46|🇨🇳CN_3934
+  network: tcp
+  port: 45017
+  server: 142.0.134.242
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  country: CN
+  name: 43,46|Relay_CN-CN_16
+  obfs: plain
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 2338:9tQfxMX(0S;40f
+  server: cmlayer6.standurls.co
+  type: ssr
+- alterId: 64
+  cipher: auto
+  name: 25|🇨🇳_CN_中国
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 48|Relay_-🇨CN_223
+  network: ws
+  port: 37000
+  server: 38.33.56.53
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.24006857.xyz
+    path: /path/1733563016918
 - alterId: 64
   cipher: auto
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 38,40,42,47,53|CN_313
+  name: 37,39,41,46,48|CN_313
+  network: tcp
+  port: 50002
+  server: 47.92.152.169
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 37,39,41,50|CN_310
+  network: tcp
+  port: 50002
+  server: 47.104.186.133
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 37,39,41,46,50|CN_308
   network: tcp
   port: 50002
   server: 112.132.215.12
@@ -17,40 +112,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 38,40,42,47,53|CN_311
-  network: tcp
-  port: 59003
-  server: 183.236.51.36
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 38,40,42|CN_314
-  network: tcp
-  port: 50002
-  server: 47.104.186.133
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 25|🇨🇳_CN_中国
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 38,40,42,47,49|CN_312
+  name: 37,39,41,46,48,50|CN_309
   network: tcp
   port: 50004
   server: 112.132.212.19
@@ -59,10 +121,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  country: CN
+  country: ' CN'
   h2-opts: {}
   http-opts: {}
-  name: 38,40,42,47|CN_316
+  name: 39,41,46| CN_29
   network: tcp
   port: 50002
   server: 47.116.173.76
@@ -70,89 +132,28 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: /lfljvws
 - alterId: 64
   cipher: auto
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 38,40,42,47,49|CN_310
-  network: tcp
-  port: 50002
-  server: 47.92.152.169
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 49|Relay_-🇨CN_223
-  network: ws
-  port: 37000
-  server: 38.33.56.53
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.24006857.xyz
-    path: /path/1733563016918
-- cipher: aes-256-cfb
-  country: CN
-  name: 44,47,49,54|Pool_CN_15
-  obfs: plain
-  obfs-param: data.bilibili.com/ed5a2165400
-  password: http://cc.ax/
-  port: 41228
-  protocol: auth_aes128_md5
-  protocol-param: 165400:Hr2aXO
-  server: 222.186.20.102
-  type: ssr
-- cipher: chacha20-ietf
-  country: CN
-  name: 44,47|Relay_CN-CN_16
-  obfs: plain
-  password: mblank1port
-  port: 560
-  protocol: auth_aes128_md5
-  protocol-param: 2338:9tQfxMX(0S;40f
-  server: cmlayer6.standurls.co
-  type: ssr
-- alterId: 64
-  cipher: auto
-  country: 🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 47|🇨🇳CN_3934
-  network: tcp
-  port: 45017
-  server: 142.0.134.242
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  country: CN
-  name: 53|CN_1223
-  password: uYhVA160ZoSg3AI5
-  port: 6700
-  server: 61.171.112.82
-  type: ss
-- cipher: aes-256-cfb
-  name: 18|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 38,40,42|CN_315
+  name: 37,39,41|CN_311
   network: tcp
   port: 50002
   server: 114.55.132.202
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 37,39,41,46,50|CN_312
+  network: tcp
+  port: 59003
+  server: 183.236.51.36
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

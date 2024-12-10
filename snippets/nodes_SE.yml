@@ -1,6 +1,22 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  country: ' SE'
+  name: 37,39,46,48| SE_490
+  password: UDcjYQ6Z6AIWxViZpqyOmO
+  port: 44013
+  server: 46.246.98.155
+  type: ss
 - country: SE
-  name: 48,53|SE_17
+  name: 41|SE_974
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.51.94.50
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: SE
+  name: 47,50|SE_17
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -8,15 +24,17 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: ' SE'
-  name: 38,47,49| SE_490
-  password: UDcjYQ6Z6AIWxViZpqyOmO
-  port: 44013
-  server: 46.246.98.155
-  type: ss
 - country: SE
-  name: 53|Relay_SE-NL_1368
+  name: 41|netflix_SE
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.51.0.10
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- country: SE
+  name: 50|Relay_SE-NL_1137
   network: ws
   password: aee423ce-e4b0-4555-b5b7-486dd0284fd2
   port: 443
