@@ -1,6 +1,22 @@
 proxies:
 - country: SE
-  name: 54|Relay_SE-NL_1344
+  name: 48,53|SE_17
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.50.79.149
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: ' SE'
+  name: 38,47,49| SE_490
+  password: UDcjYQ6Z6AIWxViZpqyOmO
+  port: 44013
+  server: 46.246.98.155
+  type: ss
+- country: SE
+  name: 53|Relay_SE-NL_1368
   network: ws
   password: aee423ce-e4b0-4555-b5b7-486dd0284fd2
   port: 443
@@ -12,51 +28,3 @@ proxies:
     headers:
       Host: nl1.trojanvpn.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🇪 SE
-  h2-opts: {}
-  http-opts: {}
-  name: 59|🇪 SE_533
-  network: ws
-  port: 80
-  server: Back.MsV2ray.online
-  servername: d396-flower-d396.megare7260.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-headers:
-    HOST: d396-flower-d396.megare7260.workers.dev
-  ws-path: /obdii.cfd/linkws
-- alterId: 0
-  cipher: auto
-  country: 🇪 SE
-  h2-opts: {}
-  http-opts: {}
-  name: 59|🇪 SE_532
-  network: ws
-  port: 80
-  server: 185.146.173.158
-  servername: d396-flower-d396.megare7260.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-headers:
-    HOST: d396-flower-d396.megare7260.workers.dev
-  ws-path: /obdii.cfd/linkws
-- cipher: chacha20-ietf-poly1305
-  country: ' SE'
-  name: 40,47,49,59|ChatGPT  SE_433
-  password: UDcjYQ6Z6AIWxViZpqyOmO
-  port: 44013
-  server: 46.246.98.155
-  type: ss
-- country: SE
-  name: 42,48,54|disney_netflix_SE
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.79.149
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
