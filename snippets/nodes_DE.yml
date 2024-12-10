@@ -1,64 +1,74 @@
 proxies:
-- cipher: aes-256-cfb
-  country: DE
-  name: 37,38,39,46,50,51|DE_323
-  password: 4R3hUfZ2FHhDmNcP
-  port: 9061
-  server: 80.92.204.106
-  type: ss
 - alterId: 0
   cipher: auto
+  name: 19|🇩🇪_DE_德国
+  network: ws
+  port: 45103
+  server: de-frankfurt-oracle-b26cf5.ip1.shop
+  tls: false
+  type: vmess
+  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  country: DE
   h2-opts: {}
   http-opts: {}
-  name: 50|Relay_-DE_774 |27.66Mb
+  name: 51|DE_918
   network: ws
   port: 443
-  server: hms23.fixedfloati.cfd
+  server: 139.162.187.29
+  servername: gwdef.sbs
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
   ws-opts:
     headers:
-      Host: fixedfloati.cfd
-    path: /linkwsd
-- cipher: aes-128-cfb
-  name: 46|Relay_-DE_301
-  obfs: http_post
-  password: +asd6a5s5df+
-  port: 443
-  protocol: auth_aes128_md5
-  server: nsus3.irundns.net
-  type: ssr
-- cipher: aes-256-cfb
-  country: DE
-  name: 37,38,39,46,48,50|DE_317
-  password: ZpNDDKRu9MagNvaf
-  port: 9015
-  server: 80.92.204.106
-  type: ss
+      HOST: gwdef.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 46|Relay_-DE_1232
+  name: 48|Relay_🏁ZZ-DE_4505
   network: ws
   port: 2082
   server: 104.16.68.38
+  servername: snowy-river-f497.turkeys-radford.workers.dev
+  skip-cert-verify: true
   type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
   ws-opts:
     headers:
-      Host: worker-divine-hat-02d6.savofir317.workers.dev
-    path: /glweidf.cfd/linkws
-- country: DE
-  name: 47|DE_08
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.79.161.87
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
+      HOST: snowy-river-f497.turkeys-radford.workers.dev
+    path: /glweidf.sbs/linkws
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 48,50|Relay_🏁ZZ-🇪DE_4560
+  network: ws
+  port: 443
+  server: hms24.ivideos.sbs
+  servername: ivideos.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      HOST: ivideos.sbs
+    path: /linkws
+- cipher: rc4-md5
+  country: ' DE'
+  name: 39,48,50|ChatGPT  DE_62
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 193.108.119.230
+  type: ss
 - alterId: 0
   cipher: auto
   name: 45|🇩🇪DE-57.129.24.125-8789 | 27.9...
@@ -73,161 +83,72 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /
-- alterId: 0
-  cipher: auto
-  country: DE
-  h2-opts: {}
-  http-opts: {}
-  name: 51|DE_851
-  network: ws
-  port: 443
-  server: 139.162.187.29
-  servername: gwdef.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      HOST: gwdef.sbs
-    path: /linkws
-- country: DE
-  name: '47|netflix_DE #3'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.120.195.247
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 46|Relay_🏁ZZ-🇪DE_5024
-  network: ws
-  port: 2052
-  server: 104.16.60.8
-  servername: late-wave-1d0a.lesijo3430.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      HOST: late-wave-1d0a.lesijo3430.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 46|Relay_ZZ-DE_5023
-  network: ws
-  port: 8880
-  server: 104.16.68.38
-  servername: late-wave-1d0a.lesijo3430.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      HOST: late-wave-1d0a.lesijo3430.workers.dev
-    path: /ivideos.sbs/linkws
 - cipher: aes-256-cfb
   country: DE
-  name: 37,38,39,46,48,50|DE_319
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 80.92.204.106
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇪DE
-  h2-opts: {}
-  http-opts: {}
-  name: 46,50|🇩🇪DE_3896
-  network: ws
-  port: 8880
-  server: 80.92.204.207
-  skip-cert-verify: true
-  type: vmess
-  uuid: cf3bb05c-736f-4ada-98d5-5090587b27e9
-  ws-opts:
-    path: /vmess
-- cipher: aes-256-cfb
-  country: DE
-  name: 37,38,39,48,50|DE_322
+  name: 37,39,48,50|DE_322
   password: BwcAUZk8hUFAkDGN
   port: 9031
   server: 80.92.204.106
   type: ss
-- country: DE
-  name: '47|netflix_DE #4'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.176.1.44
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 45|🇩🇪DE-80.92.204.106-1927 | 11.5...
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 80.92.204.106
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇩🇪DE
-  name: 46|🇪DE_3892
-  password: aLpQtfEZe445QyHk
-  port: 9098
-  server: 80.92.204.106
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 50|Relay_-🇪DE_1352 |29.51Mb
-  network: ws
-  port: 443
-  server: hms26.xpengmotors.sbs
-  tls: true
-  type: vmess
-  uuid: fb0a2de6-bf06-4ff0-97ce-c21abcdc2d55
-  ws-opts:
-    headers:
-      Host: hms26.xpengmotors.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 46,48|Relay_🏁ZZ-🇪DE_5123
-  network: ws
-  port: 2095
-  server: 104.16.60.8
-  servername: 8eh-band-d994.gijica5932.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      HOST: 8eh-band-d994.gijica5932.workers.dev
-    path: /ivideos.sbs/linkws
 - cipher: aes-256-cfb
   country: DE
-  name: 37,39,46,50|DE_318
+  name: 37,38,39,50|DE_326
   password: S7KwUu7yBy58S3Ga
   port: 9042
   server: 80.92.204.106
   type: ss
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 41|netflix_DE
+  network: ws
+  port: 8080
+  server: www.speedtest.net
+  servername: kqy2ckti028f.dopraxrocks.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: fd246702-77fe-4869-decc-e2f2336d50ce
+  ws-opts:
+    headers:
+      HOST: kqy2ckti028f.dopraxrocks.com
+    path: /
 - cipher: aes-256-cfb
   country: DE
-  name: 37,39,46,48,50|DE_316
-  password: FAdUvMJUq5vDgKEq
-  port: 9006
+  name: 37,39,50,51|DE_319
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  country: DE
+  name: 37,38,39,48,50|DE_320
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  server: 80.92.204.106
+  type: ss
+- country: DE
+  name: '47|netflix_DE #1'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.79.161.87
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇪DE
+  name: 48,50|🇪DE_339
+  password: wjTugX3ZtHMB9c3Z
+  port: 9057
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  country: ' DE'
+  name: 39,45,50|ChatGPT  DE_68
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
   server: 80.92.204.106
   type: ss
 - alterId: 0
@@ -247,164 +168,8 @@ proxies:
     headers:
       HOST: misty-dew-e2f1.turkeys-radford.workers.dev
     path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 46|Relay_🏁ZZ-🇩🇪DE_5035
-  network: ws
-  port: 2095
-  server: 104.16.68.38
-  servername: late-wave-1d0a.lesijo3430.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      HOST: late-wave-1d0a.lesijo3430.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '41,51|netflix_DE #2'
-  network: ws
-  port: 8080
-  server: www.speedtest.net
-  servername: kqy2ckti028f.dopraxrocks.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: fd246702-77fe-4869-decc-e2f2336d50ce
-  ws-opts:
-    headers:
-      HOST: kqy2ckti028f.dopraxrocks.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 52|Relay_🏁ZZ-DE_1525
-  network: ws
-  port: 2086
-  server: 104.16.67.38
-  servername: snowy-river-f497.turkeys-radford.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      HOST: snowy-river-f497.turkeys-radford.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 54|Relay_🏁ZZ-🇩🇪DE_1525
-  network: ws
-  port: 2086
-  server: 104.16.67.38
-  tls: false
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: snowy-river-f497.turkeys-radford.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 50|Relay_-🇪DE_1427 |23.16Mb
-  network: ws
-  port: 443
-  server: frankfurt03.zgjok.com
-  tls: true
-  type: vmess
-  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
-  ws-opts:
-    headers:
-      Host: frankfurt03.zgjok.com
-    path: /
-- alterId: 64
-  cipher: auto
-  country: FR
-  h2-opts: {}
-  http-opts: {}
-  name: '41,51|netflix_DE #1'
-  network: ws
-  port: 30004
-  server: 51.195.35.39
-  servername: www.53739267.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      HOST: www.53739267.xyz
-    path: /path/240811062813
-- cipher: aes-256-cfb
-  country: ' DE'
-  name: 39,46,48|ChatGPT  DE_43
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 80.92.204.106
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 46|Relay_🏁ZZ-🇪DE_5146
-  network: ws
-  port: 8880
-  server: 104.16.67.38
-  servername: worker-divine-hat-02d6.savofir317.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      HOST: worker-divine-hat-02d6.savofir317.workers.dev
-    path: /glweidf.cfd/linkws
-- cipher: aes-128-gcm
-  country: ' DE'
-  name: 39,45,46,48,50,51|ChatGPT  DE_52
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 46|Relay_🏁ZZ-🇪DE_5028
-  network: ws
-  port: 80
-  server: 104.16.61.8
-  servername: range-shape-b3fuegu.bananok182.workers.dev
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      HOST: range-shape-b3fuegu.bananok182.workers.dev
-    path: /hms02.fxiaomi.sbs/link
-- alterId: 0
-  cipher: auto
-  name: 19|🇩🇪_DE_德国
-  network: ws
-  port: 45103
-  server: de-frankfurt-oracle-b26cf5.ip1.shop
-  tls: false
-  type: vmess
-  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
-  ws-opts: {}
 - country: DE
-  name: 51|DE_853
+  name: 51|DE_919
   network: tcp
   password: telegram-id-directvpn
   port: 22222
@@ -412,93 +177,61 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 44|Germany_None_hysteria_61
-  port: 64914
-  ports: 30000-40000
-  server: 146.0.36.114
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- cipher: aes-256-cfb
-  country: 🇩🇪DE
-  name: 46,48,50|🇩🇪DE_3894
-  password: wjTugX3ZtHMB9c3Z
-  port: 9057
-  server: 80.92.204.106
-  type: ss
-- cipher: aes-256-cfb
-  country: DE
-  name: 37,39,46,48,50,51|DE_320
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
-  server: 80.92.204.106
-  type: ss
-- country: DE
-  name: 41,47|netflix_DE
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.57.54.213
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  country: ' DE'
-  name: 39,46,48,50|ChatGPT  DE_50
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 217.182.198.219
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇩🇪DE
-  name: 48|🇪DE_340
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 80.92.204.106
-  type: ss
 - alterId: 0
   cipher: auto
-  country: ' DE'
   h2-opts: {}
   http-opts: {}
-  name: 39|ChatGPT  DE_79
+  name: 50|Relay_-🇪DE_1230 |29.51Mb
   network: ws
   port: 443
-  server: frankfurt03.zgjok.com
-  servername: frankfurt03.zgjok.com
-  skip-cert-verify: true
+  server: hms26.xpengmotors.sbs
   tls: true
   type: vmess
-  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
-  ws-headers:
-    HOST: frankfurt03.zgjok.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇩🇪DE
-  h2-opts: {}
-  http-opts: {}
-  name: 46|Relay_🇪DE-🇪DE_3899
-  network: ws
-  port: 443
-  server: hk3.sdwan.day
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
+  uuid: fb0a2de6-bf06-4ff0-97ce-c21abcdc2d55
   ws-opts:
-    path: /auth
+    headers:
+      Host: hms26.xpengmotors.sbs
+    path: /linkws
+- cipher: aes-128-gcm
+  country: ' DE'
+  name: 39,45,48,50,51|ChatGPT  DE_42
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
 - cipher: aes-256-cfb
   country: DE
-  name: 37,38,39,46,50|DE_321
+  name: 37,39,48,50|DE_324
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  country: DE
+  name: 37,38,39,50|DE_323
   password: XPtzA9sCug3SPR4c
   port: 9025
   server: 80.92.204.106
+  type: ss
+- country: DE
+  name: 51|DE_920
+  network: ws
+  password: blue2024
+  port: 443
+  server: 188.244.122.205
+  sni: ta.promote.icu
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ta.promote.icu
+    path: /?ed=2560
+- cipher: aes-128-gcm
+  country: ' DE'
+  name: 39,48,50,51|ChatGPT  DE_74
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
   type: ss
 - alterId: 0
   cipher: auto
@@ -518,12 +251,95 @@ proxies:
     headers:
       HOST: frankfurt03.zgjok.com
     path: /
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 44|Germany_None_hysteria_61
+  port: 64914
+  ports: 30000-40000
+  server: 146.0.36.114
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - cipher: aes-256-cfb
-  country: ' DE'
-  name: 39,50|ChatGPT  DE_72
-  password: a3GFYt36Sm82Vys9
-  port: 9000
+  country: 🇩🇪DE
+  name: 48|🇪DE_340
+  password: NvS8N4Vf8qAGPSCL
+  port: 9046
   server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  country: DE
+  name: 37,38,39,50|DE_318
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
+  server: 80.92.204.106
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 48|Relay_🏁ZZ-🇪DE_4512
+  network: ws
+  port: 2095
+  server: 104.16.60.8
+  servername: 8eh-band-d994.gijica5932.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      HOST: 8eh-band-d994.gijica5932.workers.dev
+    path: /ivideos.sbs/linkws
+- cipher: aes-256-cfb
+  country: DE
+  name: 37,38,39,48,50|DE_321
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  server: 80.92.204.106
+  type: ss
+- cipher: aes-256-cfb
+  country: DE
+  name: 37,38,39,48,50|DE_325
+  password: ZpNDDKRu9MagNvaf
+  port: 9015
+  server: 80.92.204.106
+  type: ss
+- country: DE
+  name: 41,47|DE_744
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.106.79
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: ' DE'
+  h2-opts: {}
+  http-opts: {}
+  name: 39|ChatGPT  DE_86
+  network: ws
+  port: 443
+  server: frankfurt03.zgjok.com
+  servername: frankfurt03.zgjok.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f
+  ws-headers:
+    HOST: frankfurt03.zgjok.com
+  ws-path: /
+- cipher: aes-256-gcm
+  country: ' DE'
+  name: 39,47,50|ChatGPT  DE_71
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.157.88.61
   type: ss
 - alterId: 0
   cipher: auto
@@ -539,18 +355,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 46|Relay_🏁ZZ-🇪DE_5034
+  name: 50|Relay_-DE_751 |27.66Mb
   network: ws
-  port: 8880
-  server: 104.16.61.8
-  servername: late-wave-1d0a.lesijo3430.workers.dev
-  skip-cert-verify: true
+  port: 443
+  server: hms23.fixedfloati.cfd
+  tls: true
   type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
   ws-opts:
     headers:
-      HOST: late-wave-1d0a.lesijo3430.workers.dev
-    path: /ivideos.sbs/linkws
+      Host: fixedfloati.cfd
+    path: /linkwsd
+- cipher: aes-128-gcm
+  country: ' DE'
+  name: 39,48,50,51|ChatGPT  DE_54
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
