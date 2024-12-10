@@ -1,16 +1,137 @@
 proxies:
-- cipher: rc4-md5
-  country: CN
-  name: 37,42,54|CN_4620
-  password: uYhVA160ZoSg3AI5
-  port: 6700
-  server: 61.171.112.82
-  type: ss
 - alterId: 64
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 37,49|Relay_-CN_2341
+  name: 37|Relay_-CN_1097
+  network: ws
+  port: 37000
+  server: 38.33.56.53
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.24006857.xyz
+    path: /path/1733563016918
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,40,49,54,59|CN_4276
+  network: tcp
+  port: 45017
+  server: 142.0.134.244
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 18|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 25|🇨🇳_CN_中国
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,40,42,50,54,59|CN_4277
+  network: tcp
+  port: 50002
+  server: 47.116.173.76
+  servername: trojan.burgerip.co.uk
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,39,40,49,54,59|CN_4274
+  network: tcp
+  port: 45017
+  server: 142.0.134.245
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 38,40,42,49,50,54,59|CN_325
+  network: tcp
+  port: 50004
+  server: 112.132.212.19
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,40,42,50,54,59|CN_4273
+  network: tcp
+  port: 50002
+  server: 47.104.186.133
+  servername: trojan.burgerip.co.uk
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 38,40,42,49,50,59|CN_329
+  network: tcp
+  port: 50002
+  server: 47.92.152.169
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: CN
+  h2-opts: {}
+  http-opts: {}
+  name: 37,38,40,42,50,59|CN_4275
+  network: tcp
+  port: 50002
+  server: 114.55.132.202
+  servername: ip3.6929198.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  country: CN
+  name: 37,44|Relay_CN-CN_4271
+  obfs: plain
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 2338:9tQfxMX(0S;40f
+  server: cmlayer6.standurls.co
+  type: ssr
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 49|Relay_-🇨CN_150
   network: ws
   port: 37000
   server: 38.33.56.53
@@ -27,28 +148,7 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 38,40,42,47,49,50,54,59|CN_314
-  network: tcp
-  port: 50004
-  server: 112.132.212.19
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 25,64|🇨🇳_CN_中国
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,40,42,47,50,54,59|CN_4630
+  name: 37,38,40,42,50,54,59|CN_4278
   network: tcp
   port: 50002
   server: 112.132.215.12
@@ -61,91 +161,10 @@ proxies:
   country: CN
   h2-opts: {}
   http-opts: {}
-  name: 37,38,39,40,47,49,51,54,59|CN_4628
+  name: 38,40,42,50,54,59|CN_328
   network: tcp
-  port: 48712
-  server: 107.148.207.249
-  servername: appsvs.shop
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 64|12|github.com/freefq - 广东省移动 7
-  network: ws
-  port: '20401'
-  server: data-us-v1.shwjfkw.cn
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
-- cipher: chacha20-ietf
-  country: CN
-  name: 37,44,47|Relay_CN-CN_4621
-  obfs: plain
-  password: mblank1port
-  port: 560
-  protocol: auth_aes128_md5
-  protocol-param: 2338:9tQfxMX(0S;40f
-  server: cmlayer6.standurls.co
-  type: ssr
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,40,42,47,49,50,54,59|CN_4626
-  network: tcp
-  port: 50002
-  server: 47.92.152.169
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,39,40,47,49,51,59,66|CN_4622
-  network: tcp
-  port: 45017
-  server: 142.0.134.243
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  country: CN
-  name: 47|🇨CN_3103
-  password: uYhVA160ZoSg3AI5
-  port: 6700
-  server: 36.134.115.217
-  type: ss
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,40,42,47,50,54,59|CN_4625
-  network: tcp
-  port: 50002
-  server: 114.55.132.202
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 38,40,42,47,50,54,59|CN_318
-  network: tcp
-  port: 50002
-  server: 47.104.186.133
+  port: 59003
+  server: 183.236.51.36
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -153,7 +172,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 37|Relay_-CN_2659
+  name: 37|Relay_-CN_2668
   network: ws
   port: 37000
   server: 38.33.56.39
@@ -166,77 +185,3 @@ proxies:
     headers:
       Host: www.24006857.xyz
     path: /path/1731231349070
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,39,40,47,49,54,59|CN_4629
-  network: tcp
-  port: 45017
-  server: 142.0.134.245
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,39,40,47,49,54,59|CN_4623
-  network: tcp
-  port: 45017
-  server: 142.0.134.244
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 38,40,42,47,50,54,59|CN_320
-  network: tcp
-  port: 59003
-  server: 183.236.51.36
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 37,38,40,42,47,50,59|CN_4627
-  network: tcp
-  port: 50002
-  server: 47.116.173.76
-  servername: trojan.burgerip.co.uk
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 18,64|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
-- alterId: 64
-  cipher: auto
-  country: 🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 47|🇨🇳CN_3111
-  network: tcp
-  port: 45017
-  server: 142.0.134.242
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  country: 🇨 CN
-  name: 59| CN_321
-  password: 99301d55-a41f-4919-986b-1435996533aa
-  port: 20001
-  server: 183.233.187.157
-  type: ss
