@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  name: 46,48|🇷🇺RU_4184
-  password: oYQ8JwEldYn4KT2gfZ6eNl
-  port: 51584
-  server: 89.23.103.21
-  type: ss
 - alpn:
   - h3
   auth_str: dongtaiwang.com
@@ -20,97 +13,30 @@ proxies:
   sni: bing.com
   type: hysteria
   up: 1000
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   country: RU
-  name: 42|RU_91
-  password: GXGhsxweEyBgvyUc5Xaoae
-  port: 15708
-  server: 77.91.103.108
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '1,2,3,7,8,9,12,13,14,21,22,23,27,28,29,32,33,34,48|俄罗斯(mibei77.com 米贝节点分享)
-    #3'
-  network: ws
-  port: '2082'
-  server: 185.221.160.12
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 1,2,7,8,12,13,21,22,27,28,32,33,41,46,48|俄罗斯(mibei77.com 米贝节点分享)
-  network: ws
-  port: '2082'
-  server: 45.159.219.89
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  country: ' RU'
-  name: 37,38,39,46,48| RU_452
-  password: uQS5ntVqC00sSKkeNzUiD3
-  port: 42090
-  server: 89.23.103.125
-  type: ss
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000
-  fast-open: true
-  name: 44|Russia_Moscow_hy_1
-  port: 12345
-  ports: 12345
-  protocol: udp
-  server: 46.17.43.223
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  up: 1000
-- alterId: 0
-  cipher: auto
-  country: 🇷🇺RU
   h2-opts: {}
   http-opts: {}
-  name: 46|🇷🇺RU_4204
+  name: 51|Relay_RU-BG_960
   network: ws
-  port: 9187
-  server: 176.32.39.160
+  port: 33026
+  server: socks5tobefree.ydns.eu
+  servername: socks5tobefree.ydns.eu
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 5d90f262-1df2-4563-8c3e-456109745385
+  uuid: 96627876-63f5-4ca7-9b41-a52fee0ca476
   ws-opts:
-    path: /
+    headers:
+      HOST: socks5tobefree.ydns.eu
+    path: /dangerzone
 - cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,46,48|RU_471
-  password: qide0Ns2AlotHcB9x1Fv2S
-  port: 52873
-  server: 81.19.141.45
-  type: ss
-- cipher: aes-256-cfb
   country: 🇷🇺RU
-  name: 48|🇷🇺RU_669
-  password: VcFuyXvND2yQWSFY
-  port: 9054
-  server: 45.89.52.66
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇷🇺RU
-  name: 48|🇺RU_637
-  password: 4R3hUfZ2FHhDmNcP
-  port: 9061
-  server: 45.89.52.66
+  name: 46|🇺RU_4181
+  password: 6W3KNlsw77BkOmhv36B76iKeOzNiECcO1qvmpvP2yTXCuODvctTKgRTNqc5dPRLY
+  port: 42658
+  server: 5.182.38.211
   type: ss
 - cipher: aes-128-gcm
   country: 🇺RU
@@ -119,96 +45,33 @@ proxies:
   port: 2096
   server: 109.120.176.218
   type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 48,50|🇷🇺RU_642
+  password: TPqX8edgbAURcAMb
+  port: 9079
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 48,50|🇷🇺RU_657
+  password: FG5ddLsMPbV5CutE
+  port: 9050
+  server: 45.89.52.66
+  type: ss
 - cipher: chacha20-ietf-poly1305
   country: ' RU'
-  name: 37,38,46,48| RU_455
+  name: 37,38,39,46,48,50| RU_455
   password: 0zyDRZ1XmNXaaCAN7KEA8a
   port: 28825
   server: 45.151.62.54
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19|🇷🇺_RU_俄罗斯联邦
-  network: tcp
-  port: 35972
-  server: 45.147.200.170
-  tls: false
-  type: vmess
-  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
-- cipher: chacha20-ietf-poly1305
-  country: ' RU'
-  name: 37,38,39,46,50| RU_448
-  password: aXuV8k5a4NFmkphgr5NTlL
-  port: 52338
-  server: 89.185.84.185
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇷🇺RU
-  name: 48|🇷🇺RU_642
-  password: TPqX8edgbAURcAMb
-  port: 9079
-  server: 45.89.52.66
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 50|RU_961
-  network: http
-  port: 2098
-  server: 147.45.51.16
-  skip-cert-verify: true
-  type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- cipher: aes-256-cfb
-  country: 🇷🇺RU
-  name: 48|🇷🇺RU_657
-  password: FG5ddLsMPbV5CutE
-  port: 9050
-  server: 45.89.52.66
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇷🇺RU
-  name: 48|🇷🇺RU_672
-  password: BNmAXXxAHYpTRdzu
-  port: 9020
-  server: 45.89.52.66
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '19|🇷🇺_RU_俄罗斯联邦 #1'
-  network: ws
-  port: 12910
-  server: 45.136.245.240
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  country: 🇷🇺RU
-  name: 48|🇷🇺RU_648
-  password: daFYagqDdBdA6VTX
-  port: 9073
-  server: 45.89.52.66
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' RU'
-  name: 37,38,39,46,48| RU_442
-  password: WfmxKX2FBJRU0Ie9VLIYDL
-  port: 20012
-  server: 141.98.234.93
-  type: ss
-- alterId: 0
-  cipher: auto
   country: RU
   h2-opts: {}
   http-opts: {}
-  name: 50|Relay_RU-BG_962
+  name: 51|Relay_RU-BG_962
   network: ws
   port: 33026
   server: 89.169.55.152
@@ -221,40 +84,26 @@ proxies:
     headers:
       HOST: socks5tobefree.ydns.eu
     path: /dangerzone
-- alterId: 0
-  cipher: auto
-  name: '1,7,12,16,21,27,32,36,41,48|俄罗斯(mibei77.com 米贝节点分享) #4'
-  network: ws
-  port: '2082'
-  server: 185.176.26.131
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
 - cipher: aes-256-cfb
   country: 🇷🇺RU
-  name: 48|🇷🇺RU_670
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
+  name: 48,50|🇺RU_637
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 48,50|🇷🇺RU_669
+  password: VcFuyXvND2yQWSFY
+  port: 9054
   server: 45.89.52.66
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: RU
-  name: 37,38,39,46|RU_466
-  password: afKAHp1VfRWZu91LIi9o0D
-  port: 58176
-  server: 94.228.165.178
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 37,38,39,48,50|RU_457
-  password: MNJjSgxDIWBRASsnrp2T8r
-  port: 33320
-  server: 77.83.246.74
+  name: 42|RU_89
+  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
+  port: 13022
+  server: 212.113.106.243
   type: ss
 - country: RU
   fingerprint: random
@@ -272,135 +121,43 @@ proxies:
     path: /socks5tobefree
 - cipher: aes-256-cfb
   country: 🇷🇺RU
-  name: 48,50|🇷🇺RU_667
-  password: dU3DSNS8wYPXzEKw
-  port: 9029
+  name: 50|🇺RU_2246 |21.96Mb
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
   server: 45.89.52.66
+  type: ss
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000
+  fast-open: true
+  name: 44|Russia_Moscow_hy_1
+  port: 12345
+  ports: 12345
+  protocol: udp
+  server: 46.17.43.223
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: 1000
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 37,39,46,48|RU_471
+  password: qide0Ns2AlotHcB9x1Fv2S
+  port: 52873
+  server: 81.19.141.45
   type: ss
 - alterId: 0
   cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 50|RU_959
+  name: '19|🇷🇺_RU_俄罗斯联邦 #1'
   network: ws
-  port: 13530
-  server: 45.8.158.32
-  skip-cert-verify: true
-  type: vmess
-  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-  ws-opts:
-    path: /
-- fast-open: true
-  name: 44|Russia_Moscow_hy2_0
-  password: dongtaiwang.com
-  port: 50717
-  server: 46.17.41.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  country: 🇺RU
-  name: 48|🇺RU_628
-  password: aLpQtfEZe445QyHk
-  port: 9098
-  server: 45.89.52.66
-  type: ss
-- cipher: aes-256-cfb
-  country: RU
-  name: 37,39,46,48|RU_460
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 45.89.52.66
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' RU'
-  name: 37,38,39,46,48,50| RU_446
-  password: gmYDzSG6K35s8b19oY4fGz
-  port: 18622
-  server: 92.118.112.111
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇷🇺RU
-  name: 48|🇺RU_629
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 45.89.52.66
-  type: ss
-- cipher: aes-256-cfb
-  country: RU
-  name: 37,38,39,46,48|RU_459
-  password: PeHSHm5SqEjBuEXE
-  port: 9065
-  server: 45.89.52.66
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 42|RU_90
-  password: P2zxXPewlV3BlfqqYiSthvtLc
-  port: 12949
-  server: 212.113.106.243
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: RU
-  name: 42|RU_89
-  password: w5drAL7PfCIwQ2ycUuoDsV2Ls
-  port: 13022
-  server: 212.113.106.243
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇷🇺RU
-  name: 46|🇺RU_4181
-  password: 6W3KNlsw77BkOmhv36B76iKeOzNiECcO1qvmpvP2yTXCuODvctTKgRTNqc5dPRLY
-  port: 42658
-  server: 5.182.38.211
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺RU
-  name: 48|🇷🇺RU_636
-  password: CLphyEMQT8nbG8EImX0A2D
-  port: 45635
-  server: 5.35.47.122
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '1,7,12,21,27,32,48|俄罗斯(mibei77.com 米贝节点分享) #1'
-  network: ws
-  port: '2082'
-  server: 45.8.211.242
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 50|Relay_RU-BG_960
-  network: ws
-  port: 33026
-  server: socks5tobefree.ydns.eu
-  servername: socks5tobefree.ydns.eu
-  skip-cert-verify: true
+  port: 12910
+  server: 45.136.245.240
   tls: true
   type: vmess
-  uuid: 96627876-63f5-4ca7-9b41-a52fee0ca476
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
-    headers:
-      HOST: socks5tobefree.ydns.eu
-    path: /dangerzone
-- cipher: aes-256-cfb
-  country: RU
-  name: 37,39,46,48|RU_467
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  server: 45.89.52.66
-  type: ss
+    path: /
 - alterId: 0
   cipher: auto
   country: 🇺RU
@@ -416,30 +173,9 @@ proxies:
   uuid: fade2b35-7872-442e-a54e-6ccf9b970476
   ws-opts:
     path: /auth
-- cipher: aes-256-cfb
-  country: RU
-  name: 37,39,46,48|RU_456
-  password: ZET59LF6DvCC8KVt
-  port: 9005
-  server: 45.89.52.66
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇷🇺RU
-  name: 48|🇷🇺RU_630
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  server: 45.89.52.66
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' RU'
-  name: 37,38,43,46,48| RU_443
-  password: DkK3bmkKh2rdK9k6EXSOQv
-  port: 44908
-  server: 46.29.238.83
-  type: ss
 - alterId: 0
   cipher: auto
-  name: '1,2,7,8,12,13,21,22,27,28,32,33,48|俄罗斯(mibei77.com 米贝节点分享) #2'
+  name: '1,2,7,8,12,13,21,22,27,28,32,33,41,48,50|俄罗斯(mibei77.com 米贝节点分享) #2'
   network: ws
   port: '2082'
   server: 193.9.49.23
@@ -453,8 +189,308 @@ proxies:
     path: /github.com/Alvin9999
 - cipher: chacha20-ietf-poly1305
   country: ' RU'
-  name: 37,38,39,43,46,48,50| RU_444
+  name: 37,38,39,43,46,48,50| RU_443
+  password: DkK3bmkKh2rdK9k6EXSOQv
+  port: 44908
+  server: 46.29.238.83
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: RU
+  h2-opts: {}
+  http-opts: {}
+  name: 51|RU_959
+  network: ws
+  port: 13530
+  server: 45.8.158.32
+  skip-cert-verify: true
+  type: vmess
+  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|🇷🇺_RU_俄罗斯联邦
+  network: tcp
+  port: 35972
+  server: 45.147.200.170
+  tls: false
+  type: vmess
+  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
+- alterId: 0
+  cipher: auto
+  name: '1,7,12,16,21,27,32,36,41,48|俄罗斯(mibei77.com 米贝节点分享) #4'
+  network: ws
+  port: '2082'
+  server: 185.176.26.131
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 48,50|🇺RU_629
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 45.89.52.66
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺RU
+  h2-opts: {}
+  http-opts: {}
+  name: 50|🇷🇺RU_2278 |18.41Mb
+  network: ws
+  port: 8880
+  server: 91.194.161.15
+  servername: google.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6cff58a7-59d9-4404-8754-ad8f19818fa5
+  ws-opts:
+    headers:
+      HOST: google.com
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  country: 🇷🇺RU
+  h2-opts: {}
+  http-opts: {}
+  name: 46|🇷🇺RU_4204
+  network: ws
+  port: 9187
+  server: 176.32.39.160
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5d90f262-1df2-4563-8c3e-456109745385
+  ws-opts:
+    path: /
+- fast-open: true
+  name: 44|Russia_Moscow_hy2_0
+  password: dongtaiwang.com
+  port: 50717
+  server: 46.17.41.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 37,38,39,46,50|RU_466
+  password: afKAHp1VfRWZu91LIi9o0D
+  port: 58176
+  server: 94.228.165.178
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 48,50|🇷🇺RU_648
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺RU
+  name: 48,50|🇺RU_628
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  server: 45.89.52.66
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '1,7,12,21,27,32,48,50|俄罗斯(mibei77.com 米贝节点分享) #1'
+  network: ws
+  port: '2082'
+  server: 45.8.211.242
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🇷🇺RU
+  h2-opts: {}
+  http-opts: {}
+  name: 50|🇺RU_2279 |19.95Mb
+  network: tcp
+  port: 47555
+  server: 46.29.166.237
+  skip-cert-verify: true
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- cipher: chacha20-ietf-poly1305
+  country: 🇺RU
+  name: 48,50|🇷🇺RU_636
+  password: CLphyEMQT8nbG8EImX0A2D
+  port: 45635
+  server: 5.35.47.122
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 48,50|🇷🇺RU_672
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: RU
+  name: 37,39,46,48,50|RU_467
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 42|RU_91
+  password: GXGhsxweEyBgvyUc5Xaoae
+  port: 15708
+  server: 77.91.103.108
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: RU
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 51|RU_961
+  network: http
+  port: 2098
+  server: 147.45.51.16
+  skip-cert-verify: true
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 48,50|🇷🇺RU_670
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 45.89.52.66
+  type: ss
+- cipher: aes-256-cfb
+  country: RU
+  name: 37,39,46,48,50|RU_460
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 37,38,39,46,48,50,51| RU_444
   password: zCCkJdIC36BFBn2YZynUn0
   port: 12575
   server: 89.185.84.185
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 37,38,39,48,50,51|RU_457
+  password: MNJjSgxDIWBRASsnrp2T8r
+  port: 33320
+  server: 77.83.246.74
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: RU
+  name: 42|RU_90
+  password: P2zxXPewlV3BlfqqYiSthvtLc
+  port: 12949
+  server: 212.113.106.243
+  type: ss
+- cipher: aes-256-cfb
+  country: RU
+  name: 37,39,46,48,50|RU_456
+  password: ZET59LF6DvCC8KVt
+  port: 9005
+  server: 45.89.52.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 37,38,39,46,51| RU_448
+  password: aXuV8k5a4NFmkphgr5NTlL
+  port: 52338
+  server: 89.185.84.185
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  name: 46,48|🇷🇺RU_4184
+  password: oYQ8JwEldYn4KT2gfZ6eNl
+  port: 51584
+  server: 89.23.103.21
+  type: ss
+- cipher: aes-256-cfb
+  country: RU
+  name: 37,38,39,46,48,50|RU_459
+  password: PeHSHm5SqEjBuEXE
+  port: 9065
+  server: 45.89.52.66
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '1,2,3,7,8,9,12,13,14,21,22,23,27,28,29,32,33,34,48|俄罗斯(mibei77.com 米贝节点分享)
+    #3'
+  network: ws
+  port: '2082'
+  server: 185.221.160.12
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 37,38,39,46,48,50| RU_452
+  password: uQS5ntVqC00sSKkeNzUiD3
+  port: 42090
+  server: 89.23.103.125
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 37,38,39,46,48,50,51| RU_446
+  password: gmYDzSG6K35s8b19oY4fGz
+  port: 18622
+  server: 92.118.112.111
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 48,50|🇷🇺RU_630
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 45.89.52.66
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1,2,7,8,12,13,21,22,27,28,32,33,41,46,48|俄罗斯(mibei77.com 米贝节点分享)
+  network: ws
+  port: '2082'
+  server: 45.159.219.89
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  country: ' RU'
+  name: 37,38,46,48,50| RU_442
+  password: WfmxKX2FBJRU0Ie9VLIYDL
+  port: 20012
+  server: 141.98.234.93
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷🇺RU
+  name: 48,50,51|🇷🇺RU_667
+  password: dU3DSNS8wYPXzEKw
+  port: 9029
+  server: 45.89.52.66
   type: ss
