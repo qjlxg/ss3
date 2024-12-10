@@ -1,27 +1,7 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 45|🇭🇰HK-91.103.122.32-1261 | 12.3...
-  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
-  port: 43684
-  server: lsjd.yunxiang8.mom
-  type: ss
-- cipher: chacha20-ietf
-  country: HK
-  name: 41,48,50|HK_751
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  type: ss
-- name: 59|HK_Hong Kong_Radishcloud Techn...
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19209
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 40|HK |  LB-1T
+  name: 40|HK |  LB-1C
   network: ws
   port: 443
   server: hkcft01.xqc.best
@@ -29,166 +9,11 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 7f17a93f-c093-4255-96fd-1c841847e3a8
+  uuid: 7f582c05-1885-4818-ab1f-e5af5018291d
   ws-opts:
     headers:
       Host: d1th2ch215a6xr.cloudfront.net
     path: /stream?ed=2048
-- name: '59|HK_Hong Kong_Radishcloud Techn... #2'
-  network: tcp
-  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
-  port: 19204
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '1,7,12,21,27,32,48|HK香港(mibei77.com 米贝节点分享) #1'
-  network: ws
-  port: '2082'
-  server: 185.162.231.92
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- cipher: chacha20-ietf
-  country: 🇰HK
-  name: 48|🇰HK_535
-  password: asd123456
-  port: 8388
-  server: 154.197.98.64
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: ' HK'
-  name: 37,38,39,48,51| HK_395
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 203.23.128.33
-  type: ss
-- cipher: chacha20-ietf
-  country: HK
-  name: 41,48,51|HK_752
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 45|🇭🇰HK-91.103.122.32-2269 | 12.6...
-  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
-  port: 39781
-  server: lsjd.yunxiang8.mom
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 45|🇭🇰HK-91.103.122.32-0685 | 11.5...
-  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
-  port: 48491
-  server: lsjd.yunxiang8.mom
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 48|Relay_🇰HK-🇭🇰HK_540
-  network: tcp
-  port: 30251
-  server: 1.65.205.116
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
-- cipher: aes-128-gcm
-  name: 45|🇭🇰HK-91.103.122.32-2259 | 12.2...
-  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
-  port: 43683
-  server: lsjd.yunxiang8.mom
-  type: ss
-- alterId: 64
-  cipher: auto
-  country: CN
-  h2-opts: {}
-  http-opts: {}
-  name: 41|disney_HK
-  network: tcp
-  port: 53002
-  server: 183.236.51.23
-  servername: ip3.6929198.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 4,10,15,24,30,35|13|🇭🇰 香港7|@ripaojiedian
-  network: tcp
-  port: 46602
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 4,10,15,24,30,35|13|🇭🇰 香港9|@ripaojiedian
-  network: tcp
-  port: 50052
-  server: 183.236.48.158
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 48,50|🇭🇰HK_537
-  password: asd123456
-  port: 8388
-  server: 103.149.183.10
-  type: ss
-- cipher: aes-128-gcm
-  name: 45|🇭🇰HK-91.103.122.32-1589 | 12.5...
-  password: bd12f79e-3209-4970-83cd-5e1f3526ff51
-  port: 38792
-  server: lsjd.yunxiang8.mom
-  type: ss
-- cipher: aes-256-cfb
-  country: HK
-  name: 43,48|Pool_HK_79
-  obfs: tls1.2_ticket_auth
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  server: 150.107.46.21
-  type: ssr
-- alterId: 64
-  cipher: auto
-  name: 4,10,15,24,30,35|13|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 35601
-  server: 120.198.71.216
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  country: HK
-  name: 51|HK_970
-  password: FU9HUAR4ZPMXV9Wh815b3FGPi2EOfqHTdv5aDV0ZVJN25OWzcLUTHmFlw28xLE9n
-  port: 42658
-  server: 74.119.193.103
-  type: ss
-- name: '59|HK_Hong Kong_Radishcloud Techn... #1'
-  network: tcp
-  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
-  port: 19202
-  server: 122.188.71.132
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf
-  country: ' HK'
-  name: 37,38,39,43,48,50,51| HK_394
-  password: asd123456
-  port: 8388
-  server: 103.36.91.23
-  type: ss
 - alterId: 64
   cipher: auto
   name: 4,10,15,24,30,35,59|13|🇭🇰 香港5|@ripaojiedian
@@ -198,9 +23,84 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 4,10,15,24,30|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 35601
+  server: 120.198.71.216
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 59|HK_Hong Kong_Akile LTD_OpenAI
+  password: 0e91a29a-989d-4934-a1fb-7b653319397f
+  port: 61008
+  server: 120.240.88.37
+  type: ss
+- cipher: chacha20-ietf
+  country: 🇰HK
+  name: 46,51|🇰HK_3845
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
+  type: ss
+- cipher: chacha20-ietf
+  country: 🇰HK
+  name: 46,51|🇭🇰HK_3846
+  password: asd123456
+  port: 8388
+  server: 154.197.98.64
+  type: ss
+- name: '59|HK_Hong Kong_Radishcloud Techn... #1'
+  network: tcp
+  password: 165ebad5-2f9b-307d-b7e4-2b2ee84a4530
+  port: 19202
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  country: 🇭🇰HK
+  name: 46,51|🇰HK_3844
+  password: FU9HUAR4ZPMXV9Wh815b3FGPi2EOfqHTdv5aDV0ZVJN25OWzcLUTHmFlw28xLE9n
+  port: 42658
+  server: 74.119.193.103
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 4,10,15,24,30,35|13|🇭🇰 香港9|@ripaojiedian
+  network: tcp
+  port: 50052
+  server: 183.236.48.158
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: '59|HK_Hong Kong_Radishcloud Techn... #2'
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19204
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: '35|13|🇭🇰 香港9|@ripaojiedian #1'
+  network: tcp
+  port: 41490
+  server: 183.236.48.143
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  country: ' HK'
+  name: 37,38,39,43,46,50,51| HK_384
+  password: asd123456
+  port: 8388
+  server: 103.36.91.23
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 1,7,12,21,27,32,54|HK香港(mibei77.com 米贝节点分享)
+  name: 1,7,12,21,27,54|HK香港(mibei77.com 米贝节点分享)
   network: ws
   port: '2082'
   server: 185.162.228.1
@@ -212,9 +112,49 @@ proxies:
     headers:
       Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  name: 4,10,15,24,30,35|13|🇭🇰 香港7|@ripaojiedian
+  network: tcp
+  port: 46602
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '1,7,12,21,27,50|HK香港(mibei77.com 米贝节点分享) #1'
+  network: ws
+  port: '2082'
+  server: 185.162.231.92
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- name: 59|HK_Hong Kong_Radishcloud Techn...
+  network: tcp
+  password: 1069121a-4774-38f5-876a-95b35d1a3fbf
+  port: 19209
+  server: 122.188.71.132
+  skip-cert-verify: true
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 59|HK_Hong Kong_Akile LTD_OpenAI
-  password: 0e91a29a-989d-4934-a1fb-7b653319397f
-  port: 61008
-  server: 120.240.88.37
+  country: ' HK'
+  name: 37,38,39,46| HK_385
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 203.23.128.33
   type: ss
+- cipher: aes-256-cfb
+  country: HK
+  name: 43,46|Pool_HK_85
+  obfs: tls1.2_ticket_auth
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  server: 150.107.46.21
+  type: ssr
