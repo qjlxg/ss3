@@ -1,10 +1,10 @@
 proxies:
-- country: US
-  name: '51|disney_netflix_KR #1'
+- country: ZZ
+  name: 51|Relay_ZZ-KR_2319
   network: ws
   password: blue2024
   port: 443
-  server: 185.148.104.78
+  server: 104.18.35.253
   sni: ta.promote.icu
   type: trojan
   udp: true
@@ -12,11 +12,22 @@ proxies:
     headers:
       Host: ta.promote.icu
     path: /?ed=2560
-- name: 51|Relay_-KR_1244
+- name: '51|disney_KR #13'
   network: ws
   password: blue2024
   port: 443
-  server: 104.18.169.73
+  server: 190.93.246.191
+  sni: td.promote.icu
+  type: trojan
+  ws-opts:
+    headers:
+      Host: td.promote.icu
+    path: '%2F%3Fed%3D2560'
+- name: '51|disney_KR #14'
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.20.1.0
   sni: td.promote.icu
   type: trojan
   ws-opts:
@@ -25,10 +36,40 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
-  name: 54|Relay_🏁ZZ-🇰🇷KR_3458 | 0.11Mb
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 37,48,50,51|Relay_ZZ-KR_948
   network: ws
   port: 80
-  server: 104.17.213.241
+  server: 104.19.48.236
+  servername: chunchuan.kejixiaoqi666.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      HOST: chunchuan.kejixiaoqi666.store
+    path: /
+- country: ZZ
+  name: 51|Relay_ZZ-KR_2323
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.21.144
+  sni: ta.promote.icu
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ta.promote.icu
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 54|Relay_🏁ZZ-🇰🇷KR_2749 | 0.57Mb
+  network: ws
+  port: 80
+  server: hsj.lbxjc.online
   tls: false
   type: vmess
   uuid: e6543319-0574-42ac-b778-1c4325d626f5
@@ -37,11 +78,11 @@ proxies:
       Host: chunchuan.kejixiaoqi666.store
     path: /
 - country: ZZ
-  name: '51|disney_netflix_KR #12'
+  name: 51|Relay_ZZ-KR_2326
   network: ws
   password: blue2024
   port: 443
-  server: 104.16.99.204
+  server: 104.17.168.184
   sni: ta.promote.icu
   type: trojan
   udp: true
@@ -49,26 +90,63 @@ proxies:
     headers:
       Host: ta.promote.icu
     path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 48,51|Relay_🏁ZZ-KR_4488
+  network: ws
+  port: 80
+  server: 104.17.221.248
+  servername: chunchuan.kejixiaoqi666.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      HOST: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 50|Relay_-🇷KR_1601 | 0.47Mb
+  network: ws
+  port: 80
+  server: 198.41.209.70
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- cipher: aes-256-cfb
+  country: 🇷KR
+  name: 48,50,51|🇷KR_611
+  password: amazonskr05
+  port: 443
+  server: 13.124.203.141
+  type: ss
 - country: ZZ
-  fingerprint: randomized
-  name: '51|disney_netflix_KR #15'
+  name: 51|Relay_ZZ-KR_2322
   network: ws
   password: blue2024
   port: 443
-  server: 104.16.239.100
-  sni: td.promote.icu
+  server: 104.19.156.145
+  sni: ta.promote.icu
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: td.promote.icu
+      Host: ta.promote.icu
     path: /?ed=2560
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 48,51,52|Relay_🏁ZZ-🇷KR_4511
+  name: 48,52|Relay_🏁ZZ-🇷KR_4511
   network: ws
   port: 80
   server: hsj.lbxjc.online
@@ -81,11 +159,12 @@ proxies:
       HOST: chunchuan.kejixiaoqi666.store
     path: /
 - country: ZZ
-  name: '51|disney_netflix_KR #16'
+  fingerprint: randomized
+  name: 51|Relay_ZZ-KR_2340
   network: ws
   password: blue2024
   port: 443
-  server: 104.25.103.196
+  server: 104.19.175.73
   sni: td.promote.icu
   type: trojan
   udp: true
@@ -93,36 +172,8 @@ proxies:
     headers:
       Host: td.promote.icu
     path: /?ed=2560
-- alterId: 64
-  cipher: auto
-  name: 35,50,54|13,14|韩国|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 107.167.30.126
-  servername: www.83645422.xyz
-  tls: true
-  type: vmess
-  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
-  ws-opts:
-    headers:
-      Host: www.83645422.xyz
-    path: /path/240811062813
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 50|Relay_-KR_1588 | 0.42Mb
-  network: ws
-  port: 80
-  server: 104.17.221.248
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
 - country: ZZ
-  name: '51|disney_KR #1'
+  name: 51|Relay_ZZ-KR_2321
   network: ws
   password: blue2024
   port: 443
@@ -134,111 +185,7 @@ proxies:
     headers:
       Host: ta.promote.icu
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 50|Relay_-🇷KR_1593 | 0.31Mb
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- country: ZZ
-  fingerprint: randomized
-  name: '51|disney_netflix_KR #22'
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 104.21.75.193
-  sni: bpb-hd.aaronchin.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: bpb-hd.aaronchin.xyz
-    path: /tr?ed=2560
-- cipher: aes-256-cfb
-  country: US
-  name: '41,51,52|netflix_KR #1'
-  password: amazonskr05
-  port: 443
-  server: 43.202.55.184
-  type: ss
-- country: ZZ
-  name: '51|disney_KR #6'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.18.183.150
-  sni: ta.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ta.promote.icu
-    path: /?ed=2560
-- country: ZZ
-  name: '51|disney_netflix_KR #9'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.165.253
-  sni: ta.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ta.promote.icu
-    path: /?ed=2560
-- country: ZZ
-  name: '51|disney_netflix_KR #10'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.168.184
-  sni: ta.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ta.promote.icu
-    path: /?ed=2560
-- country: ZZ
-  name: '51|disney_netflix_KR #17'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 198.41.221.124
-  sni: td.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: td.promote.icu
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 37,48|Relay_ZZ-KR_924
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  servername: chunchuan.kejixiaoqi666.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      HOST: chunchuan.kejixiaoqi666.store
-    path: /
-- name: 51|Relay_-KR_1245
+- name: '51|disney_KR #15'
   network: ws
   password: blue2024
   port: 443
@@ -250,17 +197,17 @@ proxies:
       Host: td.promote.icu
     path: '%2F%3Fed%3D2560'
 - country: ZZ
-  name: '51|disney_KR #5'
+  name: 51|Relay_ZZ-KR_2344
   network: ws
   password: blue2024
   port: 443
-  server: 162.159.135.218
-  sni: ta.promote.icu
+  server: 104.19.190.86
+  sni: td.promote.icu
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: ta.promote.icu
+      Host: td.promote.icu
     path: /?ed=2560
 - alterId: 0
   cipher: auto
@@ -280,11 +227,11 @@ proxies:
       HOST: chunchuan.kejixiaoqi666.store
     path: /
 - country: ZZ
-  name: '51|disney_netflix_KR #20'
+  name: 51|Relay_ZZ-KR_2336
   network: ws
   password: blue2024
   port: 443
-  server: 104.19.155.98
+  server: 104.17.120.23
   sni: ta.promote.icu
   type: trojan
   udp: true
@@ -292,34 +239,22 @@ proxies:
     headers:
       Host: ta.promote.icu
     path: /?ed=2560
-- country: ZZ
-  name: '51|disney_KR #7'
+- alterId: 64
+  cipher: auto
+  name: 4,10,15,35,50,54|13,14|韩国|@ripaojiedian
   network: ws
-  password: blue2024
-  port: 443
-  server: 104.16.107.194
-  sni: ta.promote.icu
-  type: trojan
-  udp: true
+  port: '30000'
+  server: 107.167.30.126
+  servername: www.83645422.xyz
+  tls: true
+  type: vmess
+  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
   ws-opts:
     headers:
-      Host: ta.promote.icu
-    path: /?ed=2560
+      Host: www.83645422.xyz
+    path: /path/240811062813
 - country: ZZ
-  name: '51|disney_KR #3'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.16.159.159
-  sni: ta.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ta.promote.icu
-    path: /?ed=2560
-- country: ZZ
-  name: '51|disney_netflix_KR #18'
+  name: 51|Relay_ZZ-KR_2343
   network: ws
   password: blue2024
   port: 443
@@ -331,22 +266,21 @@ proxies:
     headers:
       Host: td.promote.icu
     path: /?ed=2560
-- country: US
-  fingerprint: randomized
-  name: 51|disney_netflix_KR
+- country: ZZ
+  name: 51|Relay_ZZ-KR_2329
   network: ws
-  password: bpb-trojan
+  password: blue2024
   port: 443
-  server: 172.67.180.227
-  sni: bpb-hd.aaronchin.xyz
+  server: 104.18.183.150
+  sni: ta.promote.icu
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: bpb-hd.aaronchin.xyz
-    path: /tr?ed=2560
+      Host: ta.promote.icu
+    path: /?ed=2560
 - country: ZZ
-  name: '51|disney_KR #4'
+  name: 51|Relay_ZZ-KR_2337
   network: ws
   password: blue2024
   port: 443
@@ -359,151 +293,21 @@ proxies:
       Host: ta.promote.icu
     path: /?ed=2560
 - country: ZZ
-  name: '51|disney_netflix_KR #5'
+  fingerprint: randomized
+  name: 51|Relay_ZZ-KR_2335
   network: ws
   password: blue2024
   port: 443
-  server: 104.18.35.253
-  sni: ta.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ta.promote.icu
-    path: /?ed=2560
-- country: ZZ
-  name: '51|disney_netflix_KR #3'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.19.174.207
-  sni: ta.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ta.promote.icu
-    path: /?ed=2560
-- country: ZZ
-  name: '51|disney_netflix_KR #6'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.18.123.217
-  sni: ta.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ta.promote.icu
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 50|Relay_-🇷KR_1594 | 0.47Mb
-  network: ws
-  port: 80
-  server: 198.41.209.70
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 48|Relay_🏁ZZ-KR_4488
-  network: ws
-  port: 80
-  server: 104.17.221.248
-  servername: chunchuan.kejixiaoqi666.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      HOST: chunchuan.kejixiaoqi666.store
-    path: /
-- name: 51|Relay_-KR_1241
-  network: ws
-  password: blue2024
-  port: 443
-  server: 190.93.246.191
+  server: 104.16.239.100
   sni: td.promote.icu
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: td.promote.icu
-    path: '%2F%3Fed%3D2560'
-- name: 51|Relay_-KR_1243
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.20.1.0
-  sni: td.promote.icu
-  type: trojan
-  ws-opts:
-    headers:
-      Host: td.promote.icu
-    path: '%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: 54|Relay_🏁ZZ-🇰🇷KR_2529 | 4.25Mb
-  network: ws
-  port: 80
-  server: hsj.lbxjc.online
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- country: US
-  name: '51|disney_netflix_KR #2'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 172.64.157.183
-  sni: ta.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ta.promote.icu
     path: /?ed=2560
 - country: ZZ
-  name: '51|disney_netflix_KR #14'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.61.90
-  sni: ta.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ta.promote.icu
-    path: /?ed=2560
-- country: ZZ
-  name: '51|disney_KR #2'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.17.120.23
-  sni: ta.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ta.promote.icu
-    path: /?ed=2560
-- country: ZZ
-  name: 51|disney_KR
+  name: 51|Relay_ZZ-KR_2325
   network: ws
   password: blue2024
   port: 443
@@ -516,11 +320,79 @@ proxies:
       Host: ta.promote.icu
     path: /?ed=2560
 - country: ZZ
-  name: '51|disney_KR #8'
+  name: 51|Relay_ZZ-KR_2341
   network: ws
   password: blue2024
   port: 443
-  server: 104.18.43.220
+  server: 104.25.103.196
+  sni: td.promote.icu
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: td.promote.icu
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  country: KR
+  name: 51|KR_1146
+  password: amazonskr05
+  port: 443
+  server: 54.180.1.186
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 37,48,51|Relay_ZZ-KR_949
+  network: ws
+  port: 80
+  server: 104.16.155.10
+  servername: chunchuan.kejixiaoqi666.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      HOST: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 48,51|Relay_🏁ZZ-🇰🇷KR_4516
+  network: ws
+  port: 80
+  server: usnew.lbxjc.site
+  servername: chunchuan.kejixiaoqi666.store
+  skip-cert-verify: true
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      HOST: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 50|Relay_-🇷KR_1596 | 0.31Mb
+  network: ws
+  port: 80
+  server: 104.16.155.10
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- country: ZZ
+  name: 51|Relay_ZZ-KR_2333
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.17.61.90
   sni: ta.promote.icu
   type: trojan
   udp: true
@@ -529,7 +401,7 @@ proxies:
       Host: ta.promote.icu
     path: /?ed=2560
 - country: ZZ
-  name: '51|disney_KR #10'
+  name: 51|Relay_ZZ-KR_2351
   network: ws
   password: blue2024
   port: 443
@@ -539,11 +411,11 @@ proxies:
   type: trojan
   udp: true
 - country: ZZ
-  name: '51|disney_netflix_KR #7'
+  name: 51|Relay_ZZ-KR_2338
   network: ws
   password: blue2024
   port: 443
-  server: 104.18.79.171
+  server: 104.18.123.217
   sni: ta.promote.icu
   type: trojan
   udp: true
@@ -552,11 +424,51 @@ proxies:
       Host: ta.promote.icu
     path: /?ed=2560
 - country: ZZ
-  name: '51|disney_netflix_KR #8'
+  name: 51|Relay_ZZ-KR_2324
   network: ws
   password: blue2024
   port: 443
-  server: 104.18.46.185
+  server: 104.17.165.253
+  sni: ta.promote.icu
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ta.promote.icu
+    path: /?ed=2560
+- country: ZZ
+  name: 51|Relay_ZZ-KR_2342
+  network: ws
+  password: blue2024
+  port: 443
+  server: 198.41.221.124
+  sni: td.promote.icu
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: td.promote.icu
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 50|Relay_-🇷KR_1602 | 0.42Mb
+  network: ws
+  port: 80
+  server: 104.17.221.248
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- country: ZZ
+  name: 51|Relay_ZZ-KR_2332
+  network: ws
+  password: blue2024
+  port: 443
+  server: 104.19.155.98
   sni: ta.promote.icu
   type: trojan
   udp: true
@@ -569,10 +481,10 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 48|Relay_🏁ZZ-🇰🇷KR_4516
+  name: 48,51|Relay_🏁ZZ-🇷KR_4502
   network: ws
   port: 80
-  server: usnew.lbxjc.site
+  server: 104.17.213.241
   servername: chunchuan.kejixiaoqi666.store
   skip-cert-verify: true
   type: vmess
@@ -582,17 +494,7 @@ proxies:
       HOST: chunchuan.kejixiaoqi666.store
     path: /
 - country: ZZ
-  name: '51|disney_netflix_KR #13'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 162.159.44.207
-  skip-cert-verify: true
-  sni: tb.promote.icu
-  type: trojan
-  udp: true
-- country: ZZ
-  name: '51|disney_netflix_KR #11'
+  name: 51|Relay_ZZ-KR_2328
   network: ws
   password: blue2024
   port: 443
@@ -605,75 +507,11 @@ proxies:
       Host: td.promote.icu
     path: /?ed=2560
 - country: ZZ
-  name: '51|disney_netflix_KR #21'
+  name: 51|Relay_ZZ-KR_2334
   network: ws
   password: blue2024
   port: 443
-  server: 104.19.190.86
-  sni: td.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: td.promote.icu
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 37,41,48,50,52|Relay_ZZ-KR_925
-  network: ws
-  port: 80
-  server: 104.19.48.236
-  servername: chunchuan.kejixiaoqi666.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      HOST: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-cfb
-  country: KR
-  name: 41|netflix_KR
-  password: amazonskr05
-  port: 443
-  server: 54.180.151.198
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇷KR
-  name: 48,50,51|🇷KR_611
-  password: amazonskr05
-  port: 443
-  server: 13.124.203.141
-  type: ss
-- cipher: aes-256-cfb
-  country: KR
-  name: 51|KR_1373
-  password: amazonskr05
-  port: 443
-  server: 54.180.1.186
-  type: ss
-- country: ZZ
-  name: '51|disney_netflix_KR #19'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.16.72.34
-  sni: td.promote.icu
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: td.promote.icu
-    path: /?ed=2560
-- country: ZZ
-  name: '51|disney_KR #9'
-  network: ws
-  password: blue2024
-  port: 443
-  server: 104.16.3.132
+  server: 104.19.174.207
   sni: ta.promote.icu
   type: trojan
   udp: true
@@ -683,39 +521,15 @@ proxies:
     path: /?ed=2560
 - country: ZZ
   fingerprint: randomized
-  name: '51|disney_netflix_KR #4'
+  name: 51|Relay_ZZ-KR_2347
   network: ws
-  password: blue2024
+  password: bpb-trojan
   port: 443
-  server: 104.19.175.73
-  sni: td.promote.icu
+  server: 104.21.75.193
+  sni: bpb-hd.aaronchin.xyz
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: td.promote.icu
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 48,51,52|Relay_🏁ZZ-🇷KR_4502
-  network: ws
-  port: 80
-  server: 104.17.213.241
-  servername: chunchuan.kejixiaoqi666.store
-  skip-cert-verify: true
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      HOST: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-cfb
-  country: US
-  name: '41,51|netflix_KR #2'
-  password: amazonskr05
-  port: 443
-  server: 43.201.29.224
-  type: ss
+      Host: bpb-hd.aaronchin.xyz
+    path: /tr?ed=2560
