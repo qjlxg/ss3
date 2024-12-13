@@ -72,8 +72,8 @@ def w1770946466():
     return subs
 
 
-AUTOURLS = (kkzui, w1770946466)
-AUTOFETCH = (sharkdoor, vpn_fail)
+AUTOURLS = ()
+AUTOFETCH = ()
 
 if __name__ == '__main__':
     import requests
